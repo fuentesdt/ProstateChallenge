@@ -1,9 +1,11 @@
 DCMNIFTISPLIT=/rsrch1/ip/dtfuentes/github/FileConversionScripts/seriesreadwriteall/DicomSeriesReadImageWriteAll
-TRAINING = ProstateX-0000  ProstateX-0001  ProstateX-0002  ProstateX-0004  ProstateX-0005  ProstateX-0014  ProstateX-0015  ProstateX-0016  ProstateX-0018  ProstateX-0019  ProstateX-0026  ProstateX-0028  ProstateX-0031  ProstateX-0035  ProstateX-0037  ProstateX-0040  ProstateX-0041  ProstateX-0046  ProstateX-0053  ProstateX-0054  ProstateX-0055  ProstateX-0067  ProstateX-0069  ProstateX-0071  ProstateX-0076  ProstateX-0077  ProstateX-0078  ProstateX-0082  ProstateX-0084  ProstateX-0092  ProstateX-0094  ProstateX-0095  ProstateX-0097  ProstateX-0099  ProstateX-0101  ProstateX-0102  ProstateX-0103  ProstateX-0104  ProstateX-0105  ProstateX-0106  ProstateX-0110  ProstateX-0111  ProstateX-0114  ProstateX-0115  ProstateX-0116  ProstateX-0117  ProstateX-0118  ProstateX-0119  ProstateX-0121  ProstateX-0122  ProstateX-0123  ProstateX-0124  ProstateX-0125  ProstateX-0126  ProstateX-0127  ProstateX-0128  ProstateX-0129  ProstateX-0131  ProstateX-0133  ProstateX-0136  ProstateX-0139  ProstateX-0141  ProstateX-0142  ProstateX-0143  ProstateX-0145  ProstateX-0148  ProstateX-0150  ProstateX-0152  ProstateX-0153  ProstateX-0162  ProstateX-0164  ProstateX-0165  ProstateX-0168  ProstateX-0169  ProstateX-0172  ProstateX-0173  ProstateX-0174  ProstateX-0179  ProstateX-0181  ProstateX-0182  ProstateX-0183  ProstateX-0184  ProstateX-0186  ProstateX-0187  ProstateX-0188  ProstateX-0190  ProstateX-0191  ProstateX-0192  ProstateX-0193  ProstateX-0194  ProstateX-0195  ProstateX-0196  ProstateX-0197  ProstateX-0198  ProstateX-0199  ProstateX-0200  ProstateX-0201  ProstateX-0202  ProstateX-0203
+TRAINING = ProstateX-0000  ProstateX-0001  ProstateX-0002  ProstateX-0002  ProstateX-0004  ProstateX-0005  ProstateX-0005  ProstateX-0014  ProstateX-0015  ProstateX-0016  ProstateX-0018  ProstateX-0019  ProstateX-0026  ProstateX-0028  ProstateX-0031  ProstateX-0031  ProstateX-0035  ProstateX-0037  ProstateX-0040  ProstateX-0041  ProstateX-0046  ProstateX-0053  ProstateX-0054  ProstateX-0055  ProstateX-0067  ProstateX-0069  ProstateX-0071  ProstateX-0076  ProstateX-0077  ProstateX-0078  ProstateX-0082  ProstateX-0084  ProstateX-0092  ProstateX-0094  ProstateX-0095  ProstateX-0097  ProstateX-0099  ProstateX-0101  ProstateX-0102  ProstateX-0103  ProstateX-0104  ProstateX-0105  ProstateX-0106  ProstateX-0110  ProstateX-0111  ProstateX-0114  ProstateX-0115  ProstateX-0116  ProstateX-0117  ProstateX-0118  ProstateX-0119  ProstateX-0121  ProstateX-0121  ProstateX-0122  ProstateX-0122  ProstateX-0123  ProstateX-0124  ProstateX-0125  ProstateX-0126  ProstateX-0127  ProstateX-0128  ProstateX-0129  ProstateX-0131  ProstateX-0133  ProstateX-0136  ProstateX-0139  ProstateX-0139  ProstateX-0141  ProstateX-0142  ProstateX-0143  ProstateX-0145  ProstateX-0148  ProstateX-0150  ProstateX-0150  ProstateX-0152  ProstateX-0153  ProstateX-0162  ProstateX-0164  ProstateX-0165  ProstateX-0168  ProstateX-0169  ProstateX-0172  ProstateX-0173  ProstateX-0173  ProstateX-0174  ProstateX-0179  ProstateX-0179  ProstateX-0181  ProstateX-0182  ProstateX-0183  ProstateX-0184  ProstateX-0186  ProstateX-0187  ProstateX-0188  ProstateX-0190  ProstateX-0191  ProstateX-0192  ProstateX-0193  ProstateX-0194  ProstateX-0195  ProstateX-0196  ProstateX-0196  ProstateX-0196  ProstateX-0197  ProstateX-0198  ProstateX-0199  ProstateX-0199  ProstateX-0200  ProstateX-0201  ProstateX-0202  ProstateX-0203  ProstateX-0203
 Processed/ProstateX-0000/config: Processed/ProstateX-0000/T2Axial.raw.nii.gz Processed/ProstateX-0000/T2Sag.raw.nii.gz Processed/ProstateX-0000/ADC.raw.nii.gz Processed/ProstateX-0000/BVAL.raw.nii.gz Processed/ProstateX-0000/KTRANS.raw.nii.gz
 Processed/ProstateX-0001/config: Processed/ProstateX-0001/T2Axial.raw.nii.gz Processed/ProstateX-0001/T2Sag.raw.nii.gz Processed/ProstateX-0001/ADC.raw.nii.gz Processed/ProstateX-0001/BVAL.raw.nii.gz Processed/ProstateX-0001/KTRANS.raw.nii.gz
 Processed/ProstateX-0002/config: Processed/ProstateX-0002/T2Axial.raw.nii.gz Processed/ProstateX-0002/T2Sag.raw.nii.gz Processed/ProstateX-0002/ADC.raw.nii.gz Processed/ProstateX-0002/BVAL.raw.nii.gz Processed/ProstateX-0002/KTRANS.raw.nii.gz
+Processed/ProstateX-0002/config: Processed/ProstateX-0002/T2Axial.raw.nii.gz Processed/ProstateX-0002/T2Sag.raw.nii.gz Processed/ProstateX-0002/ADC.raw.nii.gz Processed/ProstateX-0002/BVAL.raw.nii.gz Processed/ProstateX-0002/KTRANS.raw.nii.gz
 Processed/ProstateX-0004/config: Processed/ProstateX-0004/T2Axial.raw.nii.gz Processed/ProstateX-0004/T2Sag.raw.nii.gz Processed/ProstateX-0004/ADC.raw.nii.gz Processed/ProstateX-0004/BVAL.raw.nii.gz Processed/ProstateX-0004/KTRANS.raw.nii.gz
+Processed/ProstateX-0005/config: Processed/ProstateX-0005/T2Axial.raw.nii.gz Processed/ProstateX-0005/T2Sag.raw.nii.gz Processed/ProstateX-0005/ADC.raw.nii.gz Processed/ProstateX-0005/BVAL.raw.nii.gz Processed/ProstateX-0005/KTRANS.raw.nii.gz
 Processed/ProstateX-0005/config: Processed/ProstateX-0005/T2Axial.raw.nii.gz Processed/ProstateX-0005/T2Sag.raw.nii.gz Processed/ProstateX-0005/ADC.raw.nii.gz Processed/ProstateX-0005/BVAL.raw.nii.gz Processed/ProstateX-0005/KTRANS.raw.nii.gz
 Processed/ProstateX-0014/config: Processed/ProstateX-0014/T2Axial.raw.nii.gz Processed/ProstateX-0014/T2Sag.raw.nii.gz Processed/ProstateX-0014/ADC.raw.nii.gz Processed/ProstateX-0014/BVAL.raw.nii.gz Processed/ProstateX-0014/KTRANS.raw.nii.gz
 Processed/ProstateX-0015/config: Processed/ProstateX-0015/T2Axial.raw.nii.gz Processed/ProstateX-0015/T2Sag.raw.nii.gz Processed/ProstateX-0015/ADC.raw.nii.gz Processed/ProstateX-0015/BVAL.raw.nii.gz Processed/ProstateX-0015/KTRANS.raw.nii.gz
@@ -12,6 +14,7 @@ Processed/ProstateX-0018/config: Processed/ProstateX-0018/T2Axial.raw.nii.gz Pro
 Processed/ProstateX-0019/config: Processed/ProstateX-0019/T2Axial.raw.nii.gz Processed/ProstateX-0019/T2Sag.raw.nii.gz Processed/ProstateX-0019/ADC.raw.nii.gz Processed/ProstateX-0019/BVAL.raw.nii.gz Processed/ProstateX-0019/KTRANS.raw.nii.gz
 Processed/ProstateX-0026/config: Processed/ProstateX-0026/T2Axial.raw.nii.gz Processed/ProstateX-0026/T2Sag.raw.nii.gz Processed/ProstateX-0026/ADC.raw.nii.gz Processed/ProstateX-0026/BVAL.raw.nii.gz Processed/ProstateX-0026/KTRANS.raw.nii.gz
 Processed/ProstateX-0028/config: Processed/ProstateX-0028/T2Axial.raw.nii.gz Processed/ProstateX-0028/T2Sag.raw.nii.gz Processed/ProstateX-0028/ADC.raw.nii.gz Processed/ProstateX-0028/BVAL.raw.nii.gz Processed/ProstateX-0028/KTRANS.raw.nii.gz
+Processed/ProstateX-0031/config: Processed/ProstateX-0031/T2Axial.raw.nii.gz Processed/ProstateX-0031/T2Sag.raw.nii.gz Processed/ProstateX-0031/ADC.raw.nii.gz Processed/ProstateX-0031/BVAL.raw.nii.gz Processed/ProstateX-0031/KTRANS.raw.nii.gz
 Processed/ProstateX-0031/config: Processed/ProstateX-0031/T2Axial.raw.nii.gz Processed/ProstateX-0031/T2Sag.raw.nii.gz Processed/ProstateX-0031/ADC.raw.nii.gz Processed/ProstateX-0031/BVAL.raw.nii.gz Processed/ProstateX-0031/KTRANS.raw.nii.gz
 Processed/ProstateX-0035/config: Processed/ProstateX-0035/T2Axial.raw.nii.gz Processed/ProstateX-0035/T2Sag.raw.nii.gz Processed/ProstateX-0035/ADC.raw.nii.gz Processed/ProstateX-0035/BVAL.raw.nii.gz Processed/ProstateX-0035/KTRANS.raw.nii.gz
 Processed/ProstateX-0037/config: Processed/ProstateX-0037/T2Axial.raw.nii.gz Processed/ProstateX-0037/T2Sag.raw.nii.gz Processed/ProstateX-0037/ADC.raw.nii.gz Processed/ProstateX-0037/BVAL.raw.nii.gz Processed/ProstateX-0037/KTRANS.raw.nii.gz
@@ -49,6 +52,8 @@ Processed/ProstateX-0117/config: Processed/ProstateX-0117/T2Axial.raw.nii.gz Pro
 Processed/ProstateX-0118/config: Processed/ProstateX-0118/T2Axial.raw.nii.gz Processed/ProstateX-0118/T2Sag.raw.nii.gz Processed/ProstateX-0118/ADC.raw.nii.gz Processed/ProstateX-0118/BVAL.raw.nii.gz Processed/ProstateX-0118/KTRANS.raw.nii.gz
 Processed/ProstateX-0119/config: Processed/ProstateX-0119/T2Axial.raw.nii.gz Processed/ProstateX-0119/T2Sag.raw.nii.gz Processed/ProstateX-0119/ADC.raw.nii.gz Processed/ProstateX-0119/BVAL.raw.nii.gz Processed/ProstateX-0119/KTRANS.raw.nii.gz
 Processed/ProstateX-0121/config: Processed/ProstateX-0121/T2Axial.raw.nii.gz Processed/ProstateX-0121/T2Sag.raw.nii.gz Processed/ProstateX-0121/ADC.raw.nii.gz Processed/ProstateX-0121/BVAL.raw.nii.gz Processed/ProstateX-0121/KTRANS.raw.nii.gz
+Processed/ProstateX-0121/config: Processed/ProstateX-0121/T2Axial.raw.nii.gz Processed/ProstateX-0121/T2Sag.raw.nii.gz Processed/ProstateX-0121/ADC.raw.nii.gz Processed/ProstateX-0121/BVAL.raw.nii.gz Processed/ProstateX-0121/KTRANS.raw.nii.gz
+Processed/ProstateX-0122/config: Processed/ProstateX-0122/T2Axial.raw.nii.gz Processed/ProstateX-0122/T2Sag.raw.nii.gz Processed/ProstateX-0122/ADC.raw.nii.gz Processed/ProstateX-0122/BVAL.raw.nii.gz Processed/ProstateX-0122/KTRANS.raw.nii.gz
 Processed/ProstateX-0122/config: Processed/ProstateX-0122/T2Axial.raw.nii.gz Processed/ProstateX-0122/T2Sag.raw.nii.gz Processed/ProstateX-0122/ADC.raw.nii.gz Processed/ProstateX-0122/BVAL.raw.nii.gz Processed/ProstateX-0122/KTRANS.raw.nii.gz
 Processed/ProstateX-0123/config: Processed/ProstateX-0123/T2Axial.raw.nii.gz Processed/ProstateX-0123/T2Sag.raw.nii.gz Processed/ProstateX-0123/ADC.raw.nii.gz Processed/ProstateX-0123/BVAL.raw.nii.gz Processed/ProstateX-0123/KTRANS.raw.nii.gz
 Processed/ProstateX-0124/config: Processed/ProstateX-0124/T2Axial.raw.nii.gz Processed/ProstateX-0124/T2Sag.raw.nii.gz Processed/ProstateX-0124/ADC.raw.nii.gz Processed/ProstateX-0124/BVAL.raw.nii.gz Processed/ProstateX-0124/KTRANS.raw.nii.gz
@@ -61,11 +66,13 @@ Processed/ProstateX-0131/config: Processed/ProstateX-0131/T2Axial.raw.nii.gz Pro
 Processed/ProstateX-0133/config: Processed/ProstateX-0133/T2Axial.raw.nii.gz Processed/ProstateX-0133/T2Sag.raw.nii.gz Processed/ProstateX-0133/ADC.raw.nii.gz Processed/ProstateX-0133/BVAL.raw.nii.gz Processed/ProstateX-0133/KTRANS.raw.nii.gz
 Processed/ProstateX-0136/config: Processed/ProstateX-0136/T2Axial.raw.nii.gz Processed/ProstateX-0136/T2Sag.raw.nii.gz Processed/ProstateX-0136/ADC.raw.nii.gz Processed/ProstateX-0136/BVAL.raw.nii.gz Processed/ProstateX-0136/KTRANS.raw.nii.gz
 Processed/ProstateX-0139/config: Processed/ProstateX-0139/T2Axial.raw.nii.gz Processed/ProstateX-0139/T2Sag.raw.nii.gz Processed/ProstateX-0139/ADC.raw.nii.gz Processed/ProstateX-0139/BVAL.raw.nii.gz Processed/ProstateX-0139/KTRANS.raw.nii.gz
+Processed/ProstateX-0139/config: Processed/ProstateX-0139/T2Axial.raw.nii.gz Processed/ProstateX-0139/T2Sag.raw.nii.gz Processed/ProstateX-0139/ADC.raw.nii.gz Processed/ProstateX-0139/BVAL.raw.nii.gz Processed/ProstateX-0139/KTRANS.raw.nii.gz
 Processed/ProstateX-0141/config: Processed/ProstateX-0141/T2Axial.raw.nii.gz Processed/ProstateX-0141/T2Sag.raw.nii.gz Processed/ProstateX-0141/ADC.raw.nii.gz Processed/ProstateX-0141/BVAL.raw.nii.gz Processed/ProstateX-0141/KTRANS.raw.nii.gz
 Processed/ProstateX-0142/config: Processed/ProstateX-0142/T2Axial.raw.nii.gz Processed/ProstateX-0142/T2Sag.raw.nii.gz Processed/ProstateX-0142/ADC.raw.nii.gz Processed/ProstateX-0142/BVAL.raw.nii.gz Processed/ProstateX-0142/KTRANS.raw.nii.gz
 Processed/ProstateX-0143/config: Processed/ProstateX-0143/T2Axial.raw.nii.gz Processed/ProstateX-0143/T2Sag.raw.nii.gz Processed/ProstateX-0143/ADC.raw.nii.gz Processed/ProstateX-0143/BVAL.raw.nii.gz Processed/ProstateX-0143/KTRANS.raw.nii.gz
 Processed/ProstateX-0145/config: Processed/ProstateX-0145/T2Axial.raw.nii.gz Processed/ProstateX-0145/T2Sag.raw.nii.gz Processed/ProstateX-0145/ADC.raw.nii.gz Processed/ProstateX-0145/BVAL.raw.nii.gz Processed/ProstateX-0145/KTRANS.raw.nii.gz
 Processed/ProstateX-0148/config: Processed/ProstateX-0148/T2Axial.raw.nii.gz Processed/ProstateX-0148/T2Sag.raw.nii.gz Processed/ProstateX-0148/ADC.raw.nii.gz Processed/ProstateX-0148/BVAL.raw.nii.gz Processed/ProstateX-0148/KTRANS.raw.nii.gz
+Processed/ProstateX-0150/config: Processed/ProstateX-0150/T2Axial.raw.nii.gz Processed/ProstateX-0150/T2Sag.raw.nii.gz Processed/ProstateX-0150/ADC.raw.nii.gz Processed/ProstateX-0150/BVAL.raw.nii.gz Processed/ProstateX-0150/KTRANS.raw.nii.gz
 Processed/ProstateX-0150/config: Processed/ProstateX-0150/T2Axial.raw.nii.gz Processed/ProstateX-0150/T2Sag.raw.nii.gz Processed/ProstateX-0150/ADC.raw.nii.gz Processed/ProstateX-0150/BVAL.raw.nii.gz Processed/ProstateX-0150/KTRANS.raw.nii.gz
 Processed/ProstateX-0152/config: Processed/ProstateX-0152/T2Axial.raw.nii.gz Processed/ProstateX-0152/T2Sag.raw.nii.gz Processed/ProstateX-0152/ADC.raw.nii.gz Processed/ProstateX-0152/BVAL.raw.nii.gz Processed/ProstateX-0152/KTRANS.raw.nii.gz
 Processed/ProstateX-0153/config: Processed/ProstateX-0153/T2Axial.raw.nii.gz Processed/ProstateX-0153/T2Sag.raw.nii.gz Processed/ProstateX-0153/ADC.raw.nii.gz Processed/ProstateX-0153/BVAL.raw.nii.gz Processed/ProstateX-0153/KTRANS.raw.nii.gz
@@ -76,7 +83,9 @@ Processed/ProstateX-0168/config: Processed/ProstateX-0168/T2Axial.raw.nii.gz Pro
 Processed/ProstateX-0169/config: Processed/ProstateX-0169/T2Axial.raw.nii.gz Processed/ProstateX-0169/T2Sag.raw.nii.gz Processed/ProstateX-0169/ADC.raw.nii.gz Processed/ProstateX-0169/BVAL.raw.nii.gz Processed/ProstateX-0169/KTRANS.raw.nii.gz
 Processed/ProstateX-0172/config: Processed/ProstateX-0172/T2Axial.raw.nii.gz Processed/ProstateX-0172/T2Sag.raw.nii.gz Processed/ProstateX-0172/ADC.raw.nii.gz Processed/ProstateX-0172/BVAL.raw.nii.gz Processed/ProstateX-0172/KTRANS.raw.nii.gz
 Processed/ProstateX-0173/config: Processed/ProstateX-0173/T2Axial.raw.nii.gz Processed/ProstateX-0173/T2Sag.raw.nii.gz Processed/ProstateX-0173/ADC.raw.nii.gz Processed/ProstateX-0173/BVAL.raw.nii.gz Processed/ProstateX-0173/KTRANS.raw.nii.gz
+Processed/ProstateX-0173/config: Processed/ProstateX-0173/T2Axial.raw.nii.gz Processed/ProstateX-0173/T2Sag.raw.nii.gz Processed/ProstateX-0173/ADC.raw.nii.gz Processed/ProstateX-0173/BVAL.raw.nii.gz Processed/ProstateX-0173/KTRANS.raw.nii.gz
 Processed/ProstateX-0174/config: Processed/ProstateX-0174/T2Axial.raw.nii.gz Processed/ProstateX-0174/T2Sag.raw.nii.gz Processed/ProstateX-0174/ADC.raw.nii.gz Processed/ProstateX-0174/BVAL.raw.nii.gz Processed/ProstateX-0174/KTRANS.raw.nii.gz
+Processed/ProstateX-0179/config: Processed/ProstateX-0179/T2Axial.raw.nii.gz Processed/ProstateX-0179/T2Sag.raw.nii.gz Processed/ProstateX-0179/ADC.raw.nii.gz Processed/ProstateX-0179/BVAL.raw.nii.gz Processed/ProstateX-0179/KTRANS.raw.nii.gz
 Processed/ProstateX-0179/config: Processed/ProstateX-0179/T2Axial.raw.nii.gz Processed/ProstateX-0179/T2Sag.raw.nii.gz Processed/ProstateX-0179/ADC.raw.nii.gz Processed/ProstateX-0179/BVAL.raw.nii.gz Processed/ProstateX-0179/KTRANS.raw.nii.gz
 Processed/ProstateX-0181/config: Processed/ProstateX-0181/T2Axial.raw.nii.gz Processed/ProstateX-0181/T2Sag.raw.nii.gz Processed/ProstateX-0181/ADC.raw.nii.gz Processed/ProstateX-0181/BVAL.raw.nii.gz Processed/ProstateX-0181/KTRANS.raw.nii.gz
 Processed/ProstateX-0182/config: Processed/ProstateX-0182/T2Axial.raw.nii.gz Processed/ProstateX-0182/T2Sag.raw.nii.gz Processed/ProstateX-0182/ADC.raw.nii.gz Processed/ProstateX-0182/BVAL.raw.nii.gz Processed/ProstateX-0182/KTRANS.raw.nii.gz
@@ -92,12 +101,16 @@ Processed/ProstateX-0193/config: Processed/ProstateX-0193/T2Axial.raw.nii.gz Pro
 Processed/ProstateX-0194/config: Processed/ProstateX-0194/T2Axial.raw.nii.gz Processed/ProstateX-0194/T2Sag.raw.nii.gz Processed/ProstateX-0194/ADC.raw.nii.gz Processed/ProstateX-0194/BVAL.raw.nii.gz Processed/ProstateX-0194/KTRANS.raw.nii.gz
 Processed/ProstateX-0195/config: Processed/ProstateX-0195/T2Axial.raw.nii.gz Processed/ProstateX-0195/T2Sag.raw.nii.gz Processed/ProstateX-0195/ADC.raw.nii.gz Processed/ProstateX-0195/BVAL.raw.nii.gz Processed/ProstateX-0195/KTRANS.raw.nii.gz
 Processed/ProstateX-0196/config: Processed/ProstateX-0196/T2Axial.raw.nii.gz Processed/ProstateX-0196/T2Sag.raw.nii.gz Processed/ProstateX-0196/ADC.raw.nii.gz Processed/ProstateX-0196/BVAL.raw.nii.gz Processed/ProstateX-0196/KTRANS.raw.nii.gz
+Processed/ProstateX-0196/config: Processed/ProstateX-0196/T2Axial.raw.nii.gz Processed/ProstateX-0196/T2Sag.raw.nii.gz Processed/ProstateX-0196/ADC.raw.nii.gz Processed/ProstateX-0196/BVAL.raw.nii.gz Processed/ProstateX-0196/KTRANS.raw.nii.gz
+Processed/ProstateX-0196/config: Processed/ProstateX-0196/T2Axial.raw.nii.gz Processed/ProstateX-0196/T2Sag.raw.nii.gz Processed/ProstateX-0196/ADC.raw.nii.gz Processed/ProstateX-0196/BVAL.raw.nii.gz Processed/ProstateX-0196/KTRANS.raw.nii.gz
 Processed/ProstateX-0197/config: Processed/ProstateX-0197/T2Axial.raw.nii.gz Processed/ProstateX-0197/T2Sag.raw.nii.gz Processed/ProstateX-0197/ADC.raw.nii.gz Processed/ProstateX-0197/BVAL.raw.nii.gz Processed/ProstateX-0197/KTRANS.raw.nii.gz
 Processed/ProstateX-0198/config: Processed/ProstateX-0198/T2Axial.raw.nii.gz Processed/ProstateX-0198/T2Sag.raw.nii.gz Processed/ProstateX-0198/ADC.raw.nii.gz Processed/ProstateX-0198/BVAL.raw.nii.gz Processed/ProstateX-0198/KTRANS.raw.nii.gz
+Processed/ProstateX-0199/config: Processed/ProstateX-0199/T2Axial.raw.nii.gz Processed/ProstateX-0199/T2Sag.raw.nii.gz Processed/ProstateX-0199/ADC.raw.nii.gz Processed/ProstateX-0199/BVAL.raw.nii.gz Processed/ProstateX-0199/KTRANS.raw.nii.gz
 Processed/ProstateX-0199/config: Processed/ProstateX-0199/T2Axial.raw.nii.gz Processed/ProstateX-0199/T2Sag.raw.nii.gz Processed/ProstateX-0199/ADC.raw.nii.gz Processed/ProstateX-0199/BVAL.raw.nii.gz Processed/ProstateX-0199/KTRANS.raw.nii.gz
 Processed/ProstateX-0200/config: Processed/ProstateX-0200/T2Axial.raw.nii.gz Processed/ProstateX-0200/T2Sag.raw.nii.gz Processed/ProstateX-0200/ADC.raw.nii.gz Processed/ProstateX-0200/BVAL.raw.nii.gz Processed/ProstateX-0200/KTRANS.raw.nii.gz
 Processed/ProstateX-0201/config: Processed/ProstateX-0201/T2Axial.raw.nii.gz Processed/ProstateX-0201/T2Sag.raw.nii.gz Processed/ProstateX-0201/ADC.raw.nii.gz Processed/ProstateX-0201/BVAL.raw.nii.gz Processed/ProstateX-0201/KTRANS.raw.nii.gz
 Processed/ProstateX-0202/config: Processed/ProstateX-0202/T2Axial.raw.nii.gz Processed/ProstateX-0202/T2Sag.raw.nii.gz Processed/ProstateX-0202/ADC.raw.nii.gz Processed/ProstateX-0202/BVAL.raw.nii.gz Processed/ProstateX-0202/KTRANS.raw.nii.gz
+Processed/ProstateX-0203/config: Processed/ProstateX-0203/T2Axial.raw.nii.gz Processed/ProstateX-0203/T2Sag.raw.nii.gz Processed/ProstateX-0203/ADC.raw.nii.gz Processed/ProstateX-0203/BVAL.raw.nii.gz Processed/ProstateX-0203/KTRANS.raw.nii.gz
 Processed/ProstateX-0203/config: Processed/ProstateX-0203/T2Axial.raw.nii.gz Processed/ProstateX-0203/T2Sag.raw.nii.gz Processed/ProstateX-0203/ADC.raw.nii.gz Processed/ProstateX-0203/BVAL.raw.nii.gz Processed/ProstateX-0203/KTRANS.raw.nii.gz
 Processed/ProstateX-0000/T2Axial.raw.nii.gz:
 	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0000/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.160028252338004527274326500702 $@
@@ -1089,201 +1102,1915 @@ Processed/ProstateX-0202/KTRANS.raw.nii.gz:
 	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0202/ProstateX-0202-Ktrans.mhd -o $@
 Processed/ProstateX-0203/KTRANS.raw.nii.gz:
 	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0203/ProstateX-0203-Ktrans.mhd -o $@
-Processed/ProstateX-0000/landmarks.txt:
-	mkdir -p $(@D); echo 25.7457 31.8707 -38.511 1  > $@
-Processed/ProstateX-0001/landmarks.txt:
+Processed/ProstateX-0000/landmarks.1.txt:
+	mkdir -p $(@D); echo 25.7457 31.8707 -38.511 3  > $@
+Processed/ProstateX-0001/landmarks.1.txt:
 	mkdir -p $(@D); echo -40.5367071921656 29.320722668457 -16.7076690704346 1  > $@
-Processed/ProstateX-0002/landmarks.txt:
-	mkdir -p $(@D); echo -27.0102 41.5467 -26.0469 1  > $@
-Processed/ProstateX-0004/landmarks.txt:
+Processed/ProstateX-0002/landmarks.1.txt:
+	mkdir -p $(@D); echo -27.0102 41.5467 -26.0469 2  > $@
+Processed/ProstateX-0002/landmarks.2.txt:
+	mkdir -p $(@D); echo -2.058 38.6752 -34.6104 2  > $@
+Processed/ProstateX-0004/landmarks.1.txt:
 	mkdir -p $(@D); echo -7.69665 3.64226 23.1659 1  > $@
-Processed/ProstateX-0005/landmarks.txt:
-	mkdir -p $(@D); echo -14.5174331665039 49.4428329467773 20.7815246582031 1  > $@
-Processed/ProstateX-0014/landmarks.txt:
-	mkdir -p $(@D); echo -23.0672 31.7673 3.02353 1  > $@
-Processed/ProstateX-0015/landmarks.txt:
-	mkdir -p $(@D); echo -3.5 -4.2 -40.5 1  > $@
-Processed/ProstateX-0016/landmarks.txt:
+Processed/ProstateX-0005/landmarks.0.txt:
+	mkdir -p $(@D); echo -14.5174331665039 49.4428329467773 20.7815246582031 2  > $@
+Processed/ProstateX-0005/landmarks.1.txt:
+	mkdir -p $(@D); echo -38.6276 42.2781 21.4084 2  > $@
+Processed/ProstateX-0014/landmarks.1.txt:
+	mkdir -p $(@D); echo -23.0672 31.7673 3.02353 2  > $@
+Processed/ProstateX-0015/landmarks.1.txt:
+	mkdir -p $(@D); echo -3.5 -4.2 -40.5 3  > $@
+Processed/ProstateX-0016/landmarks.1.txt:
 	mkdir -p $(@D); echo -17.4648 10.7487 -1.55198 1  > $@
-Processed/ProstateX-0018/landmarks.txt:
-	mkdir -p $(@D); echo 4.08917 18.7769 -11.5951 1  > $@
-Processed/ProstateX-0019/landmarks.txt:
-	mkdir -p $(@D); echo -4.21012 42.1916 -40.6457 1  > $@
-Processed/ProstateX-0026/landmarks.txt:
-	mkdir -p $(@D); echo -2.55984 36.7959 -40.4785 1  > $@
-Processed/ProstateX-0028/landmarks.txt:
-	mkdir -p $(@D); echo 32.6256 39.4066 -7.95307 1  > $@
-Processed/ProstateX-0031/landmarks.txt:
-	mkdir -p $(@D); echo 8.08436 38.9556 13.8648 1  > $@
-Processed/ProstateX-0035/landmarks.txt:
-	mkdir -p $(@D); echo -22.9279 28.8785 -29.5951 1  > $@
-Processed/ProstateX-0037/landmarks.txt:
-	mkdir -p $(@D); echo 10.0109 21.7560412231445 0.489487200805664 1  > $@
-Processed/ProstateX-0040/landmarks.txt:
-	mkdir -p $(@D); echo 5.7972 19.5845 -58.366 1  > $@
-Processed/ProstateX-0041/landmarks.txt:
-	mkdir -p $(@D); echo -11.24582 60.9975 -48.0648 1  > $@
-Processed/ProstateX-0046/landmarks.txt:
-	mkdir -p $(@D); echo -32.861 -2.20032 46.9729 1  > $@
-Processed/ProstateX-0053/landmarks.txt:
+Processed/ProstateX-0018/landmarks.1.txt:
+	mkdir -p $(@D); echo 4.08917 18.7769 -11.5951 2  > $@
+Processed/ProstateX-0019/landmarks.1.txt:
+	mkdir -p $(@D); echo -4.21012 42.1916 -40.6457 2  > $@
+Processed/ProstateX-0026/landmarks.1.txt:
+	mkdir -p $(@D); echo -2.55984 36.7959 -40.4785 4  > $@
+Processed/ProstateX-0028/landmarks.1.txt:
+	mkdir -p $(@D); echo 32.6256 39.4066 -7.95307 2  > $@
+Processed/ProstateX-0031/landmarks.1.txt:
+	mkdir -p $(@D); echo 8.08436 38.9556 13.8648 2  > $@
+Processed/ProstateX-0031/landmarks.2.txt:
+	mkdir -p $(@D); echo -25.5225 39.8319 13.5071 2  > $@
+Processed/ProstateX-0035/landmarks.1.txt:
+	mkdir -p $(@D); echo -22.9279 28.8785 -29.5951 2  > $@
+Processed/ProstateX-0037/landmarks.1.txt:
+	mkdir -p $(@D); echo 10.0109 21.7560412231445 0.489487200805664 2  > $@
+Processed/ProstateX-0040/landmarks.1.txt:
+	mkdir -p $(@D); echo 5.7972 19.5845 -58.366 2  > $@
+Processed/ProstateX-0041/landmarks.1.txt:
+	mkdir -p $(@D); echo -11.24582 60.9975 -48.0648 2  > $@
+Processed/ProstateX-0046/landmarks.1.txt:
+	mkdir -p $(@D); echo -32.861 -2.20032 46.9729 3  > $@
+Processed/ProstateX-0053/landmarks.4.txt:
 	mkdir -p $(@D); echo 36.1 35.7 -83.4 1  > $@
-Processed/ProstateX-0054/landmarks.txt:
-	mkdir -p $(@D); echo -2.10843 10.7156 -4.33744 1  > $@
-Processed/ProstateX-0055/landmarks.txt:
-	mkdir -p $(@D); echo -6.36708 5.95801 -16.3704 1  > $@
-Processed/ProstateX-0067/landmarks.txt:
-	mkdir -p $(@D); echo 18.6239 25.4505 14.9875 1  > $@
-Processed/ProstateX-0069/landmarks.txt:
+Processed/ProstateX-0054/landmarks.1.txt:
+	mkdir -p $(@D); echo -2.10843 10.7156 -4.33744 2  > $@
+Processed/ProstateX-0055/landmarks.1.txt:
+	mkdir -p $(@D); echo -6.36708 5.95801 -16.3704 3  > $@
+Processed/ProstateX-0067/landmarks.1.txt:
+	mkdir -p $(@D); echo 18.6239 25.4505 14.9875 2  > $@
+Processed/ProstateX-0069/landmarks.1.txt:
 	mkdir -p $(@D); echo -13.9353 28.1827 -29.5937 1  > $@
-Processed/ProstateX-0071/landmarks.txt:
-	mkdir -p $(@D); echo 17.3233 15.0943 -23.6103 1  > $@
-Processed/ProstateX-0076/landmarks.txt:
+Processed/ProstateX-0071/landmarks.1.txt:
+	mkdir -p $(@D); echo 17.3233 15.0943 -23.6103 3  > $@
+Processed/ProstateX-0076/landmarks.1.txt:
 	mkdir -p $(@D); echo 7.23638 34.0724 71.1374 1  > $@
-Processed/ProstateX-0077/landmarks.txt:
-	mkdir -p $(@D); echo -26.1229 39.9618 13.7895 1  > $@
-Processed/ProstateX-0078/landmarks.txt:
-	mkdir -p $(@D); echo 12.4137 20.7377 -54.864 1  > $@
-Processed/ProstateX-0082/landmarks.txt:
-	mkdir -p $(@D); echo -4.63659 30.8679 7.27208 1  > $@
-Processed/ProstateX-0084/landmarks.txt:
+Processed/ProstateX-0077/landmarks.1.txt:
+	mkdir -p $(@D); echo -26.1229 39.9618 13.7895 4  > $@
+Processed/ProstateX-0078/landmarks.1.txt:
+	mkdir -p $(@D); echo 12.4137 20.7377 -54.864 3  > $@
+Processed/ProstateX-0082/landmarks.1.txt:
+	mkdir -p $(@D); echo -4.63659 30.8679 7.27208 2  > $@
+Processed/ProstateX-0084/landmarks.2.txt:
 	mkdir -p $(@D); echo -19.636 26.6136 -12.9621 1  > $@
-Processed/ProstateX-0092/landmarks.txt:
-	mkdir -p $(@D); echo -46.6773 31.5294 -37.086 1  > $@
-Processed/ProstateX-0094/landmarks.txt:
-	mkdir -p $(@D); echo 31.5813 15.6722 -42.8497 1  > $@
-Processed/ProstateX-0095/landmarks.txt:
-	mkdir -p $(@D); echo -29.8824 33.0609 17.1315 1  > $@
-Processed/ProstateX-0097/landmarks.txt:
-	mkdir -p $(@D); echo -21.7875 18.8555 24.8761 1  > $@
-Processed/ProstateX-0099/landmarks.txt:
-	mkdir -p $(@D); echo 25.7022 40.664 65.1977 1  > $@
-Processed/ProstateX-0101/landmarks.txt:
+Processed/ProstateX-0092/landmarks.1.txt:
+	mkdir -p $(@D); echo -46.6773 31.5294 -37.086 3  > $@
+Processed/ProstateX-0094/landmarks.1.txt:
+	mkdir -p $(@D); echo 31.5813 15.6722 -42.8497 3  > $@
+Processed/ProstateX-0095/landmarks.1.txt:
+	mkdir -p $(@D); echo -29.8824 33.0609 17.1315 3  > $@
+Processed/ProstateX-0097/landmarks.1.txt:
+	mkdir -p $(@D); echo -21.7875 18.8555 24.8761 2  > $@
+Processed/ProstateX-0099/landmarks.1.txt:
+	mkdir -p $(@D); echo 25.7022 40.664 65.1977 2  > $@
+Processed/ProstateX-0101/landmarks.1.txt:
 	mkdir -p $(@D); echo -24.515 7.71764 -28.1541 1  > $@
-Processed/ProstateX-0102/landmarks.txt:
-	mkdir -p $(@D); echo -10.4613 34.2736 -24.6319 1  > $@
-Processed/ProstateX-0103/landmarks.txt:
-	mkdir -p $(@D); echo 12.9559 46.3051 -54.5266 1  > $@
-Processed/ProstateX-0104/landmarks.txt:
-	mkdir -p $(@D); echo 0.78662 -1.83101 1.89299 1  > $@
-Processed/ProstateX-0105/landmarks.txt:
-	mkdir -p $(@D); echo 11.2381 21.7529 -40.6015 1  > $@
-Processed/ProstateX-0106/landmarks.txt:
-	mkdir -p $(@D); echo 24.5215 11.1916 4.30617 1  > $@
-Processed/ProstateX-0110/landmarks.txt:
+Processed/ProstateX-0102/landmarks.1.txt:
+	mkdir -p $(@D); echo -10.4613 34.2736 -24.6319 2  > $@
+Processed/ProstateX-0103/landmarks.1.txt:
+	mkdir -p $(@D); echo 12.9559 46.3051 -54.5266 5  > $@
+Processed/ProstateX-0104/landmarks.1.txt:
+	mkdir -p $(@D); echo 0.78662 -1.83101 1.89299 2  > $@
+Processed/ProstateX-0105/landmarks.1.txt:
+	mkdir -p $(@D); echo 11.2381 21.7529 -40.6015 2  > $@
+Processed/ProstateX-0106/landmarks.2.txt:
+	mkdir -p $(@D); echo 24.5215 11.1916 4.30617 3  > $@
+Processed/ProstateX-0110/landmarks.1.txt:
 	mkdir -p $(@D); echo 36.5453 0.29481 -20.3736 1  > $@
-Processed/ProstateX-0111/landmarks.txt:
-	mkdir -p $(@D); echo -24.6808 5.65637 -33.5395 1  > $@
-Processed/ProstateX-0114/landmarks.txt:
-	mkdir -p $(@D); echo 2.67505 25.9603 70.4981 1  > $@
-Processed/ProstateX-0115/landmarks.txt:
-	mkdir -p $(@D); echo -46.3136 16.0335 -18.7278 1  > $@
-Processed/ProstateX-0116/landmarks.txt:
+Processed/ProstateX-0111/landmarks.1.txt:
+	mkdir -p $(@D); echo -24.6808 5.65637 -33.5395 2  > $@
+Processed/ProstateX-0114/landmarks.1.txt:
+	mkdir -p $(@D); echo 2.67505 25.9603 70.4981 3  > $@
+Processed/ProstateX-0115/landmarks.1.txt:
+	mkdir -p $(@D); echo -46.3136 16.0335 -18.7278 2  > $@
+Processed/ProstateX-0116/landmarks.1.txt:
 	mkdir -p $(@D); echo 16.1963 -4.17941 25.4894 1  > $@
-Processed/ProstateX-0117/landmarks.txt:
-	mkdir -p $(@D); echo 26.7378 24.0652 -34.8602 1  > $@
-Processed/ProstateX-0118/landmarks.txt:
-	mkdir -p $(@D); echo -6.04971 29.5813 -2.45722 1  > $@
-Processed/ProstateX-0119/landmarks.txt:
-	mkdir -p $(@D); echo 11.5495 24.2404 -21.4808 1  > $@
-Processed/ProstateX-0121/landmarks.txt:
+Processed/ProstateX-0117/landmarks.1.txt:
+	mkdir -p $(@D); echo 26.7378 24.0652 -34.8602 2  > $@
+Processed/ProstateX-0118/landmarks.1.txt:
+	mkdir -p $(@D); echo -6.04971 29.5813 -2.45722 2  > $@
+Processed/ProstateX-0119/landmarks.1.txt:
+	mkdir -p $(@D); echo 11.5495 24.2404 -21.4808 2  > $@
+Processed/ProstateX-0121/landmarks.1.txt:
 	mkdir -p $(@D); echo 6.99026622772217 6.90991668701172 12.8546207427978 1  > $@
-Processed/ProstateX-0122/landmarks.txt:
+Processed/ProstateX-0121/landmarks.2.txt:
+	mkdir -p $(@D); echo 31.8466 21.8933 -8.14504 1  > $@
+Processed/ProstateX-0122/landmarks.1.txt:
 	mkdir -p $(@D); echo -33.498 -0.413876442871094 -14.3014344573975 1  > $@
-Processed/ProstateX-0123/landmarks.txt:
-	mkdir -p $(@D); echo 20.8643 30.9437 29.9455 1  > $@
-Processed/ProstateX-0124/landmarks.txt:
+Processed/ProstateX-0122/landmarks.2.txt:
+	mkdir -p $(@D); echo -34.0512 14.0026 -42.5558 1  > $@
+Processed/ProstateX-0123/landmarks.1.txt:
+	mkdir -p $(@D); echo 20.8643 30.9437 29.9455 3  > $@
+Processed/ProstateX-0124/landmarks.1.txt:
 	mkdir -p $(@D); echo -2.33687 50.5183 61.0913 1  > $@
-Processed/ProstateX-0125/landmarks.txt:
-	mkdir -p $(@D); echo -37.3152 28.8733 -27.9854 1  > $@
-Processed/ProstateX-0126/landmarks.txt:
-	mkdir -p $(@D); echo -0.00813 12.961 3.0117 1  > $@
-Processed/ProstateX-0127/landmarks.txt:
-	mkdir -p $(@D); echo -2.96897 54.8394 -35.4997 1  > $@
-Processed/ProstateX-0128/landmarks.txt:
-	mkdir -p $(@D); echo -34.0393 43.4712 4.89498 1  > $@
-Processed/ProstateX-0129/landmarks.txt:
-	mkdir -p $(@D); echo 42.3 39.7 20.7 1  > $@
-Processed/ProstateX-0131/landmarks.txt:
-	mkdir -p $(@D); echo 51.1849 25.9864 12.9275 1  > $@
-Processed/ProstateX-0133/landmarks.txt:
+Processed/ProstateX-0125/landmarks.1.txt:
+	mkdir -p $(@D); echo -37.3152 28.8733 -27.9854 2  > $@
+Processed/ProstateX-0126/landmarks.2.txt:
+	mkdir -p $(@D); echo -0.00813 12.961 3.0117 4  > $@
+Processed/ProstateX-0127/landmarks.1.txt:
+	mkdir -p $(@D); echo -2.96897 54.8394 -35.4997 2  > $@
+Processed/ProstateX-0128/landmarks.1.txt:
+	mkdir -p $(@D); echo -34.0393 43.4712 4.89498 2  > $@
+Processed/ProstateX-0129/landmarks.1.txt:
+	mkdir -p $(@D); echo 42.3 39.7 20.7 2  > $@
+Processed/ProstateX-0131/landmarks.1.txt:
+	mkdir -p $(@D); echo 51.1849 25.9864 12.9275 5  > $@
+Processed/ProstateX-0133/landmarks.1.txt:
 	mkdir -p $(@D); echo 22.8645 28.3757 -26.314 1  > $@
-Processed/ProstateX-0136/landmarks.txt:
+Processed/ProstateX-0136/landmarks.1.txt:
 	mkdir -p $(@D); echo -8.32957 19.2429 -49.2812 1  > $@
-Processed/ProstateX-0139/landmarks.txt:
-	mkdir -p $(@D); echo -11.8805 28.3133 17.5188 1  > $@
-Processed/ProstateX-0141/landmarks.txt:
+Processed/ProstateX-0139/landmarks.1.txt:
+	mkdir -p $(@D); echo -11.8805 28.3133 17.5188 2  > $@
+Processed/ProstateX-0139/landmarks.3.txt:
+	mkdir -p $(@D); echo -5.79388 41.2189 18.3538 2  > $@
+Processed/ProstateX-0141/landmarks.1.txt:
 	mkdir -p $(@D); echo -4.79709 4.6308 -13.8932 1  > $@
-Processed/ProstateX-0142/landmarks.txt:
+Processed/ProstateX-0142/landmarks.3.txt:
 	mkdir -p $(@D); echo 21.5867 12.2297 48.2092 1  > $@
-Processed/ProstateX-0143/landmarks.txt:
-	mkdir -p $(@D); echo -20.0928 14.9006 23.5027 1  > $@
-Processed/ProstateX-0145/landmarks.txt:
+Processed/ProstateX-0143/landmarks.1.txt:
+	mkdir -p $(@D); echo -20.0928 14.9006 23.5027 2  > $@
+Processed/ProstateX-0145/landmarks.1.txt:
 	mkdir -p $(@D); echo 9.6005 17.4343 65.7892 1  > $@
-Processed/ProstateX-0148/landmarks.txt:
-	mkdir -p $(@D); echo 13.2424 27.3962 10.5819 1  > $@
-Processed/ProstateX-0150/landmarks.txt:
+Processed/ProstateX-0148/landmarks.1.txt:
+	mkdir -p $(@D); echo 13.2424 27.3962 10.5819 2  > $@
+Processed/ProstateX-0150/landmarks.2.txt:
 	mkdir -p $(@D); echo -9.84748672851562 11.7404424609375 30.3737125732422 1  > $@
-Processed/ProstateX-0152/landmarks.txt:
+Processed/ProstateX-0150/landmarks.3.txt:
+	mkdir -p $(@D); echo 22.876 15.5785 30.8967 1  > $@
+Processed/ProstateX-0152/landmarks.1.txt:
 	mkdir -p $(@D); echo 4.73273 22.4072 -77.2909 1  > $@
-Processed/ProstateX-0153/landmarks.txt:
+Processed/ProstateX-0153/landmarks.1.txt:
 	mkdir -p $(@D); echo 42.0601 33.9525 17.631 1  > $@
-Processed/ProstateX-0162/landmarks.txt:
+Processed/ProstateX-0162/landmarks.1.txt:
 	mkdir -p $(@D); echo -3.48821 35.5927 1.11006 1  > $@
-Processed/ProstateX-0164/landmarks.txt:
-	mkdir -p $(@D); echo -10.90348 22.7658 -51.1909 1  > $@
-Processed/ProstateX-0165/landmarks.txt:
+Processed/ProstateX-0164/landmarks.1.txt:
+	mkdir -p $(@D); echo -10.90348 22.7658 -51.1909 3  > $@
+Processed/ProstateX-0165/landmarks.1.txt:
 	mkdir -p $(@D); echo -9.56161457763672 -1.25801445800781 42.5441229797363 1  > $@
-Processed/ProstateX-0168/landmarks.txt:
+Processed/ProstateX-0168/landmarks.1.txt:
 	mkdir -p $(@D); echo 7.0255 21.6969 -29.8274 1  > $@
-Processed/ProstateX-0169/landmarks.txt:
-	mkdir -p $(@D); echo 9.94036 27.0209 30.4277 1  > $@
-Processed/ProstateX-0172/landmarks.txt:
+Processed/ProstateX-0169/landmarks.1.txt:
+	mkdir -p $(@D); echo 9.94036 27.0209 30.4277 3  > $@
+Processed/ProstateX-0172/landmarks.4.txt:
 	mkdir -p $(@D); echo 3.961669921875 10.2980422973633 19.8878326416016 1  > $@
-Processed/ProstateX-0173/landmarks.txt:
+Processed/ProstateX-0173/landmarks.1.txt:
 	mkdir -p $(@D); echo -19.6271 40.7648 -22.8634 1  > $@
-Processed/ProstateX-0174/landmarks.txt:
+Processed/ProstateX-0173/landmarks.2.txt:
+	mkdir -p $(@D); echo -18.7971 46.6287 -42.0199 1  > $@
+Processed/ProstateX-0174/landmarks.1.txt:
 	mkdir -p $(@D); echo 9.31972 11.9806 2.38443 1  > $@
-Processed/ProstateX-0179/landmarks.txt:
-	mkdir -p $(@D); echo -27.6234 23.8724 -20.1605 1  > $@
-Processed/ProstateX-0181/landmarks.txt:
-	mkdir -p $(@D); echo -14.47804 8.02319 12.0739 1  > $@
-Processed/ProstateX-0182/landmarks.txt:
+Processed/ProstateX-0179/landmarks.1.txt:
+	mkdir -p $(@D); echo -27.6234 23.8724 -20.1605 2  > $@
+Processed/ProstateX-0179/landmarks.2.txt:
+	mkdir -p $(@D); echo -7.56976 31.7887 -42.7564 2  > $@
+Processed/ProstateX-0181/landmarks.1.txt:
+	mkdir -p $(@D); echo -14.47804 8.02319 12.0739 5  > $@
+Processed/ProstateX-0182/landmarks.1.txt:
 	mkdir -p $(@D); echo 13.1275 41.7624 -17.9265 1  > $@
-Processed/ProstateX-0183/landmarks.txt:
-	mkdir -p $(@D); echo 21.4663 46.1903 -28.381 1  > $@
-Processed/ProstateX-0184/landmarks.txt:
-	mkdir -p $(@D); echo 25.2714 23.2703 -81.1427 1  > $@
-Processed/ProstateX-0186/landmarks.txt:
-	mkdir -p $(@D); echo -0.209802 19.6911 22.6179 1  > $@
-Processed/ProstateX-0187/landmarks.txt:
-	mkdir -p $(@D); echo 15.6411 12.9549 -36.1184 1  > $@
-Processed/ProstateX-0188/landmarks.txt:
+Processed/ProstateX-0183/landmarks.1.txt:
+	mkdir -p $(@D); echo 21.4663 46.1903 -28.381 3  > $@
+Processed/ProstateX-0184/landmarks.2.txt:
+	mkdir -p $(@D); echo 25.2714 23.2703 -81.1427 3  > $@
+Processed/ProstateX-0186/landmarks.1.txt:
+	mkdir -p $(@D); echo -0.209802 19.6911 22.6179 2  > $@
+Processed/ProstateX-0187/landmarks.1.txt:
+	mkdir -p $(@D); echo 15.6411 12.9549 -36.1184 3  > $@
+Processed/ProstateX-0188/landmarks.1.txt:
 	mkdir -p $(@D); echo -28.3426 16.8586 -14.8499 1  > $@
-Processed/ProstateX-0190/landmarks.txt:
-	mkdir -p $(@D); echo 7.16203 24.1384 -43.6284 1  > $@
-Processed/ProstateX-0191/landmarks.txt:
+Processed/ProstateX-0190/landmarks.1.txt:
+	mkdir -p $(@D); echo 7.16203 24.1384 -43.6284 2  > $@
+Processed/ProstateX-0191/landmarks.1.txt:
 	mkdir -p $(@D); echo 20.7818 18.0177 -0.799461 1  > $@
-Processed/ProstateX-0192/landmarks.txt:
-	mkdir -p $(@D); echo 31.2186 41.3789 -1.29214 1  > $@
-Processed/ProstateX-0193/landmarks.txt:
-	mkdir -p $(@D); echo 7.42249 43.3791 0.138344 1  > $@
-Processed/ProstateX-0194/landmarks.txt:
-	mkdir -p $(@D); echo -31.1794 27.3023 13.8725 1  > $@
-Processed/ProstateX-0195/landmarks.txt:
-	mkdir -p $(@D); echo -13.0258 7.2252 17.6683 1  > $@
-Processed/ProstateX-0196/landmarks.txt:
-	mkdir -p $(@D); echo 12.1189 32.1358 -5.88878 1  > $@
-Processed/ProstateX-0197/landmarks.txt:
-	mkdir -p $(@D); echo 11.537 21.7114 31.1706 1  > $@
-Processed/ProstateX-0198/landmarks.txt:
-	mkdir -p $(@D); echo -5.12248 6.53627 -108.337 1  > $@
-Processed/ProstateX-0199/landmarks.txt:
-	mkdir -p $(@D); echo -4.267512 -51.1958 4.3458 1  > $@
-Processed/ProstateX-0200/landmarks.txt:
-	mkdir -p $(@D); echo 21.8727 -28.9887 -64.2121 1  > $@
-Processed/ProstateX-0201/landmarks.txt:
-	mkdir -p $(@D); echo 10.1826 -10.0427 20.9151 1  > $@
-Processed/ProstateX-0202/landmarks.txt:
-	mkdir -p $(@D); echo -0.02085 -44.5506 16.7349 1  > $@
-Processed/ProstateX-0203/landmarks.txt:
-	mkdir -p $(@D); echo -10.02681 -18.5905 -75.1691 1  > $@
+Processed/ProstateX-0192/landmarks.1.txt:
+	mkdir -p $(@D); echo 31.2186 41.3789 -1.29214 4  > $@
+Processed/ProstateX-0193/landmarks.4.txt:
+	mkdir -p $(@D); echo 7.42249 43.3791 0.138344 2  > $@
+Processed/ProstateX-0194/landmarks.1.txt:
+	mkdir -p $(@D); echo -31.1794 27.3023 13.8725 2  > $@
+Processed/ProstateX-0195/landmarks.1.txt:
+	mkdir -p $(@D); echo -13.0258 7.2252 17.6683 4  > $@
+Processed/ProstateX-0196/landmarks.1.txt:
+	mkdir -p $(@D); echo 12.1189 32.1358 -5.88878 5  > $@
+Processed/ProstateX-0196/landmarks.2.txt:
+	mkdir -p $(@D); echo 35.2755 27.3587 -8.26241 5  > $@
+Processed/ProstateX-0196/landmarks.3.txt:
+	mkdir -p $(@D); echo 7.7081 18.6187 -7.06518 5  > $@
+Processed/ProstateX-0197/landmarks.1.txt:
+	mkdir -p $(@D); echo 11.537 21.7114 31.1706 2  > $@
+Processed/ProstateX-0198/landmarks.1.txt:
+	mkdir -p $(@D); echo -5.12248 6.53627 -108.337 5  > $@
+Processed/ProstateX-0199/landmarks.1.txt:
+	mkdir -p $(@D); echo -4.267512 -51.1958 4.3458 4  > $@
+Processed/ProstateX-0199/landmarks.2.txt:
+	mkdir -p $(@D); echo -20.3406 -48.9915 -12.8204 4  > $@
+Processed/ProstateX-0200/landmarks.1.txt:
+	mkdir -p $(@D); echo 21.8727 -28.9887 -64.2121 5  > $@
+Processed/ProstateX-0201/landmarks.1.txt:
+	mkdir -p $(@D); echo 10.1826 -10.0427 20.9151 2  > $@
+Processed/ProstateX-0202/landmarks.1.txt:
+	mkdir -p $(@D); echo -0.02085 -44.5506 16.7349 4  > $@
+Processed/ProstateX-0203/landmarks.1.txt:
+	mkdir -p $(@D); echo -10.02681 -18.5905 -75.1691 2  > $@
+Processed/ProstateX-0203/landmarks.2.txt:
+	mkdir -p $(@D); echo 10.0280456542969 -4.62264251708984 -90.3759994506836 2  > $@
+Processed/ProstateX-0000/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.00168e-010,0.00377059,-57.9373,-0.000199305,0.474188,0.95144,-83.0758,-0.00059599,-0.158573,2.84513,-28.4237,0,0,0,1  > $@
+Processed/ProstateX-0001/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-4.64581e-017,-119.205,-1.01932e-010,0.49698,0.329203,-66.2529,1.12534e-011,-0.0548672,2.98188,-34.8294,0,0,0,1  > $@
+Processed/ProstateX-0002/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,7.98512e-017,-103.784,-9.9634e-011,0.485775,0.710514,-72.8748,2.42881e-011,-0.118419,2.91465,-36.7521,0,0,0,1  > $@
+Processed/ProstateX-0004/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,6.33633e-017,-118.163,-9.95055e-011,0.485148,1.08865,-85.9368,2.48095e-011,-0.120961,4.36633,10.7173,0,0,0,1  > $@
+Processed/ProstateX-0005/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,1.10673e-016,-117.278,-1.02161e-010,0.498097,0.261467,-69.1497,8.93795e-012,-0.0435779,2.98858,2.54821,0,0,0,1  > $@
+Processed/ProstateX-0014/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-4.64581e-017,-113.422,-1.01932e-010,0.49698,0.329203,-66.5902,1.12534e-011,-0.0548672,2.98188,-6.25108,0,0,0,1  > $@
+Processed/ProstateX-0015/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-4.64581e-017,-111.494,-1.01932e-010,0.49698,0.329203,-82.9758,1.12534e-011,-0.0548672,2.98188,-54.4439,0,0,0,1  > $@
+Processed/ProstateX-0016/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,5.01326e-017,-102.82,-1.00121e-010,0.488148,0.649319,-75.3274,2.21962e-011,-0.10822,2.92889,0.630011,0,0,0,1  > $@
+Processed/ProstateX-0018/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-4.05772e-017,-98.0005,-9.78053e-011,0.476858,0.902117,-69.1233,3.08379e-011,-0.150353,2.86115,-1.18095,0,0,0,1  > $@
+Processed/ProstateX-0019/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,6.89354e-017,-95.1089,-9.73652e-011,0.474713,0.941977,-79.6913,3.22004e-011,-0.156996,2.84828,-33.5147,0,0,0,1  > $@
+Processed/ProstateX-0026/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-4.64581e-017,-90.2896,-1.01932e-010,0.49698,0.329203,-63.064,1.12534e-011,-0.0548672,2.98188,-49.0723,0,0,0,1  > $@
+Processed/ProstateX-0028/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-4.64581e-017,-85.4704,-1.01932e-010,0.49698,0.329203,-67.8833,1.12534e-011,-0.0548672,2.98188,-21.7631,0,0,0,1  > $@
+Processed/ProstateX-0031/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,6.91944e-017,-107.639,-9.49496e-011,0.462935,1.13352,-73.8462,3.87482e-011,-0.18892,2.77761,15.6152,0,0,0,1  > $@
+Processed/ProstateX-0035/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-6.25333e-017,-98.0005,-9.85791e-011,0.480631,0.826912,-72.9904,2.82671e-011,-0.137819,2.88379,-26.9123,0,0,0,1  > $@
+Processed/ProstateX-0037/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-6.76657e-017,-71.0125,-1.01317e-010,0.49398,-0.464131,-67.1506,-1.58658e-011,0.0773552,2.96388,-39.2437,0,0,0,1  > $@
+Processed/ProstateX-0040/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,1.39065e-016,-69.0848,-1.01116e-010,0.492998,0.500306,-79.0153,1.71024e-011,-0.0833844,2.95799,-76.6791,0,0,0,1  > $@
+Processed/ProstateX-0041/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,8.49396e-017,-86.4342,-9.71952e-011,0.473884,0.956878,-56.5339,3.27098e-011,-0.15948,2.84331,-29.0858,0,0,0,1  > $@
+Processed/ProstateX-0046/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-4.64581e-017,-102.82,-1.01932e-010,0.49698,0.329203,-105.144,1.12534e-011,-0.0548672,2.98188,23.6284,0,0,0,1  > $@
+Processed/ProstateX-0053/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,9.73031e-017,-79.6872,-1.02249e-010,0.498526,0.230157,-67.1409,7.86765e-012,-0.0383595,2.99116,-110.098,0,0,0,1  > $@
+Processed/ProstateX-0054/T2Axial.world:
+	mkdir -p $(@D); echo 0.6,1.23062e-010,-1.19538e-016,-98.0505,-1.19859e-010,0.584386,0.679954,-79.7107,2.78922e-011,-0.135991,2.92193,-7.09033,0,0,0,1  > $@
+Processed/ProstateX-0055/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-1.60118e-017,-98.0005,-1.00311e-010,0.489074,0.623735,-86.9117,2.13217e-011,-0.103956,2.93444,-25.767,0,0,0,1  > $@
+Processed/ProstateX-0067/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-4.64581e-017,-83.5427,-1.01932e-010,0.49698,0.329203,-63.4977,1.12534e-011,-0.0548672,2.98188,-0.847423,0,0,0,1  > $@
+Processed/ProstateX-0069/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-9.16204e-017,-94.1451,-1.02289e-010,0.49872,0.214492,-70.6547,7.3322e-012,-0.0357487,2.99232,-45.0667,0,0,0,1  > $@
+Processed/ProstateX-0071/T2Axial.world:
+	mkdir -p $(@D); echo 0.49928,-0.0200659,-0.106739,-82.4254,0.0211027,0.498665,0.17875,-76.6193,0.0165467,-0.0304997,2.99277,-59.2807,0,0,0,1  > $@
+Processed/ProstateX-0076/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-4.20055e-017,-103.784,-9.87257e-011,0.481346,0.811801,-76.8399,2.77505e-011,-0.1353,2.88808,60.2439,0,0,0,1  > $@
+Processed/ProstateX-0077/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-4.64581e-017,-101.856,-1.01932e-010,0.49698,0.329203,-74.3011,1.12534e-011,-0.0548672,2.98188,-5.28723,0,0,0,1  > $@
+Processed/ProstateX-0078/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-1.5706e-016,-98.0005,-1.01478e-010,0.494763,0.433069,-75.8248,1.4804e-011,-0.0721781,2.96858,-63.5152,0,0,0,1  > $@
+Processed/ProstateX-0082/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-1.60118e-017,-89.3258,-1.00311e-010,0.489074,0.623735,-69.794,2.13217e-011,-0.103956,2.93444,-12.7364,0,0,0,1  > $@
+Processed/ProstateX-0084/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,3.89646e-017,-103.784,-9.84297e-011,0.479903,0.842,-71.0659,2.87829e-011,-0.140333,2.87942,1.53604,0,0,0,1  > $@
+Processed/ProstateX-0092/T2Axial.world:
+	mkdir -p $(@D); echo 0.499559,-0.0209377,-0.00975051,-122.181,0.0209897,0.496549,0.328529,-62.7224,-0.000679011,-0.0547747,2.98194,-49.6015,0,0,0,1  > $@
+Processed/ProstateX-0094/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-5.50908e-017,-63.3017,-1.01554e-010,0.495134,0.417519,-64.1368,1.42725e-011,-0.0695865,2.9708,-57.3839,0,0,0,1  > $@
+Processed/ProstateX-0095/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,7.33771e-017,-115.35,-1.01698e-010,0.495836,0.386387,-77.2745,1.32082e-011,-0.0643978,2.97501,-0.302982,0,0,0,1  > $@
+Processed/ProstateX-0097/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-1.36713e-016,-107.011,-1.00735e-010,0.491144,0.562144,-76.2474,1.92163e-011,-0.0936907,2.94686,7.89587,0,0,0,1  > $@
+Processed/ProstateX-0099/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-4.64581e-017,-89.5667,-1.01932e-010,0.49698,0.329203,-79.4495,1.12534e-011,-0.0548672,2.98188,46.767,0,0,0,1  > $@
+Processed/ProstateX-0101/T2Axial.world:
+	mkdir -p $(@D); echo 0.599998,1.43254e-010,-0.00845051,-119.715,0.000673595,0.550287,1.19565,-75.4128,0.00155007,-0.239132,2.75142,-3.76988,0,0,0,1  > $@
+Processed/ProstateX-0102/T2Axial.world:
+	mkdir -p $(@D); echo 0.6,1.23062e-010,-1.09506e-016,-98.0505,-1.20004e-010,0.58509,0.664646,-63.8604,2.72642e-011,-0.132929,2.92545,-16.1805,0,0,0,1  > $@
+Processed/ProstateX-0103/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,1.32723e-016,-98.0005,-9.79654e-011,0.477639,0.887124,-77.1026,3.03253e-011,-0.147854,2.86584,-63.2229,0,0,0,1  > $@
+Processed/ProstateX-0104/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,2.33059e-017,-78.7234,-9.86771e-011,0.481109,0.816841,-90.1892,2.79228e-011,-0.13614,2.88665,-5.84103,0,0,0,1  > $@
+Processed/ProstateX-0105/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,1.18702e-016,-91.2535,-9.93298e-011,0.484292,0.74607,-70.9744,2.55036e-011,-0.124345,2.90575,-40.0229,0,0,0,1  > $@
+Processed/ProstateX-0106/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-4.64581e-017,-68.121,-1.01932e-010,0.49698,0.329203,-67.5541,1.12534e-011,-0.0548672,2.98188,-3.60048,0,0,0,1  > $@
+Processed/ProstateX-0110/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,9.3246e-017,-64.2655,-1.00082e-010,0.487958,0.65443,-75.654,2.23709e-011,-0.109072,2.92775,-17.2302,0,0,0,1  > $@
+Processed/ProstateX-0111/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,8.37211e-017,-111.494,-9.00387e-011,0.438991,1.43608,-72.545,4.90907e-011,-0.239346,2.63395,-25.0239,0,0,0,1  > $@
+Processed/ProstateX-0114/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02127e-010,0.00103914,-95.4872,-3.77769e-005,0.487961,0.654369,-82.6279,-0.00016902,-0.109062,2.92776,61.5823,0,0,0,1  > $@
+Processed/ProstateX-0115/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,1.4999e-016,-134.627,-1.00385e-010,0.489434,0.613488,-82.3924,2.09714e-011,-0.102248,2.9366,-37.6158,0,0,0,1  > $@
+Processed/ProstateX-0116/T2Axial.world:
+	mkdir -p $(@D); echo 0.6,1.23062e-010,-4.64581e-017,-67.2071,-1.22319e-010,0.596377,0.329203,-91.3065,1.35041e-011,-0.0658406,2.98188,6.43517,0,0,0,1  > $@
+Processed/ProstateX-0117/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-7.55701e-017,-81.7922,-1.00348e-010,0.489254,0.618613,-71.0173,2.11466e-011,-0.103102,2.93553,-59.023,0,0,0,1  > $@
+Processed/ProstateX-0118/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,5.01326e-017,-102.82,-1.00121e-010,0.488148,0.649319,-66.7237,2.21962e-011,-0.10822,2.92889,-10.2989,0,0,0,1  > $@
+Processed/ProstateX-0119/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,6.02204e-017,-98.0005,-9.64889e-011,0.47044,1.01621,-74.9078,3.47381e-011,-0.169369,2.82264,-6.51066,0,0,0,1  > $@
+Processed/ProstateX-0121/T2Axial.world:
+	mkdir -p $(@D); echo 0.499461,-0.00348695,-0.137725,-77.9987,0.00822869,0.488826,0.628748,-81.1187,0.0217104,-0.105056,2.93014,1.11735,0,0,0,1  > $@
+Processed/ProstateX-0122/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,1.15722e-016,-124.025,-9.95915e-011,0.485567,0.7156,-77.5097,2.4462e-011,-0.119267,2.9134,-30.8903,0,0,0,1  > $@
+Processed/ProstateX-0123/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,1.40962e-016,-83.3017,-1.00899e-010,0.491943,0.536407,-84.7036,1.83365e-011,-0.0894011,2.95166,28.0937,0,0,0,1  > $@
+Processed/ProstateX-0124/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-1.52499e-017,-122.097,-9.32437e-011,0.454618,1.24884,-75.7378,4.26903e-011,-0.20814,2.72771,74.353,0,0,0,1  > $@
+Processed/ProstateX-0125/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,4.40422e-017,-117.278,-1.02454e-010,0.499524,-0.130858,-61.9037,-4.47325e-012,0.0218097,2.99714,-63.4788,0,0,0,1  > $@
+Processed/ProstateX-0126/T2Axial.world:
+	mkdir -p $(@D); echo 0.499932,-0.00785355,-0.0154449,-94.3361,0.00823264,0.486918,0.679952,-78.0146,0.000726783,-0.113352,2.92189,-2.52414,0,0,0,1  > $@
+Processed/ProstateX-0127/T2Axial.world:
+	mkdir -p $(@D); echo 0.499491,8.5776e-011,0.135267,-79.7951,-0.00247643,0.496974,0.329203,-53.6075,-0.0224081,-0.054923,2.97881,-45.7074,0,0,0,1  > $@
+Processed/ProstateX-0128/T2Axial.world:
+	mkdir -p $(@D); echo 0.499767,-0.0130869,0.0471219,-110.316,0.0130885,0.499829,6.60593e-010,-67.7307,-0.00785096,0.000205584,2.99963,-16.4096,0,0,0,1  > $@
+Processed/ProstateX-0129/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-4.64581e-017,-74.3129,-1.01932e-010,0.49698,0.329203,-70.4456,1.12534e-011,-0.0548672,2.98188,7.23968,0,0,0,1  > $@
+Processed/ProstateX-0131/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-2.26278e-018,-52.6993,-1.02027e-010,0.49744,0.303169,-64.5037,1.03635e-011,-0.0505281,2.98464,-12.5583,0,0,0,1  > $@
+Processed/ProstateX-0133/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-1.19538e-016,-74.868,-9.98829e-011,0.486988,0.679954,-50.9701,2.32435e-011,-0.113326,2.92193,-39.1684,0,0,0,1  > $@
+Processed/ProstateX-0136/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-1.27089e-016,-96.0728,-1.01086e-010,0.492852,0.505468,-73.2766,1.72789e-011,-0.0842447,2.95711,-71.5104,0,0,0,1  > $@
+Processed/ProstateX-0139/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-1.86804e-017,-98.0005,-1.00311e-010,0.489074,0.727691,-78.0586,2.13217e-011,-0.103956,3.42352,20.4488,0,0,0,1  > $@
+Processed/ProstateX-0141/T2Axial.world:
+	mkdir -p $(@D); echo 0.299984,4.87218e-011,-0.0312256,-98.5462,0.000342671,0.298188,0.329203,-91.0262,0.0031037,-0.0329221,2.98172,-42.0437,0,0,0,1  > $@
+Processed/ProstateX-0142/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-4.64581e-017,-66.1933,-1.01932e-010,0.49698,0.329203,-65.7146,1.12534e-011,-0.0548672,2.98188,16.0682,0,0,0,1  > $@
+Processed/ProstateX-0143/T2Axial.world:
+	mkdir -p $(@D); echo 0.499669,2.77773e-010,-0.109203,-108.187,0.00209329,0.496682,0.344811,-78.7788,0.0180797,-0.0575066,2.97812,11.2922,0,0,0,1  > $@
+Processed/ProstateX-0145/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-1.1325e-016,-84.5065,-9.63057e-011,0.469547,1.03098,-76.718,3.52429e-011,-0.17183,2.81728,60.3119,0,0,0,1  > $@
+Processed/ProstateX-0148/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-4.64581e-017,-86.4342,-1.01932e-010,0.49698,0.329203,-55.5059,1.12534e-011,-0.0548672,2.98188,9.17061,0,0,0,1  > $@
+Processed/ProstateX-0150/T2Axial.world:
+	mkdir -p $(@D); echo 0.498775,-0.0156746,0.187582,-81.4061,0.0120529,0.496628,0.340221,-79.5524,-0.0328304,-0.055811,2.97474,13.875,0,0,0,1  > $@
+Processed/ProstateX-0152/T2Axial.world:
+	mkdir -p $(@D); echo 0.599576,0.00732556,0.10671,-86.7501,-0.0113272,0.588529,0.581055,-79.0393,-0.0195152,-0.116532,2.94126,-83,0,0,0,1  > $@
+Processed/ProstateX-0153/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,6.29195e-017,-66.1933,-9.99233e-011,0.487185,0.674853,-61.6271,2.30691e-011,-0.112476,2.92311,13.5266,0,0,0,1  > $@
+Processed/ProstateX-0162/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-1.28506e-016,-93.1812,-9.51512e-011,0.463918,1.67844,-75.4532,3.82505e-011,-0.186494,4.17526,19.0753,0,0,0,1  > $@
+Processed/ProstateX-0164/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-1.06972e-016,-105.711,-9.66096e-011,0.471029,1.00635,-75.7383,3.44011e-011,-0.167726,2.82617,-49.5526,0,0,0,1  > $@
+Processed/ProstateX-0165/T2Axial.world:
+	mkdir -p $(@D); echo 0.3,6.1531e-011,-7.87814e-017,-93.0812,-5.58113e-011,0.272113,1.26311,-88.9336,2.59068e-011,-0.126311,2.72113,58.4359,0,0,0,1  > $@
+Processed/ProstateX-0168/T2Axial.world:
+	mkdir -p $(@D); echo 0.3,6.1531e-011,-1.09506e-016,-77.6595,-6.0002e-011,0.292545,0.664645,-81.8447,1.36321e-011,-0.0664646,2.92545,-26.3003,0,0,0,1  > $@
+Processed/ProstateX-0169/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,5.01326e-017,-90.2896,-1.00121e-010,0.488148,0.649319,-80.8924,2.21962e-011,-0.10822,2.92889,22.0867,0,0,0,1  > $@
+Processed/ProstateX-0172/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-4.64581e-017,-89.3258,-1.01932e-010,0.49698,0.329203,-69.811,1.12534e-011,-0.0548672,2.98188,21.1864,0,0,0,1  > $@
+Processed/ProstateX-0173/T2Axial.world:
+	mkdir -p $(@D); echo 0.6,1.23062e-010,5.89287e-017,-98.0505,-1.11982e-010,0.545977,1.24408,-55.7151,5.1033e-011,-0.248816,2.72988,-20.1055,0,0,0,1  > $@
+Processed/ProstateX-0174/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-1.46053e-017,-98.0005,-9.97599e-011,0.486388,0.695244,-101.763,2.37662e-011,-0.115874,2.91833,-0.650488,0,0,0,1  > $@
+Processed/ProstateX-0179/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,2.23974e-017,-102.82,-8.70635e-011,0.424486,1.58531,-68.0811,5.41923e-011,-0.264219,2.54692,-0.0281931,0,0,0,1  > $@
+Processed/ProstateX-0181/T2Axial.world:
+	mkdir -p $(@D); echo 0.3,6.1531e-011,1.00566e-016,-107.539,-5.94621e-011,0.289913,0.771398,-70.1126,1.58216e-011,-0.0771398,2.89913,3.37259,0,0,0,1  > $@
+Processed/ProstateX-0182/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-4.64581e-017,-94.1451,-1.01932e-010,0.49698,0.329203,-72.7026,1.12534e-011,-0.0548672,2.98188,-18.8715,0,0,0,1  > $@
+Processed/ProstateX-0183/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-8.83861e-017,-81.6149,-9.90574e-011,0.482963,0.776457,-50.8449,2.65423e-011,-0.12941,2.89778,-10.145,0,0,0,1  > $@
+Processed/ProstateX-0184/T2Axial.world:
+	mkdir -p $(@D); echo 0.499521,-0.0113357,-0.112325,-84.3483,0.016574,0.475253,0.926791,-89.5818,0.0142923,-0.154938,2.85104,-91.3925,0,0,0,1  > $@
+Processed/ProstateX-0186/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,1.83796e-017,-92.2174,-9.61199e-011,0.468641,1.04572,-76.6164,3.57466e-011,-0.174286,2.81185,37.6295,0,0,0,1  > $@
+Processed/ProstateX-0187/T2Axial.world:
+	mkdir -p $(@D); echo 0.499835,1.04218e-010,-0.0770729,-83.3718,-0.00066973,0.49932,-0.15636,-70.9392,0.012828,0.0260687,2.99493,-65.7131,0,0,0,1  > $@
+Processed/ProstateX-0188/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-4.64581e-017,-102.82,-1.01932e-010,0.49698,0.329203,-66.5821,1.12534e-011,-0.0548672,2.98188,-37.3294,0,0,0,1  > $@
+Processed/ProstateX-0190/T2Axial.world:
+	mkdir -p $(@D); echo 0.49872,6.1185e-011,0.214562,-90.2397,-0.00969611,0.48127,0.811342,-69.4257,-0.0344207,-0.135571,2.88022,-24.0774,0,0,0,1  > $@
+Processed/ProstateX-0191/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-4.1968e-017,-69.946,-1.0255e-010,0.499993,-0.0157079,-61.0098,-5.3695e-013,0.00261798,2.99996,-23.7136,0,0,0,1  > $@
+Processed/ProstateX-0192/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-1.34967e-016,-79.6872,-9.76425e-011,0.476065,0.917086,-68.8235,3.13496e-011,-0.152848,2.85639,13.6096,0,0,0,1  > $@
+Processed/ProstateX-0193/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,5.01326e-017,-84.5065,-1.00121e-010,0.488148,0.649319,-65.1359,2.21962e-011,-0.10822,2.92889,1.14926,0,0,0,1  > $@
+Processed/ProstateX-0194/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,-1.22248e-016,-104.747,-9.8917e-011,0.482279,0.791619,-61.2339,2.70606e-011,-0.131937,2.89367,20.9869,0,0,0,1  > $@
+Processed/ProstateX-0195/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,-5e-017,0,-97.3642,5e-017,0.5,-0,-97.0388,0,0,3,1.1683,0,0,0,1  > $@
+Processed/ProstateX-0196/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,9.56419e-017,-73.9041,-1.01603e-010,0.495374,0.407147,-67.4286,1.39179e-011,-0.0678578,2.97224,-11.9323,0,0,0,1  > $@
+Processed/ProstateX-0197/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,3.33774e-017,-73.9041,-9.7697e-011,0.476331,0.912099,-77.7912,3.11791e-011,-0.152017,2.85798,43.5067,0,0,0,1  > $@
+Processed/ProstateX-0198/T2Axial.world:
+	mkdir -p $(@D); echo 0.5,1.02552e-010,8.35439e-017,-98.0005,-1.00994e-010,0.492404,0.520945,-71.9645,1.78079e-011,-0.0868241,2.95442,-114.296,0,0,0,1  > $@
+Processed/ProstateX-0199/T2Axial.world:
+	mkdir -p $(@D); echo 0.5625,1.15371e-010,5.10256e-017,-97.0609,-1.1062e-010,0.539336,0.852046,-135.651,3.2767e-011,-0.159759,2.87646,-9.74805,0,0,0,1  > $@
+Processed/ProstateX-0200/T2Axial.world:
+	mkdir -p $(@D); echo 0.5625,1.15371e-010,-1.43618e-016,-86.4585,-1.14896e-010,0.560185,0.271898,-127.653,1.04564e-011,-0.0509808,2.98765,-83.8508,0,0,0,1  > $@
+Processed/ProstateX-0201/T2Axial.world:
+	mkdir -p $(@D); echo 0.56178,-0.0284585,0,-92.6812,0.0284585,0.56178,-0,-107.036,0,0,3,-27.5849,0,0,0,1  > $@
+Processed/ProstateX-0202/T2Axial.world:
+	mkdir -p $(@D); echo 0.5625,1.15371e-010,-1.51273e-017,-94.1693,-1.14436e-010,0.557941,0.381194,-131.235,1.46595e-011,-0.0714738,2.97568,-3.9179,0,0,0,1  > $@
+Processed/ProstateX-0203/T2Axial.world:
+	mkdir -p $(@D); echo 0.5625,1.15371e-010,-7.55701e-017,-91.2778,-1.12891e-010,0.550411,0.618613,-98.4551,2.37899e-011,-0.11599,2.93553,-93.5966,0,0,0,1  > $@
+Processed/ProstateX-0000/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,73.1629,0.5625,0,0,-67.018,0,-0.5625,0,56.5559,0,0,0,1  > $@
+Processed/ProstateX-0001/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,12.0313,0.5625,0,0,-57.3795,0,-0.5625,0,80.6427,0,0,0,1  > $@
+Processed/ProstateX-0002/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,26.4892,0.5625,0,0,-61.2349,0,-0.5625,0,60.4017,0,0,0,1  > $@
+Processed/ProstateX-0004/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,15.8867,0.5625,0,0,-70.8734,0,-0.5625,0,121.125,0,0,0,1  > $@
+Processed/ProstateX-0005/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,14.9229,0.5625,0,0,-61.2349,0,-0.5625,0,107.631,0,0,0,1  > $@
+Processed/ProstateX-0014/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,16.8506,0.5625,0,0,-51.5963,0,-0.5625,0,99.9198,0,0,0,1  > $@
+Processed/ProstateX-0015/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,20.706,0.5625,0,0,-77.6204,0,-0.5625,0,58.474,0,0,0,1  > $@
+Processed/ProstateX-0016/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,26.4892,0.5625,0,0,-63.1626,0,-0.5625,0,102.811,0,0,0,1  > $@
+Processed/ProstateX-0018/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,39.0193,0.5625,0,0,-64.1265,0,-0.5625,0,90.2813,0,0,0,1  > $@
+Processed/ProstateX-0019/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,39.0193,0.5625,0,0,-68.9457,0,-0.5625,0,52.6909,0,0,0,1  > $@
+Processed/ProstateX-0026/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,34.2,0.5625,0,0,-53.5241,0,-0.5625,0,74.8596,0,0,0,1  > $@
+Processed/ProstateX-0028/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,39.0193,0.5625,0,0,-59.3072,0,-0.5625,0,88.3535,0,0,0,1  > $@
+Processed/ProstateX-0031/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,22.6337,0.5625,0,0,-63.1626,0,-0.5625,0,90.2813,0,0,0,1  > $@
+Processed/ProstateX-0035/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,35.1639,0.5625,0,0,-54.4879,0,-0.5625,0,83.5343,0,0,0,1  > $@
+Processed/ProstateX-0037/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,59.2602,0.5625,0,0,-63.1626,0,-0.5625,0,90.2813,0,0,0,1  > $@
+Processed/ProstateX-0040/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,65.0434,0.5625,0,0,-73.765,0,-0.5625,0,27.6306,0,0,0,1  > $@
+Processed/ProstateX-0041/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,45.7663,0.5625,0,0,-49.6686,0,-0.5625,0,64.2572,0,0,0,1  > $@
+Processed/ProstateX-0046/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,29.3807,0.5625,0,0,-71.8373,0,-0.5625,0,135.582,0,0,0,1  > $@
+Processed/ProstateX-0053/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,49.6217,0.5625,0,0,-60.271,0,-0.5625,0,-1.28502,0,0,0,1  > $@
+Processed/ProstateX-0054/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,40.6916,0.5625,0,0,-63.1626,0,-0.5625,0,90.2813,0,0,0,1  > $@
+Processed/ProstateX-0055/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,34.2,0.5625,0,0,-71.8373,0,-0.5625,0,81.6066,0,0,0,1  > $@
+Processed/ProstateX-0067/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,44.547,0.5625,0,0,-58.3433,0,-0.5625,0,114.378,0,0,0,1  > $@
+Processed/ProstateX-0069/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,34.2,0.5625,0,0,-63.1626,0,-0.5625,0,71.968,0,0,0,1  > $@
+Processed/ProstateX-0071/T2Sag.world:
+	mkdir   -p $(@D); echo -0.0225741,0.0200134,-3.59482,41.4461,0.560999,-0.0335157,-0.151939,-63.681,-0.0343122,-0.561144,-0.119136,67.7195,0,0,0,1  > $@
+Processed/ProstateX-0076/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,26.4892,0.5625,0,0,-67.9819,0,-0.5625,0,149.076,0,0,0,1  > $@
+Processed/ProstateX-0077/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,27.453,0.5625,0,0,-73.765,0,-0.5625,0,105.703,0,0,0,1  > $@
+Processed/ProstateX-0078/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,41.9108,0.5625,0,0,-46.7771,0,-0.5625,0,44.98,0,0,0,1  > $@
+Processed/ProstateX-0082/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,42.8747,0.5625,0,0,-63.1626,0,-0.5625,0,90.2813,0,0,0,1  > $@
+Processed/ProstateX-0084/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,24.5614,0.5625,0,0,-63.1626,0,-0.5625,0,90.2813,0,0,0,1  > $@
+Processed/ProstateX-0092/T2Sag.world:
+	mkdir   -p $(@D); echo -0.0166873,0,-3.59842,5.13169,0.562252,0,-0.106799,-36.5641,0,-0.5625,-0,71.4861,0,0,0,1  > $@
+Processed/ProstateX-0094/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,67.9349,0.5625,0,0,-53.5241,0,-0.5625,0,55.8234,0,0,0,1  > $@
+Processed/ProstateX-0095/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,15.8867,0.5625,0,0,-76.6566,0,-0.5625,0,102.811,0,0,0,1  > $@
+Processed/ProstateX-0097/T2Sag.world:
+	mkdir   -p $(@D); echo -0.00687206,0,-3.59973,19.8787,0.562458,-5.625e-017,-0.0439812,-64.6658,0,-0.5625,4.39812e-018,116.305,0,0,0,1  > $@
+Processed/ProstateX-0099/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,39.9831,0.5625,0,0,-68.9457,0,-0.5625,0,162.57,0,0,0,1  > $@
+Processed/ProstateX-0101/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,19.0629,0.5625,0,0,-67.018,0,-0.5625,0,78.7228,0,0,0,1  > $@
+Processed/ProstateX-0102/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,30.3446,0.5625,0,0,-55.4518,0,-0.5625,0,79.6788,0,0,0,1  > $@
+Processed/ProstateX-0103/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,31.3084,0.5625,0,0,-62.1988,0,-0.5625,0,32.209,0,0,0,1  > $@
+Processed/ProstateX-0104/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,54.441,0.5625,0,0,-77.6204,0,-0.5625,0,88.3535,0,0,0,1  > $@
+Processed/ProstateX-0105/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,38.0554,0.5625,0,0,-57.3795,0,-0.5625,0,58.474,0,0,0,1  > $@
+Processed/ProstateX-0106/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,66.9711,0.5625,0,0,-62.9216,0,-0.5625,0,108.354,0,0,0,1  > $@
+Processed/ProstateX-0110/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,64.0795,0.5625,0,0,-67.5,0,-0.5625,0,91.727,0,0,0,1  > $@
+Processed/ProstateX-0111/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,21.6699,0.5625,0,0,-63.1626,0,-0.5625,0,53.6547,0,0,0,1  > $@
+Processed/ProstateX-0114/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0.000981722,-3.59999,34.0424,0.5625,0,0,-69.9096,0,-0.562499,-0.00628302,159.738,0,0,0,1  > $@
+Processed/ProstateX-0115/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,-4.35422,0.5625,0,0,-68.2228,0,-0.5625,0,61.3656,0,0,0,1  > $@
+Processed/ProstateX-0116/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,60.2241,0.5625,0,0,-80.512,0,-0.5625,0,105.703,0,0,0,1  > $@
+Processed/ProstateX-0117/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,46.7301,0.5625,0,0,-60.271,0,-0.5625,0,40.1608,0,0,0,1  > $@
+Processed/ProstateX-0118/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,27.453,0.5625,0,0,-59.3072,0,-0.5625,0,91.2451,0,0,0,1  > $@
+Processed/ProstateX-0119/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,36.1277,0.5625,0,0,-67.9819,0,-0.5625,0,82.5704,0,0,0,1  > $@
+Processed/ProstateX-0121/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0.0186498,-3.59802,52.1808,0.5625,0,0,-67.259,0,-0.562191,-0.119359,110.639,0,0,0,1  > $@
+Processed/ProstateX-0122/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,4.32048,0.5625,0,0,-79.5481,0,-0.5625,0,67.1487,0,0,0,1  > $@
+Processed/ProstateX-0123/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,49.3807,0.5625,0,0,-70.8734,0,-0.5625,0,136.546,0,0,0,1  > $@
+Processed/ProstateX-0124/T2Sag.world:
+	mkdir   -p $(@D); echo -0.0206121,0,-3.59758,11.4612,0.562122,-5.625e-017,-0.131917,-64.7403,0,-0.5625,1.31917e-017,153.896,0,0,0,1  > $@
+Processed/ProstateX-0125/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,11.0675,0.5625,0,0,-58.8253,0,-0.5625,0,65.7029,0,0,0,1  > $@
+Processed/ProstateX-0126/T2Sag.world:
+	mkdir   -p $(@D); echo -0.00785375,0,-3.59965,37.3849,0.562445,0,-0.050264,-62.6763,0,-0.5625,-0,107.631,0,0,0,1  > $@
+Processed/ProstateX-0127/T2Sag.world:
+	mkdir   -p $(@D); echo 0,-0.0186498,-3.59802,55.6034,0.5625,0,0,-53.7923,0,-0.562191,0.119359,62.1533,0,0,0,1  > $@
+Processed/ProstateX-0128/T2Sag.world:
+	mkdir   -p $(@D); echo -0.00920168,-0.00552212,-3.59832,22.5717,0.351442,-9.94005e-010,-0.0942368,-58.2234,0.000144551,-0.351519,0.0565272,100.975,0,0,0,1  > $@
+Processed/ProstateX-0129/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,57.3325,0.5625,0,0,-67.9819,0,-0.5625,0,118.233,0,0,0,1  > $@
+Processed/ProstateX-0131/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,75.6458,0.5625,0,0,-59.7891,0,-0.5625,0,97.0282,0,0,0,1  > $@
+Processed/ProstateX-0133/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,56.3687,0.5625,0,0,-46.7771,0,-0.5625,0,64.4981,0,0,0,1  > $@
+Processed/ProstateX-0136/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,34.2,0.5625,0,0,-58.1024,0,-0.5625,0,35.5825,0,0,0,1  > $@
+Processed/ProstateX-0139/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,27.453,0.5625,0,0,-67.018,0,-0.5625,0,124.016,0,0,0,1  > $@
+Processed/ProstateX-0141/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,34.2,0.5625,0,0,-77.6204,0,-0.5625,0,74.8596,0,0,0,1  > $@
+Processed/ProstateX-0142/T2Sag.world:
+	mkdir   -p $(@D); echo 0,-0.00981698,-3.59945,64.6861,0.5625,0,0,-51.5963,0,-0.562414,0.0628287,117.622,0,0,0,1  > $@
+Processed/ProstateX-0143/T2Sag.world:
+	mkdir   -p $(@D); echo 4.56955e-007,0.0204755,-3.59761,18.3524,0.558766,-0.0646645,-0.0150717,-56.9833,-0.0647073,-0.558395,-0.130174,140.832,0,0,0,1  > $@
+Processed/ProstateX-0145/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,45.7663,0.5625,0,0,-60.271,0,-0.5625,0,149.076,0,0,0,1  > $@
+Processed/ProstateX-0148/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,42.8747,0.5625,0,0,-47.7409,0,-0.5625,0,104.739,0,0,0,1  > $@
+Processed/ProstateX-0150/T2Sag.world:
+	mkdir   -p $(@D); echo -0.00950202,-0.0381706,-3.59119,56.2004,0.559143,0.0598463,-0.0866532,-77.2966,0.0606186,-0.558003,0.236364,99.7538,0,0,0,1  > $@
+Processed/ProstateX-0152/T2Sag.world:
+	mkdir   -p $(@D); echo 0.00732602,-0.0198465,-3.59745,50.6418,0.554084,-0.0963523,0.0679903,-53.9018,-0.096659,-0.553831,0.117086,28.0479,0,0,0,1  > $@
+Processed/ProstateX-0153/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,64.0795,0.5625,0,0,-45.8132,0,-0.5625,0,110.522,0,0,0,1  > $@
+Processed/ProstateX-0162/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,36.1277,0.5625,0,0,-63.1626,0,-0.5625,0,110.522,0,0,0,1  > $@
+Processed/ProstateX-0164/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,25.5253,0.5625,0,0,-61.2349,0,-0.5625,0,44.0162,0,0,0,1  > $@
+Processed/ProstateX-0165/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,37.0916,0.5625,0,0,-82.6807,0,-0.5625,0,135.582,0,0,0,1  > $@
+Processed/ProstateX-0168/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,51.5494,0.5625,0,0,-65.5722,0,-0.5625,0,75.3415,0,0,0,1  > $@
+Processed/ProstateX-0169/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,39.9831,0.5625,0,0,-65.0903,0,-0.5625,0,114.378,0,0,0,1  > $@
+Processed/ProstateX-0172/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,43.8386,0.5625,0,0,-59.3072,0,-0.5625,0,126.908,0,0,0,1  > $@
+Processed/ProstateX-0173/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,31.3084,0.5625,0,0,-42.9216,0,-0.5625,0,63.2933,0,0,0,1  > $@
+Processed/ProstateX-0174/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,31.3084,0.5625,0,0,-87.259,0,-0.5625,0,96.0644,0,0,0,1  > $@
+Processed/ProstateX-0179/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,23.7518,0.5625,0,0,-62.1988,0,-0.5625,0,63.2933,0,0,0,1  > $@
+Processed/ProstateX-0181/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,20.706,0.5625,0,0,-59.0662,0,-0.5625,0,107.149,0,0,0,1  > $@
+Processed/ProstateX-0182/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,40.947,0.5625,0,0,-63.1626,0,-0.5625,0,90.2813,0,0,0,1  > $@
+Processed/ProstateX-0183/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,48.6578,0.5625,0,0,-54.4879,0,-0.5625,0,91.2451,0,0,0,1  > $@
+Processed/ProstateX-0184/T2Sag.world:
+	mkdir   -p $(@D); echo 5.625e-017,0.00294526,-3.59995,43.1938,0.5625,-5.625e-017,3.59995e-016,-57.382,0,-0.562492,-0.0188496,-0.866219,0,0,0,1  > $@
+Processed/ProstateX-0186/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,35.1639,0.5625,0,0,-72.8012,0,-0.5625,0,120.161,0,0,0,1  > $@
+Processed/ProstateX-0187/T2Sag.world:
+	mkdir   -p $(@D); echo 0.0117801,0,-3.59921,46.7596,0.562377,0,0.0753928,-62.8952,0,-0.5625,0,80.6427,0,0,0,1  > $@
+Processed/ProstateX-0188/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,30.3446,0.5625,0,0,-56.4156,0,-0.5625,0,82.5704,0,0,0,1  > $@
+Processed/ProstateX-0190/T2Sag.world:
+	mkdir   -p $(@D); echo 0,-0.0304194,-3.59473,46.7431,0.5625,0,0,-63.1626,0,-0.561677,0.194684,57.4563,0,0,0,1  > $@
+Processed/ProstateX-0191/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3,56.1221,0.5625,0,0,-66.0915,0,-0.5625,0,95.1052,0,0,0,1  > $@
+Processed/ProstateX-0192/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,54.441,0.5625,0,0,-54.4879,0,-0.5625,0,112.45,0,0,0,1  > $@
+Processed/ProstateX-0193/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,41.9108,0.5625,0,0,-60.271,0,-0.5625,0,93.1728,0,0,0,1  > $@
+Processed/ProstateX-0194/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,28.4169,0.5625,0,0,-63.1626,0,-0.5625,0,106.667,0,0,0,1  > $@
+Processed/ProstateX-0195/T2Sag.world:
+	mkdir   -p $(@D); echo -0.0127616,0.0215874,-3.59642,27.3797,0.562355,0.000489886,-0.0816142,-84.4479,-1.52756e-009,-0.562085,-0.138195,124.317,0,0,0,1  > $@
+Processed/ProstateX-0196/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,59.2602,0.5625,0,0,-63.1626,0,-0.5625,0,96.5463,0,0,0,1  > $@
+Processed/ProstateX-0197/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,58.2964,0.5625,0,0,-68.9457,0,-0.5625,0,125.944,0,0,0,1  > $@
+Processed/ProstateX-0198/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3.6,24.5614,0.5625,0,0,-73.765,0,-0.5625,0,-5.14044,0,0,0,1  > $@
+Processed/ProstateX-0199/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3,21.641,0.5625,0,0,-111.831,0,-0.5625,0,83.1384,0,0,0,1  > $@
+Processed/ProstateX-0200/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3,33.3297,0.5625,0,0,-121.298,0,-0.5625,0,24.2543,0,0,0,1  > $@
+Processed/ProstateX-0201/T2Sag.world:
+	mkdir   -p $(@D); echo -0.0431544,1.34012e-007,-2.99116,26.8005,0.560842,5.1482e-009,-0.230157,-101.21,-5.1482e-009,-0.5625,-7.14729e-007,104.129,0,0,0,1  > $@
+Processed/ProstateX-0202/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3,25.5104,0.5625,0,0,-124.961,0,-0.5625,0,99.3748,0,0,0,1  > $@
+Processed/ProstateX-0203/T2Sag.world:
+	mkdir   -p $(@D); echo 0,0,-3,24.5466,0.5625,0,0,-96.3345,0,-0.5625,0,4.68803,0,0,0,1  > $@
+Processed/ProstateX-0000/ADC.world:
+	mkdir     -p $(@D); echo 2,4.0067e-010,0.00377059,-46.6873,-0.000797221,1.89675,0.95144,-114.14,-0.00238396,-0.634294,2.84513,-18.0506,0,0,0,1  > $@
+Processed/ProstateX-0001/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-107.955,-4.0773e-010,1.98792,0.329203,-98.8051,4.50138e-011,-0.219469,2.98188,-31.2356,0,0,0,1  > $@
+Processed/ProstateX-0002/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,7.98512e-017,-92.5336,-3.98536e-010,1.9431,0.710514,-104.693,9.71526e-011,-0.473676,2.91465,-28.9956,0,0,0,1  > $@
+Processed/ProstateX-0004/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,6.33633e-017,-106.913,-3.98022e-010,1.94059,1.08865,-117.714,9.9238e-011,-0.483844,4.36633,18.6402,0,0,0,1  > $@
+Processed/ProstateX-0005/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,1.10673e-016,-106.028,-4.08646e-010,1.99239,0.261467,-101.775,3.57518e-011,-0.174311,2.98858,5.40256,0,0,0,1  > $@
+Processed/ProstateX-0014/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-102.172,-4.0773e-010,1.98792,0.329203,-99.1424,4.50138e-011,-0.219469,2.98188,-2.65728,0,0,0,1  > $@
+Processed/ProstateX-0015/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-100.244,-4.0773e-010,1.98792,0.329203,-115.528,4.50138e-011,-0.219469,2.98188,-50.8501,0,0,0,1  > $@
+Processed/ProstateX-0016/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,5.01326e-017,-91.5698,-4.00483e-010,1.95259,0.649319,-107.301,8.8785e-011,-0.432879,2.92889,7.71841,0,0,0,1  > $@
+Processed/ProstateX-0018/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-4.05772e-017,-86.7505,-3.91221e-010,1.90743,0.902117,-100.358,1.23352e-010,-0.601412,2.86115,8.66716,0,0,0,1  > $@
+Processed/ProstateX-0019/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,6.89354e-017,-83.8589,-3.89461e-010,1.89885,0.941977,-110.785,1.28802e-010,-0.627985,2.84828,-23.2315,0,0,0,1  > $@
+Processed/ProstateX-0026/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-79.0396,-4.0773e-010,1.98792,0.329203,-95.287,4.50138e-011,-0.219469,2.98188,-42.4966,0,0,0,1  > $@
+Processed/ProstateX-0028/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-74.2204,-4.0773e-010,1.98792,0.329203,-100.106,4.50138e-011,-0.219469,2.98188,-15.1874,0,0,0,1  > $@
+Processed/ProstateX-0031/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,6.91944e-017,-96.389,-3.79798e-010,1.85174,1.13352,-105.47,1.54993e-010,-0.755682,2.77761,25.8208,0,0,0,1  > $@
+Processed/ProstateX-0035/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-6.25333e-017,-86.7505,-3.94316e-010,1.92252,0.826912,-104.472,1.13068e-010,-0.551275,2.88379,-17.8851,0,0,0,1  > $@
+Processed/ProstateX-0037/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-6.76657e-017,-59.7625,-4.05268e-010,1.97592,-0.464131,-99.5063,-6.34632e-011,0.309421,2.96388,-44.3105,0,0,0,1  > $@
+Processed/ProstateX-0040/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,1.39065e-016,-57.8348,-4.04462e-010,1.97199,0.500306,-111.307,6.84096e-011,-0.333537,2.95799,-71.2174,0,0,0,1  > $@
+Processed/ProstateX-0041/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,8.49396e-017,-75.1842,-3.88781e-010,1.89554,0.956878,-86.6164,1.30839e-010,-0.637919,2.84331,-15.7966,0,0,0,1  > $@
+Processed/ProstateX-0046/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-91.5698,-4.0773e-010,1.98792,0.329203,-137.697,4.50138e-011,-0.219469,2.98188,27.2222,0,0,0,1  > $@
+Processed/ProstateX-0053/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,9.73031e-017,-68.4372,-4.08998e-010,1.99411,0.230157,-99.7944,3.14706e-011,-0.153438,2.99116,-107.586,0,0,0,1  > $@
+Processed/ProstateX-0054/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-1.19538e-016,-86.7505,-3.99532e-010,1.94795,0.679954,-110.88,9.2974e-011,-0.453303,2.92193,3.2431,0,0,0,1  > $@
+Processed/ProstateX-0055/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-1.60118e-017,-86.7505,-4.01243e-010,1.9563,0.623735,-118.946,8.52868e-011,-0.415823,2.93444,-18.9579,0,0,0,1  > $@
+Processed/ProstateX-0067/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-72.2927,-4.0773e-010,1.98792,0.329203,-95.7208,4.50138e-011,-0.219469,2.98188,5.72826,0,0,0,1  > $@
+Processed/ProstateX-0069/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-9.16204e-017,-82.8951,-4.09157e-010,1.99488,0.214492,-103.321,2.93288e-011,-0.142995,2.99232,-42.7252,0,0,0,1  > $@
+Processed/ProstateX-0071/ADC.world:
+	mkdir     -p $(@D); echo 1.99712,-0.0802128,-0.106739,-69.8806,0.08436,1.99466,0.17875,-108.805,0.06619,-0.121997,2.99277,-56.9109,0,0,0,1  > $@
+Processed/ProstateX-0076/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-4.20055e-017,-92.5336,-3.94903e-010,1.92538,0.811801,-108.368,1.11002e-010,-0.541201,2.88808,69.1061,0,0,0,1  > $@
+Processed/ProstateX-0077/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-90.6059,-4.0773e-010,1.98792,0.329203,-106.853,4.50138e-011,-0.219469,2.98188,-1.69343,0,0,0,1  > $@
+Processed/ProstateX-0078/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-1.5706e-016,-86.7505,-4.0591e-010,1.97905,0.433069,-108.232,5.9216e-011,-0.288712,2.96858,-58.7875,0,0,0,1  > $@
+Processed/ProstateX-0082/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-1.60118e-017,-78.0758,-4.01243e-010,1.9563,0.623735,-101.828,8.52868e-011,-0.415823,2.93444,-5.92726,0,0,0,1  > $@
+Processed/ProstateX-0084/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,3.89646e-017,-92.5336,-3.93719e-010,1.91961,0.842,-102.5,1.15131e-010,-0.561333,2.87942,10.7279,0,0,0,1  > $@
+Processed/ProstateX-0092/ADC.world:
+	mkdir     -p $(@D); echo 1.99824,-0.0837509,-0.00975051,-109.569,0.0839588,1.9862,0.328529,-94.7741,-0.00271604,-0.219099,2.98194,-46.029,0,0,0,1  > $@
+Processed/ProstateX-0094/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-5.50908e-017,-52.0517,-4.06215e-010,1.98054,0.417519,-96.5681,5.70898e-011,-0.278346,2.9708,-52.826,0,0,0,1  > $@
+Processed/ProstateX-0095/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,7.33771e-017,-104.1,-4.0679e-010,1.98334,0.386387,-109.752,5.28328e-011,-0.257591,2.97501,3.91507,0,0,0,1  > $@
+Processed/ProstateX-0097/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-1.36713e-016,-95.7607,-4.02941e-010,1.96457,0.562144,-108.417,7.68652e-011,-0.374763,2.94686,14.0326,0,0,0,1  > $@
+Processed/ProstateX-0099/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-78.3167,-4.0773e-010,1.98792,0.329203,-111.673,4.50138e-011,-0.219469,2.98188,53.3427,0,0,0,1  > $@
+Processed/ProstateX-0101/ADC.world:
+	mkdir     -p $(@D); echo 1.99999,4.77514e-010,-0.00845051,-108.415,0.00224532,1.83429,1.19565,-105.391,0.0051669,-0.797107,2.75142,9.292,0,0,0,1  > $@
+Processed/ProstateX-0102/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-1.09506e-016,-86.7505,-4.00013e-010,1.9503,0.664646,-95.0832,9.08808e-011,-0.443097,2.92545,-6.01038,0,0,0,1  > $@
+Processed/ProstateX-0103/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,1.54843e-016,-86.7505,-3.91862e-010,1.91056,1.03498,-108.905,1.21301e-010,-0.591416,3.34347,-55.2102,0,0,0,1  > $@
+Processed/ProstateX-0104/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,2.33059e-017,-67.4734,-3.94708e-010,1.92444,0.816841,-121.702,1.11691e-010,-0.54456,2.88665,3.07615,0,0,0,1  > $@
+Processed/ProstateX-0105/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,1.18702e-016,-80.0035,-3.97319e-010,1.93717,0.74607,-102.695,1.02014e-010,-0.49738,2.90575,-31.8784,0,0,0,1  > $@
+Processed/ProstateX-0106/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-56.871,-4.0773e-010,1.98792,0.329203,-100.106,4.50138e-011,-0.219469,2.98188,-0.00668157,0,0,0,1  > $@
+Processed/ProstateX-0110/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,9.3246e-017,-53.0155,-4.00328e-010,1.95183,0.65443,-107.615,8.94838e-011,-0.436286,2.92775,-10.086,0,0,0,1  > $@
+Processed/ProstateX-0111/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,8.37211e-017,-100.244,-3.60155e-010,1.75597,1.43608,-101.299,1.96363e-010,-0.957384,2.63395,-9.34675,0,0,0,1  > $@
+Processed/ProstateX-0114/ADC.world:
+	mkdir     -p $(@D); echo 2,4.08507e-010,0.00103914,-84.2372,-0.000151108,1.95184,0.654369,-114.59,-0.00067608,-0.436246,2.92776,68.7221,0,0,0,1  > $@
+Processed/ProstateX-0115/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,1.4999e-016,-123.377,-4.01538e-010,1.95773,0.613488,-114.45,8.38856e-011,-0.408992,2.9366,-30.9185,0,0,0,1  > $@
+Processed/ProstateX-0116/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-55.9071,-4.0773e-010,1.98792,0.329203,-123.48,4.50138e-011,-0.219469,2.98188,13.0054,0,0,0,1  > $@
+Processed/ProstateX-0117/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-7.55701e-017,-70.5422,-4.01391e-010,1.95702,0.618613,-101.826,8.45864e-011,-0.412408,2.93553,-46.3988,0,0,0,1  > $@
+Processed/ProstateX-0118/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,5.01326e-017,-91.5698,-4.00483e-010,1.95259,0.649319,-97.3987,8.8785e-011,-0.432879,2.92889,2.6473,0,0,0,1  > $@
+Processed/ProstateX-0119/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,6.02204e-017,-86.7505,-3.85956e-010,1.88176,1.01621,-103.689,1.38953e-010,-0.677476,2.82264,10.2283,0,0,0,1  > $@
+Processed/ProstateX-0121/ADC.world:
+	mkdir     -p $(@D); echo 1.99784,-0.0139478,-0.137725,-66.6702,0.0329148,1.9553,0.628748,-112.323,0.0868415,-0.420224,2.93014,11.4171,0,0,0,1  > $@
+Processed/ProstateX-0122/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,1.15722e-016,-112.775,-3.98366e-010,1.94227,0.7156,-109.314,9.7848e-011,-0.477067,2.9134,-23.0784,0,0,0,1  > $@
+Processed/ProstateX-0123/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,1.40962e-016,-72.0517,-4.03596e-010,1.96777,0.536407,-116.389,7.33458e-011,-0.357604,2.95166,36.9011,0,0,0,1  > $@
+Processed/ProstateX-0124/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-1.52499e-017,-110.847,-3.72975e-010,1.81847,1.24884,-104.266,1.70761e-010,-0.832562,2.72771,90.7139,0,0,0,1  > $@
+Processed/ProstateX-0125/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,4.40422e-017,-106.028,-4.09816e-010,1.9981,-0.130858,-94.7534,-1.7893e-011,0.0872388,2.99714,-61.9102,0,0,0,1  > $@
+Processed/ProstateX-0126/ADC.world:
+	mkdir     -p $(@D); echo 1.99973,-0.0314142,-0.0154449,-82.6041,0.0329305,1.94767,0.679952,-108.363,0.00290713,-0.453409,2.92189,10.7606,0,0,0,1  > $@
+Processed/ProstateX-0127/ADC.world:
+	mkdir     -p $(@D); echo 1.99797,3.43104e-010,0.135267,-68.5565,-0.0099057,1.9879,0.329203,-86.2151,-0.0896324,-0.219692,2.97881,-42.6141,0,0,0,1  > $@
+Processed/ProstateX-0128/ADC.world:
+	mkdir     -p $(@D); echo 1.99907,-0.0523474,0.0471219,-98.2137,0.0523539,1.99931,6.60593e-010,-100.175,-0.0314038,0.000822337,2.99963,-16.5997,0,0,0,1  > $@
+Processed/ProstateX-0129/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-63.0629,-4.0773e-010,1.98792,0.329203,-102.998,4.50138e-011,-0.219469,2.98188,10.8335,0,0,0,1  > $@
+Processed/ProstateX-0131/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-2.26278e-018,-41.4493,-4.08107e-010,1.98976,0.303169,-97.0861,4.1454e-011,-0.202113,2.98464,-9.24874,0,0,0,1  > $@
+Processed/ProstateX-0133/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-1.19538e-016,-63.618,-3.99532e-010,1.94795,0.679954,-82.1879,9.2974e-011,-0.453303,2.92193,-28.8236,0,0,0,1  > $@
+Processed/ProstateX-0136/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-1.27089e-016,-84.8228,-4.04342e-010,1.97141,0.505468,-105.558,6.91156e-011,-0.336979,2.95711,-65.9924,0,0,0,1  > $@
+Processed/ProstateX-0139/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-1.86804e-017,-86.7505,-4.01243e-010,1.9563,0.727691,-110.093,8.52868e-011,-0.415823,3.42352,27.2579,0,0,0,1  > $@
+Processed/ProstateX-0141/ADC.world:
+	mkdir     -p $(@D); echo 1.99989,3.24812e-010,-0.0312256,-87.3968,0.00228447,1.98792,0.329203,-123.665,0.0206914,-0.219481,2.98172,-38.3234,0,0,0,1  > $@
+Processed/ProstateX-0142/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-54.9433,-4.0773e-010,1.98792,0.329203,-97.9376,4.50138e-011,-0.219469,2.98188,22.6439,0,0,0,1  > $@
+Processed/ProstateX-0143/ADC.world:
+	mkdir     -p $(@D); echo 1.99867,1.11109e-009,-0.109203,-96.9448,0.00837316,1.98673,0.344811,-111.264,0.0723187,-0.230026,2.97812,15.4656,0,0,0,1  > $@
+Processed/ProstateX-0145/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-1.1325e-016,-73.2565,-3.85223e-010,1.87819,1.03098,-107.473,1.40972e-010,-0.687319,2.81728,71.5667,0,0,0,1  > $@
+Processed/ProstateX-0148/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-75.1842,-4.0773e-010,1.98792,0.329203,-88.0581,4.50138e-011,-0.219469,2.98188,12.7644,0,0,0,1  > $@
+Processed/ProstateX-0150/ADC.world:
+	mkdir     -p $(@D); echo 1.9951,-0.0626986,0.187582,-69.157,0.0482118,1.98651,0.340221,-111.81,-0.131322,-0.223244,2.97474,16.7919,0,0,0,1  > $@
+Processed/ProstateX-0152/ADC.world:
+	mkdir     -p $(@D); echo 1.99859,0.0244185,0.10671,-75.8573,-0.0377572,1.96176,0.581055,-111.328,-0.0650506,-0.388439,2.94126,-77.0165,0,0,0,1  > $@
+Processed/ProstateX-0153/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,6.29195e-017,-54.9433,-3.99693e-010,1.94874,0.674853,-92.8629,9.22764e-011,-0.449902,2.92311,23.8168,0,0,0,1  > $@
+Processed/ProstateX-0162/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-1.28506e-016,-81.9312,-3.80605e-010,1.85567,1.67844,-105.84,1.53002e-010,-0.745976,4.17526,31.2906,0,0,0,1  > $@
+Processed/ProstateX-0164/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-1.06972e-016,-94.4613,-3.86438e-010,1.88411,1.00635,-106.591,1.37605e-010,-0.670903,2.82617,-38.5665,0,0,0,1  > $@
+Processed/ProstateX-0165/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-7.87814e-017,-81.9312,-3.72076e-010,1.81409,1.26311,-118.73,1.72712e-010,-0.842072,2.72113,72.2669,0,0,0,1  > $@
+Processed/ProstateX-0168/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-1.09506e-016,-66.5095,-4.00013e-010,1.9503,0.664645,-113.878,9.08808e-011,-0.443097,2.92545,-19.0224,0,0,0,1  > $@
+Processed/ProstateX-0169/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,5.01326e-017,-79.0396,-4.00483e-010,1.95259,0.649319,-111.567,8.8785e-011,-0.432879,2.92889,35.0328,0,0,0,1  > $@
+Processed/ProstateX-0172/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-78.0758,-4.0773e-010,1.98792,0.329203,-102.034,4.50138e-011,-0.219469,2.98188,27.7621,0,0,0,1  > $@
+Processed/ProstateX-0173/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,5.89287e-017,-86.7505,-3.73272e-010,1.81992,1.24408,-85.4708,1.7011e-010,-0.829387,2.72988,-6.54504,0,0,0,1  > $@
+Processed/ProstateX-0174/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-1.46053e-017,-86.7505,-3.99039e-010,1.94555,0.695244,-133.622,9.50646e-011,-0.463496,2.91833,6.93926,0,0,0,1  > $@
+Processed/ProstateX-0179/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,2.23974e-017,-91.5698,-3.48254e-010,1.69794,1.58531,-94.2996,2.16769e-010,-1.05688,2.54692,19.8251,0,0,0,1  > $@
+Processed/ProstateX-0181/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,1.00566e-016,-96.389,-3.96414e-010,1.93275,0.771398,-101.858,1.05478e-010,-0.514266,2.89913,11.8194,0,0,0,1  > $@
+Processed/ProstateX-0182/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-82.8951,-4.0773e-010,1.98792,0.329203,-104.926,4.50138e-011,-0.219469,2.98188,-12.2958,0,0,0,1  > $@
+Processed/ProstateX-0183/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-8.83861e-017,-70.3649,-3.96229e-010,1.93185,0.776457,-81.7025,1.06169e-010,-0.517638,2.89778,1.22907,0,0,0,1  > $@
+Processed/ProstateX-0184/ADC.world:
+	mkdir     -p $(@D); echo 1.99808,-0.0453429,-0.112325,-72.3666,0.0662959,1.90101,0.926791,-120.338,0.0571691,-0.619751,2.85104,-80.9225,0,0,0,1  > $@
+Processed/ProstateX-0186/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,1.83796e-017,-80.9674,-3.84479e-010,1.87456,1.04572,-107.312,1.42987e-010,-0.697144,2.81185,49.0452,0,0,0,1  > $@
+Processed/ProstateX-0187/ADC.world:
+	mkdir     -p $(@D); echo 1.99934,4.16872e-010,-0.0770729,-72.2796,-0.00267892,1.99728,-0.15636,-103.972,0.0513121,0.104275,2.99493,-61.1422,0,0,0,1  > $@
+Processed/ProstateX-0188/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-91.5698,-4.0773e-010,1.98792,0.329203,-99.1343,4.50138e-011,-0.219469,2.98188,-33.7356,0,0,0,1  > $@
+Processed/ProstateX-0190/ADC.world:
+	mkdir     -p $(@D); echo 1.99488,2.4474e-010,0.214562,-114.926,-0.0387845,1.92508,0.811342,-100.469,-0.137683,-0.542283,2.88022,-13.4937,0,0,0,1  > $@
+Processed/ProstateX-0191/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-4.1968e-017,-58.696,-4.10201e-010,1.99997,-0.0157079,-93.7436,-2.1478e-012,0.0104719,2.99996,-26.885,0,0,0,1  > $@
+Processed/ProstateX-0192/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-1.34967e-016,-104.437,-3.9057e-010,1.90426,0.917086,-100.006,1.25398e-010,-0.611391,2.85639,23.6211,0,0,0,1  > $@
+Processed/ProstateX-0193/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,5.01326e-017,-109.257,-4.00483e-010,1.95259,0.649319,-97.1096,8.8785e-011,-0.432879,2.92889,8.23766,0,0,0,1  > $@
+Processed/ProstateX-0194/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-1.22248e-016,-129.497,-3.95668e-010,1.92911,0.791619,-92.0315,1.08243e-010,-0.527746,2.89367,32.5224,0,0,0,1  > $@
+Processed/ProstateX-0195/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,-0,-122.114,-4.10207e-010,2,0,-129.789,0,0,3,1.1683,0,0,0,1  > $@
+Processed/ProstateX-0196/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,9.56419e-017,-98.6541,-4.06412e-010,1.9815,0.407147,-99.4684,5.56714e-011,-0.271431,2.97224,-4.51533,0,0,0,1  > $@
+Processed/ProstateX-0197/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,3.33774e-017,-62.6541,-3.90788e-010,1.90532,0.912099,-108.991,1.24716e-010,-0.608066,2.85798,53.4638,0,0,0,1  > $@
+Processed/ProstateX-0198/ADC.world:
+	mkdir     -p $(@D); echo 2,4.10207e-010,8.35439e-017,-122.75,-4.03975e-010,1.96962,0.520945,-104.217,7.12316e-011,-0.347296,2.95442,-108.609,0,0,0,1  > $@
+Processed/ProstateX-0199/ADC.world:
+	mkdir     -p $(@D); echo 2,-4e-016,-2.27212e-016,-135.78,4e-016,1.91764,1.13606,-154.947,0,-0.568031,3.83528,-16.0261,0,0,0,1  > $@
+Processed/ProstateX-0200/ADC.world:
+	mkdir     -p $(@D); echo 2,2e-016,3.6253e-017,-125.177,-2e-016,1.99177,0.36253,-145.073,0,-0.181265,3.98354,-90.8005,0,0,0,1  > $@
+Processed/ProstateX-0201/ADC.world:
+	mkdir     -p $(@D); echo 1.99744,-0.101186,0,-130.505,0.101186,1.99744,-0,-125.692,0,0,4,-33.0849,0,0,0,1  > $@
+Processed/ProstateX-0202/ADC.world:
+	mkdir     -p $(@D); echo 2,2e-016,5.08258e-017,-132.888,-2e-016,1.98379,0.508258,-148.898,0,-0.254129,3.96758,-10.2246,0,0,0,1  > $@
+Processed/ProstateX-0203/ADC.world:
+	mkdir     -p $(@D); echo 2,-4e-016,-1.64963e-016,-129.997,4e-016,1.95702,0.824817,-117.186,0,-0.412408,3.91404,-101.402,0,0,0,1  > $@
+Processed/ProstateX-0000/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.0067e-010,0.00377059,-46.6873,-0.000797221,1.89675,0.95144,-114.14,-0.00238396,-0.634294,2.84513,-18.0506,0,0,0,1  > $@
+Processed/ProstateX-0001/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-107.955,-4.0773e-010,1.98792,0.329203,-98.8051,4.50138e-011,-0.219469,2.98188,-31.2356,0,0,0,1  > $@
+Processed/ProstateX-0002/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,7.98512e-017,-92.5336,-3.98536e-010,1.9431,0.710514,-104.693,9.71526e-011,-0.473676,2.91465,-28.9956,0,0,0,1  > $@
+Processed/ProstateX-0004/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,6.33633e-017,-106.913,-3.98022e-010,1.94059,1.08865,-117.714,9.9238e-011,-0.483844,4.36633,18.6402,0,0,0,1  > $@
+Processed/ProstateX-0005/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,1.10673e-016,-106.028,-4.08646e-010,1.99239,0.261467,-101.775,3.57518e-011,-0.174311,2.98858,5.40256,0,0,0,1  > $@
+Processed/ProstateX-0014/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-102.172,-4.0773e-010,1.98792,0.329203,-99.1424,4.50138e-011,-0.219469,2.98188,-2.65728,0,0,0,1  > $@
+Processed/ProstateX-0015/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-100.244,-4.0773e-010,1.98792,0.329203,-115.528,4.50138e-011,-0.219469,2.98188,-50.8501,0,0,0,1  > $@
+Processed/ProstateX-0016/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,5.01326e-017,-91.5698,-4.00483e-010,1.95259,0.649319,-107.301,8.8785e-011,-0.432879,2.92889,7.71841,0,0,0,1  > $@
+Processed/ProstateX-0018/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-4.05772e-017,-86.7505,-3.91221e-010,1.90743,0.902117,-100.358,1.23352e-010,-0.601412,2.86115,8.66716,0,0,0,1  > $@
+Processed/ProstateX-0019/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,6.89354e-017,-83.8589,-3.89461e-010,1.89885,0.941977,-110.785,1.28802e-010,-0.627985,2.84828,-23.2315,0,0,0,1  > $@
+Processed/ProstateX-0026/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-79.0396,-4.0773e-010,1.98792,0.329203,-95.287,4.50138e-011,-0.219469,2.98188,-42.4966,0,0,0,1  > $@
+Processed/ProstateX-0028/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-74.2204,-4.0773e-010,1.98792,0.329203,-100.106,4.50138e-011,-0.219469,2.98188,-15.1874,0,0,0,1  > $@
+Processed/ProstateX-0031/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,6.91944e-017,-96.389,-3.79798e-010,1.85174,1.13352,-105.47,1.54993e-010,-0.755682,2.77761,25.8208,0,0,0,1  > $@
+Processed/ProstateX-0035/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-6.25333e-017,-86.7505,-3.94316e-010,1.92252,0.826912,-104.472,1.13068e-010,-0.551275,2.88379,-17.8851,0,0,0,1  > $@
+Processed/ProstateX-0037/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-6.76657e-017,-59.7625,-4.05268e-010,1.97592,-0.464131,-99.5063,-6.34632e-011,0.309421,2.96388,-44.3105,0,0,0,1  > $@
+Processed/ProstateX-0040/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,1.39065e-016,-57.8348,-4.04462e-010,1.97199,0.500306,-111.307,6.84096e-011,-0.333537,2.95799,-71.2174,0,0,0,1  > $@
+Processed/ProstateX-0041/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,8.49396e-017,-75.1842,-3.88781e-010,1.89554,0.956878,-86.6164,1.30839e-010,-0.637919,2.84331,-15.7966,0,0,0,1  > $@
+Processed/ProstateX-0046/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-91.5698,-4.0773e-010,1.98792,0.329203,-137.697,4.50138e-011,-0.219469,2.98188,27.2222,0,0,0,1  > $@
+Processed/ProstateX-0053/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,9.73031e-017,-68.4372,-4.08998e-010,1.99411,0.230157,-99.7944,3.14706e-011,-0.153438,2.99116,-107.586,0,0,0,1  > $@
+Processed/ProstateX-0054/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-1.19538e-016,-86.7505,-3.99532e-010,1.94795,0.679954,-110.88,9.2974e-011,-0.453303,2.92193,3.2431,0,0,0,1  > $@
+Processed/ProstateX-0055/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-1.60118e-017,-86.7505,-4.01243e-010,1.9563,0.623735,-118.946,8.52868e-011,-0.415823,2.93444,-18.9579,0,0,0,1  > $@
+Processed/ProstateX-0067/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-72.2927,-4.0773e-010,1.98792,0.329203,-95.7208,4.50138e-011,-0.219469,2.98188,5.72826,0,0,0,1  > $@
+Processed/ProstateX-0069/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-9.16204e-017,-82.8951,-4.09157e-010,1.99488,0.214492,-103.321,2.93288e-011,-0.142995,2.99232,-42.7252,0,0,0,1  > $@
+Processed/ProstateX-0071/BVAL.world:
+	mkdir    -p $(@D); echo 1.99712,-0.0802128,-0.106739,-69.8806,0.08436,1.99466,0.17875,-108.805,0.06619,-0.121997,2.99277,-56.9109,0,0,0,1  > $@
+Processed/ProstateX-0076/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-4.20055e-017,-92.5336,-3.94903e-010,1.92538,0.811801,-108.368,1.11002e-010,-0.541201,2.88808,69.1061,0,0,0,1  > $@
+Processed/ProstateX-0077/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-90.6059,-4.0773e-010,1.98792,0.329203,-106.853,4.50138e-011,-0.219469,2.98188,-1.69343,0,0,0,1  > $@
+Processed/ProstateX-0078/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-1.5706e-016,-86.7505,-4.0591e-010,1.97905,0.433069,-108.232,5.9216e-011,-0.288712,2.96858,-58.7875,0,0,0,1  > $@
+Processed/ProstateX-0082/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-1.60118e-017,-78.0758,-4.01243e-010,1.9563,0.623735,-101.828,8.52868e-011,-0.415823,2.93444,-5.92726,0,0,0,1  > $@
+Processed/ProstateX-0084/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,3.89646e-017,-92.5336,-3.93719e-010,1.91961,0.842,-102.5,1.15131e-010,-0.561333,2.87942,10.7279,0,0,0,1  > $@
+Processed/ProstateX-0092/BVAL.world:
+	mkdir    -p $(@D); echo 1.99824,-0.0837509,-0.00975051,-109.569,0.0839588,1.9862,0.328529,-94.7741,-0.00271604,-0.219099,2.98194,-46.029,0,0,0,1  > $@
+Processed/ProstateX-0094/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-5.50908e-017,-52.0517,-4.06215e-010,1.98054,0.417519,-96.5681,5.70898e-011,-0.278346,2.9708,-52.826,0,0,0,1  > $@
+Processed/ProstateX-0095/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,7.33771e-017,-104.1,-4.0679e-010,1.98334,0.386387,-109.752,5.28328e-011,-0.257591,2.97501,3.91507,0,0,0,1  > $@
+Processed/ProstateX-0097/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-1.36713e-016,-95.7607,-4.02941e-010,1.96457,0.562144,-108.417,7.68652e-011,-0.374763,2.94686,14.0326,0,0,0,1  > $@
+Processed/ProstateX-0099/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-78.3167,-4.0773e-010,1.98792,0.329203,-111.673,4.50138e-011,-0.219469,2.98188,53.3427,0,0,0,1  > $@
+Processed/ProstateX-0101/BVAL.world:
+	mkdir    -p $(@D); echo 1.99999,4.77514e-010,-0.00845051,-108.415,0.00224532,1.83429,1.19565,-105.391,0.0051669,-0.797107,2.75142,9.292,0,0,0,1  > $@
+Processed/ProstateX-0102/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-1.09506e-016,-86.7505,-4.00013e-010,1.9503,0.664646,-95.0832,9.08808e-011,-0.443097,2.92545,-6.01038,0,0,0,1  > $@
+Processed/ProstateX-0103/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,1.54843e-016,-86.7505,-3.91862e-010,1.91056,1.03498,-108.905,1.21301e-010,-0.591416,3.34347,-55.2102,0,0,0,1  > $@
+Processed/ProstateX-0104/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,2.33059e-017,-67.4734,-3.94708e-010,1.92444,0.816841,-121.702,1.11691e-010,-0.54456,2.88665,3.07615,0,0,0,1  > $@
+Processed/ProstateX-0105/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,1.18702e-016,-80.0035,-3.97319e-010,1.93717,0.74607,-102.695,1.02014e-010,-0.49738,2.90575,-31.8784,0,0,0,1  > $@
+Processed/ProstateX-0106/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-56.871,-4.0773e-010,1.98792,0.329203,-100.106,4.50138e-011,-0.219469,2.98188,-0.00668157,0,0,0,1  > $@
+Processed/ProstateX-0110/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,9.3246e-017,-53.0155,-4.00328e-010,1.95183,0.65443,-107.615,8.94838e-011,-0.436286,2.92775,-10.086,0,0,0,1  > $@
+Processed/ProstateX-0111/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,8.37211e-017,-100.244,-3.60155e-010,1.75597,1.43608,-101.299,1.96363e-010,-0.957384,2.63395,-9.34675,0,0,0,1  > $@
+Processed/ProstateX-0114/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.08507e-010,0.00103914,-84.2372,-0.000151108,1.95184,0.654369,-114.59,-0.00067608,-0.436246,2.92776,68.7221,0,0,0,1  > $@
+Processed/ProstateX-0115/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,1.4999e-016,-123.377,-4.01538e-010,1.95773,0.613488,-114.45,8.38856e-011,-0.408992,2.9366,-30.9185,0,0,0,1  > $@
+Processed/ProstateX-0116/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-55.9071,-4.0773e-010,1.98792,0.329203,-123.48,4.50138e-011,-0.219469,2.98188,13.0054,0,0,0,1  > $@
+Processed/ProstateX-0117/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-7.55701e-017,-70.5422,-4.01391e-010,1.95702,0.618613,-101.826,8.45864e-011,-0.412408,2.93553,-46.3988,0,0,0,1  > $@
+Processed/ProstateX-0118/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,5.01326e-017,-91.5698,-4.00483e-010,1.95259,0.649319,-97.3987,8.8785e-011,-0.432879,2.92889,2.6473,0,0,0,1  > $@
+Processed/ProstateX-0119/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,6.02204e-017,-86.7505,-3.85956e-010,1.88176,1.01621,-103.689,1.38953e-010,-0.677476,2.82264,10.2283,0,0,0,1  > $@
+Processed/ProstateX-0121/BVAL.world:
+	mkdir    -p $(@D); echo 1.99784,-0.0139478,-0.137725,-66.6702,0.0329148,1.9553,0.628748,-112.323,0.0868415,-0.420224,2.93014,11.4171,0,0,0,1  > $@
+Processed/ProstateX-0122/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,1.15722e-016,-112.775,-3.98366e-010,1.94227,0.7156,-109.314,9.7848e-011,-0.477067,2.9134,-23.0784,0,0,0,1  > $@
+Processed/ProstateX-0123/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,1.40962e-016,-72.0517,-4.03596e-010,1.96777,0.536407,-116.389,7.33458e-011,-0.357604,2.95166,36.9011,0,0,0,1  > $@
+Processed/ProstateX-0124/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-1.52499e-017,-110.847,-3.72975e-010,1.81847,1.24884,-104.266,1.70761e-010,-0.832562,2.72771,90.7139,0,0,0,1  > $@
+Processed/ProstateX-0125/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,4.40422e-017,-106.028,-4.09816e-010,1.9981,-0.130858,-94.7534,-1.7893e-011,0.0872388,2.99714,-61.9102,0,0,0,1  > $@
+Processed/ProstateX-0126/BVAL.world:
+	mkdir    -p $(@D); echo 1.99973,-0.0314142,-0.0154449,-82.6041,0.0329305,1.94767,0.679952,-108.363,0.00290713,-0.453409,2.92189,10.7606,0,0,0,1  > $@
+Processed/ProstateX-0127/BVAL.world:
+	mkdir    -p $(@D); echo 1.99797,3.43104e-010,0.135267,-68.5565,-0.0099057,1.9879,0.329203,-86.2151,-0.0896324,-0.219692,2.97881,-42.6141,0,0,0,1  > $@
+Processed/ProstateX-0128/BVAL.world:
+	mkdir    -p $(@D); echo 1.99907,-0.0523474,0.0471219,-98.2137,0.0523539,1.99931,6.60593e-010,-100.175,-0.0314038,0.000822337,2.99963,-16.5997,0,0,0,1  > $@
+Processed/ProstateX-0129/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-63.0629,-4.0773e-010,1.98792,0.329203,-102.998,4.50138e-011,-0.219469,2.98188,10.8335,0,0,0,1  > $@
+Processed/ProstateX-0131/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-2.26278e-018,-41.4493,-4.08107e-010,1.98976,0.303169,-97.0861,4.1454e-011,-0.202113,2.98464,-9.24874,0,0,0,1  > $@
+Processed/ProstateX-0133/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-1.19538e-016,-63.618,-3.99532e-010,1.94795,0.679954,-82.1879,9.2974e-011,-0.453303,2.92193,-28.8236,0,0,0,1  > $@
+Processed/ProstateX-0136/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-1.27089e-016,-84.8228,-4.04342e-010,1.97141,0.505468,-105.558,6.91156e-011,-0.336979,2.95711,-65.9924,0,0,0,1  > $@
+Processed/ProstateX-0139/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-1.86804e-017,-86.7505,-4.01243e-010,1.9563,0.727691,-110.093,8.52868e-011,-0.415823,3.42352,27.2579,0,0,0,1  > $@
+Processed/ProstateX-0141/BVAL.world:
+	mkdir    -p $(@D); echo 1.99989,3.24812e-010,-0.0312256,-87.3968,0.00228447,1.98792,0.329203,-123.665,0.0206914,-0.219481,2.98172,-38.3234,0,0,0,1  > $@
+Processed/ProstateX-0142/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-54.9433,-4.0773e-010,1.98792,0.329203,-97.9376,4.50138e-011,-0.219469,2.98188,22.6439,0,0,0,1  > $@
+Processed/ProstateX-0143/BVAL.world:
+	mkdir    -p $(@D); echo 1.99867,1.11109e-009,-0.109203,-96.9448,0.00837316,1.98673,0.344811,-111.264,0.0723187,-0.230026,2.97812,15.4656,0,0,0,1  > $@
+Processed/ProstateX-0145/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-1.1325e-016,-73.2565,-3.85223e-010,1.87819,1.03098,-107.473,1.40972e-010,-0.687319,2.81728,71.5667,0,0,0,1  > $@
+Processed/ProstateX-0148/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-75.1842,-4.0773e-010,1.98792,0.329203,-88.0581,4.50138e-011,-0.219469,2.98188,12.7644,0,0,0,1  > $@
+Processed/ProstateX-0150/BVAL.world:
+	mkdir    -p $(@D); echo 1.9951,-0.0626986,0.187582,-69.157,0.0482118,1.98651,0.340221,-111.81,-0.131322,-0.223244,2.97474,16.7919,0,0,0,1  > $@
+Processed/ProstateX-0152/BVAL.world:
+	mkdir    -p $(@D); echo 1.99859,0.0244185,0.10671,-75.8573,-0.0377572,1.96176,0.581055,-111.328,-0.0650506,-0.388439,2.94126,-77.0165,0,0,0,1  > $@
+Processed/ProstateX-0153/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,6.29195e-017,-54.9433,-3.99693e-010,1.94874,0.674853,-92.8629,9.22764e-011,-0.449902,2.92311,23.8168,0,0,0,1  > $@
+Processed/ProstateX-0162/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-1.28506e-016,-81.9312,-3.80605e-010,1.85567,1.67844,-105.84,1.53002e-010,-0.745976,4.17526,31.2906,0,0,0,1  > $@
+Processed/ProstateX-0164/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-1.06972e-016,-94.4613,-3.86438e-010,1.88411,1.00635,-106.591,1.37605e-010,-0.670903,2.82617,-38.5665,0,0,0,1  > $@
+Processed/ProstateX-0165/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-7.87814e-017,-81.9312,-3.72076e-010,1.81409,1.26311,-118.73,1.72712e-010,-0.842072,2.72113,72.2669,0,0,0,1  > $@
+Processed/ProstateX-0168/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-1.09506e-016,-66.5095,-4.00013e-010,1.9503,0.664645,-113.878,9.08808e-011,-0.443097,2.92545,-19.0224,0,0,0,1  > $@
+Processed/ProstateX-0169/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,5.01326e-017,-79.0396,-4.00483e-010,1.95259,0.649319,-111.567,8.8785e-011,-0.432879,2.92889,35.0328,0,0,0,1  > $@
+Processed/ProstateX-0172/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-78.0758,-4.0773e-010,1.98792,0.329203,-102.034,4.50138e-011,-0.219469,2.98188,27.7621,0,0,0,1  > $@
+Processed/ProstateX-0173/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,5.89287e-017,-86.7505,-3.73272e-010,1.81992,1.24408,-85.4708,1.7011e-010,-0.829387,2.72988,-6.54504,0,0,0,1  > $@
+Processed/ProstateX-0174/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-1.46053e-017,-86.7505,-3.99039e-010,1.94555,0.695244,-133.622,9.50646e-011,-0.463496,2.91833,6.93926,0,0,0,1  > $@
+Processed/ProstateX-0179/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,2.23974e-017,-91.5698,-3.48254e-010,1.69794,1.58531,-94.2996,2.16769e-010,-1.05688,2.54692,19.8251,0,0,0,1  > $@
+Processed/ProstateX-0181/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,1.00566e-016,-96.389,-3.96414e-010,1.93275,0.771398,-101.858,1.05478e-010,-0.514266,2.89913,11.8194,0,0,0,1  > $@
+Processed/ProstateX-0182/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-82.8951,-4.0773e-010,1.98792,0.329203,-104.926,4.50138e-011,-0.219469,2.98188,-12.2958,0,0,0,1  > $@
+Processed/ProstateX-0183/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-8.83861e-017,-70.3649,-3.96229e-010,1.93185,0.776457,-81.7025,1.06169e-010,-0.517638,2.89778,1.22907,0,0,0,1  > $@
+Processed/ProstateX-0184/BVAL.world:
+	mkdir    -p $(@D); echo 1.99808,-0.0453429,-0.112325,-72.3666,0.0662959,1.90101,0.926791,-120.338,0.0571691,-0.619751,2.85104,-80.9225,0,0,0,1  > $@
+Processed/ProstateX-0186/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,1.83796e-017,-80.9674,-3.84479e-010,1.87456,1.04572,-107.312,1.42987e-010,-0.697144,2.81185,49.0452,0,0,0,1  > $@
+Processed/ProstateX-0187/BVAL.world:
+	mkdir    -p $(@D); echo 1.99934,4.16872e-010,-0.0770729,-72.2796,-0.00267892,1.99728,-0.15636,-103.972,0.0513121,0.104275,2.99493,-61.1422,0,0,0,1  > $@
+Processed/ProstateX-0188/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-4.64581e-017,-91.5698,-4.0773e-010,1.98792,0.329203,-99.1343,4.50138e-011,-0.219469,2.98188,-33.7356,0,0,0,1  > $@
+Processed/ProstateX-0190/BVAL.world:
+	mkdir    -p $(@D); echo 1.99488,2.4474e-010,0.214562,-114.926,-0.0387845,1.92508,0.811342,-100.469,-0.137683,-0.542283,2.88022,-13.4937,0,0,0,1  > $@
+Processed/ProstateX-0191/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-4.1968e-017,-58.696,-4.10201e-010,1.99997,-0.0157079,-93.7436,-2.1478e-012,0.0104719,2.99996,-26.885,0,0,0,1  > $@
+Processed/ProstateX-0192/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-1.34967e-016,-104.437,-3.9057e-010,1.90426,0.917086,-100.006,1.25398e-010,-0.611391,2.85639,23.6211,0,0,0,1  > $@
+Processed/ProstateX-0193/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,5.01326e-017,-109.257,-4.00483e-010,1.95259,0.649319,-97.1096,8.8785e-011,-0.432879,2.92889,8.23766,0,0,0,1  > $@
+Processed/ProstateX-0194/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-1.22248e-016,-129.497,-3.95668e-010,1.92911,0.791619,-92.0315,1.08243e-010,-0.527746,2.89367,32.5224,0,0,0,1  > $@
+Processed/ProstateX-0195/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,-0,-122.114,-4.10207e-010,2,0,-129.789,0,0,3,1.1683,0,0,0,1  > $@
+Processed/ProstateX-0196/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,9.56419e-017,-98.6541,-4.06412e-010,1.9815,0.407147,-99.4684,5.56714e-011,-0.271431,2.97224,-4.51533,0,0,0,1  > $@
+Processed/ProstateX-0197/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,3.33774e-017,-62.6541,-3.90788e-010,1.90532,0.912099,-108.991,1.24716e-010,-0.608066,2.85798,53.4638,0,0,0,1  > $@
+Processed/ProstateX-0198/BVAL.world:
+	mkdir    -p $(@D); echo 2,4.10207e-010,8.35439e-017,-122.75,-4.03975e-010,1.96962,0.520945,-104.217,7.12316e-011,-0.347296,2.95442,-108.609,0,0,0,1  > $@
+Processed/ProstateX-0199/BVAL.world:
+	mkdir    -p $(@D); echo 2,-4e-016,-2.27212e-016,-135.78,4e-016,1.91764,1.13606,-154.947,0,-0.568031,3.83528,-16.0261,0,0,0,1  > $@
+Processed/ProstateX-0200/BVAL.world:
+	mkdir    -p $(@D); echo 2,2e-016,3.6253e-017,-125.177,-2e-016,1.99177,0.36253,-145.073,0,-0.181265,3.98354,-90.8005,0,0,0,1  > $@
+Processed/ProstateX-0201/BVAL.world:
+	mkdir    -p $(@D); echo 1.99744,-0.101186,0,-130.505,0.101186,1.99744,-0,-125.692,0,0,4,-33.0849,0,0,0,1  > $@
+Processed/ProstateX-0202/BVAL.world:
+	mkdir    -p $(@D); echo 2,2e-016,5.08258e-017,-132.888,-2e-016,1.98379,0.508258,-148.898,0,-0.254129,3.96758,-10.2246,0,0,0,1  > $@
+Processed/ProstateX-0203/BVAL.world:
+	mkdir    -p $(@D); echo 2,-4e-016,-1.64963e-016,-129.997,4e-016,1.95702,0.824817,-117.186,0,-0.412408,3.91404,-101.402,0,0,0,1  > $@
+Processed/ProstateX-0000/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 167 224 9 3  > $@
+Processed/ProstateX-0001/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 157 186 10 1  > $@
+Processed/ProstateX-0002/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 154 217 12 2  > $@
+Processed/ProstateX-0002/T2Axial.2.ijk:
+	mkdir   -p $(@D); echo 203 216 10 2  > $@
+Processed/ProstateX-0004/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 221 168 7 1  > $@
+Processed/ProstateX-0005/T2Axial.0.ijk:
+	mkdir   -p $(@D); echo 206 233 10 2  > $@
+Processed/ProstateX-0005/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 157 219 10 2  > $@
+Processed/ProstateX-0014/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 181 193 7 2  > $@
+Processed/ProstateX-0015/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 216 154 8 3  > $@
+Processed/ProstateX-0016/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 171 169 6 1  > $@
+Processed/ProstateX-0018/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 204 174 5 2  > $@
+Processed/ProstateX-0019/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 182 236 10 2  > $@
+Processed/ProstateX-0026/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 175 197 6 4  > $@
+Processed/ProstateX-0028/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 236 210 9 2  > $@
+Processed/ProstateX-0031/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 231 210 14 2  > $@
+Processed/ProstateX-0031/T2Axial.2.ijk:
+	mkdir   -p $(@D); echo 164 212 14 2  > $@
+Processed/ProstateX-0035/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 150 197 9 2  > $@
+Processed/ProstateX-0037/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 162 188 9 2  > $@
+Processed/ProstateX-0040/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 150 188 11 2  > $@
+Processed/ProstateX-0041/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 150 235 7 2  > $@
+Processed/ProstateX-0046/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 140 200 12 3  > $@
+Processed/ProstateX-0053/T2Axial.4.ijk:
+	mkdir   -p $(@D); echo 232 201 12 1  > $@
+Processed/ProstateX-0054/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 160 146 8 2  > $@
+Processed/ProstateX-0055/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 183 178 10 3  > $@
+Processed/ProstateX-0067/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 204 173 9 2  > $@
+Processed/ProstateX-0069/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 160 195 8 1  > $@
+Processed/ProstateX-0071/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 209 171 12 3  > $@
+Processed/ProstateX-0076/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 222 208 13 1  > $@
+Processed/ProstateX-0077/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 151 223 11 4  > $@
+Processed/ProstateX-0078/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 221 189 7 3  > $@
+Processed/ProstateX-0082/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 169 189 14 2  > $@
+Processed/ProstateX-0084/T2Axial.2.ijk:
+	mkdir   -p $(@D); echo 168 196 4 1  > $@
+Processed/ProstateX-0092/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 159 178 8 3  > $@
+Processed/ProstateX-0094/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 190 154 9 3  > $@
+Processed/ProstateX-0095/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 171 214 11 3  > $@
+Processed/ProstateX-0097/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 170 180 11 2  > $@
+Processed/ProstateX-0099/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 231 235 11 2  > $@
+Processed/ProstateX-0101/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 159 143 3 1  > $@
+Processed/ProstateX-0102/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 146 163 5 2  > $@
+Processed/ProstateX-0103/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 222 231 15 5  > $@
+Processed/ProstateX-0104/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 159 166 11 2  > $@
+Processed/ProstateX-0105/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 205 180 7 2  > $@
+Processed/ProstateX-0106/T2Axial.2.ijk:
+	mkdir   -p $(@D); echo 185 155 6 3  > $@
+Processed/ProstateX-0110/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 202 150 5 1  > $@
+Processed/ProstateX-0111/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 174 145 10 2  > $@
+Processed/ProstateX-0114/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 196 208 11 3  > $@
+Processed/ProstateX-0115/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 177 185 13 2  > $@
+Processed/ProstateX-0116/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 139 141 10 1  > $@
+Processed/ProstateX-0117/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 217 176 14 2  > $@
+Processed/ProstateX-0118/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 194 185 10 2  > $@
+Processed/ProstateX-0119/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 219 197 7 2  > $@
+Processed/ProstateX-0121/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 174 166 9 1  > $@
+Processed/ProstateX-0121/T2Axial.2.ijk:
+	mkdir   -p $(@D); echo 222 204 3 1  > $@
+Processed/ProstateX-0122/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 181 142 12 1  > $@
+Processed/ProstateX-0122/T2Axial.2.ijk:
+	mkdir   -p $(@D); echo 180 183 4 1  > $@
+Processed/ProstateX-0123/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 208 227 7 3  > $@
+Processed/ProstateX-0124/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 240 241 13 1  > $@
+Processed/ProstateX-0125/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 160 184 11 2  > $@
+Processed/ProstateX-0126/T2Axial.2.ijk:
+	mkdir   -p $(@D); echo 192 172 9 4  > $@
+Processed/ProstateX-0127/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 152 213 9 2  > $@
+Processed/ProstateX-0128/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 158 218 8 2  > $@
+Processed/ProstateX-0129/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 233 216 8 2  > $@
+Processed/ProstateX-0131/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 208 175 11 5  > $@
+Processed/ProstateX-0133/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 195 149 10 1  > $@
+Processed/ProstateX-0136/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 175 175 12 1  > $@
+Processed/ProstateX-0139/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 172 209 5 2  > $@
+Processed/ProstateX-0139/T2Axial.3.ijk:
+	mkdir   -p $(@D); echo 184 234 6 2  > $@
+Processed/ProstateX-0141/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 314 307 13 1  > $@
+Processed/ProstateX-0142/T2Axial.3.ijk:
+	mkdir   -p $(@D); echo 176 148 14 1  > $@
+Processed/ProstateX-0143/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 178 183 7 2  > $@
+Processed/ProstateX-0145/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 188 173 13 1  > $@
+Processed/ProstateX-0148/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 199 164 3 2  > $@
+Processed/ProstateX-0150/T2Axial.2.ijk:
+	mkdir   -p $(@D); echo 145 173 10 1  > $@
+Processed/ProstateX-0150/T2Axial.3.ijk:
+	mkdir   -p $(@D); echo 210 179 11 1  > $@
+Processed/ProstateX-0152/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 149 166 10 1  > $@
+Processed/ProstateX-0153/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 217 184 9 1  > $@
+Processed/ProstateX-0162/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 179 219 6 1  > $@
+Processed/ProstateX-0164/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 190 187 11 3  > $@
+Processed/ProstateX-0165/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 278 287 8 1  > $@
+Processed/ProstateX-0168/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 282 339 7 1  > $@
+Processed/ProstateX-0169/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 200 207 11 3  > $@
+Processed/ProstateX-0172/T2Axial.4.ijk:
+	mkdir   -p $(@D); echo 187 160 3 1  > $@
+Processed/ProstateX-0173/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 131 148 13 1  > $@
+Processed/ProstateX-0173/T2Axial.2.ijk:
+	mkdir   -p $(@D); echo 132 170 8 1  > $@
+Processed/ProstateX-0174/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 215 220 10 1  > $@
+Processed/ProstateX-0179/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 150 177 10 2  > $@
+Processed/ProstateX-0179/T2Axial.2.ijk:
+	mkdir   -p $(@D); echo 191 215 5 2  > $@
+Processed/ProstateX-0181/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 310 244 9 5  > $@
+Processed/ProstateX-0182/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 215 227 5 1  > $@
+Processed/ProstateX-0183/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 206 197 3 3  > $@
+Processed/ProstateX-0184/T2Axial.2.ijk:
+	mkdir   -p $(@D); echo 227 203 14 3  > $@
+Processed/ProstateX-0186/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 184 191 6 2  > $@
+Processed/ProstateX-0187/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 199 171 8 3  > $@
+Processed/ProstateX-0188/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 149 161 11 1  > $@
+Processed/ProstateX-0190/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 193 191 4 2  > $@
+Processed/ProstateX-0191/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 181 158 8 1  > $@
+Processed/ProstateX-0192/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 222 219 7 4  > $@
+Processed/ProstateX-0193/T2Axial.4.ijk:
+	mkdir   -p $(@D); echo 184 212 8 2  > $@
+Processed/ProstateX-0194/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 147 175 6 2  > $@
+Processed/ProstateX-0195/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 169 209 6 4  > $@
+Processed/ProstateX-0196/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 172 196 7 5  > $@
+Processed/ProstateX-0196/T2Axial.2.ijk:
+	mkdir   -p $(@D); echo 218 187 6 5  > $@
+Processed/ProstateX-0196/T2Axial.3.ijk:
+	mkdir   -p $(@D); echo 163 169 6 5  > $@
+Processed/ProstateX-0197/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 171 197 6 2  > $@
+Processed/ProstateX-0198/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 186 153 7 5  > $@
+Processed/ProstateX-0199/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 165 137 13 4  > $@
+Processed/ProstateX-0199/T2Axial.2.ijk:
+	mkdir   -p $(@D); echo 136 149 7 4  > $@
+Processed/ProstateX-0200/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 193 172 10 5  > $@
+Processed/ProstateX-0201/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 191 163 16 2  > $@
+Processed/ProstateX-0202/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 167 148 10 4  > $@
+Processed/ProstateX-0203/T2Axial.1.ijk:
+	mkdir   -p $(@D); echo 144 132 11 2  > $@
+Processed/ProstateX-0203/T2Axial.2.ijk:
+	mkdir   -p $(@D); echo 180 162 8 2  > $@
+Processed/ProstateX-0000/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 176 169 13 3  > $@
+Processed/ProstateX-0001/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 154 173 15 1  > $@
+Processed/ProstateX-0002/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 183 154 15 2  > $@
+Processed/ProstateX-0002/T2Sag.2.ijk:
+	mkdir     -p $(@D); echo 178 169 8 2  > $@
+Processed/ProstateX-0004/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 132 174 7 1  > $@
+Processed/ProstateX-0005/T2Sag.0.ijk:
+	mkdir     -p $(@D); echo 197 154 8 2  > $@
+Processed/ProstateX-0005/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 184 153 15 2  > $@
+Processed/ProstateX-0014/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 148 172 11 2  > $@
+Processed/ProstateX-0015/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 131 176 7 3  > $@
+Processed/ProstateX-0016/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 131 186 12 1  > $@
+Processed/ProstateX-0018/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 147 181 10 2  > $@
+Processed/ProstateX-0019/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 198 166 12 2  > $@
+Processed/ProstateX-0026/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 161 205 10 4  > $@
+Processed/ProstateX-0028/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 175 171 2 2  > $@
+Processed/ProstateX-0031/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 182 136 4 2  > $@
+Processed/ProstateX-0031/T2Sag.2.ijk:
+	mkdir     -p $(@D); echo 183 136 13 2  > $@
+Processed/ProstateX-0035/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 148 201 16 2  > $@
+Processed/ProstateX-0037/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 151 160 14 2  > $@
+Processed/ProstateX-0040/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 166 153 16 2  > $@
+Processed/ProstateX-0041/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 197 200 16 2  > $@
+Processed/ProstateX-0046/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 124 158 17 3  > $@
+Processed/ProstateX-0053/T2Sag.4.ijk:
+	mkdir     -p $(@D); echo 171 146 4 1  > $@
+Processed/ProstateX-0054/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 131 168 12 2  > $@
+Processed/ProstateX-0055/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 138 174 11 3  > $@
+Processed/ProstateX-0067/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 149 177 7 2  > $@
+Processed/ProstateX-0069/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 162 181 13 1  > $@
+Processed/ProstateX-0071/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 151 152 7 3  > $@
+Processed/ProstateX-0076/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 181 139 5 1  > $@
+Processed/ProstateX-0077/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 202 163 15 4  > $@
+Processed/ProstateX-0078/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 120 178 8 3  > $@
+Processed/ProstateX-0082/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 167 148 13 2  > $@
+Processed/ProstateX-0084/T2Sag.2.ijk:
+	mkdir     -p $(@D); echo 160 184 12 1  > $@
+Processed/ProstateX-0092/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 124 193 14 3  > $@
+Processed/ProstateX-0094/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 123 175 10 3  > $@
+Processed/ProstateX-0095/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 195 152 13 3  > $@
+Processed/ProstateX-0097/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 149 163 11 2  > $@
+Processed/ProstateX-0099/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 195 173 4 2  > $@
+Processed/ProstateX-0101/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 133 190 12 1  > $@
+Processed/ProstateX-0102/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 160 185 11 2  > $@
+Processed/ProstateX-0103/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 193 154 5 5  > $@
+Processed/ProstateX-0104/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 135 154 15 2  > $@
+Processed/ProstateX-0105/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 141 176 7 2  > $@
+Processed/ProstateX-0106/T2Sag.2.ijk:
+	mkdir     -p $(@D); echo 132 185 12 3  > $@
+Processed/ProstateX-0110/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 121 199 8 1  > $@
+Processed/ProstateX-0111/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 122 155 13 2  > $@
+Processed/ProstateX-0114/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 170 159 9 3  > $@
+Processed/ProstateX-0115/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 150 142 12 2  > $@
+Processed/ProstateX-0116/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 136 143 12 1  > $@
+Processed/ProstateX-0117/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 150 133 6 2  > $@
+Processed/ProstateX-0118/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 158 167 9 2  > $@
+Processed/ProstateX-0119/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 164 185 7 2  > $@
+Processed/ProstateX-0121/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 132 171 13 1  > $@
+Processed/ProstateX-0121/T2Sag.2.ijk:
+	mkdir     -p $(@D); echo 158 210 7 1  > $@
+Processed/ProstateX-0122/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 141 145 11 1  > $@
+Processed/ProstateX-0122/T2Sag.2.ijk:
+	mkdir     -p $(@D); echo 166 195 11 1  > $@
+Processed/ProstateX-0123/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 181 190 8 3  > $@
+Processed/ProstateX-0124/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 206 165 3 1  > $@
+Processed/ProstateX-0125/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 156 167 13 2  > $@
+Processed/ProstateX-0126/T2Sag.2.ijk:
+	mkdir     -p $(@D); echo 135 186 10 4  > $@
+Processed/ProstateX-0127/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 193 177 15 2  > $@
+Processed/ProstateX-0128/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 293 276 15 2  > $@
+Processed/ProstateX-0129/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 191 173 4 2  > $@
+Processed/ProstateX-0131/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 152 150 7 5  > $@
+Processed/ProstateX-0133/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 134 161 9 1  > $@
+Processed/ProstateX-0136/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 138 151 12 1  > $@
+Processed/ProstateX-0139/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 169 189 11 2  > $@
+Processed/ProstateX-0139/T2Sag.3.ijk:
+	mkdir     -p $(@D); echo 192 188 9 2  > $@
+Processed/ProstateX-0141/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 146 158 11 1  > $@
+Processed/ProstateX-0142/T2Sag.3.ijk:
+	mkdir     -p $(@D); echo 113 125 12 1  > $@
+Processed/ProstateX-0143/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 151 190 12 2  > $@
+Processed/ProstateX-0145/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 138 148 10 1  > $@
+Processed/ProstateX-0148/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 134 167 8 2  > $@
+Processed/ProstateX-0150/T2Sag.2.ijk:
+	mkdir     -p $(@D); echo 146 147 16 1  > $@
+Processed/ProstateX-0150/T2Sag.3.ijk:
+	mkdir     -p $(@D); echo 152 143 7 1  > $@
+Processed/ProstateX-0152/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 165 164 12 1  > $@
+Processed/ProstateX-0153/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 142 165 6 1  > $@
+Processed/ProstateX-0162/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 176 195 11 1  > $@
+Processed/ProstateX-0164/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 149 169 10 3  > $@
+Processed/ProstateX-0165/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 145 165 13 1  > $@
+Processed/ProstateX-0168/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 155 187 12 1  > $@
+Processed/ProstateX-0169/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 164 149 8 3  > $@
+Processed/ProstateX-0172/T2Sag.4.ijk:
+	mkdir     -p $(@D); echo 124 190 11 1  > $@
+Processed/ProstateX-0173/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 149 153 14 1  > $@
+Processed/ProstateX-0173/T2Sag.2.ijk:
+	mkdir     -p $(@D); echo 159 187 14 1  > $@
+Processed/ProstateX-0174/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 176 167 6 1  > $@
+Processed/ProstateX-0179/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 153 148 14 2  > $@
+Processed/ProstateX-0179/T2Sag.2.ijk:
+	mkdir     -p $(@D); echo 167 189 9 2  > $@
+Processed/ProstateX-0181/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 119 169 10 5  > $@
+Processed/ProstateX-0182/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 187 192 8 1  > $@
+Processed/ProstateX-0183/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 179 213 8 3  > $@
+Processed/ProstateX-0184/T2Sag.2.ijk:
+	mkdir     -p $(@D); echo 143 143 5 3  > $@
+Processed/ProstateX-0186/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 164 173 10 2  > $@
+Processed/ProstateX-0187/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 134 208 9 3  > $@
+Processed/ProstateX-0188/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 130 173 16 1  > $@
+Processed/ProstateX-0190/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 155 183 9 2  > $@
+Processed/ProstateX-0191/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 150 170 12 1  > $@
+Processed/ProstateX-0192/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 170 202 6 4  > $@
+Processed/ProstateX-0193/T2Sag.4.ijk:
+	mkdir     -p $(@D); echo 184 165 10 2  > $@
+Processed/ProstateX-0194/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 161 165 17 2  > $@
+Processed/ProstateX-0195/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 165 187 12 4  > $@
+Processed/ProstateX-0196/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 169 182 13 5  > $@
+Processed/ProstateX-0196/T2Sag.2.ijk:
+	mkdir     -p $(@D); echo 161 186 7 5  > $@
+Processed/ProstateX-0196/T2Sag.3.ijk:
+	mkdir     -p $(@D); echo 145 184 14 5  > $@
+Processed/ProstateX-0197/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 161 168 13 2  > $@
+Processed/ProstateX-0198/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 143 183 8 5  > $@
+Processed/ProstateX-0199/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 108 140 9 4  > $@
+Processed/ProstateX-0199/T2Sag.2.ijk:
+	mkdir     -p $(@D); echo 112 171 14 4  > $@
+Processed/ProstateX-0200/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 164 157 4 5  > $@
+Processed/ProstateX-0201/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 164 148 3 2  > $@
+Processed/ProstateX-0202/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 143 147 9 4  > $@
+Processed/ProstateX-0203/T2Sag.1.ijk:
+	mkdir     -p $(@D); echo 138 142 12 2  > $@
+Processed/ProstateX-0203/T2Sag.2.ijk:
+	mkdir     -p $(@D); echo 163 169 5 2  > $@
+Processed/ProstateX-0000/ADC.1.ijk:
+	mkdir       -p $(@D); echo 36 72 9 3  > $@
+Processed/ProstateX-0001/ADC.1.ijk:
+	mkdir       -p $(@D); echo 34 63 10 1  > $@
+Processed/ProstateX-0002/ADC.1.ijk:
+	mkdir       -p $(@D); echo 33 71 12 2  > $@
+Processed/ProstateX-0002/ADC.2.ijk:
+	mkdir       -p $(@D); echo 45 70 9 2  > $@
+Processed/ProstateX-0004/ADC.1.ijk:
+	mkdir       -p $(@D); echo 50 58 8 1  > $@
+Processed/ProstateX-0005/ADC.0.ijk:
+	mkdir       -p $(@D); echo 46 75 9 2  > $@
+Processed/ProstateX-0005/ADC.1.ijk:
+	mkdir       -p $(@D); echo 34 71 9 2  > $@
+Processed/ProstateX-0014/ADC.1.ijk:
+	mkdir       -p $(@D); echo 40 65 7 2  > $@
+Processed/ProstateX-0015/ADC.1.ijk:
+	mkdir       -p $(@D); echo 48 55 8 3  > $@
+Processed/ProstateX-0016/ADC.1.ijk:
+	mkdir       -p $(@D); echo 37 59 5 1  > $@
+Processed/ProstateX-0018/ADC.1.ijk:
+	mkdir       -p $(@D); echo 45 60 6 2  > $@
+Processed/ProstateX-0019/ADC.1.ijk:
+	mkdir       -p $(@D); echo 40 75 11 2  > $@
+Processed/ProstateX-0026/ADC.1.ijk:
+	mkdir       -p $(@D); echo 38 66 5 4  > $@
+Processed/ProstateX-0028/ADC.1.ijk:
+	mkdir       -p $(@D); echo 53 69 8 2  > $@
+Processed/ProstateX-0031/ADC.1.ijk:
+	mkdir       -p $(@D); echo 52 69 15 2  > $@
+Processed/ProstateX-0031/ADC.2.ijk:
+	mkdir       -p $(@D); echo 35 70 15 2  > $@
+Processed/ProstateX-0035/ADC.1.ijk:
+	mkdir       -p $(@D); echo 32 66 9 2  > $@
+Processed/ProstateX-0037/ADC.1.ijk:
+	mkdir       -p $(@D); echo 35 63 9 2  > $@
+Processed/ProstateX-0040/ADC.1.ijk:
+	mkdir       -p $(@D); echo 32 63 12 2  > $@
+Processed/ProstateX-0041/ADC.1.ijk:
+	mkdir       -p $(@D); echo 32 75 5 2  > $@
+Processed/ProstateX-0046/ADC.1.ijk:
+	mkdir       -p $(@D); echo 29 66 12 3  > $@
+Processed/ProstateX-0053/ADC.4.ijk:
+	mkdir       -p $(@D); echo 52 67 12 1  > $@
+Processed/ProstateX-0054/ADC.1.ijk:
+	mkdir       -p $(@D); echo 42 60 7 2  > $@
+Processed/ProstateX-0055/ADC.1.ijk:
+	mkdir       -p $(@D); echo 40 61 9 3  > $@
+Processed/ProstateX-0067/ADC.1.ijk:
+	mkdir       -p $(@D); echo 45 60 8 2  > $@
+Processed/ProstateX-0069/ADC.1.ijk:
+	mkdir       -p $(@D); echo 34 65 8 1  > $@
+Processed/ProstateX-0071/ADC.1.ijk:
+	mkdir       -p $(@D); echo 47 59 12 3  > $@
+Processed/ProstateX-0076/ADC.1.ijk:
+	mkdir       -p $(@D); echo 50 68 13 1  > $@
+Processed/ProstateX-0077/ADC.1.ijk:
+	mkdir       -p $(@D); echo 32 72 11 4  > $@
+Processed/ProstateX-0078/ADC.1.ijk:
+	mkdir       -p $(@D); echo 50 64 7 3  > $@
+Processed/ProstateX-0082/ADC.1.ijk:
+	mkdir       -p $(@D); echo 37 64 13 2  > $@
+Processed/ProstateX-0084/ADC.2.ijk:
+	mkdir       -p $(@D); echo 36 65 5 1  > $@
+Processed/ProstateX-0092/ADC.1.ijk:
+	mkdir       -p $(@D); echo 34 61 8 3  > $@
+Processed/ProstateX-0094/ADC.1.ijk:
+	mkdir       -p $(@D); echo 42 55 9 3  > $@
+Processed/ProstateX-0095/ADC.1.ijk:
+	mkdir       -p $(@D); echo 37 70 11 3  > $@
+Processed/ProstateX-0097/ADC.1.ijk:
+	mkdir       -p $(@D); echo 37 61 12 2  > $@
+Processed/ProstateX-0099/ADC.1.ijk:
+	mkdir       -p $(@D); echo 52 75 10 2  > $@
+Processed/ProstateX-0101/ADC.1.ijk:
+	mkdir       -p $(@D); echo 42 59 3 1  > $@
+Processed/ProstateX-0102/ADC.1.ijk:
+	mkdir       -p $(@D); echo 38 65 4 2  > $@
+Processed/ProstateX-0103/ADC.1.ijk:
+	mkdir       -p $(@D); echo 50 74 13 5  > $@
+Processed/ProstateX-0104/ADC.1.ijk:
+	mkdir       -p $(@D); echo 34 58 10 2  > $@
+Processed/ProstateX-0105/ADC.1.ijk:
+	mkdir       -p $(@D); echo 46 61 7 2  > $@
+Processed/ProstateX-0106/ADC.2.ijk:
+	mkdir       -p $(@D); echo 41 55 6 3  > $@
+Processed/ProstateX-0110/ADC.1.ijk:
+	mkdir       -p $(@D); echo 45 54 4 1  > $@
+Processed/ProstateX-0111/ADC.1.ijk:
+	mkdir       -p $(@D); echo 38 53 10 2  > $@
+Processed/ProstateX-0114/ADC.1.ijk:
+	mkdir       -p $(@D); echo 43 68 11 3  > $@
+Processed/ProstateX-0115/ADC.1.ijk:
+	mkdir       -p $(@D); echo 39 63 13 2  > $@
+Processed/ProstateX-0116/ADC.1.ijk:
+	mkdir       -p $(@D); echo 36 59 9 1  > $@
+Processed/ProstateX-0117/ADC.1.ijk:
+	mkdir       -p $(@D); echo 49 60 12 2  > $@
+Processed/ProstateX-0118/ADC.1.ijk:
+	mkdir       -p $(@D); echo 43 63 7 2  > $@
+Processed/ProstateX-0119/ADC.1.ijk:
+	mkdir       -p $(@D); echo 49 66 5 2  > $@
+Processed/ProstateX-0121/ADC.1.ijk:
+	mkdir       -p $(@D); echo 38 58 8 1  > $@
+Processed/ProstateX-0121/ADC.2.ijk:
+	mkdir       -p $(@D); echo 50 67 2 1  > $@
+Processed/ProstateX-0122/ADC.1.ijk:
+	mkdir       -p $(@D); echo 40 52 11 1  > $@
+Processed/ProstateX-0122/ADC.2.ijk:
+	mkdir       -p $(@D); echo 39 62 3 1  > $@
+Processed/ProstateX-0123/ADC.1.ijk:
+	mkdir       -p $(@D); echo 46 73 6 3  > $@
+Processed/ProstateX-0124/ADC.1.ijk:
+	mkdir       -p $(@D); echo 54 77 12 1  > $@
+Processed/ProstateX-0125/ADC.1.ijk:
+	mkdir       -p $(@D); echo 34 62 10 2  > $@
+Processed/ProstateX-0126/ADC.2.ijk:
+	mkdir       -p $(@D); echo 42 59 7 4  > $@
+Processed/ProstateX-0127/ADC.1.ijk:
+	mkdir       -p $(@D); echo 32 70 8 2  > $@
+Processed/ProstateX-0128/ADC.1.ijk:
+	mkdir       -p $(@D); echo 34 71 8 2  > $@
+Processed/ProstateX-0129/ADC.1.ijk:
+	mkdir       -p $(@D); echo 53 70 8 2  > $@
+Processed/ProstateX-0131/ADC.1.ijk:
+	mkdir       -p $(@D); echo 46 60 12 5  > $@
+Processed/ProstateX-0133/ADC.1.ijk:
+	mkdir       -p $(@D); echo 43 54 9 1  > $@
+Processed/ProstateX-0136/ADC.1.ijk:
+	mkdir       -p $(@D); echo 38 60 12 1  > $@
+Processed/ProstateX-0139/ADC.1.ijk:
+	mkdir       -p $(@D); echo 37 69 5 2  > $@
+Processed/ProstateX-0139/ADC.3.ijk:
+	mkdir       -p $(@D); echo 40 75 6 2  > $@
+Processed/ProstateX-0141/ADC.1.ijk:
+	mkdir       -p $(@D); echo 41 62 13 1  > $@
+Processed/ProstateX-0142/ADC.3.ijk:
+	mkdir       -p $(@D); echo 38 53 13 1  > $@
+Processed/ProstateX-0143/ADC.1.ijk:
+	mkdir       -p $(@D); echo 39 62 7 2  > $@
+Processed/ProstateX-0145/ADC.1.ijk:
+	mkdir       -p $(@D); echo 41 60 12 1  > $@
+Processed/ProstateX-0148/ADC.1.ijk:
+	mkdir       -p $(@D); echo 44 57 4 2  > $@
+Processed/ProstateX-0150/ADC.2.ijk:
+	mkdir       -p $(@D); echo 31 60 10 1  > $@
+Processed/ProstateX-0150/ADC.3.ijk:
+	mkdir       -p $(@D); echo 47 61 11 1  > $@
+Processed/ProstateX-0152/ADC.1.ijk:
+	mkdir       -p $(@D); echo 39 66 10 1  > $@
+Processed/ProstateX-0153/ADC.1.ijk:
+	mkdir       -p $(@D); echo 49 62 7 1  > $@
+Processed/ProstateX-0162/ADC.1.ijk:
+	mkdir       -p $(@D); echo 39 71 6 1  > $@
+Processed/ProstateX-0164/ADC.1.ijk:
+	mkdir       -p $(@D); echo 42 63 11 3  > $@
+Processed/ProstateX-0165/ADC.1.ijk:
+	mkdir       -p $(@D); echo 36 60 8 1  > $@
+Processed/ProstateX-0168/ADC.1.ijk:
+	mkdir       -p $(@D); echo 37 67 6 1  > $@
+Processed/ProstateX-0169/ADC.1.ijk:
+	mkdir       -p $(@D); echo 44 68 8 3  > $@
+Processed/ProstateX-0172/ADC.4.ijk:
+	mkdir       -p $(@D); echo 41 56 2 1  > $@
+Processed/ProstateX-0173/ADC.1.ijk:
+	mkdir       -p $(@D); echo 34 61 13 1  > $@
+Processed/ProstateX-0173/ADC.2.ijk:
+	mkdir       -p $(@D); echo 34 67 8 1  > $@
+Processed/ProstateX-0174/ADC.1.ijk:
+	mkdir       -p $(@D); echo 48 71 10 1  > $@
+Processed/ProstateX-0179/ADC.1.ijk:
+	mkdir       -p $(@D); echo 32 61 10 2  > $@
+Processed/ProstateX-0179/ADC.2.ijk:
+	mkdir       -p $(@D); echo 42 70 5 2  > $@
+Processed/ProstateX-0181/ADC.1.ijk:
+	mkdir       -p $(@D); echo 41 53 10 5  > $@
+Processed/ProstateX-0182/ADC.1.ijk:
+	mkdir       -p $(@D); echo 48 73 4 1  > $@
+Processed/ProstateX-0183/ADC.1.ijk:
+	mkdir       -p $(@D); echo 46 66 1 3  > $@
+Processed/ProstateX-0184/ADC.2.ijk:
+	mkdir       -p $(@D); echo 51 67 14 3  > $@
+Processed/ProstateX-0186/ADC.1.ijk:
+	mkdir       -p $(@D); echo 40 64 6 2  > $@
+Processed/ProstateX-0187/ADC.1.ijk:
+	mkdir       -p $(@D); echo 44 59 6 3  > $@
+Processed/ProstateX-0188/ADC.1.ijk:
+	mkdir       -p $(@D); echo 32 57 11 1  > $@
+Processed/ProstateX-0190/ADC.1.ijk:
+	mkdir       -p $(@D); echo 61 64 4 2  > $@
+Processed/ProstateX-0191/ADC.1.ijk:
+	mkdir       -p $(@D); echo 40 56 8 1  > $@
+Processed/ProstateX-0192/ADC.1.ijk:
+	mkdir       -p $(@D); echo 68 71 7 4  > $@
+Processed/ProstateX-0193/ADC.4.ijk:
+	mkdir       -p $(@D); echo 58 69 7 2  > $@
+Processed/ProstateX-0194/ADC.1.ijk:
+	mkdir       -p $(@D); echo 49 60 5 2  > $@
+Processed/ProstateX-0195/ADC.1.ijk:
+	mkdir       -p $(@D); echo 55 69 6 4  > $@
+Processed/ProstateX-0196/ADC.1.ijk:
+	mkdir       -p $(@D); echo 55 65 5 5  > $@
+Processed/ProstateX-0196/ADC.2.ijk:
+	mkdir       -p $(@D); echo 67 63 4 5  > $@
+Processed/ProstateX-0196/ADC.3.ijk:
+	mkdir       -p $(@D); echo 53 59 4 5  > $@
+Processed/ProstateX-0197/ADC.1.ijk:
+	mkdir       -p $(@D); echo 37 66 6 2  > $@
+Processed/ProstateX-0198/ADC.1.ijk:
+	mkdir       -p $(@D); echo 59 55 6 5  > $@
+Processed/ProstateX-0199/ADC.1.ijk:
+	mkdir       -p $(@D); echo 66 47 12 4  > $@
+Processed/ProstateX-0199/ADC.2.ijk:
+	mkdir       -p $(@D); echo 58 50 8 4  > $@
+Processed/ProstateX-0200/ADC.1.ijk:
+	mkdir       -p $(@D); echo 74 57 9 5  > $@
+Processed/ProstateX-0201/ADC.1.ijk:
+	mkdir       -p $(@D); echo 73 54 14 2  > $@
+Processed/ProstateX-0202/ADC.1.ijk:
+	mkdir       -p $(@D); echo 66 50 10 4  > $@
+Processed/ProstateX-0203/ADC.1.ijk:
+	mkdir       -p $(@D); echo 60 46 11 2  > $@
+Processed/ProstateX-0203/ADC.2.ijk:
+	mkdir       -p $(@D); echo 70 54 8 2  > $@
+Processed/ProstateX-0000/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 36 72 9 3  > $@
+Processed/ProstateX-0001/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 34 63 10 1  > $@
+Processed/ProstateX-0002/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 33 71 12 2  > $@
+Processed/ProstateX-0002/BVAL.2.ijk:
+	mkdir      -p $(@D); echo 45 70 9 2  > $@
+Processed/ProstateX-0004/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 50 58 8 1  > $@
+Processed/ProstateX-0005/BVAL.0.ijk:
+	mkdir      -p $(@D); echo 46 75 9 2  > $@
+Processed/ProstateX-0005/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 34 71 9 2  > $@
+Processed/ProstateX-0014/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 40 65 7 2  > $@
+Processed/ProstateX-0015/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 48 55 8 3  > $@
+Processed/ProstateX-0016/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 37 59 5 1  > $@
+Processed/ProstateX-0018/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 45 60 6 2  > $@
+Processed/ProstateX-0019/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 40 75 11 2  > $@
+Processed/ProstateX-0026/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 38 66 5 4  > $@
+Processed/ProstateX-0028/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 53 69 8 2  > $@
+Processed/ProstateX-0031/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 52 69 15 2  > $@
+Processed/ProstateX-0031/BVAL.2.ijk:
+	mkdir      -p $(@D); echo 35 70 15 2  > $@
+Processed/ProstateX-0035/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 32 66 9 2  > $@
+Processed/ProstateX-0037/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 35 63 9 2  > $@
+Processed/ProstateX-0040/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 32 63 12 2  > $@
+Processed/ProstateX-0041/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 32 75 5 2  > $@
+Processed/ProstateX-0046/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 29 66 12 3  > $@
+Processed/ProstateX-0053/BVAL.4.ijk:
+	mkdir      -p $(@D); echo 52 67 12 1  > $@
+Processed/ProstateX-0054/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 42 60 7 2  > $@
+Processed/ProstateX-0055/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 40 61 9 3  > $@
+Processed/ProstateX-0067/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 45 60 8 2  > $@
+Processed/ProstateX-0069/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 34 65 8 1  > $@
+Processed/ProstateX-0071/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 47 59 12 3  > $@
+Processed/ProstateX-0076/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 50 68 13 1  > $@
+Processed/ProstateX-0077/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 32 72 11 4  > $@
+Processed/ProstateX-0078/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 50 64 7 3  > $@
+Processed/ProstateX-0082/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 37 64 13 2  > $@
+Processed/ProstateX-0084/BVAL.2.ijk:
+	mkdir      -p $(@D); echo 36 65 5 1  > $@
+Processed/ProstateX-0092/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 34 61 8 3  > $@
+Processed/ProstateX-0094/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 42 55 9 3  > $@
+Processed/ProstateX-0095/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 37 70 11 3  > $@
+Processed/ProstateX-0097/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 37 61 12 2  > $@
+Processed/ProstateX-0099/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 52 75 10 2  > $@
+Processed/ProstateX-0101/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 42 59 3 1  > $@
+Processed/ProstateX-0102/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 38 65 4 2  > $@
+Processed/ProstateX-0103/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 50 74 13 5  > $@
+Processed/ProstateX-0104/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 34 58 10 2  > $@
+Processed/ProstateX-0105/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 46 61 7 2  > $@
+Processed/ProstateX-0106/BVAL.2.ijk:
+	mkdir      -p $(@D); echo 41 55 6 3  > $@
+Processed/ProstateX-0110/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 45 54 4 1  > $@
+Processed/ProstateX-0111/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 38 53 10 2  > $@
+Processed/ProstateX-0114/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 43 68 11 3  > $@
+Processed/ProstateX-0115/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 39 63 13 2  > $@
+Processed/ProstateX-0116/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 36 59 9 1  > $@
+Processed/ProstateX-0117/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 49 60 12 2  > $@
+Processed/ProstateX-0118/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 43 63 7 2  > $@
+Processed/ProstateX-0119/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 49 66 5 2  > $@
+Processed/ProstateX-0121/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 38 58 8 1  > $@
+Processed/ProstateX-0121/BVAL.2.ijk:
+	mkdir      -p $(@D); echo 50 67 2 1  > $@
+Processed/ProstateX-0122/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 40 52 11 1  > $@
+Processed/ProstateX-0122/BVAL.2.ijk:
+	mkdir      -p $(@D); echo 39 62 3 1  > $@
+Processed/ProstateX-0123/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 46 73 6 3  > $@
+Processed/ProstateX-0124/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 54 77 12 1  > $@
+Processed/ProstateX-0125/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 34 62 10 2  > $@
+Processed/ProstateX-0126/BVAL.2.ijk:
+	mkdir      -p $(@D); echo 42 59 7 4  > $@
+Processed/ProstateX-0127/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 32 70 8 2  > $@
+Processed/ProstateX-0128/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 34 71 8 2  > $@
+Processed/ProstateX-0129/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 53 70 8 2  > $@
+Processed/ProstateX-0131/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 46 60 12 5  > $@
+Processed/ProstateX-0133/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 43 54 9 1  > $@
+Processed/ProstateX-0136/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 38 60 12 1  > $@
+Processed/ProstateX-0139/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 37 69 5 2  > $@
+Processed/ProstateX-0139/BVAL.3.ijk:
+	mkdir      -p $(@D); echo 40 75 6 2  > $@
+Processed/ProstateX-0141/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 41 62 13 1  > $@
+Processed/ProstateX-0142/BVAL.3.ijk:
+	mkdir      -p $(@D); echo 38 53 13 1  > $@
+Processed/ProstateX-0143/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 39 62 7 2  > $@
+Processed/ProstateX-0145/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 41 60 12 1  > $@
+Processed/ProstateX-0148/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 44 57 4 2  > $@
+Processed/ProstateX-0150/BVAL.2.ijk:
+	mkdir      -p $(@D); echo 31 60 10 1  > $@
+Processed/ProstateX-0150/BVAL.3.ijk:
+	mkdir      -p $(@D); echo 47 61 11 1  > $@
+Processed/ProstateX-0152/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 39 66 10 1  > $@
+Processed/ProstateX-0153/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 49 62 7 1  > $@
+Processed/ProstateX-0162/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 39 71 6 1  > $@
+Processed/ProstateX-0164/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 42 63 11 3  > $@
+Processed/ProstateX-0165/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 36 60 8 1  > $@
+Processed/ProstateX-0168/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 37 67 6 1  > $@
+Processed/ProstateX-0169/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 44 68 8 3  > $@
+Processed/ProstateX-0172/BVAL.4.ijk:
+	mkdir      -p $(@D); echo 41 56 2 1  > $@
+Processed/ProstateX-0173/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 34 61 13 1  > $@
+Processed/ProstateX-0173/BVAL.2.ijk:
+	mkdir      -p $(@D); echo 34 67 8 1  > $@
+Processed/ProstateX-0174/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 48 71 10 1  > $@
+Processed/ProstateX-0179/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 32 61 10 2  > $@
+Processed/ProstateX-0179/BVAL.2.ijk:
+	mkdir      -p $(@D); echo 42 70 5 2  > $@
+Processed/ProstateX-0181/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 41 53 10 5  > $@
+Processed/ProstateX-0182/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 48 73 4 1  > $@
+Processed/ProstateX-0183/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 46 66 1 3  > $@
+Processed/ProstateX-0184/BVAL.2.ijk:
+	mkdir      -p $(@D); echo 51 67 14 3  > $@
+Processed/ProstateX-0186/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 40 64 6 2  > $@
+Processed/ProstateX-0187/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 44 59 6 3  > $@
+Processed/ProstateX-0188/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 32 57 11 1  > $@
+Processed/ProstateX-0190/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 61 64 4 2  > $@
+Processed/ProstateX-0191/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 40 56 8 1  > $@
+Processed/ProstateX-0192/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 68 71 7 4  > $@
+Processed/ProstateX-0193/BVAL.4.ijk:
+	mkdir      -p $(@D); echo 58 69 7 2  > $@
+Processed/ProstateX-0194/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 49 60 5 2  > $@
+Processed/ProstateX-0195/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 55 69 6 4  > $@
+Processed/ProstateX-0196/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 55 65 5 5  > $@
+Processed/ProstateX-0196/BVAL.2.ijk:
+	mkdir      -p $(@D); echo 67 63 4 5  > $@
+Processed/ProstateX-0196/BVAL.3.ijk:
+	mkdir      -p $(@D); echo 53 59 4 5  > $@
+Processed/ProstateX-0197/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 37 66 6 2  > $@
+Processed/ProstateX-0198/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 59 55 6 5  > $@
+Processed/ProstateX-0199/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 66 47 12 4  > $@
+Processed/ProstateX-0199/BVAL.2.ijk:
+	mkdir      -p $(@D); echo 58 50 8 4  > $@
+Processed/ProstateX-0200/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 74 57 9 5  > $@
+Processed/ProstateX-0201/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 73 54 14 2  > $@
+Processed/ProstateX-0202/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 66 50 10 4  > $@
+Processed/ProstateX-0203/BVAL.1.ijk:
+	mkdir      -p $(@D); echo 60 46 11 2  > $@
+Processed/ProstateX-0203/BVAL.2.ijk:
+	mkdir      -p $(@D); echo 70 54 8 2  > $@
