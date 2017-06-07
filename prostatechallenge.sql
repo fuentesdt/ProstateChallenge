@@ -60,17 +60,19 @@ BEGIN
     select concat("TRAINING = ",group_concat(  rf.mrn separator '  ') )
     from DFProstateChallenge.metadata rf ;
     
-    select CONCAT('Processed/',rf.mrn,'/config:',' Processed/',rf.mrn,'/T2Axial.nii.gz',' Processed/',rf.mrn,'/T2Sag.nii.gz' , ' Processed/', rf.mrn, '/ADC.nii.gz' , ' Processed/', rf.mrn, '/BVAL.nii.gz' , ' Processed/', rf.mrn, '/KTRANS.nii.gz' ) 
+    select CONCAT('Processed/',rf.mrn,'/config:',' Processed/',rf.mrn,'/T2Axial.raw.nii.gz',' Processed/',rf.mrn,'/T2Sag.raw.nii.gz' , ' Processed/', rf.mrn, '/ADC.raw.nii.gz' , ' Processed/', rf.mrn, '/BVAL.raw.nii.gz' , ' Processed/', rf.mrn, '/KTRANS.raw.nii.gz' ) 
     from DFProstateChallenge.metadata rf ;
-    select CONCAT('Processed/', rf.mrn, '/T2Axial.nii.gz:\n\tmkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/', rf.mrn,'/*/', rf.T2AxialUID , ' $@' ) 
+    select CONCAT('Processed/', rf.mrn, '/T2Axial.raw.nii.gz:\n\tmkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/', rf.mrn,'/*/', rf.T2AxialUID , ' $@' ) 
     from DFProstateChallenge.metadata rf ;
-    select CONCAT('Processed/', rf.mrn, '/T2Sag.nii.gz:\n\tmkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/'  , rf.mrn,'/*/', rf.T2SagUID   , ' $@' ) 
+    select CONCAT('Processed/', rf.mrn, '/T2Sag.raw.nii.gz:\n\tmkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/'  , rf.mrn,'/*/', rf.T2SagUID   , ' $@' ) 
     from DFProstateChallenge.metadata rf ;
-    select CONCAT('Processed/', rf.mrn, '/ADC.nii.gz:\n\tmkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/'    , rf.mrn,'/*/', rf.ADCUID     , ' $@' ) 
+    select CONCAT('Processed/', rf.mrn, '/ADC.raw.nii.gz:\n\tmkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/'    , rf.mrn,'/*/', rf.ADCUID     , ' $@' ) 
     from DFProstateChallenge.metadata rf ;
-    select CONCAT('Processed/', rf.mrn, '/BVAL.nii.gz:\n\tmkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/'   , rf.mrn,'/*/', rf.BVALUID    , ' $@' ) 
+    select CONCAT('Processed/', rf.mrn, '/BVAL.raw.nii.gz:\n\tmkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/'   , rf.mrn,'/*/', rf.BVALUID    , ' $@' ) 
     from DFProstateChallenge.metadata rf ;
-    select CONCAT('Processed/', rf.mrn, '/KTRANS.nii.gz:\n\tmkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/'   , rf.mrn,'/', rf.KTRANSUID , ' -o $@' ) 
+    select CONCAT('Processed/', rf.mrn, '/KTRANS.raw.nii.gz:\n\tmkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/'   , rf.mrn,'/', rf.KTRANSUID , ' -o $@' ) 
+    from DFProstateChallenge.metadata rf ;
+    select CONCAT('Processed/', rf.mrn, '/landmarks.txt:\n\tmkdir -p $(@D); echo '   , rf.pos,' 1  > $@' ) 
     from DFProstateChallenge.metadata rf ;
 
 END //
