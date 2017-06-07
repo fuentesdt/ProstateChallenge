@@ -1,0 +1,1091 @@
+DCMNIFTISPLIT=/rsrch1/ip/dtfuentes/github/FileConversionScripts/seriesreadwriteall/DicomSeriesReadImageWriteAll
+TRAINING = ProstateX-0000  ProstateX-0001  ProstateX-0002  ProstateX-0004  ProstateX-0005  ProstateX-0014  ProstateX-0015  ProstateX-0016  ProstateX-0018  ProstateX-0019  ProstateX-0026  ProstateX-0028  ProstateX-0031  ProstateX-0035  ProstateX-0037  ProstateX-0040  ProstateX-0041  ProstateX-0046  ProstateX-0053  ProstateX-0054  ProstateX-0055  ProstateX-0067  ProstateX-0069  ProstateX-0071  ProstateX-0076  ProstateX-0077  ProstateX-0078  ProstateX-0082  ProstateX-0084  ProstateX-0092  ProstateX-0094  ProstateX-0095  ProstateX-0097  ProstateX-0099  ProstateX-0101  ProstateX-0102  ProstateX-0103  ProstateX-0104  ProstateX-0105  ProstateX-0106  ProstateX-0110  ProstateX-0111  ProstateX-0114  ProstateX-0115  ProstateX-0116  ProstateX-0117  ProstateX-0118  ProstateX-0119  ProstateX-0121  ProstateX-0122  ProstateX-0123  ProstateX-0124  ProstateX-0125  ProstateX-0126  ProstateX-0127  ProstateX-0128  ProstateX-0129  ProstateX-0131  ProstateX-0133  ProstateX-0136  ProstateX-0139  ProstateX-0141  ProstateX-0142  ProstateX-0143  ProstateX-0145  ProstateX-0148  ProstateX-0150  ProstateX-0152  ProstateX-0153  ProstateX-0162  ProstateX-0164  ProstateX-0165  ProstateX-0168  ProstateX-0169  ProstateX-0172  ProstateX-0173  ProstateX-0174  ProstateX-0179  ProstateX-0181  ProstateX-0182  ProstateX-0183  ProstateX-0184  ProstateX-0186  ProstateX-0187  ProstateX-0188  ProstateX-0190  ProstateX-0191  ProstateX-0192  ProstateX-0193  ProstateX-0194  ProstateX-0195  ProstateX-0196  ProstateX-0197  ProstateX-0198  ProstateX-0199  ProstateX-0200  ProstateX-0201  ProstateX-0202  ProstateX-0203
+Processed/ProstateX-0000/config: Processed/ProstateX-0000/T2Axial.nii.gz Processed/ProstateX-0000/T2Sag.nii.gz Processed/ProstateX-0000/ADC.nii.gz Processed/ProstateX-0000/BVAL.nii.gz Processed/ProstateX-0000/KTRANS.nii.gz
+Processed/ProstateX-0001/config: Processed/ProstateX-0001/T2Axial.nii.gz Processed/ProstateX-0001/T2Sag.nii.gz Processed/ProstateX-0001/ADC.nii.gz Processed/ProstateX-0001/BVAL.nii.gz Processed/ProstateX-0001/KTRANS.nii.gz
+Processed/ProstateX-0002/config: Processed/ProstateX-0002/T2Axial.nii.gz Processed/ProstateX-0002/T2Sag.nii.gz Processed/ProstateX-0002/ADC.nii.gz Processed/ProstateX-0002/BVAL.nii.gz Processed/ProstateX-0002/KTRANS.nii.gz
+Processed/ProstateX-0004/config: Processed/ProstateX-0004/T2Axial.nii.gz Processed/ProstateX-0004/T2Sag.nii.gz Processed/ProstateX-0004/ADC.nii.gz Processed/ProstateX-0004/BVAL.nii.gz Processed/ProstateX-0004/KTRANS.nii.gz
+Processed/ProstateX-0005/config: Processed/ProstateX-0005/T2Axial.nii.gz Processed/ProstateX-0005/T2Sag.nii.gz Processed/ProstateX-0005/ADC.nii.gz Processed/ProstateX-0005/BVAL.nii.gz Processed/ProstateX-0005/KTRANS.nii.gz
+Processed/ProstateX-0014/config: Processed/ProstateX-0014/T2Axial.nii.gz Processed/ProstateX-0014/T2Sag.nii.gz Processed/ProstateX-0014/ADC.nii.gz Processed/ProstateX-0014/BVAL.nii.gz Processed/ProstateX-0014/KTRANS.nii.gz
+Processed/ProstateX-0015/config: Processed/ProstateX-0015/T2Axial.nii.gz Processed/ProstateX-0015/T2Sag.nii.gz Processed/ProstateX-0015/ADC.nii.gz Processed/ProstateX-0015/BVAL.nii.gz Processed/ProstateX-0015/KTRANS.nii.gz
+Processed/ProstateX-0016/config: Processed/ProstateX-0016/T2Axial.nii.gz Processed/ProstateX-0016/T2Sag.nii.gz Processed/ProstateX-0016/ADC.nii.gz Processed/ProstateX-0016/BVAL.nii.gz Processed/ProstateX-0016/KTRANS.nii.gz
+Processed/ProstateX-0018/config: Processed/ProstateX-0018/T2Axial.nii.gz Processed/ProstateX-0018/T2Sag.nii.gz Processed/ProstateX-0018/ADC.nii.gz Processed/ProstateX-0018/BVAL.nii.gz Processed/ProstateX-0018/KTRANS.nii.gz
+Processed/ProstateX-0019/config: Processed/ProstateX-0019/T2Axial.nii.gz Processed/ProstateX-0019/T2Sag.nii.gz Processed/ProstateX-0019/ADC.nii.gz Processed/ProstateX-0019/BVAL.nii.gz Processed/ProstateX-0019/KTRANS.nii.gz
+Processed/ProstateX-0026/config: Processed/ProstateX-0026/T2Axial.nii.gz Processed/ProstateX-0026/T2Sag.nii.gz Processed/ProstateX-0026/ADC.nii.gz Processed/ProstateX-0026/BVAL.nii.gz Processed/ProstateX-0026/KTRANS.nii.gz
+Processed/ProstateX-0028/config: Processed/ProstateX-0028/T2Axial.nii.gz Processed/ProstateX-0028/T2Sag.nii.gz Processed/ProstateX-0028/ADC.nii.gz Processed/ProstateX-0028/BVAL.nii.gz Processed/ProstateX-0028/KTRANS.nii.gz
+Processed/ProstateX-0031/config: Processed/ProstateX-0031/T2Axial.nii.gz Processed/ProstateX-0031/T2Sag.nii.gz Processed/ProstateX-0031/ADC.nii.gz Processed/ProstateX-0031/BVAL.nii.gz Processed/ProstateX-0031/KTRANS.nii.gz
+Processed/ProstateX-0035/config: Processed/ProstateX-0035/T2Axial.nii.gz Processed/ProstateX-0035/T2Sag.nii.gz Processed/ProstateX-0035/ADC.nii.gz Processed/ProstateX-0035/BVAL.nii.gz Processed/ProstateX-0035/KTRANS.nii.gz
+Processed/ProstateX-0037/config: Processed/ProstateX-0037/T2Axial.nii.gz Processed/ProstateX-0037/T2Sag.nii.gz Processed/ProstateX-0037/ADC.nii.gz Processed/ProstateX-0037/BVAL.nii.gz Processed/ProstateX-0037/KTRANS.nii.gz
+Processed/ProstateX-0040/config: Processed/ProstateX-0040/T2Axial.nii.gz Processed/ProstateX-0040/T2Sag.nii.gz Processed/ProstateX-0040/ADC.nii.gz Processed/ProstateX-0040/BVAL.nii.gz Processed/ProstateX-0040/KTRANS.nii.gz
+Processed/ProstateX-0041/config: Processed/ProstateX-0041/T2Axial.nii.gz Processed/ProstateX-0041/T2Sag.nii.gz Processed/ProstateX-0041/ADC.nii.gz Processed/ProstateX-0041/BVAL.nii.gz Processed/ProstateX-0041/KTRANS.nii.gz
+Processed/ProstateX-0046/config: Processed/ProstateX-0046/T2Axial.nii.gz Processed/ProstateX-0046/T2Sag.nii.gz Processed/ProstateX-0046/ADC.nii.gz Processed/ProstateX-0046/BVAL.nii.gz Processed/ProstateX-0046/KTRANS.nii.gz
+Processed/ProstateX-0053/config: Processed/ProstateX-0053/T2Axial.nii.gz Processed/ProstateX-0053/T2Sag.nii.gz Processed/ProstateX-0053/ADC.nii.gz Processed/ProstateX-0053/BVAL.nii.gz Processed/ProstateX-0053/KTRANS.nii.gz
+Processed/ProstateX-0054/config: Processed/ProstateX-0054/T2Axial.nii.gz Processed/ProstateX-0054/T2Sag.nii.gz Processed/ProstateX-0054/ADC.nii.gz Processed/ProstateX-0054/BVAL.nii.gz Processed/ProstateX-0054/KTRANS.nii.gz
+Processed/ProstateX-0055/config: Processed/ProstateX-0055/T2Axial.nii.gz Processed/ProstateX-0055/T2Sag.nii.gz Processed/ProstateX-0055/ADC.nii.gz Processed/ProstateX-0055/BVAL.nii.gz Processed/ProstateX-0055/KTRANS.nii.gz
+Processed/ProstateX-0067/config: Processed/ProstateX-0067/T2Axial.nii.gz Processed/ProstateX-0067/T2Sag.nii.gz Processed/ProstateX-0067/ADC.nii.gz Processed/ProstateX-0067/BVAL.nii.gz Processed/ProstateX-0067/KTRANS.nii.gz
+Processed/ProstateX-0069/config: Processed/ProstateX-0069/T2Axial.nii.gz Processed/ProstateX-0069/T2Sag.nii.gz Processed/ProstateX-0069/ADC.nii.gz Processed/ProstateX-0069/BVAL.nii.gz Processed/ProstateX-0069/KTRANS.nii.gz
+Processed/ProstateX-0071/config: Processed/ProstateX-0071/T2Axial.nii.gz Processed/ProstateX-0071/T2Sag.nii.gz Processed/ProstateX-0071/ADC.nii.gz Processed/ProstateX-0071/BVAL.nii.gz Processed/ProstateX-0071/KTRANS.nii.gz
+Processed/ProstateX-0076/config: Processed/ProstateX-0076/T2Axial.nii.gz Processed/ProstateX-0076/T2Sag.nii.gz Processed/ProstateX-0076/ADC.nii.gz Processed/ProstateX-0076/BVAL.nii.gz Processed/ProstateX-0076/KTRANS.nii.gz
+Processed/ProstateX-0077/config: Processed/ProstateX-0077/T2Axial.nii.gz Processed/ProstateX-0077/T2Sag.nii.gz Processed/ProstateX-0077/ADC.nii.gz Processed/ProstateX-0077/BVAL.nii.gz Processed/ProstateX-0077/KTRANS.nii.gz
+Processed/ProstateX-0078/config: Processed/ProstateX-0078/T2Axial.nii.gz Processed/ProstateX-0078/T2Sag.nii.gz Processed/ProstateX-0078/ADC.nii.gz Processed/ProstateX-0078/BVAL.nii.gz Processed/ProstateX-0078/KTRANS.nii.gz
+Processed/ProstateX-0082/config: Processed/ProstateX-0082/T2Axial.nii.gz Processed/ProstateX-0082/T2Sag.nii.gz Processed/ProstateX-0082/ADC.nii.gz Processed/ProstateX-0082/BVAL.nii.gz Processed/ProstateX-0082/KTRANS.nii.gz
+Processed/ProstateX-0084/config: Processed/ProstateX-0084/T2Axial.nii.gz Processed/ProstateX-0084/T2Sag.nii.gz Processed/ProstateX-0084/ADC.nii.gz Processed/ProstateX-0084/BVAL.nii.gz Processed/ProstateX-0084/KTRANS.nii.gz
+Processed/ProstateX-0092/config: Processed/ProstateX-0092/T2Axial.nii.gz Processed/ProstateX-0092/T2Sag.nii.gz Processed/ProstateX-0092/ADC.nii.gz Processed/ProstateX-0092/BVAL.nii.gz Processed/ProstateX-0092/KTRANS.nii.gz
+Processed/ProstateX-0094/config: Processed/ProstateX-0094/T2Axial.nii.gz Processed/ProstateX-0094/T2Sag.nii.gz Processed/ProstateX-0094/ADC.nii.gz Processed/ProstateX-0094/BVAL.nii.gz Processed/ProstateX-0094/KTRANS.nii.gz
+Processed/ProstateX-0095/config: Processed/ProstateX-0095/T2Axial.nii.gz Processed/ProstateX-0095/T2Sag.nii.gz Processed/ProstateX-0095/ADC.nii.gz Processed/ProstateX-0095/BVAL.nii.gz Processed/ProstateX-0095/KTRANS.nii.gz
+Processed/ProstateX-0097/config: Processed/ProstateX-0097/T2Axial.nii.gz Processed/ProstateX-0097/T2Sag.nii.gz Processed/ProstateX-0097/ADC.nii.gz Processed/ProstateX-0097/BVAL.nii.gz Processed/ProstateX-0097/KTRANS.nii.gz
+Processed/ProstateX-0099/config: Processed/ProstateX-0099/T2Axial.nii.gz Processed/ProstateX-0099/T2Sag.nii.gz Processed/ProstateX-0099/ADC.nii.gz Processed/ProstateX-0099/BVAL.nii.gz Processed/ProstateX-0099/KTRANS.nii.gz
+Processed/ProstateX-0101/config: Processed/ProstateX-0101/T2Axial.nii.gz Processed/ProstateX-0101/T2Sag.nii.gz Processed/ProstateX-0101/ADC.nii.gz Processed/ProstateX-0101/BVAL.nii.gz Processed/ProstateX-0101/KTRANS.nii.gz
+Processed/ProstateX-0102/config: Processed/ProstateX-0102/T2Axial.nii.gz Processed/ProstateX-0102/T2Sag.nii.gz Processed/ProstateX-0102/ADC.nii.gz Processed/ProstateX-0102/BVAL.nii.gz Processed/ProstateX-0102/KTRANS.nii.gz
+Processed/ProstateX-0103/config: Processed/ProstateX-0103/T2Axial.nii.gz Processed/ProstateX-0103/T2Sag.nii.gz Processed/ProstateX-0103/ADC.nii.gz Processed/ProstateX-0103/BVAL.nii.gz Processed/ProstateX-0103/KTRANS.nii.gz
+Processed/ProstateX-0104/config: Processed/ProstateX-0104/T2Axial.nii.gz Processed/ProstateX-0104/T2Sag.nii.gz Processed/ProstateX-0104/ADC.nii.gz Processed/ProstateX-0104/BVAL.nii.gz Processed/ProstateX-0104/KTRANS.nii.gz
+Processed/ProstateX-0105/config: Processed/ProstateX-0105/T2Axial.nii.gz Processed/ProstateX-0105/T2Sag.nii.gz Processed/ProstateX-0105/ADC.nii.gz Processed/ProstateX-0105/BVAL.nii.gz Processed/ProstateX-0105/KTRANS.nii.gz
+Processed/ProstateX-0106/config: Processed/ProstateX-0106/T2Axial.nii.gz Processed/ProstateX-0106/T2Sag.nii.gz Processed/ProstateX-0106/ADC.nii.gz Processed/ProstateX-0106/BVAL.nii.gz Processed/ProstateX-0106/KTRANS.nii.gz
+Processed/ProstateX-0110/config: Processed/ProstateX-0110/T2Axial.nii.gz Processed/ProstateX-0110/T2Sag.nii.gz Processed/ProstateX-0110/ADC.nii.gz Processed/ProstateX-0110/BVAL.nii.gz Processed/ProstateX-0110/KTRANS.nii.gz
+Processed/ProstateX-0111/config: Processed/ProstateX-0111/T2Axial.nii.gz Processed/ProstateX-0111/T2Sag.nii.gz Processed/ProstateX-0111/ADC.nii.gz Processed/ProstateX-0111/BVAL.nii.gz Processed/ProstateX-0111/KTRANS.nii.gz
+Processed/ProstateX-0114/config: Processed/ProstateX-0114/T2Axial.nii.gz Processed/ProstateX-0114/T2Sag.nii.gz Processed/ProstateX-0114/ADC.nii.gz Processed/ProstateX-0114/BVAL.nii.gz Processed/ProstateX-0114/KTRANS.nii.gz
+Processed/ProstateX-0115/config: Processed/ProstateX-0115/T2Axial.nii.gz Processed/ProstateX-0115/T2Sag.nii.gz Processed/ProstateX-0115/ADC.nii.gz Processed/ProstateX-0115/BVAL.nii.gz Processed/ProstateX-0115/KTRANS.nii.gz
+Processed/ProstateX-0116/config: Processed/ProstateX-0116/T2Axial.nii.gz Processed/ProstateX-0116/T2Sag.nii.gz Processed/ProstateX-0116/ADC.nii.gz Processed/ProstateX-0116/BVAL.nii.gz Processed/ProstateX-0116/KTRANS.nii.gz
+Processed/ProstateX-0117/config: Processed/ProstateX-0117/T2Axial.nii.gz Processed/ProstateX-0117/T2Sag.nii.gz Processed/ProstateX-0117/ADC.nii.gz Processed/ProstateX-0117/BVAL.nii.gz Processed/ProstateX-0117/KTRANS.nii.gz
+Processed/ProstateX-0118/config: Processed/ProstateX-0118/T2Axial.nii.gz Processed/ProstateX-0118/T2Sag.nii.gz Processed/ProstateX-0118/ADC.nii.gz Processed/ProstateX-0118/BVAL.nii.gz Processed/ProstateX-0118/KTRANS.nii.gz
+Processed/ProstateX-0119/config: Processed/ProstateX-0119/T2Axial.nii.gz Processed/ProstateX-0119/T2Sag.nii.gz Processed/ProstateX-0119/ADC.nii.gz Processed/ProstateX-0119/BVAL.nii.gz Processed/ProstateX-0119/KTRANS.nii.gz
+Processed/ProstateX-0121/config: Processed/ProstateX-0121/T2Axial.nii.gz Processed/ProstateX-0121/T2Sag.nii.gz Processed/ProstateX-0121/ADC.nii.gz Processed/ProstateX-0121/BVAL.nii.gz Processed/ProstateX-0121/KTRANS.nii.gz
+Processed/ProstateX-0122/config: Processed/ProstateX-0122/T2Axial.nii.gz Processed/ProstateX-0122/T2Sag.nii.gz Processed/ProstateX-0122/ADC.nii.gz Processed/ProstateX-0122/BVAL.nii.gz Processed/ProstateX-0122/KTRANS.nii.gz
+Processed/ProstateX-0123/config: Processed/ProstateX-0123/T2Axial.nii.gz Processed/ProstateX-0123/T2Sag.nii.gz Processed/ProstateX-0123/ADC.nii.gz Processed/ProstateX-0123/BVAL.nii.gz Processed/ProstateX-0123/KTRANS.nii.gz
+Processed/ProstateX-0124/config: Processed/ProstateX-0124/T2Axial.nii.gz Processed/ProstateX-0124/T2Sag.nii.gz Processed/ProstateX-0124/ADC.nii.gz Processed/ProstateX-0124/BVAL.nii.gz Processed/ProstateX-0124/KTRANS.nii.gz
+Processed/ProstateX-0125/config: Processed/ProstateX-0125/T2Axial.nii.gz Processed/ProstateX-0125/T2Sag.nii.gz Processed/ProstateX-0125/ADC.nii.gz Processed/ProstateX-0125/BVAL.nii.gz Processed/ProstateX-0125/KTRANS.nii.gz
+Processed/ProstateX-0126/config: Processed/ProstateX-0126/T2Axial.nii.gz Processed/ProstateX-0126/T2Sag.nii.gz Processed/ProstateX-0126/ADC.nii.gz Processed/ProstateX-0126/BVAL.nii.gz Processed/ProstateX-0126/KTRANS.nii.gz
+Processed/ProstateX-0127/config: Processed/ProstateX-0127/T2Axial.nii.gz Processed/ProstateX-0127/T2Sag.nii.gz Processed/ProstateX-0127/ADC.nii.gz Processed/ProstateX-0127/BVAL.nii.gz Processed/ProstateX-0127/KTRANS.nii.gz
+Processed/ProstateX-0128/config: Processed/ProstateX-0128/T2Axial.nii.gz Processed/ProstateX-0128/T2Sag.nii.gz Processed/ProstateX-0128/ADC.nii.gz Processed/ProstateX-0128/BVAL.nii.gz Processed/ProstateX-0128/KTRANS.nii.gz
+Processed/ProstateX-0129/config: Processed/ProstateX-0129/T2Axial.nii.gz Processed/ProstateX-0129/T2Sag.nii.gz Processed/ProstateX-0129/ADC.nii.gz Processed/ProstateX-0129/BVAL.nii.gz Processed/ProstateX-0129/KTRANS.nii.gz
+Processed/ProstateX-0131/config: Processed/ProstateX-0131/T2Axial.nii.gz Processed/ProstateX-0131/T2Sag.nii.gz Processed/ProstateX-0131/ADC.nii.gz Processed/ProstateX-0131/BVAL.nii.gz Processed/ProstateX-0131/KTRANS.nii.gz
+Processed/ProstateX-0133/config: Processed/ProstateX-0133/T2Axial.nii.gz Processed/ProstateX-0133/T2Sag.nii.gz Processed/ProstateX-0133/ADC.nii.gz Processed/ProstateX-0133/BVAL.nii.gz Processed/ProstateX-0133/KTRANS.nii.gz
+Processed/ProstateX-0136/config: Processed/ProstateX-0136/T2Axial.nii.gz Processed/ProstateX-0136/T2Sag.nii.gz Processed/ProstateX-0136/ADC.nii.gz Processed/ProstateX-0136/BVAL.nii.gz Processed/ProstateX-0136/KTRANS.nii.gz
+Processed/ProstateX-0139/config: Processed/ProstateX-0139/T2Axial.nii.gz Processed/ProstateX-0139/T2Sag.nii.gz Processed/ProstateX-0139/ADC.nii.gz Processed/ProstateX-0139/BVAL.nii.gz Processed/ProstateX-0139/KTRANS.nii.gz
+Processed/ProstateX-0141/config: Processed/ProstateX-0141/T2Axial.nii.gz Processed/ProstateX-0141/T2Sag.nii.gz Processed/ProstateX-0141/ADC.nii.gz Processed/ProstateX-0141/BVAL.nii.gz Processed/ProstateX-0141/KTRANS.nii.gz
+Processed/ProstateX-0142/config: Processed/ProstateX-0142/T2Axial.nii.gz Processed/ProstateX-0142/T2Sag.nii.gz Processed/ProstateX-0142/ADC.nii.gz Processed/ProstateX-0142/BVAL.nii.gz Processed/ProstateX-0142/KTRANS.nii.gz
+Processed/ProstateX-0143/config: Processed/ProstateX-0143/T2Axial.nii.gz Processed/ProstateX-0143/T2Sag.nii.gz Processed/ProstateX-0143/ADC.nii.gz Processed/ProstateX-0143/BVAL.nii.gz Processed/ProstateX-0143/KTRANS.nii.gz
+Processed/ProstateX-0145/config: Processed/ProstateX-0145/T2Axial.nii.gz Processed/ProstateX-0145/T2Sag.nii.gz Processed/ProstateX-0145/ADC.nii.gz Processed/ProstateX-0145/BVAL.nii.gz Processed/ProstateX-0145/KTRANS.nii.gz
+Processed/ProstateX-0148/config: Processed/ProstateX-0148/T2Axial.nii.gz Processed/ProstateX-0148/T2Sag.nii.gz Processed/ProstateX-0148/ADC.nii.gz Processed/ProstateX-0148/BVAL.nii.gz Processed/ProstateX-0148/KTRANS.nii.gz
+Processed/ProstateX-0150/config: Processed/ProstateX-0150/T2Axial.nii.gz Processed/ProstateX-0150/T2Sag.nii.gz Processed/ProstateX-0150/ADC.nii.gz Processed/ProstateX-0150/BVAL.nii.gz Processed/ProstateX-0150/KTRANS.nii.gz
+Processed/ProstateX-0152/config: Processed/ProstateX-0152/T2Axial.nii.gz Processed/ProstateX-0152/T2Sag.nii.gz Processed/ProstateX-0152/ADC.nii.gz Processed/ProstateX-0152/BVAL.nii.gz Processed/ProstateX-0152/KTRANS.nii.gz
+Processed/ProstateX-0153/config: Processed/ProstateX-0153/T2Axial.nii.gz Processed/ProstateX-0153/T2Sag.nii.gz Processed/ProstateX-0153/ADC.nii.gz Processed/ProstateX-0153/BVAL.nii.gz Processed/ProstateX-0153/KTRANS.nii.gz
+Processed/ProstateX-0162/config: Processed/ProstateX-0162/T2Axial.nii.gz Processed/ProstateX-0162/T2Sag.nii.gz Processed/ProstateX-0162/ADC.nii.gz Processed/ProstateX-0162/BVAL.nii.gz Processed/ProstateX-0162/KTRANS.nii.gz
+Processed/ProstateX-0164/config: Processed/ProstateX-0164/T2Axial.nii.gz Processed/ProstateX-0164/T2Sag.nii.gz Processed/ProstateX-0164/ADC.nii.gz Processed/ProstateX-0164/BVAL.nii.gz Processed/ProstateX-0164/KTRANS.nii.gz
+Processed/ProstateX-0165/config: Processed/ProstateX-0165/T2Axial.nii.gz Processed/ProstateX-0165/T2Sag.nii.gz Processed/ProstateX-0165/ADC.nii.gz Processed/ProstateX-0165/BVAL.nii.gz Processed/ProstateX-0165/KTRANS.nii.gz
+Processed/ProstateX-0168/config: Processed/ProstateX-0168/T2Axial.nii.gz Processed/ProstateX-0168/T2Sag.nii.gz Processed/ProstateX-0168/ADC.nii.gz Processed/ProstateX-0168/BVAL.nii.gz Processed/ProstateX-0168/KTRANS.nii.gz
+Processed/ProstateX-0169/config: Processed/ProstateX-0169/T2Axial.nii.gz Processed/ProstateX-0169/T2Sag.nii.gz Processed/ProstateX-0169/ADC.nii.gz Processed/ProstateX-0169/BVAL.nii.gz Processed/ProstateX-0169/KTRANS.nii.gz
+Processed/ProstateX-0172/config: Processed/ProstateX-0172/T2Axial.nii.gz Processed/ProstateX-0172/T2Sag.nii.gz Processed/ProstateX-0172/ADC.nii.gz Processed/ProstateX-0172/BVAL.nii.gz Processed/ProstateX-0172/KTRANS.nii.gz
+Processed/ProstateX-0173/config: Processed/ProstateX-0173/T2Axial.nii.gz Processed/ProstateX-0173/T2Sag.nii.gz Processed/ProstateX-0173/ADC.nii.gz Processed/ProstateX-0173/BVAL.nii.gz Processed/ProstateX-0173/KTRANS.nii.gz
+Processed/ProstateX-0174/config: Processed/ProstateX-0174/T2Axial.nii.gz Processed/ProstateX-0174/T2Sag.nii.gz Processed/ProstateX-0174/ADC.nii.gz Processed/ProstateX-0174/BVAL.nii.gz Processed/ProstateX-0174/KTRANS.nii.gz
+Processed/ProstateX-0179/config: Processed/ProstateX-0179/T2Axial.nii.gz Processed/ProstateX-0179/T2Sag.nii.gz Processed/ProstateX-0179/ADC.nii.gz Processed/ProstateX-0179/BVAL.nii.gz Processed/ProstateX-0179/KTRANS.nii.gz
+Processed/ProstateX-0181/config: Processed/ProstateX-0181/T2Axial.nii.gz Processed/ProstateX-0181/T2Sag.nii.gz Processed/ProstateX-0181/ADC.nii.gz Processed/ProstateX-0181/BVAL.nii.gz Processed/ProstateX-0181/KTRANS.nii.gz
+Processed/ProstateX-0182/config: Processed/ProstateX-0182/T2Axial.nii.gz Processed/ProstateX-0182/T2Sag.nii.gz Processed/ProstateX-0182/ADC.nii.gz Processed/ProstateX-0182/BVAL.nii.gz Processed/ProstateX-0182/KTRANS.nii.gz
+Processed/ProstateX-0183/config: Processed/ProstateX-0183/T2Axial.nii.gz Processed/ProstateX-0183/T2Sag.nii.gz Processed/ProstateX-0183/ADC.nii.gz Processed/ProstateX-0183/BVAL.nii.gz Processed/ProstateX-0183/KTRANS.nii.gz
+Processed/ProstateX-0184/config: Processed/ProstateX-0184/T2Axial.nii.gz Processed/ProstateX-0184/T2Sag.nii.gz Processed/ProstateX-0184/ADC.nii.gz Processed/ProstateX-0184/BVAL.nii.gz Processed/ProstateX-0184/KTRANS.nii.gz
+Processed/ProstateX-0186/config: Processed/ProstateX-0186/T2Axial.nii.gz Processed/ProstateX-0186/T2Sag.nii.gz Processed/ProstateX-0186/ADC.nii.gz Processed/ProstateX-0186/BVAL.nii.gz Processed/ProstateX-0186/KTRANS.nii.gz
+Processed/ProstateX-0187/config: Processed/ProstateX-0187/T2Axial.nii.gz Processed/ProstateX-0187/T2Sag.nii.gz Processed/ProstateX-0187/ADC.nii.gz Processed/ProstateX-0187/BVAL.nii.gz Processed/ProstateX-0187/KTRANS.nii.gz
+Processed/ProstateX-0188/config: Processed/ProstateX-0188/T2Axial.nii.gz Processed/ProstateX-0188/T2Sag.nii.gz Processed/ProstateX-0188/ADC.nii.gz Processed/ProstateX-0188/BVAL.nii.gz Processed/ProstateX-0188/KTRANS.nii.gz
+Processed/ProstateX-0190/config: Processed/ProstateX-0190/T2Axial.nii.gz Processed/ProstateX-0190/T2Sag.nii.gz Processed/ProstateX-0190/ADC.nii.gz Processed/ProstateX-0190/BVAL.nii.gz Processed/ProstateX-0190/KTRANS.nii.gz
+Processed/ProstateX-0191/config: Processed/ProstateX-0191/T2Axial.nii.gz Processed/ProstateX-0191/T2Sag.nii.gz Processed/ProstateX-0191/ADC.nii.gz Processed/ProstateX-0191/BVAL.nii.gz Processed/ProstateX-0191/KTRANS.nii.gz
+Processed/ProstateX-0192/config: Processed/ProstateX-0192/T2Axial.nii.gz Processed/ProstateX-0192/T2Sag.nii.gz Processed/ProstateX-0192/ADC.nii.gz Processed/ProstateX-0192/BVAL.nii.gz Processed/ProstateX-0192/KTRANS.nii.gz
+Processed/ProstateX-0193/config: Processed/ProstateX-0193/T2Axial.nii.gz Processed/ProstateX-0193/T2Sag.nii.gz Processed/ProstateX-0193/ADC.nii.gz Processed/ProstateX-0193/BVAL.nii.gz Processed/ProstateX-0193/KTRANS.nii.gz
+Processed/ProstateX-0194/config: Processed/ProstateX-0194/T2Axial.nii.gz Processed/ProstateX-0194/T2Sag.nii.gz Processed/ProstateX-0194/ADC.nii.gz Processed/ProstateX-0194/BVAL.nii.gz Processed/ProstateX-0194/KTRANS.nii.gz
+Processed/ProstateX-0195/config: Processed/ProstateX-0195/T2Axial.nii.gz Processed/ProstateX-0195/T2Sag.nii.gz Processed/ProstateX-0195/ADC.nii.gz Processed/ProstateX-0195/BVAL.nii.gz Processed/ProstateX-0195/KTRANS.nii.gz
+Processed/ProstateX-0196/config: Processed/ProstateX-0196/T2Axial.nii.gz Processed/ProstateX-0196/T2Sag.nii.gz Processed/ProstateX-0196/ADC.nii.gz Processed/ProstateX-0196/BVAL.nii.gz Processed/ProstateX-0196/KTRANS.nii.gz
+Processed/ProstateX-0197/config: Processed/ProstateX-0197/T2Axial.nii.gz Processed/ProstateX-0197/T2Sag.nii.gz Processed/ProstateX-0197/ADC.nii.gz Processed/ProstateX-0197/BVAL.nii.gz Processed/ProstateX-0197/KTRANS.nii.gz
+Processed/ProstateX-0198/config: Processed/ProstateX-0198/T2Axial.nii.gz Processed/ProstateX-0198/T2Sag.nii.gz Processed/ProstateX-0198/ADC.nii.gz Processed/ProstateX-0198/BVAL.nii.gz Processed/ProstateX-0198/KTRANS.nii.gz
+Processed/ProstateX-0199/config: Processed/ProstateX-0199/T2Axial.nii.gz Processed/ProstateX-0199/T2Sag.nii.gz Processed/ProstateX-0199/ADC.nii.gz Processed/ProstateX-0199/BVAL.nii.gz Processed/ProstateX-0199/KTRANS.nii.gz
+Processed/ProstateX-0200/config: Processed/ProstateX-0200/T2Axial.nii.gz Processed/ProstateX-0200/T2Sag.nii.gz Processed/ProstateX-0200/ADC.nii.gz Processed/ProstateX-0200/BVAL.nii.gz Processed/ProstateX-0200/KTRANS.nii.gz
+Processed/ProstateX-0201/config: Processed/ProstateX-0201/T2Axial.nii.gz Processed/ProstateX-0201/T2Sag.nii.gz Processed/ProstateX-0201/ADC.nii.gz Processed/ProstateX-0201/BVAL.nii.gz Processed/ProstateX-0201/KTRANS.nii.gz
+Processed/ProstateX-0202/config: Processed/ProstateX-0202/T2Axial.nii.gz Processed/ProstateX-0202/T2Sag.nii.gz Processed/ProstateX-0202/ADC.nii.gz Processed/ProstateX-0202/BVAL.nii.gz Processed/ProstateX-0202/KTRANS.nii.gz
+Processed/ProstateX-0203/config: Processed/ProstateX-0203/T2Axial.nii.gz Processed/ProstateX-0203/T2Sag.nii.gz Processed/ProstateX-0203/ADC.nii.gz Processed/ProstateX-0203/BVAL.nii.gz Processed/ProstateX-0203/KTRANS.nii.gz
+Processed/ProstateX-0000/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0000/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.160028252338004527274326500702 $@
+Processed/ProstateX-0001/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0001/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.296510477295449267377313817541 $@
+Processed/ProstateX-0002/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0002/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.479812804428819225709948044920 $@
+Processed/ProstateX-0004/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0004/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.206828891270520544417996275680 $@
+Processed/ProstateX-0005/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0005/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.119114186762760923175160291330 $@
+Processed/ProstateX-0014/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0014/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.159842252251603061509259813100 $@
+Processed/ProstateX-0015/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0015/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.287403883614425048490255475041 $@
+Processed/ProstateX-0016/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0016/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.289400416987402469088090375658 $@
+Processed/ProstateX-0018/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0018/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.299325488555858809740695924568 $@
+Processed/ProstateX-0019/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0019/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.337120993451084170526679013923 $@
+Processed/ProstateX-0026/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0026/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.101130934168942593154270621032 $@
+Processed/ProstateX-0028/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0028/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.309805745643397068715061702026 $@
+Processed/ProstateX-0031/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0031/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.236668750518079273920360526105 $@
+Processed/ProstateX-0035/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0035/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.158066586341196283875658594147 $@
+Processed/ProstateX-0037/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0037/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.693064576588508957101499589375 $@
+Processed/ProstateX-0040/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0040/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.129497959517350113675496714576 $@
+Processed/ProstateX-0041/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0041/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.239707679629501768790276428232 $@
+Processed/ProstateX-0046/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0046/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.166265209513832781969059787909 $@
+Processed/ProstateX-0053/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0053/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.134494516596506286173198983699 $@
+Processed/ProstateX-0054/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0054/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.472900684997509231929411950536 $@
+Processed/ProstateX-0055/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0055/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.867984895695548587093255801819 $@
+Processed/ProstateX-0067/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0067/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.192468235215257148984036683918 $@
+Processed/ProstateX-0069/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0069/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.266720221212035669954581062639 $@
+Processed/ProstateX-0071/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0071/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.327021307073506490268456871497 $@
+Processed/ProstateX-0076/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0076/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.334326985258868181144176796864 $@
+Processed/ProstateX-0077/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0077/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.108254522305321641639146259073 $@
+Processed/ProstateX-0078/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0078/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.105195267324030799151105608660 $@
+Processed/ProstateX-0082/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0082/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.287009217605941401146066177219 $@
+Processed/ProstateX-0084/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0084/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.124933244802704100684011471210 $@
+Processed/ProstateX-0092/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0092/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.132920011337448246627655551217 $@
+Processed/ProstateX-0094/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0094/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.178750617003896154912438088527 $@
+Processed/ProstateX-0095/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0095/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.173092772623542426232778225856 $@
+Processed/ProstateX-0097/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0097/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.146003799124729230636410374869 $@
+Processed/ProstateX-0099/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0099/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.309312107560449116639832256098 $@
+Processed/ProstateX-0101/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0101/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.939940825655396889012027914688 $@
+Processed/ProstateX-0102/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0102/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.239696172860207577230170745733 $@
+Processed/ProstateX-0103/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0103/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.799648618512630817625506411450 $@
+Processed/ProstateX-0104/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0104/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.176992287385407028701284533740 $@
+Processed/ProstateX-0105/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0105/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.867874221606636863648073982153 $@
+Processed/ProstateX-0106/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0106/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.276959752243390681174198503432 $@
+Processed/ProstateX-0110/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0110/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.972587624360040843943663321466 $@
+Processed/ProstateX-0111/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0111/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.312442050391027773578890036831 $@
+Processed/ProstateX-0114/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0114/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.160665974886533236804770187268 $@
+Processed/ProstateX-0115/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0115/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.130874669996556555852519436588 $@
+Processed/ProstateX-0116/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0116/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.795098917620624521288839241482 $@
+Processed/ProstateX-0117/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0117/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.101130890931274399577478152963 $@
+Processed/ProstateX-0118/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0118/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.156910737340231640626298466189 $@
+Processed/ProstateX-0119/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0119/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.233981388543370190172245731393 $@
+Processed/ProstateX-0121/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0121/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.180650601474055581355948988643 $@
+Processed/ProstateX-0122/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0122/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.630584421787232290645088959150 $@
+Processed/ProstateX-0123/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0123/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.235341885112539313032416621161 $@
+Processed/ProstateX-0124/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0124/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.120671479738653620797949234670 $@
+Processed/ProstateX-0125/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0125/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.192880613789296100694211103696 $@
+Processed/ProstateX-0126/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0126/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.609444921602227480415119333725 $@
+Processed/ProstateX-0127/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0127/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.125028312746883214553925465367 $@
+Processed/ProstateX-0128/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0128/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.191897092045160790927368035834 $@
+Processed/ProstateX-0129/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0129/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.245315537897059083725251245833 $@
+Processed/ProstateX-0131/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0131/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.248400497115717620855573447327 $@
+Processed/ProstateX-0133/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0133/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.231680841183267045628534596021 $@
+Processed/ProstateX-0136/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0136/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.258067469374761412596368241889 $@
+Processed/ProstateX-0139/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0139/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.296953193106259799632836057549 $@
+Processed/ProstateX-0141/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0141/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.175571642712029852692219295919 $@
+Processed/ProstateX-0142/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0142/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.236967836312224538274213979128 $@
+Processed/ProstateX-0143/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0143/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.284937074993270071304960321277 $@
+Processed/ProstateX-0145/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0145/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.200709810046761326061245861709 $@
+Processed/ProstateX-0148/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0148/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.290824483776452360867551034347 $@
+Processed/ProstateX-0150/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0150/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.175570448971296597162147241386 $@
+Processed/ProstateX-0152/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0152/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.187515038079598276430377093280 $@
+Processed/ProstateX-0153/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0153/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.230713550588238324062333085955 $@
+Processed/ProstateX-0162/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0162/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.331790498051540524922995906154 $@
+Processed/ProstateX-0164/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0164/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.606554985338789812728613003926 $@
+Processed/ProstateX-0165/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0165/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.338174236052625192178112905271 $@
+Processed/ProstateX-0168/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0168/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.238155789531438110361239421258 $@
+Processed/ProstateX-0169/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0169/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.172108716654528372176275135230 $@
+Processed/ProstateX-0172/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0172/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.173238779094840791662031336757 $@
+Processed/ProstateX-0173/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0173/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.657656083774636088529992646063 $@
+Processed/ProstateX-0174/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0174/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.139777446225547509525324454225 $@
+Processed/ProstateX-0179/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0179/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.208111099364521191624769210183 $@
+Processed/ProstateX-0181/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0181/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.100502269904864466940152348063 $@
+Processed/ProstateX-0182/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0182/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.165636727522505811947315188478 $@
+Processed/ProstateX-0183/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0183/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.262719318163046156031519223454 $@
+Processed/ProstateX-0184/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0184/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.304058605325520782900293953679 $@
+Processed/ProstateX-0186/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0186/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.310468266072373540926387115751 $@
+Processed/ProstateX-0187/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0187/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.180897290010820067884877867369 $@
+Processed/ProstateX-0188/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0188/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.155875154686610653777230856177 $@
+Processed/ProstateX-0190/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0190/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.285223877732426820048747382713 $@
+Processed/ProstateX-0191/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0191/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.275385263606495118256127870574 $@
+Processed/ProstateX-0192/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0192/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.155909086837320349352604162626 $@
+Processed/ProstateX-0193/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0193/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.289711251504454079274667690291 $@
+Processed/ProstateX-0194/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0194/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.281831681044018699292482474399 $@
+Processed/ProstateX-0195/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0195/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.855474707794645817581504887564 $@
+Processed/ProstateX-0196/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0196/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.928012760939767746081753156593 $@
+Processed/ProstateX-0197/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0197/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.162168388081775933157117953368 $@
+Processed/ProstateX-0198/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0198/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.333332554059735467244825907777 $@
+Processed/ProstateX-0199/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0199/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.468264361024689646978006199785 $@
+Processed/ProstateX-0200/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0200/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.771777989547133361685142176372 $@
+Processed/ProstateX-0201/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0201/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.257928599770116866513356683535 $@
+Processed/ProstateX-0202/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0202/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.726084685263459026564544343194 $@
+Processed/ProstateX-0203/T2Axial.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0203/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.483531332865279698809018970756 $@
+Processed/ProstateX-0000/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0000/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.250911858840767891342974687368 $@
+Processed/ProstateX-0001/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0001/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.331996083492709848836393222089 $@
+Processed/ProstateX-0002/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0002/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.293357406172690178768588102864 $@
+Processed/ProstateX-0004/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0004/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.473042633347744664896320600386 $@
+Processed/ProstateX-0005/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0005/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.337261389912723396963360265685 $@
+Processed/ProstateX-0014/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0014/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.127233057603188729207891185843 $@
+Processed/ProstateX-0015/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0015/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.569601360867645173829602212423 $@
+Processed/ProstateX-0016/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0016/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.243353100038410115351481388333 $@
+Processed/ProstateX-0018/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0018/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.165942622466583315735952288634 $@
+Processed/ProstateX-0019/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0019/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.223062794397124105720541585941 $@
+Processed/ProstateX-0026/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0026/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.272752081287923992302566048394 $@
+Processed/ProstateX-0028/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0028/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.128068078806747494550516854011 $@
+Processed/ProstateX-0031/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0031/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.588823750018090482337572097946 $@
+Processed/ProstateX-0035/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0035/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.303556371630674344104695241041 $@
+Processed/ProstateX-0037/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0037/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.276953443598336338339609088922 $@
+Processed/ProstateX-0040/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0040/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.732120742733136358430510971535 $@
+Processed/ProstateX-0041/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0041/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.223983779367345586616926297898 $@
+Processed/ProstateX-0046/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0046/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.220887613897635331598688279051 $@
+Processed/ProstateX-0053/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0053/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.151493343590884403740834603554 $@
+Processed/ProstateX-0054/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0054/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.246629457520636670723222135451 $@
+Processed/ProstateX-0055/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0055/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.729689324749004797356249556613 $@
+Processed/ProstateX-0067/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0067/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.329674152999804375097478071607 $@
+Processed/ProstateX-0069/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0069/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.958214483356026014351556968547 $@
+Processed/ProstateX-0071/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0071/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.126186548860375432152895629184 $@
+Processed/ProstateX-0076/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0076/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.628831832007288217576504729005 $@
+Processed/ProstateX-0077/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0077/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.208396207510009893093733610560 $@
+Processed/ProstateX-0078/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0078/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.239884264043888083273381804964 $@
+Processed/ProstateX-0082/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0082/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.181816415925198612949698989960 $@
+Processed/ProstateX-0084/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0084/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.285679552393472000927562564409 $@
+Processed/ProstateX-0092/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0092/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.303697300228565461378701230964 $@
+Processed/ProstateX-0094/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0094/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.326673065491286787512038707355 $@
+Processed/ProstateX-0095/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0095/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.269576709226492863730441450733 $@
+Processed/ProstateX-0097/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0097/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.210573542272606038605933726214 $@
+Processed/ProstateX-0099/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0099/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.334666380550305433837889186504 $@
+Processed/ProstateX-0101/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0101/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.169420644286874625047287587128 $@
+Processed/ProstateX-0102/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0102/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.288416776360074084440674687213 $@
+Processed/ProstateX-0103/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0103/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.792527511770771634982826181218 $@
+Processed/ProstateX-0104/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0104/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.278333705896372659052827391261 $@
+Processed/ProstateX-0105/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0105/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.314991020829894195438945967227 $@
+Processed/ProstateX-0106/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0106/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.224858236007946750206503225004 $@
+Processed/ProstateX-0110/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0110/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.142562993356370287487827301166 $@
+Processed/ProstateX-0111/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0111/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.276087134635453804538092287793 $@
+Processed/ProstateX-0114/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0114/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.560514601077090167444736674928 $@
+Processed/ProstateX-0115/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0115/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.866646220257077751473918228219 $@
+Processed/ProstateX-0116/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0116/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.410384912931922857453413648748 $@
+Processed/ProstateX-0117/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0117/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.446794243457185379502060757645 $@
+Processed/ProstateX-0118/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0118/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.175696570091856246170858017530 $@
+Processed/ProstateX-0119/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0119/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.513886362441938433655993531190 $@
+Processed/ProstateX-0121/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0121/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.119917714390992188347207645042 $@
+Processed/ProstateX-0122/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0122/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.706297839360492097279955797932 $@
+Processed/ProstateX-0123/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0123/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.431611397475528137902355652047 $@
+Processed/ProstateX-0124/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0124/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.101273606566500566465886358915 $@
+Processed/ProstateX-0125/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0125/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.175163563507648903414229375844 $@
+Processed/ProstateX-0126/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0126/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.394982289619548964570939073923 $@
+Processed/ProstateX-0127/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0127/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.250455019076320169412446597547 $@
+Processed/ProstateX-0128/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0128/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.593453823012410880921797567435 $@
+Processed/ProstateX-0129/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0129/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.141466502195619280671247023739 $@
+Processed/ProstateX-0131/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0131/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.157224997037331821836103717409 $@
+Processed/ProstateX-0133/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0133/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.136354219994585414095884902913 $@
+Processed/ProstateX-0136/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0136/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.278321592057676375897484384968 $@
+Processed/ProstateX-0139/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0139/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.324200567762282293108927060722 $@
+Processed/ProstateX-0141/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0141/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.234441893363255563121831494777 $@
+Processed/ProstateX-0142/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0142/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.589634819563482671995659706524 $@
+Processed/ProstateX-0143/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0143/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.150111765732884242694113585471 $@
+Processed/ProstateX-0145/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0145/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.189373532120447880475183817805 $@
+Processed/ProstateX-0148/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0148/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.676519958761083259380641468119 $@
+Processed/ProstateX-0150/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0150/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.236838275257330297952327733696 $@
+Processed/ProstateX-0152/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0152/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.114965324419282070582723800516 $@
+Processed/ProstateX-0153/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0153/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.272604821318700013509359256198 $@
+Processed/ProstateX-0162/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0162/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.240016435309173789094766369293 $@
+Processed/ProstateX-0164/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0164/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.307145627463959791161918716346 $@
+Processed/ProstateX-0165/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0165/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.103503048989187070272817753936 $@
+Processed/ProstateX-0168/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0168/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.210847067790033952760376799091 $@
+Processed/ProstateX-0169/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0169/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.130841531898994034237442440400 $@
+Processed/ProstateX-0172/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0172/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.152982713361400370189264472299 $@
+Processed/ProstateX-0173/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0173/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.338363092847271261865808847792 $@
+Processed/ProstateX-0174/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0174/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.281291392369962606435761528829 $@
+Processed/ProstateX-0179/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0179/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.266142889678662107531079208957 $@
+Processed/ProstateX-0181/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0181/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.145516952626625087594581251025 $@
+Processed/ProstateX-0182/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0182/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.254137663523412800919904839836 $@
+Processed/ProstateX-0183/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0183/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.280167698551833295767383648574 $@
+Processed/ProstateX-0184/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0184/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.301072162683974080301168911422 $@
+Processed/ProstateX-0186/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0186/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.161883914792776428854564996237 $@
+Processed/ProstateX-0187/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0187/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.262830900012854638587675351821 $@
+Processed/ProstateX-0188/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0188/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.280611899988398280842764681989 $@
+Processed/ProstateX-0190/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0190/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.292899936381534256741677418943 $@
+Processed/ProstateX-0191/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0191/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.123723687357717106595893829944 $@
+Processed/ProstateX-0192/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0192/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.106683078816204773021272800541 $@
+Processed/ProstateX-0193/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0193/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.166692627507058039660901346320 $@
+Processed/ProstateX-0194/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0194/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.166605045518778785879044187191 $@
+Processed/ProstateX-0195/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0195/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.140239901607178227472225263323 $@
+Processed/ProstateX-0196/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0196/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.328573544681637426282862936407 $@
+Processed/ProstateX-0197/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0197/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.151632220304453068225062587596 $@
+Processed/ProstateX-0198/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0198/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.250217856491024373779793517080 $@
+Processed/ProstateX-0199/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0199/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.232720476768243599307429211390 $@
+Processed/ProstateX-0200/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0200/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.205083387697321056727616826181 $@
+Processed/ProstateX-0201/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0201/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.208896616863826025721663233412 $@
+Processed/ProstateX-0202/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0202/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.873959106134013825419378540864 $@
+Processed/ProstateX-0203/T2Sag.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0203/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.681900400240054308701188513480 $@
+Processed/ProstateX-0000/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0000/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.339319789559896104041345048780 $@
+Processed/ProstateX-0001/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0001/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.158774312014703328155251833954 $@
+Processed/ProstateX-0002/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0002/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.227755318954832018272622878067 $@
+Processed/ProstateX-0004/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0004/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.278358228783511961204087191158 $@
+Processed/ProstateX-0005/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0005/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.314992768159280340618438416270 $@
+Processed/ProstateX-0014/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0014/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.242366010214213576964744240369 $@
+Processed/ProstateX-0015/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0015/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.858616624854613614281476868133 $@
+Processed/ProstateX-0016/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0016/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.148889084746182240539973929603 $@
+Processed/ProstateX-0018/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0018/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.176758706720033427029863431899 $@
+Processed/ProstateX-0019/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0019/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.184263185806875472095873895747 $@
+Processed/ProstateX-0026/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0026/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.194312258027431340351080955570 $@
+Processed/ProstateX-0028/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0028/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.175705279500866317609799200495 $@
+Processed/ProstateX-0031/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0031/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.601590451227182566753957865134 $@
+Processed/ProstateX-0035/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0035/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.244572461222550077665705700089 $@
+Processed/ProstateX-0037/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0037/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.311580482572757558305659753539 $@
+Processed/ProstateX-0040/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0040/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.287118318904624021163774979371 $@
+Processed/ProstateX-0041/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0041/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.553805279462525013842925498235 $@
+Processed/ProstateX-0046/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0046/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.136789215825836336478340876965 $@
+Processed/ProstateX-0053/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0053/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.127474735509284193818808690274 $@
+Processed/ProstateX-0054/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0054/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.120802453779276660250207896652 $@
+Processed/ProstateX-0055/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0055/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.222724316328292908865647545746 $@
+Processed/ProstateX-0067/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0067/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.151085574719515108210744995770 $@
+Processed/ProstateX-0069/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0069/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.234186953680359185394448989538 $@
+Processed/ProstateX-0071/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0071/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.283051156828064105621779048061 $@
+Processed/ProstateX-0076/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0076/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.289104715425937717072906075119 $@
+Processed/ProstateX-0077/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0077/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.325428377287396355532853530274 $@
+Processed/ProstateX-0078/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0078/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.136882264965140962399289987693 $@
+Processed/ProstateX-0082/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0082/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.153343438295813098934317385505 $@
+Processed/ProstateX-0084/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0084/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.316221738600993580207459998782 $@
+Processed/ProstateX-0092/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0092/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.103802641208348569392474966141 $@
+Processed/ProstateX-0094/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0094/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.582912840173786974805391540023 $@
+Processed/ProstateX-0095/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0095/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.308163983822773331411496849575 $@
+Processed/ProstateX-0097/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0097/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.752604872842519229507121205002 $@
+Processed/ProstateX-0099/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0099/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.199047082071172209914747979036 $@
+Processed/ProstateX-0101/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0101/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.808646438348288090749594261057 $@
+Processed/ProstateX-0102/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0102/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.187096932537760230926628650340 $@
+Processed/ProstateX-0103/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0103/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.277666772429732216838068622329 $@
+Processed/ProstateX-0104/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0104/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.496198675860000469277455702327 $@
+Processed/ProstateX-0105/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0105/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.270129709691071825261055270020 $@
+Processed/ProstateX-0106/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0106/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.227619784249931116015607729406 $@
+Processed/ProstateX-0110/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0110/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.324911251628179928918178429724 $@
+Processed/ProstateX-0111/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0111/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.171482560488284086096160016141 $@
+Processed/ProstateX-0114/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0114/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.426753772430901057077364746303 $@
+Processed/ProstateX-0115/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0115/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.423581168421486252372334922432 $@
+Processed/ProstateX-0116/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0116/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.768918815416322720176727419828 $@
+Processed/ProstateX-0117/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0117/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.582776865502320643348591985131 $@
+Processed/ProstateX-0118/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0118/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.240852735582384150954088645834 $@
+Processed/ProstateX-0119/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0119/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.310812706352420060636060098771 $@
+Processed/ProstateX-0121/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0121/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.102067366318786461267805334681 $@
+Processed/ProstateX-0122/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0122/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.272879630221350102795967376783 $@
+Processed/ProstateX-0123/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0123/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.172787630890095353507831546415 $@
+Processed/ProstateX-0124/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0124/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.119318919837581199197701143518 $@
+Processed/ProstateX-0125/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0125/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.156120350250905489183047793861 $@
+Processed/ProstateX-0126/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0126/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.145542872202813015821109941056 $@
+Processed/ProstateX-0127/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0127/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.130869278514990756178387768688 $@
+Processed/ProstateX-0128/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0128/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.274331806843671488664549180305 $@
+Processed/ProstateX-0129/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0129/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.191500514886999099367649754336 $@
+Processed/ProstateX-0131/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0131/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.603271349059577040596970387476 $@
+Processed/ProstateX-0133/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0133/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.700133502077801610709478820071 $@
+Processed/ProstateX-0136/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0136/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.175278796024019579392034151510 $@
+Processed/ProstateX-0139/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0139/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.126186047694548551678598261224 $@
+Processed/ProstateX-0141/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0141/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.824058088921163684863998049959 $@
+Processed/ProstateX-0142/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0142/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.306670854887133177188202025871 $@
+Processed/ProstateX-0143/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0143/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.131433778364795087501765476588 $@
+Processed/ProstateX-0145/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0145/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.218260435435697941807077883985 $@
+Processed/ProstateX-0148/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0148/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.232956728535691369106405226667 $@
+Processed/ProstateX-0150/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0150/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.148704171283846860978999274668 $@
+Processed/ProstateX-0152/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0152/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.309038277652317505817355515493 $@
+Processed/ProstateX-0153/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0153/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.321409018114611790292869413536 $@
+Processed/ProstateX-0162/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0162/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.196922965556954239677211265863 $@
+Processed/ProstateX-0164/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0164/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.282384160381433981244803031478 $@
+Processed/ProstateX-0165/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0165/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.204757783920507831028954989443 $@
+Processed/ProstateX-0168/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0168/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.153896979704370973216840528836 $@
+Processed/ProstateX-0169/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0169/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.303919253057786846250552173780 $@
+Processed/ProstateX-0172/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0172/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.906575975355681920401519739473 $@
+Processed/ProstateX-0173/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0173/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.136810818192953158648613419038 $@
+Processed/ProstateX-0174/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0174/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.283789490964610236085955393142 $@
+Processed/ProstateX-0179/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0179/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.201687928003913953988718168865 $@
+Processed/ProstateX-0181/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0181/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.274060375359696327776619009799 $@
+Processed/ProstateX-0182/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0182/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.304834841689980606217015603535 $@
+Processed/ProstateX-0183/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0183/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.337441223549793157746472059725 $@
+Processed/ProstateX-0184/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0184/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.238075735334372803988607026559 $@
+Processed/ProstateX-0186/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0186/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.234422907167661424082185384202 $@
+Processed/ProstateX-0187/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0187/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.323174971045699693225507617685 $@
+Processed/ProstateX-0188/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0188/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.270808924337632141946138074412 $@
+Processed/ProstateX-0190/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0190/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.550321537650602511950417746731 $@
+Processed/ProstateX-0191/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0191/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.167639249879478243051564799319 $@
+Processed/ProstateX-0192/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0192/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.239620719540408157750375937107 $@
+Processed/ProstateX-0193/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0193/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.150786404502678853013147704182 $@
+Processed/ProstateX-0194/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0194/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.281259729477164307232449835731 $@
+Processed/ProstateX-0195/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0195/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.632749240628419968099934123818 $@
+Processed/ProstateX-0196/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0196/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.265082443803317696301620266828 $@
+Processed/ProstateX-0197/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0197/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.267385922599138408596363156552 $@
+Processed/ProstateX-0198/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0198/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.183355285133688535790448729009 $@
+Processed/ProstateX-0199/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0199/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.270880220128055912060681444250 $@
+Processed/ProstateX-0200/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0200/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.335336899582161541909858258422 $@
+Processed/ProstateX-0201/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0201/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.921573230265772467240278889710 $@
+Processed/ProstateX-0202/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0202/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.101204161368634253922466493612 $@
+Processed/ProstateX-0203/ADC.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0203/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.793214811735964094834846093156 $@
+Processed/ProstateX-0000/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0000/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.338465037878158762935951983202 $@
+Processed/ProstateX-0001/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0001/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.417952484461029560610146058431 $@
+Processed/ProstateX-0002/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0002/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.236507634003082000618627865650 $@
+Processed/ProstateX-0004/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0004/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.154156364083745277068656620138 $@
+Processed/ProstateX-0005/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0005/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.329686709366701513502126318975 $@
+Processed/ProstateX-0014/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0014/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.749671162579649442493104533898 $@
+Processed/ProstateX-0015/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0015/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.182250857774102042359542772317 $@
+Processed/ProstateX-0016/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0016/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.990768830219672713626359220886 $@
+Processed/ProstateX-0018/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0018/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.253078868863961527085612724062 $@
+Processed/ProstateX-0019/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0019/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.295463736780558273872598430779 $@
+Processed/ProstateX-0026/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0026/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.802836504364130716856830105536 $@
+Processed/ProstateX-0028/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0028/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.211759338675535379669980583453 $@
+Processed/ProstateX-0031/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0031/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.101425471261168170840272640936 $@
+Processed/ProstateX-0035/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0035/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.663403220920664276217595618839 $@
+Processed/ProstateX-0037/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0037/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.214787639261848388380950468246 $@
+Processed/ProstateX-0040/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0040/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.138946854457388846328671893935 $@
+Processed/ProstateX-0041/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0041/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.940310520212455226205514979759 $@
+Processed/ProstateX-0046/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0046/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.125751197596812634500855674136 $@
+Processed/ProstateX-0053/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0053/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.139472959534904586875596736290 $@
+Processed/ProstateX-0054/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0054/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.491788682399622740412938364930 $@
+Processed/ProstateX-0055/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0055/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.192839841264616557791424867001 $@
+Processed/ProstateX-0067/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0067/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.266470738821329963889806159614 $@
+Processed/ProstateX-0069/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0069/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.179415671020558674132332081896 $@
+Processed/ProstateX-0071/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0071/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.395997040516832443841032120629 $@
+Processed/ProstateX-0076/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0076/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.135580362957422845325667666846 $@
+Processed/ProstateX-0077/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0077/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.253522650892862860191150034326 $@
+Processed/ProstateX-0078/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0078/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.783253620247380040190793525711 $@
+Processed/ProstateX-0082/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0082/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.152107138699397758266361587795 $@
+Processed/ProstateX-0084/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0084/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.139019662090861034325382453556 $@
+Processed/ProstateX-0092/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0092/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.238046918258342862384649692657 $@
+Processed/ProstateX-0094/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0094/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.772365461306504499185041706779 $@
+Processed/ProstateX-0095/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0095/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.188977771136360163301482606296 $@
+Processed/ProstateX-0097/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0097/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.227407924845907742893793449727 $@
+Processed/ProstateX-0099/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0099/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.274009826104323663076463115770 $@
+Processed/ProstateX-0101/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0101/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.211734022462946375824946950994 $@
+Processed/ProstateX-0102/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0102/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.182047659672463774867638057005 $@
+Processed/ProstateX-0103/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0103/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.996338711982640584019532870894 $@
+Processed/ProstateX-0104/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0104/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.318062832226544571264817867390 $@
+Processed/ProstateX-0105/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0105/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.183479210205244940536691556486 $@
+Processed/ProstateX-0106/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0106/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.495789762000341343566569796392 $@
+Processed/ProstateX-0110/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0110/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.248399813061467983376382892170 $@
+Processed/ProstateX-0111/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0111/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.259042536676709114670040196584 $@
+Processed/ProstateX-0114/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0114/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.339288167909862895704277377366 $@
+Processed/ProstateX-0115/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0115/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.218992409054256324859700829918 $@
+Processed/ProstateX-0116/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0116/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.150933199870620103514699492740 $@
+Processed/ProstateX-0117/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0117/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.323648779677579826862923622625 $@
+Processed/ProstateX-0118/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0118/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.149812047187954962080266108163 $@
+Processed/ProstateX-0119/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0119/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.274946321537502239541022160022 $@
+Processed/ProstateX-0121/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0121/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.179671238182241720901684995153 $@
+Processed/ProstateX-0122/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0122/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.246437856852746649869608079895 $@
+Processed/ProstateX-0123/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0123/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.177850615949862374737345093743 $@
+Processed/ProstateX-0124/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0124/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.611000282666767599705834184359 $@
+Processed/ProstateX-0125/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0125/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.226576425501543605738296549188 $@
+Processed/ProstateX-0126/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0126/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.239562962708391490038013219650 $@
+Processed/ProstateX-0127/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0127/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.303909648352708665000542611717 $@
+Processed/ProstateX-0128/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0128/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.283831775036021713281778102128 $@
+Processed/ProstateX-0129/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0129/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.102813497079058335224627238563 $@
+Processed/ProstateX-0131/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0131/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.176464961481688480972797080048 $@
+Processed/ProstateX-0133/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0133/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.314412834065895549576393543937 $@
+Processed/ProstateX-0136/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0136/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.152744997978286997758597626868 $@
+Processed/ProstateX-0139/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0139/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.332719308356369640503459801416 $@
+Processed/ProstateX-0141/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0141/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.645699380834975206043429168482 $@
+Processed/ProstateX-0142/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0142/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.166745047638001936843055935975 $@
+Processed/ProstateX-0143/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0143/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.454942810324868997201994789457 $@
+Processed/ProstateX-0145/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0145/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.255265105706828739103299016582 $@
+Processed/ProstateX-0148/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0148/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.295069368019020386483747283730 $@
+Processed/ProstateX-0150/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0150/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.128775858675606310261829341823 $@
+Processed/ProstateX-0152/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0152/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.639984469108948103326494064201 $@
+Processed/ProstateX-0153/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0153/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.210025242604819329670637181510 $@
+Processed/ProstateX-0162/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0162/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.122032739890016149659923372405 $@
+Processed/ProstateX-0164/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0164/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.150936766330241848826254875319 $@
+Processed/ProstateX-0165/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0165/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.238567586748839556618395558861 $@
+Processed/ProstateX-0168/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0168/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.289724072691921846892099605730 $@
+Processed/ProstateX-0169/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0169/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.892728549129840876669290179374 $@
+Processed/ProstateX-0172/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0172/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.802693989909688039543757206479 $@
+Processed/ProstateX-0173/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0173/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.127150523732711390969587232581 $@
+Processed/ProstateX-0174/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0174/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.272744360152175989238857674266 $@
+Processed/ProstateX-0179/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0179/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.801181410361531705483908249070 $@
+Processed/ProstateX-0181/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0181/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.188556451461601350759653152953 $@
+Processed/ProstateX-0182/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0182/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.150389577930716029560018955641 $@
+Processed/ProstateX-0183/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0183/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.347191952032211195866074624189 $@
+Processed/ProstateX-0184/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0184/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.234808130786220568050829741211 $@
+Processed/ProstateX-0186/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0186/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.331743454024831923699717508574 $@
+Processed/ProstateX-0187/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0187/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.232700466803669177768575471107 $@
+Processed/ProstateX-0188/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0188/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.104944757223343576422927738258 $@
+Processed/ProstateX-0190/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0190/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.118827799376618034945504055630 $@
+Processed/ProstateX-0191/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0191/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.200511776259614467160826960707 $@
+Processed/ProstateX-0192/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0192/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.321966534391840012903705454159 $@
+Processed/ProstateX-0193/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0193/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.174645217013281186940261627743 $@
+Processed/ProstateX-0194/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0194/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.309405702913476376632780923193 $@
+Processed/ProstateX-0195/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0195/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.182559328875945524784404484306 $@
+Processed/ProstateX-0196/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0196/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.198926915106788688792710901268 $@
+Processed/ProstateX-0197/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0197/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.294538949152632147978525368416 $@
+Processed/ProstateX-0198/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0198/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.121858253743823706488828917373 $@
+Processed/ProstateX-0199/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0199/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.280652216857828687452238827173 $@
+Processed/ProstateX-0200/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0200/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.176741846865273838646677680995 $@
+Processed/ProstateX-0201/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0201/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.577255737094685313287425195193 $@
+Processed/ProstateX-0202/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0202/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.262896683566219833560275046713 $@
+Processed/ProstateX-0203/BVAL.nii.gz:
+	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0203/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.150208320631386549969473581289 $@
+Processed/ProstateX-0000/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0000/ProstateX-0000-Ktrans.mhd -o $@
+Processed/ProstateX-0001/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0001/ProstateX-0001-Ktrans.mhd -o $@
+Processed/ProstateX-0002/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0002/ProstateX-0002-Ktrans.mhd -o $@
+Processed/ProstateX-0004/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0004/ProstateX-0004-Ktrans.mhd -o $@
+Processed/ProstateX-0005/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0005/ProstateX-0005-Ktrans.mhd -o $@
+Processed/ProstateX-0014/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0014/ProstateX-0014-Ktrans.mhd -o $@
+Processed/ProstateX-0015/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0015/ProstateX-0015-Ktrans.mhd -o $@
+Processed/ProstateX-0016/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0016/ProstateX-0016-Ktrans.mhd -o $@
+Processed/ProstateX-0018/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0018/ProstateX-0018-Ktrans.mhd -o $@
+Processed/ProstateX-0019/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0019/ProstateX-0019-Ktrans.mhd -o $@
+Processed/ProstateX-0026/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0026/ProstateX-0026-Ktrans.mhd -o $@
+Processed/ProstateX-0028/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0028/ProstateX-0028-Ktrans.mhd -o $@
+Processed/ProstateX-0031/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0031/ProstateX-0031-Ktrans.mhd -o $@
+Processed/ProstateX-0035/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0035/ProstateX-0035-Ktrans.mhd -o $@
+Processed/ProstateX-0037/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0037/ProstateX-0037-Ktrans.mhd -o $@
+Processed/ProstateX-0040/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0040/ProstateX-0040-Ktrans.mhd -o $@
+Processed/ProstateX-0041/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0041/ProstateX-0041-Ktrans.mhd -o $@
+Processed/ProstateX-0046/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0046/ProstateX-0046-Ktrans.mhd -o $@
+Processed/ProstateX-0053/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0053/ProstateX-0053-Ktrans.mhd -o $@
+Processed/ProstateX-0054/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0054/ProstateX-0054-Ktrans.mhd -o $@
+Processed/ProstateX-0055/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0055/ProstateX-0055-Ktrans.mhd -o $@
+Processed/ProstateX-0067/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0067/ProstateX-0067-Ktrans.mhd -o $@
+Processed/ProstateX-0069/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0069/ProstateX-0069-Ktrans.mhd -o $@
+Processed/ProstateX-0071/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0071/ProstateX-0071-Ktrans.mhd -o $@
+Processed/ProstateX-0076/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0076/ProstateX-0076-Ktrans.mhd -o $@
+Processed/ProstateX-0077/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0077/ProstateX-0077-Ktrans.mhd -o $@
+Processed/ProstateX-0078/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0078/ProstateX-0078-Ktrans.mhd -o $@
+Processed/ProstateX-0082/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0082/ProstateX-0082-Ktrans.mhd -o $@
+Processed/ProstateX-0084/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0084/ProstateX-0084-Ktrans.mhd -o $@
+Processed/ProstateX-0092/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0092/ProstateX-0092-Ktrans.mhd -o $@
+Processed/ProstateX-0094/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0094/ProstateX-0094-Ktrans.mhd -o $@
+Processed/ProstateX-0095/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0095/ProstateX-0095-Ktrans.mhd -o $@
+Processed/ProstateX-0097/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0097/ProstateX-0097-Ktrans.mhd -o $@
+Processed/ProstateX-0099/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0099/ProstateX-0099-Ktrans.mhd -o $@
+Processed/ProstateX-0101/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0101/ProstateX-0101-Ktrans.mhd -o $@
+Processed/ProstateX-0102/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0102/ProstateX-0102-Ktrans.mhd -o $@
+Processed/ProstateX-0103/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0103/ProstateX-0103-Ktrans.mhd -o $@
+Processed/ProstateX-0104/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0104/ProstateX-0104-Ktrans.mhd -o $@
+Processed/ProstateX-0105/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0105/ProstateX-0105-Ktrans.mhd -o $@
+Processed/ProstateX-0106/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0106/ProstateX-0106-Ktrans.mhd -o $@
+Processed/ProstateX-0110/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0110/ProstateX-0110-Ktrans.mhd -o $@
+Processed/ProstateX-0111/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0111/ProstateX-0111-Ktrans.mhd -o $@
+Processed/ProstateX-0114/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0114/ProstateX-0114-Ktrans.mhd -o $@
+Processed/ProstateX-0115/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0115/ProstateX-0115-Ktrans.mhd -o $@
+Processed/ProstateX-0116/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0116/ProstateX-0116-Ktrans.mhd -o $@
+Processed/ProstateX-0117/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0117/ProstateX-0117-Ktrans.mhd -o $@
+Processed/ProstateX-0118/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0118/ProstateX-0118-Ktrans.mhd -o $@
+Processed/ProstateX-0119/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0119/ProstateX-0119-Ktrans.mhd -o $@
+Processed/ProstateX-0121/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0121/ProstateX-0121-Ktrans.mhd -o $@
+Processed/ProstateX-0122/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0122/ProstateX-0122-Ktrans.mhd -o $@
+Processed/ProstateX-0123/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0123/ProstateX-0123-Ktrans.mhd -o $@
+Processed/ProstateX-0124/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0124/ProstateX-0124-Ktrans.mhd -o $@
+Processed/ProstateX-0125/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0125/ProstateX-0125-Ktrans.mhd -o $@
+Processed/ProstateX-0126/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0126/ProstateX-0126-Ktrans.mhd -o $@
+Processed/ProstateX-0127/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0127/ProstateX-0127-Ktrans.mhd -o $@
+Processed/ProstateX-0128/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0128/ProstateX-0128-Ktrans.mhd -o $@
+Processed/ProstateX-0129/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0129/ProstateX-0129-Ktrans.mhd -o $@
+Processed/ProstateX-0131/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0131/ProstateX-0131-Ktrans.mhd -o $@
+Processed/ProstateX-0133/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0133/ProstateX-0133-Ktrans.mhd -o $@
+Processed/ProstateX-0136/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0136/ProstateX-0136-Ktrans.mhd -o $@
+Processed/ProstateX-0139/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0139/ProstateX-0139-Ktrans.mhd -o $@
+Processed/ProstateX-0141/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0141/ProstateX-0141-Ktrans.mhd -o $@
+Processed/ProstateX-0142/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0142/ProstateX-0142-Ktrans.mhd -o $@
+Processed/ProstateX-0143/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0143/ProstateX-0143-Ktrans.mhd -o $@
+Processed/ProstateX-0145/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0145/ProstateX-0145-Ktrans.mhd -o $@
+Processed/ProstateX-0148/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0148/ProstateX-0148-Ktrans.mhd -o $@
+Processed/ProstateX-0150/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0150/ProstateX-0150-Ktrans.mhd -o $@
+Processed/ProstateX-0152/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0152/ProstateX-0152-Ktrans.mhd -o $@
+Processed/ProstateX-0153/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0153/ProstateX-0153-Ktrans.mhd -o $@
+Processed/ProstateX-0162/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0162/ProstateX-0162-Ktrans.mhd -o $@
+Processed/ProstateX-0164/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0164/ProstateX-0164-Ktrans.mhd -o $@
+Processed/ProstateX-0165/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0165/ProstateX-0165-Ktrans.mhd -o $@
+Processed/ProstateX-0168/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0168/ProstateX-0168-Ktrans.mhd -o $@
+Processed/ProstateX-0169/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0169/ProstateX-0169-Ktrans.mhd -o $@
+Processed/ProstateX-0172/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0172/ProstateX-0172-Ktrans.mhd -o $@
+Processed/ProstateX-0173/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0173/ProstateX-0173-Ktrans.mhd -o $@
+Processed/ProstateX-0174/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0174/ProstateX-0174-Ktrans.mhd -o $@
+Processed/ProstateX-0179/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0179/ProstateX-0179-Ktrans.mhd -o $@
+Processed/ProstateX-0181/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0181/ProstateX-0181-Ktrans.mhd -o $@
+Processed/ProstateX-0182/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0182/ProstateX-0182-Ktrans.mhd -o $@
+Processed/ProstateX-0183/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0183/ProstateX-0183-Ktrans.mhd -o $@
+Processed/ProstateX-0184/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0184/ProstateX-0184-Ktrans.mhd -o $@
+Processed/ProstateX-0186/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0186/ProstateX-0186-Ktrans.mhd -o $@
+Processed/ProstateX-0187/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0187/ProstateX-0187-Ktrans.mhd -o $@
+Processed/ProstateX-0188/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0188/ProstateX-0188-Ktrans.mhd -o $@
+Processed/ProstateX-0190/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0190/ProstateX-0190-Ktrans.mhd -o $@
+Processed/ProstateX-0191/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0191/ProstateX-0191-Ktrans.mhd -o $@
+Processed/ProstateX-0192/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0192/ProstateX-0192-Ktrans.mhd -o $@
+Processed/ProstateX-0193/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0193/ProstateX-0193-Ktrans.mhd -o $@
+Processed/ProstateX-0194/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0194/ProstateX-0194-Ktrans.mhd -o $@
+Processed/ProstateX-0195/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0195/ProstateX-0195-Ktrans.mhd -o $@
+Processed/ProstateX-0196/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0196/ProstateX-0196-Ktrans.mhd -o $@
+Processed/ProstateX-0197/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0197/ProstateX-0197-Ktrans.mhd -o $@
+Processed/ProstateX-0198/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0198/ProstateX-0198-Ktrans.mhd -o $@
+Processed/ProstateX-0199/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0199/ProstateX-0199-Ktrans.mhd -o $@
+Processed/ProstateX-0200/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0200/ProstateX-0200-Ktrans.mhd -o $@
+Processed/ProstateX-0201/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0201/ProstateX-0201-Ktrans.mhd -o $@
+Processed/ProstateX-0202/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0202/ProstateX-0202-Ktrans.mhd -o $@
+Processed/ProstateX-0203/KTRANS.nii.gz:
+	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0203/ProstateX-0203-Ktrans.mhd -o $@
