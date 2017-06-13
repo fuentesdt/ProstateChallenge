@@ -55,7 +55,7 @@ BEGIN
   group by JSON_UNQUOTE(eu.data->"$.""ProxID""") , JSON_UNQUOTE(eu.data->"$.""fid""");
 
   update DFProstateChallenge.metadata md
-    join ClinicalStudies.excelUpload  eu on eu.uploadID = 49 and  md.mrn= JSON_UNQUOTE(eu.data->"$.""ProxID""")  
+    join ClinicalStudies.excelUpload  eu on eu.uploadID = 49 and  md.mrn= JSON_UNQUOTE(eu.data->"$.""ProxID""")   and md.fid=JSON_UNQUOTE(eu.data->"$.""fid""") 
      SET md.ggg= JSON_UNQUOTE(eu.data->"$.""ggg""");
 
 END //

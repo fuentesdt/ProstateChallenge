@@ -1109,13 +1109,13 @@ Processed/ProstateX-0001/landmarks.1.txt:
 Processed/ProstateX-0002/landmarks.1.txt:
 	mkdir -p $(@D); echo -27.0102 41.5467 -26.0469 2  > $@
 Processed/ProstateX-0002/landmarks.2.txt:
-	mkdir -p $(@D); echo -2.058 38.6752 -34.6104 2  > $@
+	mkdir -p $(@D); echo -2.058 38.6752 -34.6104 1  > $@
 Processed/ProstateX-0004/landmarks.1.txt:
 	mkdir -p $(@D); echo -7.69665 3.64226 23.1659 1  > $@
 Processed/ProstateX-0005/landmarks.0.txt:
 	mkdir -p $(@D); echo -14.5174331665039 49.4428329467773 20.7815246582031 2  > $@
 Processed/ProstateX-0005/landmarks.1.txt:
-	mkdir -p $(@D); echo -38.6276 42.2781 21.4084 2  > $@
+	mkdir -p $(@D); echo -38.6276 42.2781 21.4084 3  > $@
 Processed/ProstateX-0014/landmarks.1.txt:
 	mkdir -p $(@D); echo -23.0672 31.7673 3.02353 2  > $@
 Processed/ProstateX-0015/landmarks.1.txt:
@@ -1133,7 +1133,7 @@ Processed/ProstateX-0028/landmarks.1.txt:
 Processed/ProstateX-0031/landmarks.1.txt:
 	mkdir -p $(@D); echo 8.08436 38.9556 13.8648 2  > $@
 Processed/ProstateX-0031/landmarks.2.txt:
-	mkdir -p $(@D); echo -25.5225 39.8319 13.5071 2  > $@
+	mkdir -p $(@D); echo -25.5225 39.8319 13.5071 1  > $@
 Processed/ProstateX-0035/landmarks.1.txt:
 	mkdir -p $(@D); echo -22.9279 28.8785 -29.5951 2  > $@
 Processed/ProstateX-0037/landmarks.1.txt:
@@ -1207,7 +1207,7 @@ Processed/ProstateX-0119/landmarks.1.txt:
 Processed/ProstateX-0121/landmarks.1.txt:
 	mkdir -p $(@D); echo 6.99026622772217 6.90991668701172 12.8546207427978 1  > $@
 Processed/ProstateX-0121/landmarks.2.txt:
-	mkdir -p $(@D); echo 31.8466 21.8933 -8.14504 1  > $@
+	mkdir -p $(@D); echo 31.8466 21.8933 -8.14504 2  > $@
 Processed/ProstateX-0122/landmarks.1.txt:
 	mkdir -p $(@D); echo -33.498 -0.413876442871094 -14.3014344573975 1  > $@
 Processed/ProstateX-0122/landmarks.2.txt:
@@ -1235,7 +1235,7 @@ Processed/ProstateX-0136/landmarks.1.txt:
 Processed/ProstateX-0139/landmarks.1.txt:
 	mkdir -p $(@D); echo -11.8805 28.3133 17.5188 2  > $@
 Processed/ProstateX-0139/landmarks.3.txt:
-	mkdir -p $(@D); echo -5.79388 41.2189 18.3538 2  > $@
+	mkdir -p $(@D); echo -5.79388 41.2189 18.3538 1  > $@
 Processed/ProstateX-0141/landmarks.1.txt:
 	mkdir -p $(@D); echo -4.79709 4.6308 -13.8932 1  > $@
 Processed/ProstateX-0142/landmarks.3.txt:
@@ -1307,7 +1307,7 @@ Processed/ProstateX-0196/landmarks.1.txt:
 Processed/ProstateX-0196/landmarks.2.txt:
 	mkdir -p $(@D); echo 35.2755 27.3587 -8.26241 5  > $@
 Processed/ProstateX-0196/landmarks.3.txt:
-	mkdir -p $(@D); echo 7.7081 18.6187 -7.06518 5  > $@
+	mkdir -p $(@D); echo 7.7081 18.6187 -7.06518 3  > $@
 Processed/ProstateX-0197/landmarks.1.txt:
 	mkdir -p $(@D); echo 11.537 21.7114 31.1706 2  > $@
 Processed/ProstateX-0198/landmarks.1.txt:
@@ -1325,7 +1325,7 @@ Processed/ProstateX-0202/landmarks.1.txt:
 Processed/ProstateX-0203/landmarks.1.txt:
 	mkdir -p $(@D); echo -10.02681 -18.5905 -75.1691 2  > $@
 Processed/ProstateX-0203/landmarks.2.txt:
-	mkdir -p $(@D); echo 10.0280456542969 -4.62264251708984 -90.3759994506836 2  > $@
+	mkdir -p $(@D); echo 10.0280456542969 -4.62264251708984 -90.3759994506836 3  > $@
 Processed/ProstateX-0000/T2Axial.world:
 	mkdir -p $(@D); echo 0.5,1.00168e-010,0.00377059,-57.9373,-0.000199305,0.474188,0.95144,-83.0758,-0.00059599,-0.158573,2.84513,-28.4237,0,0,0,1  > $@
 Processed/ProstateX-0001/T2Axial.world:
@@ -2125,13 +2125,13 @@ Processed/ProstateX-0001/T2Axial.1.ijk:
 Processed/ProstateX-0002/T2Axial.1.ijk:
 	mkdir   -p $(@D); echo 154 217 12 2  > $@
 Processed/ProstateX-0002/T2Axial.2.ijk:
-	mkdir   -p $(@D); echo 203 216 10 2  > $@
+	mkdir   -p $(@D); echo 203 216 10 1  > $@
 Processed/ProstateX-0004/T2Axial.1.ijk:
 	mkdir   -p $(@D); echo 221 168 7 1  > $@
 Processed/ProstateX-0005/T2Axial.0.ijk:
 	mkdir   -p $(@D); echo 206 233 10 2  > $@
 Processed/ProstateX-0005/T2Axial.1.ijk:
-	mkdir   -p $(@D); echo 157 219 10 2  > $@
+	mkdir   -p $(@D); echo 157 219 10 3  > $@
 Processed/ProstateX-0014/T2Axial.1.ijk:
 	mkdir   -p $(@D); echo 181 193 7 2  > $@
 Processed/ProstateX-0015/T2Axial.1.ijk:
@@ -2149,7 +2149,7 @@ Processed/ProstateX-0028/T2Axial.1.ijk:
 Processed/ProstateX-0031/T2Axial.1.ijk:
 	mkdir   -p $(@D); echo 231 210 14 2  > $@
 Processed/ProstateX-0031/T2Axial.2.ijk:
-	mkdir   -p $(@D); echo 164 212 14 2  > $@
+	mkdir   -p $(@D); echo 164 212 14 1  > $@
 Processed/ProstateX-0035/T2Axial.1.ijk:
 	mkdir   -p $(@D); echo 150 197 9 2  > $@
 Processed/ProstateX-0037/T2Axial.1.ijk:
@@ -2223,7 +2223,7 @@ Processed/ProstateX-0119/T2Axial.1.ijk:
 Processed/ProstateX-0121/T2Axial.1.ijk:
 	mkdir   -p $(@D); echo 174 166 9 1  > $@
 Processed/ProstateX-0121/T2Axial.2.ijk:
-	mkdir   -p $(@D); echo 222 204 3 1  > $@
+	mkdir   -p $(@D); echo 222 204 3 2  > $@
 Processed/ProstateX-0122/T2Axial.1.ijk:
 	mkdir   -p $(@D); echo 181 142 12 1  > $@
 Processed/ProstateX-0122/T2Axial.2.ijk:
@@ -2251,7 +2251,7 @@ Processed/ProstateX-0136/T2Axial.1.ijk:
 Processed/ProstateX-0139/T2Axial.1.ijk:
 	mkdir   -p $(@D); echo 172 209 5 2  > $@
 Processed/ProstateX-0139/T2Axial.3.ijk:
-	mkdir   -p $(@D); echo 184 234 6 2  > $@
+	mkdir   -p $(@D); echo 184 234 6 1  > $@
 Processed/ProstateX-0141/T2Axial.1.ijk:
 	mkdir   -p $(@D); echo 314 307 13 1  > $@
 Processed/ProstateX-0142/T2Axial.3.ijk:
@@ -2323,7 +2323,7 @@ Processed/ProstateX-0196/T2Axial.1.ijk:
 Processed/ProstateX-0196/T2Axial.2.ijk:
 	mkdir   -p $(@D); echo 218 187 6 5  > $@
 Processed/ProstateX-0196/T2Axial.3.ijk:
-	mkdir   -p $(@D); echo 163 169 6 5  > $@
+	mkdir   -p $(@D); echo 163 169 6 3  > $@
 Processed/ProstateX-0197/T2Axial.1.ijk:
 	mkdir   -p $(@D); echo 171 197 6 2  > $@
 Processed/ProstateX-0198/T2Axial.1.ijk:
@@ -2341,7 +2341,7 @@ Processed/ProstateX-0202/T2Axial.1.ijk:
 Processed/ProstateX-0203/T2Axial.1.ijk:
 	mkdir   -p $(@D); echo 144 132 11 2  > $@
 Processed/ProstateX-0203/T2Axial.2.ijk:
-	mkdir   -p $(@D); echo 180 162 8 2  > $@
+	mkdir   -p $(@D); echo 180 162 8 3  > $@
 Processed/ProstateX-0000/T2Sag.1.ijk:
 	mkdir     -p $(@D); echo 176 169 13 3  > $@
 Processed/ProstateX-0001/T2Sag.1.ijk:
@@ -2349,13 +2349,13 @@ Processed/ProstateX-0001/T2Sag.1.ijk:
 Processed/ProstateX-0002/T2Sag.1.ijk:
 	mkdir     -p $(@D); echo 183 154 15 2  > $@
 Processed/ProstateX-0002/T2Sag.2.ijk:
-	mkdir     -p $(@D); echo 178 169 8 2  > $@
+	mkdir     -p $(@D); echo 178 169 8 1  > $@
 Processed/ProstateX-0004/T2Sag.1.ijk:
 	mkdir     -p $(@D); echo 132 174 7 1  > $@
 Processed/ProstateX-0005/T2Sag.0.ijk:
 	mkdir     -p $(@D); echo 197 154 8 2  > $@
 Processed/ProstateX-0005/T2Sag.1.ijk:
-	mkdir     -p $(@D); echo 184 153 15 2  > $@
+	mkdir     -p $(@D); echo 184 153 15 3  > $@
 Processed/ProstateX-0014/T2Sag.1.ijk:
 	mkdir     -p $(@D); echo 148 172 11 2  > $@
 Processed/ProstateX-0015/T2Sag.1.ijk:
@@ -2373,7 +2373,7 @@ Processed/ProstateX-0028/T2Sag.1.ijk:
 Processed/ProstateX-0031/T2Sag.1.ijk:
 	mkdir     -p $(@D); echo 182 136 4 2  > $@
 Processed/ProstateX-0031/T2Sag.2.ijk:
-	mkdir     -p $(@D); echo 183 136 13 2  > $@
+	mkdir     -p $(@D); echo 183 136 13 1  > $@
 Processed/ProstateX-0035/T2Sag.1.ijk:
 	mkdir     -p $(@D); echo 148 201 16 2  > $@
 Processed/ProstateX-0037/T2Sag.1.ijk:
@@ -2447,7 +2447,7 @@ Processed/ProstateX-0119/T2Sag.1.ijk:
 Processed/ProstateX-0121/T2Sag.1.ijk:
 	mkdir     -p $(@D); echo 132 171 13 1  > $@
 Processed/ProstateX-0121/T2Sag.2.ijk:
-	mkdir     -p $(@D); echo 158 210 7 1  > $@
+	mkdir     -p $(@D); echo 158 210 7 2  > $@
 Processed/ProstateX-0122/T2Sag.1.ijk:
 	mkdir     -p $(@D); echo 141 145 11 1  > $@
 Processed/ProstateX-0122/T2Sag.2.ijk:
@@ -2475,7 +2475,7 @@ Processed/ProstateX-0136/T2Sag.1.ijk:
 Processed/ProstateX-0139/T2Sag.1.ijk:
 	mkdir     -p $(@D); echo 169 189 11 2  > $@
 Processed/ProstateX-0139/T2Sag.3.ijk:
-	mkdir     -p $(@D); echo 192 188 9 2  > $@
+	mkdir     -p $(@D); echo 192 188 9 1  > $@
 Processed/ProstateX-0141/T2Sag.1.ijk:
 	mkdir     -p $(@D); echo 146 158 11 1  > $@
 Processed/ProstateX-0142/T2Sag.3.ijk:
@@ -2547,7 +2547,7 @@ Processed/ProstateX-0196/T2Sag.1.ijk:
 Processed/ProstateX-0196/T2Sag.2.ijk:
 	mkdir     -p $(@D); echo 161 186 7 5  > $@
 Processed/ProstateX-0196/T2Sag.3.ijk:
-	mkdir     -p $(@D); echo 145 184 14 5  > $@
+	mkdir     -p $(@D); echo 145 184 14 3  > $@
 Processed/ProstateX-0197/T2Sag.1.ijk:
 	mkdir     -p $(@D); echo 161 168 13 2  > $@
 Processed/ProstateX-0198/T2Sag.1.ijk:
@@ -2565,7 +2565,7 @@ Processed/ProstateX-0202/T2Sag.1.ijk:
 Processed/ProstateX-0203/T2Sag.1.ijk:
 	mkdir     -p $(@D); echo 138 142 12 2  > $@
 Processed/ProstateX-0203/T2Sag.2.ijk:
-	mkdir     -p $(@D); echo 163 169 5 2  > $@
+	mkdir     -p $(@D); echo 163 169 5 3  > $@
 Processed/ProstateX-0000/ADC.1.ijk:
 	mkdir       -p $(@D); echo 36 72 9 3  > $@
 Processed/ProstateX-0001/ADC.1.ijk:
@@ -2573,13 +2573,13 @@ Processed/ProstateX-0001/ADC.1.ijk:
 Processed/ProstateX-0002/ADC.1.ijk:
 	mkdir       -p $(@D); echo 33 71 12 2  > $@
 Processed/ProstateX-0002/ADC.2.ijk:
-	mkdir       -p $(@D); echo 45 70 9 2  > $@
+	mkdir       -p $(@D); echo 45 70 9 1  > $@
 Processed/ProstateX-0004/ADC.1.ijk:
 	mkdir       -p $(@D); echo 50 58 8 1  > $@
 Processed/ProstateX-0005/ADC.0.ijk:
 	mkdir       -p $(@D); echo 46 75 9 2  > $@
 Processed/ProstateX-0005/ADC.1.ijk:
-	mkdir       -p $(@D); echo 34 71 9 2  > $@
+	mkdir       -p $(@D); echo 34 71 9 3  > $@
 Processed/ProstateX-0014/ADC.1.ijk:
 	mkdir       -p $(@D); echo 40 65 7 2  > $@
 Processed/ProstateX-0015/ADC.1.ijk:
@@ -2597,7 +2597,7 @@ Processed/ProstateX-0028/ADC.1.ijk:
 Processed/ProstateX-0031/ADC.1.ijk:
 	mkdir       -p $(@D); echo 52 69 15 2  > $@
 Processed/ProstateX-0031/ADC.2.ijk:
-	mkdir       -p $(@D); echo 35 70 15 2  > $@
+	mkdir       -p $(@D); echo 35 70 15 1  > $@
 Processed/ProstateX-0035/ADC.1.ijk:
 	mkdir       -p $(@D); echo 32 66 9 2  > $@
 Processed/ProstateX-0037/ADC.1.ijk:
@@ -2671,7 +2671,7 @@ Processed/ProstateX-0119/ADC.1.ijk:
 Processed/ProstateX-0121/ADC.1.ijk:
 	mkdir       -p $(@D); echo 38 58 8 1  > $@
 Processed/ProstateX-0121/ADC.2.ijk:
-	mkdir       -p $(@D); echo 50 67 2 1  > $@
+	mkdir       -p $(@D); echo 50 67 2 2  > $@
 Processed/ProstateX-0122/ADC.1.ijk:
 	mkdir       -p $(@D); echo 40 52 11 1  > $@
 Processed/ProstateX-0122/ADC.2.ijk:
@@ -2699,7 +2699,7 @@ Processed/ProstateX-0136/ADC.1.ijk:
 Processed/ProstateX-0139/ADC.1.ijk:
 	mkdir       -p $(@D); echo 37 69 5 2  > $@
 Processed/ProstateX-0139/ADC.3.ijk:
-	mkdir       -p $(@D); echo 40 75 6 2  > $@
+	mkdir       -p $(@D); echo 40 75 6 1  > $@
 Processed/ProstateX-0141/ADC.1.ijk:
 	mkdir       -p $(@D); echo 41 62 13 1  > $@
 Processed/ProstateX-0142/ADC.3.ijk:
@@ -2771,7 +2771,7 @@ Processed/ProstateX-0196/ADC.1.ijk:
 Processed/ProstateX-0196/ADC.2.ijk:
 	mkdir       -p $(@D); echo 67 63 4 5  > $@
 Processed/ProstateX-0196/ADC.3.ijk:
-	mkdir       -p $(@D); echo 53 59 4 5  > $@
+	mkdir       -p $(@D); echo 53 59 4 3  > $@
 Processed/ProstateX-0197/ADC.1.ijk:
 	mkdir       -p $(@D); echo 37 66 6 2  > $@
 Processed/ProstateX-0198/ADC.1.ijk:
@@ -2789,7 +2789,7 @@ Processed/ProstateX-0202/ADC.1.ijk:
 Processed/ProstateX-0203/ADC.1.ijk:
 	mkdir       -p $(@D); echo 60 46 11 2  > $@
 Processed/ProstateX-0203/ADC.2.ijk:
-	mkdir       -p $(@D); echo 70 54 8 2  > $@
+	mkdir       -p $(@D); echo 70 54 8 3  > $@
 Processed/ProstateX-0000/BVAL.1.ijk:
 	mkdir      -p $(@D); echo 36 72 9 3  > $@
 Processed/ProstateX-0001/BVAL.1.ijk:
@@ -2797,13 +2797,13 @@ Processed/ProstateX-0001/BVAL.1.ijk:
 Processed/ProstateX-0002/BVAL.1.ijk:
 	mkdir      -p $(@D); echo 33 71 12 2  > $@
 Processed/ProstateX-0002/BVAL.2.ijk:
-	mkdir      -p $(@D); echo 45 70 9 2  > $@
+	mkdir      -p $(@D); echo 45 70 9 1  > $@
 Processed/ProstateX-0004/BVAL.1.ijk:
 	mkdir      -p $(@D); echo 50 58 8 1  > $@
 Processed/ProstateX-0005/BVAL.0.ijk:
 	mkdir      -p $(@D); echo 46 75 9 2  > $@
 Processed/ProstateX-0005/BVAL.1.ijk:
-	mkdir      -p $(@D); echo 34 71 9 2  > $@
+	mkdir      -p $(@D); echo 34 71 9 3  > $@
 Processed/ProstateX-0014/BVAL.1.ijk:
 	mkdir      -p $(@D); echo 40 65 7 2  > $@
 Processed/ProstateX-0015/BVAL.1.ijk:
@@ -2821,7 +2821,7 @@ Processed/ProstateX-0028/BVAL.1.ijk:
 Processed/ProstateX-0031/BVAL.1.ijk:
 	mkdir      -p $(@D); echo 52 69 15 2  > $@
 Processed/ProstateX-0031/BVAL.2.ijk:
-	mkdir      -p $(@D); echo 35 70 15 2  > $@
+	mkdir      -p $(@D); echo 35 70 15 1  > $@
 Processed/ProstateX-0035/BVAL.1.ijk:
 	mkdir      -p $(@D); echo 32 66 9 2  > $@
 Processed/ProstateX-0037/BVAL.1.ijk:
@@ -2895,7 +2895,7 @@ Processed/ProstateX-0119/BVAL.1.ijk:
 Processed/ProstateX-0121/BVAL.1.ijk:
 	mkdir      -p $(@D); echo 38 58 8 1  > $@
 Processed/ProstateX-0121/BVAL.2.ijk:
-	mkdir      -p $(@D); echo 50 67 2 1  > $@
+	mkdir      -p $(@D); echo 50 67 2 2  > $@
 Processed/ProstateX-0122/BVAL.1.ijk:
 	mkdir      -p $(@D); echo 40 52 11 1  > $@
 Processed/ProstateX-0122/BVAL.2.ijk:
@@ -2923,7 +2923,7 @@ Processed/ProstateX-0136/BVAL.1.ijk:
 Processed/ProstateX-0139/BVAL.1.ijk:
 	mkdir      -p $(@D); echo 37 69 5 2  > $@
 Processed/ProstateX-0139/BVAL.3.ijk:
-	mkdir      -p $(@D); echo 40 75 6 2  > $@
+	mkdir      -p $(@D); echo 40 75 6 1  > $@
 Processed/ProstateX-0141/BVAL.1.ijk:
 	mkdir      -p $(@D); echo 41 62 13 1  > $@
 Processed/ProstateX-0142/BVAL.3.ijk:
@@ -2995,7 +2995,7 @@ Processed/ProstateX-0196/BVAL.1.ijk:
 Processed/ProstateX-0196/BVAL.2.ijk:
 	mkdir      -p $(@D); echo 67 63 4 5  > $@
 Processed/ProstateX-0196/BVAL.3.ijk:
-	mkdir      -p $(@D); echo 53 59 4 5  > $@
+	mkdir      -p $(@D); echo 53 59 4 3  > $@
 Processed/ProstateX-0197/BVAL.1.ijk:
 	mkdir      -p $(@D); echo 37 66 6 2  > $@
 Processed/ProstateX-0198/BVAL.1.ijk:
@@ -3013,4 +3013,4 @@ Processed/ProstateX-0202/BVAL.1.ijk:
 Processed/ProstateX-0203/BVAL.1.ijk:
 	mkdir      -p $(@D); echo 60 46 11 2  > $@
 Processed/ProstateX-0203/BVAL.2.ijk:
-	mkdir      -p $(@D); echo 70 54 8 2  > $@
+	mkdir      -p $(@D); echo 70 54 8 3  > $@

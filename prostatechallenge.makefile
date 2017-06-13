@@ -42,9 +42,6 @@ $(WORKDIR)/%.sform.nii.gz: $(WORKDIR)/%.raw.nii.gz $(WORKDIR)/%.world
 	sed 's/,/ /g' $(word 2,$^) > $(basename $(word 2,$^)).mat
 	$(C3DEXE)  $< -set-sform $(basename $(word 2,$^)).mat -o $@
 
-$(WORKDIR)/%.reslice.nii.gz: $(WORKDIR)/%.raw.nii.gz
-	$(C3DEXE) $(@D)/T2Axial.raw.nii.gz  $< -reslice-identity -o $@
-
 $(WORKDIR)/%.norm.nii.gz: $(WORKDIR)/%.sform.nii.gz
 	$(C3DEXE) $< -stretch 2% 98% 0.0 1.0  -type float -o $@
 $(WORKDIR)/%.HaralickCorrelation_$(OTBRADIUS).nii.gz: $(WORKDIR)/%.norm.nii.gz
@@ -57,3 +54,34 @@ $(WORKDIR)/%/viewdata:
 	$(C3DEXE) $(@D)/BVAL.sform.nii.gz    -info
 	$(C3DEXE) $(@D)/KTRANS.raw.nii.gz  -info
 	$(ITKSNAP) -g $(@D)/T2Axial.sform.nii.gz -s $(@D)/TRUTH.nii.gz -o $(@D)/T2Sag.reslice.nii.gz   $(@D)/ADC.reslice.nii.gz     $(@D)/BVAL.reslice.nii.gz    $(@D)/KTRANS.reslice.nii.gz  $(@D)/T2Axial.Entropy_4.nii.gz
+
+#####################
+# Build data matrix #
+#####################
+FILELIST = KTRANS.reslice  T2Axial.norm ADC.reslice  T2Sag.norm T2Axial.Entropy_4 T2Axial.HaralickCorrelation_4 BVAL.reslice                                                                                                                  
+#LABELFILES = TRUTH LABELSRF
+LABELFILES = TRUTH
+lstat:   $(foreach idlabel,$(LABELFILES),$(foreach idimage,$(FILELIST),$(addprefix $(WORKDIR)/,$(addsuffix /$(idimage)/$(idlabel)/lstat.csv,$(TRAINING))))) 
+sql:     $(foreach idlabel,$(LABELFILES),$(foreach idimage,$(FILELIST),$(addprefix $(WORKDIR)/,$(addsuffix /$(idimage)/$(idlabel).sql,$(TRAINING))))) 
+# load lstat data to sql
+$(WORKDIR)/%.sql: $(WORKDIR)/%/lstat.csv
+	$(MYSQLIMPORT) --replace --fields-terminated-by=',' --lines-terminated-by='\n' --ignore-lines 1 RandomForestHCCResponse $<
+
+echo: 
+	echo $(foreach idlabel,$(LABELFILES),$(foreach idimage,$(FILELIST),$(addprefix $(WORKDIR)/,$(addsuffix /$(idimage)/$(idlabel)/lstat.csv,$(TRAINING))))) 
+
+###########################################################################
+.SECONDEXPANSION:
+#https://www.gnu.org/software/make/manual/html_node/Secondary-Expansion.html#Secondary-Expansion
+###########################################################################
+#https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html
+
+# reslice
+$(WORKDIR)/%.reslice.nii.gz: $(WORKDIR)/%.raw.nii.gz $(WORKDIR)/$$(*D)/T2Axial.sform.nii.gz
+	$(C3DEXE) $(word 2,$^) $< -reslice-identity -o $@
+
+# load lstat data for each label file
+$(WORKDIR)/%/lstat.csv: $(WORKDIR)/$$(firstword $$(subst /, ,$$*))/$$(word 2,$$(subst /, ,$$*)).nii.gz $(WORKDIR)/$$(firstword $$(subst /, ,$$*))/$$(word 3,$$(subst /, ,$$*)).nii.gz 
+	echo $(subst /, ,$*)
+	mkdir -p $(@D)
+	$(C3DEXE) $<  $(word 2,$^) -lstat > $(@D)/lstat.txt &&  sed "s/^\s\+/$(firstword $(subst /, ,$*)),$(word 3 ,$(subst /, ,$*)),$(word 2 ,$(subst /, ,$*)),/g;s/\s\+/,/g;s/LabelID/InstanceUID,SegmentationID,FeatureID,LabelID/g;s/Vol(mm^3)/Vol.mm.3/g;s/Extent(Vox)/ExtentX,ExtentY,ExtentZ/g" $(@D)/lstat.txt  > $@
