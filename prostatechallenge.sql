@@ -63,6 +63,33 @@ DELIMITER ;
 show create procedure DFProstateChallenge.LoadDatabase;
 call DFProstateChallenge.LoadDatabase();
 
+-- label statistics
+
+DROP PROCEDURE IF EXISTS DFProstateChallenge.ResetLabelStats ;
+DELIMITER //
+CREATE PROCEDURE DFProstateChallenge.ResetLabelStats()
+BEGIN
+  DROP TABLE IF EXISTS  DFProstateChallenge.lstat;
+  CREATE TABLE DFProstateChallenge.lstat  (
+   InstanceUID        VARCHAR(255)  NOT NULL COMMENT 'studyuid *OR* seriesUID', 
+   SegmentationID     VARCHAR(80)   NOT NULL,  -- UID for segmentation file -- FIXME -- SOPUID NOT WORTH IT???  SegmentationSOPUID VARCHAR(255)   NOT NULL,  
+   FeatureID          VARCHAR(80)   NOT NULL,  -- UID for image feature     -- FIXME -- SOPUID NOT WORTH IT???  FeatureSOPUID      VARCHAR(255)   NOT NULL,  
+   LabelID            INT           NOT NULL,  -- label id for LabelSOPUID statistics of FeatureSOPUID      
+   Mean               REAL              NULL,
+   StdD               REAL              NULL,
+   Max                REAL              NULL,
+   Min                REAL              NULL,
+   Count              INT               NULL,
+   Volume             REAL              NULL,
+   ExtentX            INT               NULL,
+   ExtentY            INT               NULL,
+   ExtentZ            INT               NULL,
+   PRIMARY KEY (InstanceUID,SegmentationID,FeatureID,LabelID) );
+END //
+DELIMITER ;
+show create procedure DFProstateChallenge.ResetLabelStats;
+-- call DFProstateChallenge.ResetLabelStats();
+show create table DFProstateChallenge.lstat;
 
 DROP PROCEDURE IF EXISTS DFProstateChallenge.RFHCCDeps ;
 DELIMITER //
@@ -104,3 +131,63 @@ DELIMITER ;
 -- call DFProstateChallenge.RFHCCDeps();
 -- mysql  -sNre "call DFProstateChallenge.RFHCCDeps();"
 
+
+-- table of image features we are interested in
+DROP TABLE IF EXISTS  DFProstateChallenge.ImageFeatures;
+CREATE TABLE DFProstateChallenge.ImageFeatures(
+ id    bigint(20) NOT NULL AUTO_INCREMENT,
+ FeatureID          VARCHAR(80)   NOT NULL,  -- UID for image feature     -- FIXME -- SOPUID NOT WORTH IT???  FeatureSOPUID      VARCHAR(255)   NOT NULL,    
+         KEY (id),  
+ PRIMARY KEY (FeatureID) );  
+INSERT INTO DFProstateChallenge.ImageFeatures(FeatureID) VALUES 
+   ( "KTRANSreslice"),("T2Axialnorm"),("ADCreslice"),("T2Sagnorm"),("T2AxialEntropy_4"),("T2AxialHaralickCorrelation_4"),("BVALreslice");
+
+-- format data for analysis 
+-- build transpose command
+SET SESSION group_concat_max_len = 10000000;
+SET @dynamicsql = NULL;
+SELECT
+  GROUP_CONCAT(DISTINCT
+    CONCAT(
+      'group_concat( distinct CASE WHEN fi.id = ',
+      fi.id,
+      ' THEN vl.mean  END ) as  ',
+      fi.featureid
+    )
+  ) INTO @dynamicsql
+FROM DFProstateChallenge.ImageFeatures fi;
+-- HACK copy paste dynamic code generation below
+select  @dynamicsql;
+
+SET @dynamicsql = NULL;
+SELECT
+  GROUP_CONCAT(DISTINCT
+    CONCAT( 'a.', fi.featureid)
+  ) INTO @dynamicsql
+FROM DFProstateChallenge.ImageFeatures fi;
+-- HACK copy paste dynamic code generation below
+select  @dynamicsql;
+
+-- WIP: @thomas-nguyen-3 @pvtruong-mdacc @wstefan
+DROP PROCEDURE IF EXISTS DFProstateChallenge.DataMatrix ;
+DELIMITER //
+CREATE PROCEDURE DFProstateChallenge.DataMatrix 
+(IN analysisID varchar(255) )
+BEGIN
+   -- set  @varAnalysis='TRUTH' collate utf8_unicode_ci;
+   set  @varAnalysis=analysisID;
+   select md.mrn, md.ggg ,
+          a.KTRANSreslice,a.T2Axialnorm,a.ADCreslice,a. T2Sagnorm,a.T2AxialEntropy_4,a.T2AxialHaralickCorrelation_4,a.BVALreslice  
+   from DFProstateChallenge.metadata md 
+   left join (  select vl.InstanceUID,  group_concat( distinct vl.Volume) Volume, vl.labelID,
+                group_concat( distinct CASE WHEN fi.id = 1 THEN vl.mean  END ) as  KTRANSreslice,group_concat( distinct CASE WHEN fi.id = 2 THEN vl.mean  END ) as  T2Axialnorm,group_concat( distinct CASE WHEN fi.id = 3 THEN vl.mean  END ) as  ADCreslice,group_concat( distinct CASE WHEN fi.id = 4 THEN vl.mean  END ) as   T2Sagnorm,group_concat( distinct CASE WHEN fi.id = 5 THEN vl.mean  END ) as  T2AxialEntropy_4,group_concat( distinct CASE WHEN fi.id = 6 THEN vl.mean  END ) as  T2AxialHaralickCorrelation_4,group_concat( distinct CASE WHEN fi.id = 7 THEN vl.mean  END ) as  BVALreslice 
+                from  DFProstateChallenge.ImageFeatures fi 
+                join  DFProstateChallenge.lstat         vl on vl.FeatureID=fi.FeatureID  and vl.SegmentationID=@varAnalysis 
+                group by vl.InstanceUID, vl.labelID
+              ) a on a.InstanceUID = md.mrn and a.labelID=md.ggg; 
+END //
+DELIMITER ;
+-- show create procedure DFProstateChallenge.DataMatrix ;
+-- call DFProstateChallenge.DataMatrix ('TRUTH');
+-- mysql  -re "call DFProstateChallenge.DataMatrix ('TRUTH');"    | sed "s/\t/,/g;s/NULL//g" > truthdatamatrix.csv
+-- mysql  -re "call DFProstateChallenge.DataMatrix ('LABELSRF');" | sed "s/\t/,/g;s/NULL//g" > rfdatamatrix.csv

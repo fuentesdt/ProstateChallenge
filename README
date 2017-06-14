@@ -1,6 +1,7 @@
 Usage
 =====
 
-make -B -f prostatechallenge.makefile dependencies; make -B -f prostatechallenge.makefile -k -i -j 8 lmpre lm
+make -B -f prostatechallenge.makefile dependencies
+make -B -f prostatechallenge.makefile -k -i -j 8 lmpre lm
 make -f prostatechallenge.makefile -k -i -j 8 truth
-make -B -r -f prostatechallenge.makefile -k -i -j 8 lstat
+make -r -f prostatechallenge.makefile -k -i -j 8 lstat

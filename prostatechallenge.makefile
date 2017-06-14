@@ -19,7 +19,8 @@ dependencies: ./prostatechallenge.sql
 config: $(addprefix $(WORKDIR)/,$(addsuffix /config,$(TRAINING)))  
 viewdata: $(addprefix $(WORKDIR)/,$(addsuffix /viewdata,$(TRAINING)))  
 truth: $(addprefix $(WORKDIR)/,$(addsuffix /TRUTH.nii.gz,$(TRAINING)))  
-lmpre: $(addprefix $(WORKDIR)/,$(addsuffix /landmarks.1.txt,$(TRAINING)))   \
+lmpre: $(addprefix $(WORKDIR)/,$(addsuffix /landmarks.0.txt,$(TRAINING)))   \
+       $(addprefix $(WORKDIR)/,$(addsuffix /landmarks.1.txt,$(TRAINING)))   \
        $(addprefix $(WORKDIR)/,$(addsuffix /landmarks.2.txt,$(TRAINING)))   \
        $(addprefix $(WORKDIR)/,$(addsuffix /landmarks.3.txt,$(TRAINING)))   \
        $(addprefix $(WORKDIR)/,$(addsuffix /landmarks.4.txt,$(TRAINING)))    
@@ -42,10 +43,12 @@ $(WORKDIR)/%.sform.nii.gz: $(WORKDIR)/%.raw.nii.gz $(WORKDIR)/%.world
 	sed 's/,/ /g' $(word 2,$^) > $(basename $(word 2,$^)).mat
 	$(C3DEXE)  $< -set-sform $(basename $(word 2,$^)).mat -o $@
 
-$(WORKDIR)/%.norm.nii.gz: $(WORKDIR)/%.sform.nii.gz
+$(WORKDIR)/%/T2Axial.norm.nii.gz: $(WORKDIR)/%/T2Axial.sform.nii.gz
+	$(C3DEXE) $< -stretch 2% 98% 0.0 1.0  -type float -o $@
+$(WORKDIR)/%/T2Sag.norm.nii.gz: $(WORKDIR)/%/T2Sag.reslice.nii.gz
 	$(C3DEXE) $< -stretch 2% 98% 0.0 1.0  -type float -o $@
 $(WORKDIR)/%.HaralickCorrelation_$(OTBRADIUS).nii.gz: $(WORKDIR)/%.norm.nii.gz
-	$(OTBTEXTURE) $<  $(WORKDIR)/$*.   5 $(OTBRADIUS)     0             0            0     0 1  
+	if [ 0 -eq 1  ] ; then $(OTBTEXTURE) $<  $(WORKDIR)/$*.   5 $(OTBRADIUS)     0             0            0     0 1   ;fi
 
 $(WORKDIR)/%/viewdata:
 	$(C3DEXE) $(@D)/T2Axial.sform.nii.gz -info
@@ -65,7 +68,7 @@ lstat:   $(foreach idlabel,$(LABELFILES),$(foreach idimage,$(FILELIST),$(addpref
 sql:     $(foreach idlabel,$(LABELFILES),$(foreach idimage,$(FILELIST),$(addprefix $(WORKDIR)/,$(addsuffix /$(idimage)/$(idlabel).sql,$(TRAINING))))) 
 # load lstat data to sql
 $(WORKDIR)/%.sql: $(WORKDIR)/%/lstat.csv
-	$(MYSQLIMPORT) --replace --fields-terminated-by=',' --lines-terminated-by='\n' --ignore-lines 1 RandomForestHCCResponse $<
+	$(MYSQLIMPORT) --replace --fields-terminated-by=',' --lines-terminated-by='\n' --ignore-lines 1 DFProstateChallenge $<
 
 echo: 
 	echo $(foreach idlabel,$(LABELFILES),$(foreach idimage,$(FILELIST),$(addprefix $(WORKDIR)/,$(addsuffix /$(idimage)/$(idlabel)/lstat.csv,$(TRAINING))))) 
@@ -84,4 +87,4 @@ $(WORKDIR)/%.reslice.nii.gz: $(WORKDIR)/%.raw.nii.gz $(WORKDIR)/$$(*D)/T2Axial.s
 $(WORKDIR)/%/lstat.csv: $(WORKDIR)/$$(firstword $$(subst /, ,$$*))/$$(word 2,$$(subst /, ,$$*)).nii.gz $(WORKDIR)/$$(firstword $$(subst /, ,$$*))/$$(word 3,$$(subst /, ,$$*)).nii.gz 
 	echo $(subst /, ,$*)
 	mkdir -p $(@D)
-	$(C3DEXE) $<  $(word 2,$^) -lstat > $(@D)/lstat.txt &&  sed "s/^\s\+/$(firstword $(subst /, ,$*)),$(word 3 ,$(subst /, ,$*)),$(word 2 ,$(subst /, ,$*)),/g;s/\s\+/,/g;s/LabelID/InstanceUID,SegmentationID,FeatureID,LabelID/g;s/Vol(mm^3)/Vol.mm.3/g;s/Extent(Vox)/ExtentX,ExtentY,ExtentZ/g" $(@D)/lstat.txt  > $@
+	$(C3DEXE) $<  $(word 2,$^) -lstat > $(@D)/lstat.txt &&  sed "s/^\s\+/$(firstword $(subst /, ,$*)),$(word 3 ,$(subst /, ,$*)),$(subst .,,$(word 2 ,$(subst /, ,$*))),/g;s/\s\+/,/g;s/LabelID/InstanceUID,SegmentationID,FeatureID,LabelID/g;s/Vol(mm^3)/Vol.mm.3/g;s/Extent(Vox)/ExtentX,ExtentY,ExtentZ/g" $(@D)/lstat.txt  > $@
