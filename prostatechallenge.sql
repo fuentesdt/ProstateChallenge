@@ -140,7 +140,7 @@ CREATE TABLE DFProstateChallenge.ImageFeatures(
          KEY (id),  
  PRIMARY KEY (FeatureID) );  
 INSERT INTO DFProstateChallenge.ImageFeatures(FeatureID) VALUES 
-   ( "KTRANSreslice"),("T2Axialnorm"),("ADCreslice"),("T2Sagnorm"),("T2AxialEntropy_4"),("T2AxialHaralickCorrelation_4"),("BVALreslice");
+   ( "KTRANS.reslice"),("T2Axial.norm"),("ADC.reslice"),("T2Sag.norm"),("T2Axial.Entropy_4"),("T2Axial.HaralickCorrelation_4"),("BVAL.reslice");
 
 -- format data for analysis 
 -- build transpose command
@@ -151,8 +151,8 @@ SELECT
     CONCAT(
       'group_concat( distinct CASE WHEN fi.id = ',
       fi.id,
-      ' THEN vl.mean  END ) as  ',
-      fi.featureid
+      ' THEN vl.mean  END ) as  "',
+      fi.featureid, '"'
     )
   ) INTO @dynamicsql
 FROM DFProstateChallenge.ImageFeatures fi;
@@ -176,11 +176,10 @@ CREATE PROCEDURE DFProstateChallenge.DataMatrix
 BEGIN
    -- set  @varAnalysis='TRUTH' collate utf8_unicode_ci;
    set  @varAnalysis=analysisID;
-   select md.mrn, md.ggg ,
-          a.KTRANSreslice,a.T2Axialnorm,a.ADCreslice,a. T2Sagnorm,a.T2AxialEntropy_4,a.T2AxialHaralickCorrelation_4,a.BVALreslice  
+   select md.mrn, md.ggg , a.*
    from DFProstateChallenge.metadata md 
    left join (  select vl.InstanceUID,  group_concat( distinct vl.Volume) Volume, vl.labelID,
-                group_concat( distinct CASE WHEN fi.id = 1 THEN vl.mean  END ) as  KTRANSreslice,group_concat( distinct CASE WHEN fi.id = 2 THEN vl.mean  END ) as  T2Axialnorm,group_concat( distinct CASE WHEN fi.id = 3 THEN vl.mean  END ) as  ADCreslice,group_concat( distinct CASE WHEN fi.id = 4 THEN vl.mean  END ) as   T2Sagnorm,group_concat( distinct CASE WHEN fi.id = 5 THEN vl.mean  END ) as  T2AxialEntropy_4,group_concat( distinct CASE WHEN fi.id = 6 THEN vl.mean  END ) as  T2AxialHaralickCorrelation_4,group_concat( distinct CASE WHEN fi.id = 7 THEN vl.mean  END ) as  BVALreslice 
+                group_concat( distinct CASE WHEN fi.id = 1 THEN vl.mean  END ) as  "KTRANS.reslice",group_concat( distinct CASE WHEN fi.id = 2 THEN vl.mean  END ) as  "T2Axial.norm",group_concat( distinct CASE WHEN fi.id = 3 THEN vl.mean  END ) as  "ADC.reslice",group_concat( distinct CASE WHEN fi.id = 4 THEN vl.mean  END ) as  "T2Sag.norm",group_concat( distinct CASE WHEN fi.id = 5 THEN vl.mean  END ) as  "T2Axial.Entropy_4",group_concat( distinct CASE WHEN fi.id = 6 THEN vl.mean  END ) as  "T2Axial.HaralickCorrelation_4",group_concat( distinct CASE WHEN fi.id = 7 THEN vl.mean  END ) as  "BVAL.reslice"
                 from  DFProstateChallenge.ImageFeatures fi 
                 join  DFProstateChallenge.lstat         vl on vl.FeatureID=fi.FeatureID  and vl.SegmentationID=@varAnalysis 
                 group by vl.InstanceUID, vl.labelID

@@ -20,8 +20,8 @@ args <- commandArgs( trailingOnly = TRUE )
 
 if( length( args ) == 0 )
   {
-    #           1               2                                              3                             4    5     6     7    8     9   10      11      12
-            args <- c("3","truthdatamatrix.csv","Processed/ProstateX-0203/ggg/ALL/SignificantFeatureImage.","1", "1","2000","500","3","1","ProstateX-0203","ggg","ALL")
+    #           1               2                                       3                             4    5     6     7    8    9          10      11      12
+     args <- c("3","truthdatamatrix.csv","Processed/ProstateX-0203/ggg/ALL/SignificantFeatureImage.","1", "1","2000","500","3","1","ProstateX-0203","ggg","ALL")
   } else if( length( args ) < 2 ) {
   cat( "Usage: Rscript createRFModel.R dimension inputFileList outputModelPrefix ",
        "<numberOfThreads=4> <trainingPortion=1.0> <numberOfSamplesPerLabel=1000> ",
@@ -99,7 +99,7 @@ cat( "Model Setup: ", ModelOutput,LinearFamily,RFModelType,FeatureSelection," se
 #
 ###############################################
 uniquept = unique(modelData$mrn )
-NUnique = nlevels(uniquept)
+NUnique = length(uniquept)
 Nsample = NUnique  
 
 cat( "\nCreating the RF models each with ",Nsample ," patients. \n", sep = "" )
@@ -110,7 +110,7 @@ for (iii in 1:Nmodels ) # ignore Labels
    kfoldsubset = modelData
 
    if (FeatureSelection == 'ALL' )
-     { colsubset = c( ModelOutput , 'KTRANSreslice','T2Axialnorm','ADCreslice','T2Sagnorm','T2AxialEntropy_4','T2AxialHaralickCorrelation_4','BVALreslice') }
+     { colsubset = c( ModelOutput , 'KTRANS.reslice','T2Axial.norm','ADC.reslice','T2Sag.norm','T2Axial.Entropy_4','T2Axial.HaralickCorrelation_4','BVAL.reslice') }
    if (FeatureSelection == 'WRST' )
      { colsubset = c( ModelOutput , 'T2'   , 'FA' , 'AvgDC' , 'eADC',   'T1'  , 'FL'  , 'AUC'   , 'Peak'   , 'T2star','Kep'   , 'K2', 'Ktrans') }
    else if (FeatureSelection == 'UniTmr' )
@@ -172,14 +172,14 @@ for (iii in 1:Nmodels ) # ignore Labels
 featureNames <- attr( modelForest$terms, "term.labels" )
 fileNames <- c();
 
-workdirprefix = "Processed/Radpath/%d/"
+workdirprefix = "Processed/%s/"
 for( i in 1:length( featureNames ) )
   {
-  fileNames[i] <- paste0(workdirprefix,featureNames[i], ".NLM.nii.gz" )
+  fileNames[i] <- paste0(workdirprefix,featureNames[i], ".nii.gz" )
   }
 
 featureNames <- append( featureNames, "MASK", after = 0 )
-fileNames <- append( fileNames, paste0(workdirprefix,"Mask.nii" ), after = 0 )
+fileNames <- append( fileNames, paste0(workdirprefix,"MASK.nii.gz" ), after = 0 )
 
 outputCSVName = paste0(outputModelBase, 'csv'  )
 write.table( rbind( featureNames, fileNames ), file = outputCSVName ,
