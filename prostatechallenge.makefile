@@ -6,6 +6,7 @@ ITKSNAP=vglrun /opt/apps/itksnap/itksnap-3.2.0-20141023-Linux-x86_64/bin/itksnap
 OTBOFFSET  = 3
 OTBRADIUS  = 4
 OTBTEXTURE=/opt/apps/ANTsR/dev//ANTsR_src/ANTsR/src/ANTS/ANTS-build//bin//otbScalarImageToTexturesFilter
+NMODELS=1
 #OTBTEXTURE=/rsrch2/ip/dtfuentes/github/ExLib/otbScalarImageTextures/otbScalarImageToTexturesFilter
 
 ################
@@ -29,6 +30,8 @@ reslice: $(addprefix $(WORKDIR)/,$(addsuffix /T2Sag.reslice.nii.gz,$(TRAINING)))
 sform: $(addprefix $(WORKDIR)/,$(addsuffix /T2Axial.sform.nii.gz,$(TRAINING))) $(addprefix $(WORKDIR)/,$(addsuffix /T2Sag.sform.nii.gz,$(TRAINING)))  $(addprefix $(WORKDIR)/,$(addsuffix /ADC.sform.nii.gz,$(TRAINING)))  $(addprefix $(WORKDIR)/,$(addsuffix /BVAL.sform.nii.gz,$(TRAINING)))  
 norm:    $(addprefix $(WORKDIR)/,$(addsuffix /T2Axial.norm.nii.gz,$(TRAINING))) $(addprefix $(WORKDIR)/,$(addsuffix /T2Sag.norm.nii.gz,$(TRAINING)))
 texture: $(addprefix $(WORKDIR)/,$(addsuffix /T2Axial.HaralickCorrelation_$(OTBRADIUS).nii.gz,$(TRAINING)))
+# compute all RF models
+rfggg:  $(addsuffix /ggg/ALL/RF_MOST.nii.gz,      $(addprefix $(WORKDIR)/,$(TRAINING)))  
 
 #https://www.gnu.org/software/make/manual/html_node/Special-Targets.html
 # do not delete secondary files
@@ -72,6 +75,24 @@ $(WORKDIR)/%.sql: $(WORKDIR)/%/lstat.csv
 
 echo: 
 	echo $(foreach idlabel,$(LABELFILES),$(foreach idimage,$(FILELIST),$(addprefix $(WORKDIR)/,$(addsuffix /$(idimage)/$(idlabel)/lstat.csv,$(TRAINING))))) 
+
+# build rf  model
+$(WORKDIR)/%/SignificantFeatureImage.RFModel:
+	mkdir -p  $(@D)
+	@echo 'args <- c("3","truthdatamatrix.csv","$(@D)/SignificantFeatureImage.","1", "1","2000","500","3","$(NMODELS)","$(firstword $(subst /, ,$*))","$(word 2,$(subst /, ,$*))","$(lastword $(subst /, ,$*))")'
+	Rscript createRFModel.R 3  truthdatamatrix.csv  $(@D)/SignificantFeatureImage.  1    1   2000   500   3   $(NMODELS) $(subst /, ,$*)
+
+# create WHO maps
+$(WORKDIR)/%/RF_MOST.nii.gz: $(WORKDIR)/%/SignificantFeatureImage.RFModel 
+	mkdir -p  $(WORKDIR)/$*
+	Rscript Code/applyRFModel.R   3  $(WORKDIR)/$*/SignificantFeatureImage.  $(WORKDIR)/$*/RF_POSTERIORS.%04d.   1    $(NMODELS) $(subst /, ,$*)
+	$(C3DEXE) $(WORKDIR)/$*/RF_POSTERIORS.*.1.nii.gz  -mean -o $(WORKDIR)/$*/RF_MEAN.1.nii.gz
+	$(C3DEXE) $(WORKDIR)/$*/RF_POSTERIORS.*.2.nii.gz  -mean -o $(WORKDIR)/$*/RF_MEAN.2.nii.gz
+	$(C3DEXE) $(WORKDIR)/$*/RF_POSTERIORS.*.3.nii.gz  -mean -o $(WORKDIR)/$*/RF_MEAN.3.nii.gz
+	$(C3DEXE) -verbose $(WORKDIR)/$*/RF_MEAN.1.nii.gz -scale -1. -popas AVG $(WORKDIR)/$*/RF_POSTERIORS.*.1.nii.gz -foreach -push AVG -add -dup -times -endfor -accum -add -endaccum -sqrt -o $(WORKDIR)/$*/RF_STDD.1.nii.gz
+	$(C3DEXE) -verbose $(WORKDIR)/$*/RF_MEAN.2.nii.gz -scale -1. -popas AVG $(WORKDIR)/$*/RF_POSTERIORS.*.2.nii.gz -foreach -push AVG -add -dup -times -endfor -accum -add -endaccum -sqrt -o $(WORKDIR)/$*/RF_STDD.2.nii.gz
+	$(C3DEXE) -verbose $(WORKDIR)/$*/RF_MEAN.3.nii.gz -scale -1. -popas AVG $(WORKDIR)/$*/RF_POSTERIORS.*.3.nii.gz -foreach -push AVG -add -dup -times -endfor -accum -add -endaccum -sqrt -o $(WORKDIR)/$*/RF_STDD.3.nii.gz
+	$(ANTSIMAGEMATHCMD) 3 $(WORKDIR)/$*/RF_WHO.nii.gz MostLikely 0 $(WORKDIR)/$*/RF_MEAN.*.nii.gz  
 
 ###########################################################################
 .SECONDEXPANSION:

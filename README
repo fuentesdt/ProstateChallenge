@@ -5,3 +5,5 @@ make -B -f prostatechallenge.makefile dependencies
 make -B -f prostatechallenge.makefile -k -i -j 8 lmpre lm
 make -f prostatechallenge.makefile -k -i -j 8 truth
 make -r -f prostatechallenge.makefile -k -i -j 8 lstat
+make -r -f prostatechallenge.makefile -k -i -j 8 sql
+mysql  -re "call DFProstateChallenge.DataMatrix ('TRUTH');"    | sed "s/\t/,/g;s/NULL//g" > truthdatamatrix.csv
