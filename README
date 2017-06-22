@@ -6,3 +6,5 @@ make  -B -f prostatechallenge.makefile -k -i -j 8 lmpre lm
 make  -r -f prostatechallenge.makefile -k -i -j 8 truth
 make  -r -f prostatechallenge.makefile -k -i -j 8 lstat
 make  -r -f prostatechallenge.makefile -k -i -j 8 sql
+make  -B -r -f prostatechallenge.makefile truthdatamatrix.csv
+make  -r -f prostatechallenge.makefile -k -i -j 8 rfggg

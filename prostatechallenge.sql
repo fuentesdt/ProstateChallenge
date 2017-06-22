@@ -103,7 +103,7 @@ BEGIN
     select concat("TRAINING = ",group_concat(  rf.mrn separator '  ') )
     from DFProstateChallenge.metadata rf ;
     
-    select CONCAT('Processed/',rf.mrn,'/config:',' Processed/',rf.mrn,'/T2Axial.raw.nii.gz',' Processed/',rf.mrn,'/T2Sag.raw.nii.gz' , ' Processed/', rf.mrn, '/ADC.raw.nii.gz' , ' Processed/', rf.mrn, '/BVAL.raw.nii.gz' , ' Processed/', rf.mrn, '/KTRANS.raw.nii.gz' ) 
+    select CONCAT('Processed/',rf.mrn,'/config:',' Processed/',rf.mrn,'/T2Axial.raw.nii.gz',' Processed/',rf.mrn,'/T2Sag.raw.nii.gz' , ' Processed/', rf.mrn, '/ADC.raw.nii.gz' , ' Processed/', rf.mrn, '/BVAL.raw.nii.gz' , ' Processed/', rf.mrn, '/KTRANS.sform.nii.gz' ) 
     from DFProstateChallenge.metadata rf ;
     select CONCAT('Processed/', rf.mrn, '/T2Axial.raw.nii.gz:\n\tmkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/', rf.mrn,'/*/', rf.T2AxialUID , ' $@' ) 
     from DFProstateChallenge.metadata rf group by rf.mrn;
@@ -113,7 +113,11 @@ BEGIN
     from DFProstateChallenge.metadata rf group by rf.mrn;
     select CONCAT('Processed/', rf.mrn, '/BVAL.raw.nii.gz:\n\tmkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/'   , rf.mrn,'/*/', rf.BVALUID    , ' $@' ) 
     from DFProstateChallenge.metadata rf group by rf.mrn;
-    select CONCAT('Processed/', rf.mrn, '/KTRANS.raw.nii.gz:\n\tmkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/'   , rf.mrn,'/', rf.KTRANSUID , ' -o $@' ) 
+    -- select CONCAT('Processed/', rf.mrn, '/KTRANS.sform.nii.gz:  Processed/', rf.mrn, '/T2Axial.mat\n\tmkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/'   , rf.mrn,'/', rf.KTRANSUID , ' -set-sform $<  -o $@' ) 
+    -- from DFProstateChallenge.metadata rf group by rf.mrn;
+    -- select CONCAT('Processed/', rf.mrn, '/KTRANS.sform.nii.gz:  Processed/', rf.mrn, '/T2Axial.sform.nii.gz\n\tmkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/'   , rf.mrn,'/', rf.KTRANSUID , ' -mbb -o $@' ) 
+    -- from DFProstateChallenge.metadata rf group by rf.mrn;
+    select CONCAT('Processed/', rf.mrn, '/KTRANS.sform.nii.gz:  Processed/', rf.mrn, '/T2Axial.raw.nii.gz Processed/', rf.mrn, '/T2Axial.mat\n\tmkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/'   , rf.mrn,'/', rf.KTRANSUID , ' -reslice-identity -set-sform $(word 2,$^) -o $@' ) 
     from DFProstateChallenge.metadata rf group by rf.mrn;
     select CONCAT('Processed/', rf.mrn, '/landmarks.',rf.fid,'.txt:\n\tmkdir -p $(@D); echo '   , rf.pos         ,' ', rf.ggg,'  > $@' ) from DFProstateChallenge.metadata rf ;
     select CONCAT('Processed/', rf.mrn, '/T2Axial.world:\n\tmkdir -p $(@D); echo '   , rf.T2AxialWorld,            '  > $@' ) from DFProstateChallenge.metadata rf group by rf.mrn;

@@ -1,117 +1,117 @@
 DCMNIFTISPLIT=/rsrch1/ip/dtfuentes/github/FileConversionScripts/seriesreadwriteall/DicomSeriesReadImageWriteAll
 TRAINING = ProstateX-0000  ProstateX-0001  ProstateX-0002  ProstateX-0002  ProstateX-0004  ProstateX-0005  ProstateX-0005  ProstateX-0014  ProstateX-0015  ProstateX-0016  ProstateX-0018  ProstateX-0019  ProstateX-0026  ProstateX-0028  ProstateX-0031  ProstateX-0031  ProstateX-0035  ProstateX-0037  ProstateX-0040  ProstateX-0041  ProstateX-0046  ProstateX-0053  ProstateX-0054  ProstateX-0055  ProstateX-0067  ProstateX-0069  ProstateX-0071  ProstateX-0076  ProstateX-0077  ProstateX-0078  ProstateX-0082  ProstateX-0084  ProstateX-0092  ProstateX-0094  ProstateX-0095  ProstateX-0097  ProstateX-0099  ProstateX-0101  ProstateX-0102  ProstateX-0103  ProstateX-0104  ProstateX-0105  ProstateX-0106  ProstateX-0110  ProstateX-0111  ProstateX-0114  ProstateX-0115  ProstateX-0116  ProstateX-0117  ProstateX-0118  ProstateX-0119  ProstateX-0121  ProstateX-0121  ProstateX-0122  ProstateX-0122  ProstateX-0123  ProstateX-0124  ProstateX-0125  ProstateX-0126  ProstateX-0127  ProstateX-0128  ProstateX-0129  ProstateX-0131  ProstateX-0133  ProstateX-0136  ProstateX-0139  ProstateX-0139  ProstateX-0141  ProstateX-0142  ProstateX-0143  ProstateX-0145  ProstateX-0148  ProstateX-0150  ProstateX-0150  ProstateX-0152  ProstateX-0153  ProstateX-0162  ProstateX-0164  ProstateX-0165  ProstateX-0168  ProstateX-0169  ProstateX-0172  ProstateX-0173  ProstateX-0173  ProstateX-0174  ProstateX-0179  ProstateX-0179  ProstateX-0181  ProstateX-0182  ProstateX-0183  ProstateX-0184  ProstateX-0186  ProstateX-0187  ProstateX-0188  ProstateX-0190  ProstateX-0191  ProstateX-0192  ProstateX-0193  ProstateX-0194  ProstateX-0195  ProstateX-0196  ProstateX-0196  ProstateX-0196  ProstateX-0197  ProstateX-0198  ProstateX-0199  ProstateX-0199  ProstateX-0200  ProstateX-0201  ProstateX-0202  ProstateX-0203  ProstateX-0203
-Processed/ProstateX-0000/config: Processed/ProstateX-0000/T2Axial.raw.nii.gz Processed/ProstateX-0000/T2Sag.raw.nii.gz Processed/ProstateX-0000/ADC.raw.nii.gz Processed/ProstateX-0000/BVAL.raw.nii.gz Processed/ProstateX-0000/KTRANS.raw.nii.gz
-Processed/ProstateX-0001/config: Processed/ProstateX-0001/T2Axial.raw.nii.gz Processed/ProstateX-0001/T2Sag.raw.nii.gz Processed/ProstateX-0001/ADC.raw.nii.gz Processed/ProstateX-0001/BVAL.raw.nii.gz Processed/ProstateX-0001/KTRANS.raw.nii.gz
-Processed/ProstateX-0002/config: Processed/ProstateX-0002/T2Axial.raw.nii.gz Processed/ProstateX-0002/T2Sag.raw.nii.gz Processed/ProstateX-0002/ADC.raw.nii.gz Processed/ProstateX-0002/BVAL.raw.nii.gz Processed/ProstateX-0002/KTRANS.raw.nii.gz
-Processed/ProstateX-0002/config: Processed/ProstateX-0002/T2Axial.raw.nii.gz Processed/ProstateX-0002/T2Sag.raw.nii.gz Processed/ProstateX-0002/ADC.raw.nii.gz Processed/ProstateX-0002/BVAL.raw.nii.gz Processed/ProstateX-0002/KTRANS.raw.nii.gz
-Processed/ProstateX-0004/config: Processed/ProstateX-0004/T2Axial.raw.nii.gz Processed/ProstateX-0004/T2Sag.raw.nii.gz Processed/ProstateX-0004/ADC.raw.nii.gz Processed/ProstateX-0004/BVAL.raw.nii.gz Processed/ProstateX-0004/KTRANS.raw.nii.gz
-Processed/ProstateX-0005/config: Processed/ProstateX-0005/T2Axial.raw.nii.gz Processed/ProstateX-0005/T2Sag.raw.nii.gz Processed/ProstateX-0005/ADC.raw.nii.gz Processed/ProstateX-0005/BVAL.raw.nii.gz Processed/ProstateX-0005/KTRANS.raw.nii.gz
-Processed/ProstateX-0005/config: Processed/ProstateX-0005/T2Axial.raw.nii.gz Processed/ProstateX-0005/T2Sag.raw.nii.gz Processed/ProstateX-0005/ADC.raw.nii.gz Processed/ProstateX-0005/BVAL.raw.nii.gz Processed/ProstateX-0005/KTRANS.raw.nii.gz
-Processed/ProstateX-0014/config: Processed/ProstateX-0014/T2Axial.raw.nii.gz Processed/ProstateX-0014/T2Sag.raw.nii.gz Processed/ProstateX-0014/ADC.raw.nii.gz Processed/ProstateX-0014/BVAL.raw.nii.gz Processed/ProstateX-0014/KTRANS.raw.nii.gz
-Processed/ProstateX-0015/config: Processed/ProstateX-0015/T2Axial.raw.nii.gz Processed/ProstateX-0015/T2Sag.raw.nii.gz Processed/ProstateX-0015/ADC.raw.nii.gz Processed/ProstateX-0015/BVAL.raw.nii.gz Processed/ProstateX-0015/KTRANS.raw.nii.gz
-Processed/ProstateX-0016/config: Processed/ProstateX-0016/T2Axial.raw.nii.gz Processed/ProstateX-0016/T2Sag.raw.nii.gz Processed/ProstateX-0016/ADC.raw.nii.gz Processed/ProstateX-0016/BVAL.raw.nii.gz Processed/ProstateX-0016/KTRANS.raw.nii.gz
-Processed/ProstateX-0018/config: Processed/ProstateX-0018/T2Axial.raw.nii.gz Processed/ProstateX-0018/T2Sag.raw.nii.gz Processed/ProstateX-0018/ADC.raw.nii.gz Processed/ProstateX-0018/BVAL.raw.nii.gz Processed/ProstateX-0018/KTRANS.raw.nii.gz
-Processed/ProstateX-0019/config: Processed/ProstateX-0019/T2Axial.raw.nii.gz Processed/ProstateX-0019/T2Sag.raw.nii.gz Processed/ProstateX-0019/ADC.raw.nii.gz Processed/ProstateX-0019/BVAL.raw.nii.gz Processed/ProstateX-0019/KTRANS.raw.nii.gz
-Processed/ProstateX-0026/config: Processed/ProstateX-0026/T2Axial.raw.nii.gz Processed/ProstateX-0026/T2Sag.raw.nii.gz Processed/ProstateX-0026/ADC.raw.nii.gz Processed/ProstateX-0026/BVAL.raw.nii.gz Processed/ProstateX-0026/KTRANS.raw.nii.gz
-Processed/ProstateX-0028/config: Processed/ProstateX-0028/T2Axial.raw.nii.gz Processed/ProstateX-0028/T2Sag.raw.nii.gz Processed/ProstateX-0028/ADC.raw.nii.gz Processed/ProstateX-0028/BVAL.raw.nii.gz Processed/ProstateX-0028/KTRANS.raw.nii.gz
-Processed/ProstateX-0031/config: Processed/ProstateX-0031/T2Axial.raw.nii.gz Processed/ProstateX-0031/T2Sag.raw.nii.gz Processed/ProstateX-0031/ADC.raw.nii.gz Processed/ProstateX-0031/BVAL.raw.nii.gz Processed/ProstateX-0031/KTRANS.raw.nii.gz
-Processed/ProstateX-0031/config: Processed/ProstateX-0031/T2Axial.raw.nii.gz Processed/ProstateX-0031/T2Sag.raw.nii.gz Processed/ProstateX-0031/ADC.raw.nii.gz Processed/ProstateX-0031/BVAL.raw.nii.gz Processed/ProstateX-0031/KTRANS.raw.nii.gz
-Processed/ProstateX-0035/config: Processed/ProstateX-0035/T2Axial.raw.nii.gz Processed/ProstateX-0035/T2Sag.raw.nii.gz Processed/ProstateX-0035/ADC.raw.nii.gz Processed/ProstateX-0035/BVAL.raw.nii.gz Processed/ProstateX-0035/KTRANS.raw.nii.gz
-Processed/ProstateX-0037/config: Processed/ProstateX-0037/T2Axial.raw.nii.gz Processed/ProstateX-0037/T2Sag.raw.nii.gz Processed/ProstateX-0037/ADC.raw.nii.gz Processed/ProstateX-0037/BVAL.raw.nii.gz Processed/ProstateX-0037/KTRANS.raw.nii.gz
-Processed/ProstateX-0040/config: Processed/ProstateX-0040/T2Axial.raw.nii.gz Processed/ProstateX-0040/T2Sag.raw.nii.gz Processed/ProstateX-0040/ADC.raw.nii.gz Processed/ProstateX-0040/BVAL.raw.nii.gz Processed/ProstateX-0040/KTRANS.raw.nii.gz
-Processed/ProstateX-0041/config: Processed/ProstateX-0041/T2Axial.raw.nii.gz Processed/ProstateX-0041/T2Sag.raw.nii.gz Processed/ProstateX-0041/ADC.raw.nii.gz Processed/ProstateX-0041/BVAL.raw.nii.gz Processed/ProstateX-0041/KTRANS.raw.nii.gz
-Processed/ProstateX-0046/config: Processed/ProstateX-0046/T2Axial.raw.nii.gz Processed/ProstateX-0046/T2Sag.raw.nii.gz Processed/ProstateX-0046/ADC.raw.nii.gz Processed/ProstateX-0046/BVAL.raw.nii.gz Processed/ProstateX-0046/KTRANS.raw.nii.gz
-Processed/ProstateX-0053/config: Processed/ProstateX-0053/T2Axial.raw.nii.gz Processed/ProstateX-0053/T2Sag.raw.nii.gz Processed/ProstateX-0053/ADC.raw.nii.gz Processed/ProstateX-0053/BVAL.raw.nii.gz Processed/ProstateX-0053/KTRANS.raw.nii.gz
-Processed/ProstateX-0054/config: Processed/ProstateX-0054/T2Axial.raw.nii.gz Processed/ProstateX-0054/T2Sag.raw.nii.gz Processed/ProstateX-0054/ADC.raw.nii.gz Processed/ProstateX-0054/BVAL.raw.nii.gz Processed/ProstateX-0054/KTRANS.raw.nii.gz
-Processed/ProstateX-0055/config: Processed/ProstateX-0055/T2Axial.raw.nii.gz Processed/ProstateX-0055/T2Sag.raw.nii.gz Processed/ProstateX-0055/ADC.raw.nii.gz Processed/ProstateX-0055/BVAL.raw.nii.gz Processed/ProstateX-0055/KTRANS.raw.nii.gz
-Processed/ProstateX-0067/config: Processed/ProstateX-0067/T2Axial.raw.nii.gz Processed/ProstateX-0067/T2Sag.raw.nii.gz Processed/ProstateX-0067/ADC.raw.nii.gz Processed/ProstateX-0067/BVAL.raw.nii.gz Processed/ProstateX-0067/KTRANS.raw.nii.gz
-Processed/ProstateX-0069/config: Processed/ProstateX-0069/T2Axial.raw.nii.gz Processed/ProstateX-0069/T2Sag.raw.nii.gz Processed/ProstateX-0069/ADC.raw.nii.gz Processed/ProstateX-0069/BVAL.raw.nii.gz Processed/ProstateX-0069/KTRANS.raw.nii.gz
-Processed/ProstateX-0071/config: Processed/ProstateX-0071/T2Axial.raw.nii.gz Processed/ProstateX-0071/T2Sag.raw.nii.gz Processed/ProstateX-0071/ADC.raw.nii.gz Processed/ProstateX-0071/BVAL.raw.nii.gz Processed/ProstateX-0071/KTRANS.raw.nii.gz
-Processed/ProstateX-0076/config: Processed/ProstateX-0076/T2Axial.raw.nii.gz Processed/ProstateX-0076/T2Sag.raw.nii.gz Processed/ProstateX-0076/ADC.raw.nii.gz Processed/ProstateX-0076/BVAL.raw.nii.gz Processed/ProstateX-0076/KTRANS.raw.nii.gz
-Processed/ProstateX-0077/config: Processed/ProstateX-0077/T2Axial.raw.nii.gz Processed/ProstateX-0077/T2Sag.raw.nii.gz Processed/ProstateX-0077/ADC.raw.nii.gz Processed/ProstateX-0077/BVAL.raw.nii.gz Processed/ProstateX-0077/KTRANS.raw.nii.gz
-Processed/ProstateX-0078/config: Processed/ProstateX-0078/T2Axial.raw.nii.gz Processed/ProstateX-0078/T2Sag.raw.nii.gz Processed/ProstateX-0078/ADC.raw.nii.gz Processed/ProstateX-0078/BVAL.raw.nii.gz Processed/ProstateX-0078/KTRANS.raw.nii.gz
-Processed/ProstateX-0082/config: Processed/ProstateX-0082/T2Axial.raw.nii.gz Processed/ProstateX-0082/T2Sag.raw.nii.gz Processed/ProstateX-0082/ADC.raw.nii.gz Processed/ProstateX-0082/BVAL.raw.nii.gz Processed/ProstateX-0082/KTRANS.raw.nii.gz
-Processed/ProstateX-0084/config: Processed/ProstateX-0084/T2Axial.raw.nii.gz Processed/ProstateX-0084/T2Sag.raw.nii.gz Processed/ProstateX-0084/ADC.raw.nii.gz Processed/ProstateX-0084/BVAL.raw.nii.gz Processed/ProstateX-0084/KTRANS.raw.nii.gz
-Processed/ProstateX-0092/config: Processed/ProstateX-0092/T2Axial.raw.nii.gz Processed/ProstateX-0092/T2Sag.raw.nii.gz Processed/ProstateX-0092/ADC.raw.nii.gz Processed/ProstateX-0092/BVAL.raw.nii.gz Processed/ProstateX-0092/KTRANS.raw.nii.gz
-Processed/ProstateX-0094/config: Processed/ProstateX-0094/T2Axial.raw.nii.gz Processed/ProstateX-0094/T2Sag.raw.nii.gz Processed/ProstateX-0094/ADC.raw.nii.gz Processed/ProstateX-0094/BVAL.raw.nii.gz Processed/ProstateX-0094/KTRANS.raw.nii.gz
-Processed/ProstateX-0095/config: Processed/ProstateX-0095/T2Axial.raw.nii.gz Processed/ProstateX-0095/T2Sag.raw.nii.gz Processed/ProstateX-0095/ADC.raw.nii.gz Processed/ProstateX-0095/BVAL.raw.nii.gz Processed/ProstateX-0095/KTRANS.raw.nii.gz
-Processed/ProstateX-0097/config: Processed/ProstateX-0097/T2Axial.raw.nii.gz Processed/ProstateX-0097/T2Sag.raw.nii.gz Processed/ProstateX-0097/ADC.raw.nii.gz Processed/ProstateX-0097/BVAL.raw.nii.gz Processed/ProstateX-0097/KTRANS.raw.nii.gz
-Processed/ProstateX-0099/config: Processed/ProstateX-0099/T2Axial.raw.nii.gz Processed/ProstateX-0099/T2Sag.raw.nii.gz Processed/ProstateX-0099/ADC.raw.nii.gz Processed/ProstateX-0099/BVAL.raw.nii.gz Processed/ProstateX-0099/KTRANS.raw.nii.gz
-Processed/ProstateX-0101/config: Processed/ProstateX-0101/T2Axial.raw.nii.gz Processed/ProstateX-0101/T2Sag.raw.nii.gz Processed/ProstateX-0101/ADC.raw.nii.gz Processed/ProstateX-0101/BVAL.raw.nii.gz Processed/ProstateX-0101/KTRANS.raw.nii.gz
-Processed/ProstateX-0102/config: Processed/ProstateX-0102/T2Axial.raw.nii.gz Processed/ProstateX-0102/T2Sag.raw.nii.gz Processed/ProstateX-0102/ADC.raw.nii.gz Processed/ProstateX-0102/BVAL.raw.nii.gz Processed/ProstateX-0102/KTRANS.raw.nii.gz
-Processed/ProstateX-0103/config: Processed/ProstateX-0103/T2Axial.raw.nii.gz Processed/ProstateX-0103/T2Sag.raw.nii.gz Processed/ProstateX-0103/ADC.raw.nii.gz Processed/ProstateX-0103/BVAL.raw.nii.gz Processed/ProstateX-0103/KTRANS.raw.nii.gz
-Processed/ProstateX-0104/config: Processed/ProstateX-0104/T2Axial.raw.nii.gz Processed/ProstateX-0104/T2Sag.raw.nii.gz Processed/ProstateX-0104/ADC.raw.nii.gz Processed/ProstateX-0104/BVAL.raw.nii.gz Processed/ProstateX-0104/KTRANS.raw.nii.gz
-Processed/ProstateX-0105/config: Processed/ProstateX-0105/T2Axial.raw.nii.gz Processed/ProstateX-0105/T2Sag.raw.nii.gz Processed/ProstateX-0105/ADC.raw.nii.gz Processed/ProstateX-0105/BVAL.raw.nii.gz Processed/ProstateX-0105/KTRANS.raw.nii.gz
-Processed/ProstateX-0106/config: Processed/ProstateX-0106/T2Axial.raw.nii.gz Processed/ProstateX-0106/T2Sag.raw.nii.gz Processed/ProstateX-0106/ADC.raw.nii.gz Processed/ProstateX-0106/BVAL.raw.nii.gz Processed/ProstateX-0106/KTRANS.raw.nii.gz
-Processed/ProstateX-0110/config: Processed/ProstateX-0110/T2Axial.raw.nii.gz Processed/ProstateX-0110/T2Sag.raw.nii.gz Processed/ProstateX-0110/ADC.raw.nii.gz Processed/ProstateX-0110/BVAL.raw.nii.gz Processed/ProstateX-0110/KTRANS.raw.nii.gz
-Processed/ProstateX-0111/config: Processed/ProstateX-0111/T2Axial.raw.nii.gz Processed/ProstateX-0111/T2Sag.raw.nii.gz Processed/ProstateX-0111/ADC.raw.nii.gz Processed/ProstateX-0111/BVAL.raw.nii.gz Processed/ProstateX-0111/KTRANS.raw.nii.gz
-Processed/ProstateX-0114/config: Processed/ProstateX-0114/T2Axial.raw.nii.gz Processed/ProstateX-0114/T2Sag.raw.nii.gz Processed/ProstateX-0114/ADC.raw.nii.gz Processed/ProstateX-0114/BVAL.raw.nii.gz Processed/ProstateX-0114/KTRANS.raw.nii.gz
-Processed/ProstateX-0115/config: Processed/ProstateX-0115/T2Axial.raw.nii.gz Processed/ProstateX-0115/T2Sag.raw.nii.gz Processed/ProstateX-0115/ADC.raw.nii.gz Processed/ProstateX-0115/BVAL.raw.nii.gz Processed/ProstateX-0115/KTRANS.raw.nii.gz
-Processed/ProstateX-0116/config: Processed/ProstateX-0116/T2Axial.raw.nii.gz Processed/ProstateX-0116/T2Sag.raw.nii.gz Processed/ProstateX-0116/ADC.raw.nii.gz Processed/ProstateX-0116/BVAL.raw.nii.gz Processed/ProstateX-0116/KTRANS.raw.nii.gz
-Processed/ProstateX-0117/config: Processed/ProstateX-0117/T2Axial.raw.nii.gz Processed/ProstateX-0117/T2Sag.raw.nii.gz Processed/ProstateX-0117/ADC.raw.nii.gz Processed/ProstateX-0117/BVAL.raw.nii.gz Processed/ProstateX-0117/KTRANS.raw.nii.gz
-Processed/ProstateX-0118/config: Processed/ProstateX-0118/T2Axial.raw.nii.gz Processed/ProstateX-0118/T2Sag.raw.nii.gz Processed/ProstateX-0118/ADC.raw.nii.gz Processed/ProstateX-0118/BVAL.raw.nii.gz Processed/ProstateX-0118/KTRANS.raw.nii.gz
-Processed/ProstateX-0119/config: Processed/ProstateX-0119/T2Axial.raw.nii.gz Processed/ProstateX-0119/T2Sag.raw.nii.gz Processed/ProstateX-0119/ADC.raw.nii.gz Processed/ProstateX-0119/BVAL.raw.nii.gz Processed/ProstateX-0119/KTRANS.raw.nii.gz
-Processed/ProstateX-0121/config: Processed/ProstateX-0121/T2Axial.raw.nii.gz Processed/ProstateX-0121/T2Sag.raw.nii.gz Processed/ProstateX-0121/ADC.raw.nii.gz Processed/ProstateX-0121/BVAL.raw.nii.gz Processed/ProstateX-0121/KTRANS.raw.nii.gz
-Processed/ProstateX-0121/config: Processed/ProstateX-0121/T2Axial.raw.nii.gz Processed/ProstateX-0121/T2Sag.raw.nii.gz Processed/ProstateX-0121/ADC.raw.nii.gz Processed/ProstateX-0121/BVAL.raw.nii.gz Processed/ProstateX-0121/KTRANS.raw.nii.gz
-Processed/ProstateX-0122/config: Processed/ProstateX-0122/T2Axial.raw.nii.gz Processed/ProstateX-0122/T2Sag.raw.nii.gz Processed/ProstateX-0122/ADC.raw.nii.gz Processed/ProstateX-0122/BVAL.raw.nii.gz Processed/ProstateX-0122/KTRANS.raw.nii.gz
-Processed/ProstateX-0122/config: Processed/ProstateX-0122/T2Axial.raw.nii.gz Processed/ProstateX-0122/T2Sag.raw.nii.gz Processed/ProstateX-0122/ADC.raw.nii.gz Processed/ProstateX-0122/BVAL.raw.nii.gz Processed/ProstateX-0122/KTRANS.raw.nii.gz
-Processed/ProstateX-0123/config: Processed/ProstateX-0123/T2Axial.raw.nii.gz Processed/ProstateX-0123/T2Sag.raw.nii.gz Processed/ProstateX-0123/ADC.raw.nii.gz Processed/ProstateX-0123/BVAL.raw.nii.gz Processed/ProstateX-0123/KTRANS.raw.nii.gz
-Processed/ProstateX-0124/config: Processed/ProstateX-0124/T2Axial.raw.nii.gz Processed/ProstateX-0124/T2Sag.raw.nii.gz Processed/ProstateX-0124/ADC.raw.nii.gz Processed/ProstateX-0124/BVAL.raw.nii.gz Processed/ProstateX-0124/KTRANS.raw.nii.gz
-Processed/ProstateX-0125/config: Processed/ProstateX-0125/T2Axial.raw.nii.gz Processed/ProstateX-0125/T2Sag.raw.nii.gz Processed/ProstateX-0125/ADC.raw.nii.gz Processed/ProstateX-0125/BVAL.raw.nii.gz Processed/ProstateX-0125/KTRANS.raw.nii.gz
-Processed/ProstateX-0126/config: Processed/ProstateX-0126/T2Axial.raw.nii.gz Processed/ProstateX-0126/T2Sag.raw.nii.gz Processed/ProstateX-0126/ADC.raw.nii.gz Processed/ProstateX-0126/BVAL.raw.nii.gz Processed/ProstateX-0126/KTRANS.raw.nii.gz
-Processed/ProstateX-0127/config: Processed/ProstateX-0127/T2Axial.raw.nii.gz Processed/ProstateX-0127/T2Sag.raw.nii.gz Processed/ProstateX-0127/ADC.raw.nii.gz Processed/ProstateX-0127/BVAL.raw.nii.gz Processed/ProstateX-0127/KTRANS.raw.nii.gz
-Processed/ProstateX-0128/config: Processed/ProstateX-0128/T2Axial.raw.nii.gz Processed/ProstateX-0128/T2Sag.raw.nii.gz Processed/ProstateX-0128/ADC.raw.nii.gz Processed/ProstateX-0128/BVAL.raw.nii.gz Processed/ProstateX-0128/KTRANS.raw.nii.gz
-Processed/ProstateX-0129/config: Processed/ProstateX-0129/T2Axial.raw.nii.gz Processed/ProstateX-0129/T2Sag.raw.nii.gz Processed/ProstateX-0129/ADC.raw.nii.gz Processed/ProstateX-0129/BVAL.raw.nii.gz Processed/ProstateX-0129/KTRANS.raw.nii.gz
-Processed/ProstateX-0131/config: Processed/ProstateX-0131/T2Axial.raw.nii.gz Processed/ProstateX-0131/T2Sag.raw.nii.gz Processed/ProstateX-0131/ADC.raw.nii.gz Processed/ProstateX-0131/BVAL.raw.nii.gz Processed/ProstateX-0131/KTRANS.raw.nii.gz
-Processed/ProstateX-0133/config: Processed/ProstateX-0133/T2Axial.raw.nii.gz Processed/ProstateX-0133/T2Sag.raw.nii.gz Processed/ProstateX-0133/ADC.raw.nii.gz Processed/ProstateX-0133/BVAL.raw.nii.gz Processed/ProstateX-0133/KTRANS.raw.nii.gz
-Processed/ProstateX-0136/config: Processed/ProstateX-0136/T2Axial.raw.nii.gz Processed/ProstateX-0136/T2Sag.raw.nii.gz Processed/ProstateX-0136/ADC.raw.nii.gz Processed/ProstateX-0136/BVAL.raw.nii.gz Processed/ProstateX-0136/KTRANS.raw.nii.gz
-Processed/ProstateX-0139/config: Processed/ProstateX-0139/T2Axial.raw.nii.gz Processed/ProstateX-0139/T2Sag.raw.nii.gz Processed/ProstateX-0139/ADC.raw.nii.gz Processed/ProstateX-0139/BVAL.raw.nii.gz Processed/ProstateX-0139/KTRANS.raw.nii.gz
-Processed/ProstateX-0139/config: Processed/ProstateX-0139/T2Axial.raw.nii.gz Processed/ProstateX-0139/T2Sag.raw.nii.gz Processed/ProstateX-0139/ADC.raw.nii.gz Processed/ProstateX-0139/BVAL.raw.nii.gz Processed/ProstateX-0139/KTRANS.raw.nii.gz
-Processed/ProstateX-0141/config: Processed/ProstateX-0141/T2Axial.raw.nii.gz Processed/ProstateX-0141/T2Sag.raw.nii.gz Processed/ProstateX-0141/ADC.raw.nii.gz Processed/ProstateX-0141/BVAL.raw.nii.gz Processed/ProstateX-0141/KTRANS.raw.nii.gz
-Processed/ProstateX-0142/config: Processed/ProstateX-0142/T2Axial.raw.nii.gz Processed/ProstateX-0142/T2Sag.raw.nii.gz Processed/ProstateX-0142/ADC.raw.nii.gz Processed/ProstateX-0142/BVAL.raw.nii.gz Processed/ProstateX-0142/KTRANS.raw.nii.gz
-Processed/ProstateX-0143/config: Processed/ProstateX-0143/T2Axial.raw.nii.gz Processed/ProstateX-0143/T2Sag.raw.nii.gz Processed/ProstateX-0143/ADC.raw.nii.gz Processed/ProstateX-0143/BVAL.raw.nii.gz Processed/ProstateX-0143/KTRANS.raw.nii.gz
-Processed/ProstateX-0145/config: Processed/ProstateX-0145/T2Axial.raw.nii.gz Processed/ProstateX-0145/T2Sag.raw.nii.gz Processed/ProstateX-0145/ADC.raw.nii.gz Processed/ProstateX-0145/BVAL.raw.nii.gz Processed/ProstateX-0145/KTRANS.raw.nii.gz
-Processed/ProstateX-0148/config: Processed/ProstateX-0148/T2Axial.raw.nii.gz Processed/ProstateX-0148/T2Sag.raw.nii.gz Processed/ProstateX-0148/ADC.raw.nii.gz Processed/ProstateX-0148/BVAL.raw.nii.gz Processed/ProstateX-0148/KTRANS.raw.nii.gz
-Processed/ProstateX-0150/config: Processed/ProstateX-0150/T2Axial.raw.nii.gz Processed/ProstateX-0150/T2Sag.raw.nii.gz Processed/ProstateX-0150/ADC.raw.nii.gz Processed/ProstateX-0150/BVAL.raw.nii.gz Processed/ProstateX-0150/KTRANS.raw.nii.gz
-Processed/ProstateX-0150/config: Processed/ProstateX-0150/T2Axial.raw.nii.gz Processed/ProstateX-0150/T2Sag.raw.nii.gz Processed/ProstateX-0150/ADC.raw.nii.gz Processed/ProstateX-0150/BVAL.raw.nii.gz Processed/ProstateX-0150/KTRANS.raw.nii.gz
-Processed/ProstateX-0152/config: Processed/ProstateX-0152/T2Axial.raw.nii.gz Processed/ProstateX-0152/T2Sag.raw.nii.gz Processed/ProstateX-0152/ADC.raw.nii.gz Processed/ProstateX-0152/BVAL.raw.nii.gz Processed/ProstateX-0152/KTRANS.raw.nii.gz
-Processed/ProstateX-0153/config: Processed/ProstateX-0153/T2Axial.raw.nii.gz Processed/ProstateX-0153/T2Sag.raw.nii.gz Processed/ProstateX-0153/ADC.raw.nii.gz Processed/ProstateX-0153/BVAL.raw.nii.gz Processed/ProstateX-0153/KTRANS.raw.nii.gz
-Processed/ProstateX-0162/config: Processed/ProstateX-0162/T2Axial.raw.nii.gz Processed/ProstateX-0162/T2Sag.raw.nii.gz Processed/ProstateX-0162/ADC.raw.nii.gz Processed/ProstateX-0162/BVAL.raw.nii.gz Processed/ProstateX-0162/KTRANS.raw.nii.gz
-Processed/ProstateX-0164/config: Processed/ProstateX-0164/T2Axial.raw.nii.gz Processed/ProstateX-0164/T2Sag.raw.nii.gz Processed/ProstateX-0164/ADC.raw.nii.gz Processed/ProstateX-0164/BVAL.raw.nii.gz Processed/ProstateX-0164/KTRANS.raw.nii.gz
-Processed/ProstateX-0165/config: Processed/ProstateX-0165/T2Axial.raw.nii.gz Processed/ProstateX-0165/T2Sag.raw.nii.gz Processed/ProstateX-0165/ADC.raw.nii.gz Processed/ProstateX-0165/BVAL.raw.nii.gz Processed/ProstateX-0165/KTRANS.raw.nii.gz
-Processed/ProstateX-0168/config: Processed/ProstateX-0168/T2Axial.raw.nii.gz Processed/ProstateX-0168/T2Sag.raw.nii.gz Processed/ProstateX-0168/ADC.raw.nii.gz Processed/ProstateX-0168/BVAL.raw.nii.gz Processed/ProstateX-0168/KTRANS.raw.nii.gz
-Processed/ProstateX-0169/config: Processed/ProstateX-0169/T2Axial.raw.nii.gz Processed/ProstateX-0169/T2Sag.raw.nii.gz Processed/ProstateX-0169/ADC.raw.nii.gz Processed/ProstateX-0169/BVAL.raw.nii.gz Processed/ProstateX-0169/KTRANS.raw.nii.gz
-Processed/ProstateX-0172/config: Processed/ProstateX-0172/T2Axial.raw.nii.gz Processed/ProstateX-0172/T2Sag.raw.nii.gz Processed/ProstateX-0172/ADC.raw.nii.gz Processed/ProstateX-0172/BVAL.raw.nii.gz Processed/ProstateX-0172/KTRANS.raw.nii.gz
-Processed/ProstateX-0173/config: Processed/ProstateX-0173/T2Axial.raw.nii.gz Processed/ProstateX-0173/T2Sag.raw.nii.gz Processed/ProstateX-0173/ADC.raw.nii.gz Processed/ProstateX-0173/BVAL.raw.nii.gz Processed/ProstateX-0173/KTRANS.raw.nii.gz
-Processed/ProstateX-0173/config: Processed/ProstateX-0173/T2Axial.raw.nii.gz Processed/ProstateX-0173/T2Sag.raw.nii.gz Processed/ProstateX-0173/ADC.raw.nii.gz Processed/ProstateX-0173/BVAL.raw.nii.gz Processed/ProstateX-0173/KTRANS.raw.nii.gz
-Processed/ProstateX-0174/config: Processed/ProstateX-0174/T2Axial.raw.nii.gz Processed/ProstateX-0174/T2Sag.raw.nii.gz Processed/ProstateX-0174/ADC.raw.nii.gz Processed/ProstateX-0174/BVAL.raw.nii.gz Processed/ProstateX-0174/KTRANS.raw.nii.gz
-Processed/ProstateX-0179/config: Processed/ProstateX-0179/T2Axial.raw.nii.gz Processed/ProstateX-0179/T2Sag.raw.nii.gz Processed/ProstateX-0179/ADC.raw.nii.gz Processed/ProstateX-0179/BVAL.raw.nii.gz Processed/ProstateX-0179/KTRANS.raw.nii.gz
-Processed/ProstateX-0179/config: Processed/ProstateX-0179/T2Axial.raw.nii.gz Processed/ProstateX-0179/T2Sag.raw.nii.gz Processed/ProstateX-0179/ADC.raw.nii.gz Processed/ProstateX-0179/BVAL.raw.nii.gz Processed/ProstateX-0179/KTRANS.raw.nii.gz
-Processed/ProstateX-0181/config: Processed/ProstateX-0181/T2Axial.raw.nii.gz Processed/ProstateX-0181/T2Sag.raw.nii.gz Processed/ProstateX-0181/ADC.raw.nii.gz Processed/ProstateX-0181/BVAL.raw.nii.gz Processed/ProstateX-0181/KTRANS.raw.nii.gz
-Processed/ProstateX-0182/config: Processed/ProstateX-0182/T2Axial.raw.nii.gz Processed/ProstateX-0182/T2Sag.raw.nii.gz Processed/ProstateX-0182/ADC.raw.nii.gz Processed/ProstateX-0182/BVAL.raw.nii.gz Processed/ProstateX-0182/KTRANS.raw.nii.gz
-Processed/ProstateX-0183/config: Processed/ProstateX-0183/T2Axial.raw.nii.gz Processed/ProstateX-0183/T2Sag.raw.nii.gz Processed/ProstateX-0183/ADC.raw.nii.gz Processed/ProstateX-0183/BVAL.raw.nii.gz Processed/ProstateX-0183/KTRANS.raw.nii.gz
-Processed/ProstateX-0184/config: Processed/ProstateX-0184/T2Axial.raw.nii.gz Processed/ProstateX-0184/T2Sag.raw.nii.gz Processed/ProstateX-0184/ADC.raw.nii.gz Processed/ProstateX-0184/BVAL.raw.nii.gz Processed/ProstateX-0184/KTRANS.raw.nii.gz
-Processed/ProstateX-0186/config: Processed/ProstateX-0186/T2Axial.raw.nii.gz Processed/ProstateX-0186/T2Sag.raw.nii.gz Processed/ProstateX-0186/ADC.raw.nii.gz Processed/ProstateX-0186/BVAL.raw.nii.gz Processed/ProstateX-0186/KTRANS.raw.nii.gz
-Processed/ProstateX-0187/config: Processed/ProstateX-0187/T2Axial.raw.nii.gz Processed/ProstateX-0187/T2Sag.raw.nii.gz Processed/ProstateX-0187/ADC.raw.nii.gz Processed/ProstateX-0187/BVAL.raw.nii.gz Processed/ProstateX-0187/KTRANS.raw.nii.gz
-Processed/ProstateX-0188/config: Processed/ProstateX-0188/T2Axial.raw.nii.gz Processed/ProstateX-0188/T2Sag.raw.nii.gz Processed/ProstateX-0188/ADC.raw.nii.gz Processed/ProstateX-0188/BVAL.raw.nii.gz Processed/ProstateX-0188/KTRANS.raw.nii.gz
-Processed/ProstateX-0190/config: Processed/ProstateX-0190/T2Axial.raw.nii.gz Processed/ProstateX-0190/T2Sag.raw.nii.gz Processed/ProstateX-0190/ADC.raw.nii.gz Processed/ProstateX-0190/BVAL.raw.nii.gz Processed/ProstateX-0190/KTRANS.raw.nii.gz
-Processed/ProstateX-0191/config: Processed/ProstateX-0191/T2Axial.raw.nii.gz Processed/ProstateX-0191/T2Sag.raw.nii.gz Processed/ProstateX-0191/ADC.raw.nii.gz Processed/ProstateX-0191/BVAL.raw.nii.gz Processed/ProstateX-0191/KTRANS.raw.nii.gz
-Processed/ProstateX-0192/config: Processed/ProstateX-0192/T2Axial.raw.nii.gz Processed/ProstateX-0192/T2Sag.raw.nii.gz Processed/ProstateX-0192/ADC.raw.nii.gz Processed/ProstateX-0192/BVAL.raw.nii.gz Processed/ProstateX-0192/KTRANS.raw.nii.gz
-Processed/ProstateX-0193/config: Processed/ProstateX-0193/T2Axial.raw.nii.gz Processed/ProstateX-0193/T2Sag.raw.nii.gz Processed/ProstateX-0193/ADC.raw.nii.gz Processed/ProstateX-0193/BVAL.raw.nii.gz Processed/ProstateX-0193/KTRANS.raw.nii.gz
-Processed/ProstateX-0194/config: Processed/ProstateX-0194/T2Axial.raw.nii.gz Processed/ProstateX-0194/T2Sag.raw.nii.gz Processed/ProstateX-0194/ADC.raw.nii.gz Processed/ProstateX-0194/BVAL.raw.nii.gz Processed/ProstateX-0194/KTRANS.raw.nii.gz
-Processed/ProstateX-0195/config: Processed/ProstateX-0195/T2Axial.raw.nii.gz Processed/ProstateX-0195/T2Sag.raw.nii.gz Processed/ProstateX-0195/ADC.raw.nii.gz Processed/ProstateX-0195/BVAL.raw.nii.gz Processed/ProstateX-0195/KTRANS.raw.nii.gz
-Processed/ProstateX-0196/config: Processed/ProstateX-0196/T2Axial.raw.nii.gz Processed/ProstateX-0196/T2Sag.raw.nii.gz Processed/ProstateX-0196/ADC.raw.nii.gz Processed/ProstateX-0196/BVAL.raw.nii.gz Processed/ProstateX-0196/KTRANS.raw.nii.gz
-Processed/ProstateX-0196/config: Processed/ProstateX-0196/T2Axial.raw.nii.gz Processed/ProstateX-0196/T2Sag.raw.nii.gz Processed/ProstateX-0196/ADC.raw.nii.gz Processed/ProstateX-0196/BVAL.raw.nii.gz Processed/ProstateX-0196/KTRANS.raw.nii.gz
-Processed/ProstateX-0196/config: Processed/ProstateX-0196/T2Axial.raw.nii.gz Processed/ProstateX-0196/T2Sag.raw.nii.gz Processed/ProstateX-0196/ADC.raw.nii.gz Processed/ProstateX-0196/BVAL.raw.nii.gz Processed/ProstateX-0196/KTRANS.raw.nii.gz
-Processed/ProstateX-0197/config: Processed/ProstateX-0197/T2Axial.raw.nii.gz Processed/ProstateX-0197/T2Sag.raw.nii.gz Processed/ProstateX-0197/ADC.raw.nii.gz Processed/ProstateX-0197/BVAL.raw.nii.gz Processed/ProstateX-0197/KTRANS.raw.nii.gz
-Processed/ProstateX-0198/config: Processed/ProstateX-0198/T2Axial.raw.nii.gz Processed/ProstateX-0198/T2Sag.raw.nii.gz Processed/ProstateX-0198/ADC.raw.nii.gz Processed/ProstateX-0198/BVAL.raw.nii.gz Processed/ProstateX-0198/KTRANS.raw.nii.gz
-Processed/ProstateX-0199/config: Processed/ProstateX-0199/T2Axial.raw.nii.gz Processed/ProstateX-0199/T2Sag.raw.nii.gz Processed/ProstateX-0199/ADC.raw.nii.gz Processed/ProstateX-0199/BVAL.raw.nii.gz Processed/ProstateX-0199/KTRANS.raw.nii.gz
-Processed/ProstateX-0199/config: Processed/ProstateX-0199/T2Axial.raw.nii.gz Processed/ProstateX-0199/T2Sag.raw.nii.gz Processed/ProstateX-0199/ADC.raw.nii.gz Processed/ProstateX-0199/BVAL.raw.nii.gz Processed/ProstateX-0199/KTRANS.raw.nii.gz
-Processed/ProstateX-0200/config: Processed/ProstateX-0200/T2Axial.raw.nii.gz Processed/ProstateX-0200/T2Sag.raw.nii.gz Processed/ProstateX-0200/ADC.raw.nii.gz Processed/ProstateX-0200/BVAL.raw.nii.gz Processed/ProstateX-0200/KTRANS.raw.nii.gz
-Processed/ProstateX-0201/config: Processed/ProstateX-0201/T2Axial.raw.nii.gz Processed/ProstateX-0201/T2Sag.raw.nii.gz Processed/ProstateX-0201/ADC.raw.nii.gz Processed/ProstateX-0201/BVAL.raw.nii.gz Processed/ProstateX-0201/KTRANS.raw.nii.gz
-Processed/ProstateX-0202/config: Processed/ProstateX-0202/T2Axial.raw.nii.gz Processed/ProstateX-0202/T2Sag.raw.nii.gz Processed/ProstateX-0202/ADC.raw.nii.gz Processed/ProstateX-0202/BVAL.raw.nii.gz Processed/ProstateX-0202/KTRANS.raw.nii.gz
-Processed/ProstateX-0203/config: Processed/ProstateX-0203/T2Axial.raw.nii.gz Processed/ProstateX-0203/T2Sag.raw.nii.gz Processed/ProstateX-0203/ADC.raw.nii.gz Processed/ProstateX-0203/BVAL.raw.nii.gz Processed/ProstateX-0203/KTRANS.raw.nii.gz
-Processed/ProstateX-0203/config: Processed/ProstateX-0203/T2Axial.raw.nii.gz Processed/ProstateX-0203/T2Sag.raw.nii.gz Processed/ProstateX-0203/ADC.raw.nii.gz Processed/ProstateX-0203/BVAL.raw.nii.gz Processed/ProstateX-0203/KTRANS.raw.nii.gz
+Processed/ProstateX-0000/config: Processed/ProstateX-0000/T2Axial.raw.nii.gz Processed/ProstateX-0000/T2Sag.raw.nii.gz Processed/ProstateX-0000/ADC.raw.nii.gz Processed/ProstateX-0000/BVAL.raw.nii.gz Processed/ProstateX-0000/KTRANS.sform.nii.gz
+Processed/ProstateX-0001/config: Processed/ProstateX-0001/T2Axial.raw.nii.gz Processed/ProstateX-0001/T2Sag.raw.nii.gz Processed/ProstateX-0001/ADC.raw.nii.gz Processed/ProstateX-0001/BVAL.raw.nii.gz Processed/ProstateX-0001/KTRANS.sform.nii.gz
+Processed/ProstateX-0002/config: Processed/ProstateX-0002/T2Axial.raw.nii.gz Processed/ProstateX-0002/T2Sag.raw.nii.gz Processed/ProstateX-0002/ADC.raw.nii.gz Processed/ProstateX-0002/BVAL.raw.nii.gz Processed/ProstateX-0002/KTRANS.sform.nii.gz
+Processed/ProstateX-0002/config: Processed/ProstateX-0002/T2Axial.raw.nii.gz Processed/ProstateX-0002/T2Sag.raw.nii.gz Processed/ProstateX-0002/ADC.raw.nii.gz Processed/ProstateX-0002/BVAL.raw.nii.gz Processed/ProstateX-0002/KTRANS.sform.nii.gz
+Processed/ProstateX-0004/config: Processed/ProstateX-0004/T2Axial.raw.nii.gz Processed/ProstateX-0004/T2Sag.raw.nii.gz Processed/ProstateX-0004/ADC.raw.nii.gz Processed/ProstateX-0004/BVAL.raw.nii.gz Processed/ProstateX-0004/KTRANS.sform.nii.gz
+Processed/ProstateX-0005/config: Processed/ProstateX-0005/T2Axial.raw.nii.gz Processed/ProstateX-0005/T2Sag.raw.nii.gz Processed/ProstateX-0005/ADC.raw.nii.gz Processed/ProstateX-0005/BVAL.raw.nii.gz Processed/ProstateX-0005/KTRANS.sform.nii.gz
+Processed/ProstateX-0005/config: Processed/ProstateX-0005/T2Axial.raw.nii.gz Processed/ProstateX-0005/T2Sag.raw.nii.gz Processed/ProstateX-0005/ADC.raw.nii.gz Processed/ProstateX-0005/BVAL.raw.nii.gz Processed/ProstateX-0005/KTRANS.sform.nii.gz
+Processed/ProstateX-0014/config: Processed/ProstateX-0014/T2Axial.raw.nii.gz Processed/ProstateX-0014/T2Sag.raw.nii.gz Processed/ProstateX-0014/ADC.raw.nii.gz Processed/ProstateX-0014/BVAL.raw.nii.gz Processed/ProstateX-0014/KTRANS.sform.nii.gz
+Processed/ProstateX-0015/config: Processed/ProstateX-0015/T2Axial.raw.nii.gz Processed/ProstateX-0015/T2Sag.raw.nii.gz Processed/ProstateX-0015/ADC.raw.nii.gz Processed/ProstateX-0015/BVAL.raw.nii.gz Processed/ProstateX-0015/KTRANS.sform.nii.gz
+Processed/ProstateX-0016/config: Processed/ProstateX-0016/T2Axial.raw.nii.gz Processed/ProstateX-0016/T2Sag.raw.nii.gz Processed/ProstateX-0016/ADC.raw.nii.gz Processed/ProstateX-0016/BVAL.raw.nii.gz Processed/ProstateX-0016/KTRANS.sform.nii.gz
+Processed/ProstateX-0018/config: Processed/ProstateX-0018/T2Axial.raw.nii.gz Processed/ProstateX-0018/T2Sag.raw.nii.gz Processed/ProstateX-0018/ADC.raw.nii.gz Processed/ProstateX-0018/BVAL.raw.nii.gz Processed/ProstateX-0018/KTRANS.sform.nii.gz
+Processed/ProstateX-0019/config: Processed/ProstateX-0019/T2Axial.raw.nii.gz Processed/ProstateX-0019/T2Sag.raw.nii.gz Processed/ProstateX-0019/ADC.raw.nii.gz Processed/ProstateX-0019/BVAL.raw.nii.gz Processed/ProstateX-0019/KTRANS.sform.nii.gz
+Processed/ProstateX-0026/config: Processed/ProstateX-0026/T2Axial.raw.nii.gz Processed/ProstateX-0026/T2Sag.raw.nii.gz Processed/ProstateX-0026/ADC.raw.nii.gz Processed/ProstateX-0026/BVAL.raw.nii.gz Processed/ProstateX-0026/KTRANS.sform.nii.gz
+Processed/ProstateX-0028/config: Processed/ProstateX-0028/T2Axial.raw.nii.gz Processed/ProstateX-0028/T2Sag.raw.nii.gz Processed/ProstateX-0028/ADC.raw.nii.gz Processed/ProstateX-0028/BVAL.raw.nii.gz Processed/ProstateX-0028/KTRANS.sform.nii.gz
+Processed/ProstateX-0031/config: Processed/ProstateX-0031/T2Axial.raw.nii.gz Processed/ProstateX-0031/T2Sag.raw.nii.gz Processed/ProstateX-0031/ADC.raw.nii.gz Processed/ProstateX-0031/BVAL.raw.nii.gz Processed/ProstateX-0031/KTRANS.sform.nii.gz
+Processed/ProstateX-0031/config: Processed/ProstateX-0031/T2Axial.raw.nii.gz Processed/ProstateX-0031/T2Sag.raw.nii.gz Processed/ProstateX-0031/ADC.raw.nii.gz Processed/ProstateX-0031/BVAL.raw.nii.gz Processed/ProstateX-0031/KTRANS.sform.nii.gz
+Processed/ProstateX-0035/config: Processed/ProstateX-0035/T2Axial.raw.nii.gz Processed/ProstateX-0035/T2Sag.raw.nii.gz Processed/ProstateX-0035/ADC.raw.nii.gz Processed/ProstateX-0035/BVAL.raw.nii.gz Processed/ProstateX-0035/KTRANS.sform.nii.gz
+Processed/ProstateX-0037/config: Processed/ProstateX-0037/T2Axial.raw.nii.gz Processed/ProstateX-0037/T2Sag.raw.nii.gz Processed/ProstateX-0037/ADC.raw.nii.gz Processed/ProstateX-0037/BVAL.raw.nii.gz Processed/ProstateX-0037/KTRANS.sform.nii.gz
+Processed/ProstateX-0040/config: Processed/ProstateX-0040/T2Axial.raw.nii.gz Processed/ProstateX-0040/T2Sag.raw.nii.gz Processed/ProstateX-0040/ADC.raw.nii.gz Processed/ProstateX-0040/BVAL.raw.nii.gz Processed/ProstateX-0040/KTRANS.sform.nii.gz
+Processed/ProstateX-0041/config: Processed/ProstateX-0041/T2Axial.raw.nii.gz Processed/ProstateX-0041/T2Sag.raw.nii.gz Processed/ProstateX-0041/ADC.raw.nii.gz Processed/ProstateX-0041/BVAL.raw.nii.gz Processed/ProstateX-0041/KTRANS.sform.nii.gz
+Processed/ProstateX-0046/config: Processed/ProstateX-0046/T2Axial.raw.nii.gz Processed/ProstateX-0046/T2Sag.raw.nii.gz Processed/ProstateX-0046/ADC.raw.nii.gz Processed/ProstateX-0046/BVAL.raw.nii.gz Processed/ProstateX-0046/KTRANS.sform.nii.gz
+Processed/ProstateX-0053/config: Processed/ProstateX-0053/T2Axial.raw.nii.gz Processed/ProstateX-0053/T2Sag.raw.nii.gz Processed/ProstateX-0053/ADC.raw.nii.gz Processed/ProstateX-0053/BVAL.raw.nii.gz Processed/ProstateX-0053/KTRANS.sform.nii.gz
+Processed/ProstateX-0054/config: Processed/ProstateX-0054/T2Axial.raw.nii.gz Processed/ProstateX-0054/T2Sag.raw.nii.gz Processed/ProstateX-0054/ADC.raw.nii.gz Processed/ProstateX-0054/BVAL.raw.nii.gz Processed/ProstateX-0054/KTRANS.sform.nii.gz
+Processed/ProstateX-0055/config: Processed/ProstateX-0055/T2Axial.raw.nii.gz Processed/ProstateX-0055/T2Sag.raw.nii.gz Processed/ProstateX-0055/ADC.raw.nii.gz Processed/ProstateX-0055/BVAL.raw.nii.gz Processed/ProstateX-0055/KTRANS.sform.nii.gz
+Processed/ProstateX-0067/config: Processed/ProstateX-0067/T2Axial.raw.nii.gz Processed/ProstateX-0067/T2Sag.raw.nii.gz Processed/ProstateX-0067/ADC.raw.nii.gz Processed/ProstateX-0067/BVAL.raw.nii.gz Processed/ProstateX-0067/KTRANS.sform.nii.gz
+Processed/ProstateX-0069/config: Processed/ProstateX-0069/T2Axial.raw.nii.gz Processed/ProstateX-0069/T2Sag.raw.nii.gz Processed/ProstateX-0069/ADC.raw.nii.gz Processed/ProstateX-0069/BVAL.raw.nii.gz Processed/ProstateX-0069/KTRANS.sform.nii.gz
+Processed/ProstateX-0071/config: Processed/ProstateX-0071/T2Axial.raw.nii.gz Processed/ProstateX-0071/T2Sag.raw.nii.gz Processed/ProstateX-0071/ADC.raw.nii.gz Processed/ProstateX-0071/BVAL.raw.nii.gz Processed/ProstateX-0071/KTRANS.sform.nii.gz
+Processed/ProstateX-0076/config: Processed/ProstateX-0076/T2Axial.raw.nii.gz Processed/ProstateX-0076/T2Sag.raw.nii.gz Processed/ProstateX-0076/ADC.raw.nii.gz Processed/ProstateX-0076/BVAL.raw.nii.gz Processed/ProstateX-0076/KTRANS.sform.nii.gz
+Processed/ProstateX-0077/config: Processed/ProstateX-0077/T2Axial.raw.nii.gz Processed/ProstateX-0077/T2Sag.raw.nii.gz Processed/ProstateX-0077/ADC.raw.nii.gz Processed/ProstateX-0077/BVAL.raw.nii.gz Processed/ProstateX-0077/KTRANS.sform.nii.gz
+Processed/ProstateX-0078/config: Processed/ProstateX-0078/T2Axial.raw.nii.gz Processed/ProstateX-0078/T2Sag.raw.nii.gz Processed/ProstateX-0078/ADC.raw.nii.gz Processed/ProstateX-0078/BVAL.raw.nii.gz Processed/ProstateX-0078/KTRANS.sform.nii.gz
+Processed/ProstateX-0082/config: Processed/ProstateX-0082/T2Axial.raw.nii.gz Processed/ProstateX-0082/T2Sag.raw.nii.gz Processed/ProstateX-0082/ADC.raw.nii.gz Processed/ProstateX-0082/BVAL.raw.nii.gz Processed/ProstateX-0082/KTRANS.sform.nii.gz
+Processed/ProstateX-0084/config: Processed/ProstateX-0084/T2Axial.raw.nii.gz Processed/ProstateX-0084/T2Sag.raw.nii.gz Processed/ProstateX-0084/ADC.raw.nii.gz Processed/ProstateX-0084/BVAL.raw.nii.gz Processed/ProstateX-0084/KTRANS.sform.nii.gz
+Processed/ProstateX-0092/config: Processed/ProstateX-0092/T2Axial.raw.nii.gz Processed/ProstateX-0092/T2Sag.raw.nii.gz Processed/ProstateX-0092/ADC.raw.nii.gz Processed/ProstateX-0092/BVAL.raw.nii.gz Processed/ProstateX-0092/KTRANS.sform.nii.gz
+Processed/ProstateX-0094/config: Processed/ProstateX-0094/T2Axial.raw.nii.gz Processed/ProstateX-0094/T2Sag.raw.nii.gz Processed/ProstateX-0094/ADC.raw.nii.gz Processed/ProstateX-0094/BVAL.raw.nii.gz Processed/ProstateX-0094/KTRANS.sform.nii.gz
+Processed/ProstateX-0095/config: Processed/ProstateX-0095/T2Axial.raw.nii.gz Processed/ProstateX-0095/T2Sag.raw.nii.gz Processed/ProstateX-0095/ADC.raw.nii.gz Processed/ProstateX-0095/BVAL.raw.nii.gz Processed/ProstateX-0095/KTRANS.sform.nii.gz
+Processed/ProstateX-0097/config: Processed/ProstateX-0097/T2Axial.raw.nii.gz Processed/ProstateX-0097/T2Sag.raw.nii.gz Processed/ProstateX-0097/ADC.raw.nii.gz Processed/ProstateX-0097/BVAL.raw.nii.gz Processed/ProstateX-0097/KTRANS.sform.nii.gz
+Processed/ProstateX-0099/config: Processed/ProstateX-0099/T2Axial.raw.nii.gz Processed/ProstateX-0099/T2Sag.raw.nii.gz Processed/ProstateX-0099/ADC.raw.nii.gz Processed/ProstateX-0099/BVAL.raw.nii.gz Processed/ProstateX-0099/KTRANS.sform.nii.gz
+Processed/ProstateX-0101/config: Processed/ProstateX-0101/T2Axial.raw.nii.gz Processed/ProstateX-0101/T2Sag.raw.nii.gz Processed/ProstateX-0101/ADC.raw.nii.gz Processed/ProstateX-0101/BVAL.raw.nii.gz Processed/ProstateX-0101/KTRANS.sform.nii.gz
+Processed/ProstateX-0102/config: Processed/ProstateX-0102/T2Axial.raw.nii.gz Processed/ProstateX-0102/T2Sag.raw.nii.gz Processed/ProstateX-0102/ADC.raw.nii.gz Processed/ProstateX-0102/BVAL.raw.nii.gz Processed/ProstateX-0102/KTRANS.sform.nii.gz
+Processed/ProstateX-0103/config: Processed/ProstateX-0103/T2Axial.raw.nii.gz Processed/ProstateX-0103/T2Sag.raw.nii.gz Processed/ProstateX-0103/ADC.raw.nii.gz Processed/ProstateX-0103/BVAL.raw.nii.gz Processed/ProstateX-0103/KTRANS.sform.nii.gz
+Processed/ProstateX-0104/config: Processed/ProstateX-0104/T2Axial.raw.nii.gz Processed/ProstateX-0104/T2Sag.raw.nii.gz Processed/ProstateX-0104/ADC.raw.nii.gz Processed/ProstateX-0104/BVAL.raw.nii.gz Processed/ProstateX-0104/KTRANS.sform.nii.gz
+Processed/ProstateX-0105/config: Processed/ProstateX-0105/T2Axial.raw.nii.gz Processed/ProstateX-0105/T2Sag.raw.nii.gz Processed/ProstateX-0105/ADC.raw.nii.gz Processed/ProstateX-0105/BVAL.raw.nii.gz Processed/ProstateX-0105/KTRANS.sform.nii.gz
+Processed/ProstateX-0106/config: Processed/ProstateX-0106/T2Axial.raw.nii.gz Processed/ProstateX-0106/T2Sag.raw.nii.gz Processed/ProstateX-0106/ADC.raw.nii.gz Processed/ProstateX-0106/BVAL.raw.nii.gz Processed/ProstateX-0106/KTRANS.sform.nii.gz
+Processed/ProstateX-0110/config: Processed/ProstateX-0110/T2Axial.raw.nii.gz Processed/ProstateX-0110/T2Sag.raw.nii.gz Processed/ProstateX-0110/ADC.raw.nii.gz Processed/ProstateX-0110/BVAL.raw.nii.gz Processed/ProstateX-0110/KTRANS.sform.nii.gz
+Processed/ProstateX-0111/config: Processed/ProstateX-0111/T2Axial.raw.nii.gz Processed/ProstateX-0111/T2Sag.raw.nii.gz Processed/ProstateX-0111/ADC.raw.nii.gz Processed/ProstateX-0111/BVAL.raw.nii.gz Processed/ProstateX-0111/KTRANS.sform.nii.gz
+Processed/ProstateX-0114/config: Processed/ProstateX-0114/T2Axial.raw.nii.gz Processed/ProstateX-0114/T2Sag.raw.nii.gz Processed/ProstateX-0114/ADC.raw.nii.gz Processed/ProstateX-0114/BVAL.raw.nii.gz Processed/ProstateX-0114/KTRANS.sform.nii.gz
+Processed/ProstateX-0115/config: Processed/ProstateX-0115/T2Axial.raw.nii.gz Processed/ProstateX-0115/T2Sag.raw.nii.gz Processed/ProstateX-0115/ADC.raw.nii.gz Processed/ProstateX-0115/BVAL.raw.nii.gz Processed/ProstateX-0115/KTRANS.sform.nii.gz
+Processed/ProstateX-0116/config: Processed/ProstateX-0116/T2Axial.raw.nii.gz Processed/ProstateX-0116/T2Sag.raw.nii.gz Processed/ProstateX-0116/ADC.raw.nii.gz Processed/ProstateX-0116/BVAL.raw.nii.gz Processed/ProstateX-0116/KTRANS.sform.nii.gz
+Processed/ProstateX-0117/config: Processed/ProstateX-0117/T2Axial.raw.nii.gz Processed/ProstateX-0117/T2Sag.raw.nii.gz Processed/ProstateX-0117/ADC.raw.nii.gz Processed/ProstateX-0117/BVAL.raw.nii.gz Processed/ProstateX-0117/KTRANS.sform.nii.gz
+Processed/ProstateX-0118/config: Processed/ProstateX-0118/T2Axial.raw.nii.gz Processed/ProstateX-0118/T2Sag.raw.nii.gz Processed/ProstateX-0118/ADC.raw.nii.gz Processed/ProstateX-0118/BVAL.raw.nii.gz Processed/ProstateX-0118/KTRANS.sform.nii.gz
+Processed/ProstateX-0119/config: Processed/ProstateX-0119/T2Axial.raw.nii.gz Processed/ProstateX-0119/T2Sag.raw.nii.gz Processed/ProstateX-0119/ADC.raw.nii.gz Processed/ProstateX-0119/BVAL.raw.nii.gz Processed/ProstateX-0119/KTRANS.sform.nii.gz
+Processed/ProstateX-0121/config: Processed/ProstateX-0121/T2Axial.raw.nii.gz Processed/ProstateX-0121/T2Sag.raw.nii.gz Processed/ProstateX-0121/ADC.raw.nii.gz Processed/ProstateX-0121/BVAL.raw.nii.gz Processed/ProstateX-0121/KTRANS.sform.nii.gz
+Processed/ProstateX-0121/config: Processed/ProstateX-0121/T2Axial.raw.nii.gz Processed/ProstateX-0121/T2Sag.raw.nii.gz Processed/ProstateX-0121/ADC.raw.nii.gz Processed/ProstateX-0121/BVAL.raw.nii.gz Processed/ProstateX-0121/KTRANS.sform.nii.gz
+Processed/ProstateX-0122/config: Processed/ProstateX-0122/T2Axial.raw.nii.gz Processed/ProstateX-0122/T2Sag.raw.nii.gz Processed/ProstateX-0122/ADC.raw.nii.gz Processed/ProstateX-0122/BVAL.raw.nii.gz Processed/ProstateX-0122/KTRANS.sform.nii.gz
+Processed/ProstateX-0122/config: Processed/ProstateX-0122/T2Axial.raw.nii.gz Processed/ProstateX-0122/T2Sag.raw.nii.gz Processed/ProstateX-0122/ADC.raw.nii.gz Processed/ProstateX-0122/BVAL.raw.nii.gz Processed/ProstateX-0122/KTRANS.sform.nii.gz
+Processed/ProstateX-0123/config: Processed/ProstateX-0123/T2Axial.raw.nii.gz Processed/ProstateX-0123/T2Sag.raw.nii.gz Processed/ProstateX-0123/ADC.raw.nii.gz Processed/ProstateX-0123/BVAL.raw.nii.gz Processed/ProstateX-0123/KTRANS.sform.nii.gz
+Processed/ProstateX-0124/config: Processed/ProstateX-0124/T2Axial.raw.nii.gz Processed/ProstateX-0124/T2Sag.raw.nii.gz Processed/ProstateX-0124/ADC.raw.nii.gz Processed/ProstateX-0124/BVAL.raw.nii.gz Processed/ProstateX-0124/KTRANS.sform.nii.gz
+Processed/ProstateX-0125/config: Processed/ProstateX-0125/T2Axial.raw.nii.gz Processed/ProstateX-0125/T2Sag.raw.nii.gz Processed/ProstateX-0125/ADC.raw.nii.gz Processed/ProstateX-0125/BVAL.raw.nii.gz Processed/ProstateX-0125/KTRANS.sform.nii.gz
+Processed/ProstateX-0126/config: Processed/ProstateX-0126/T2Axial.raw.nii.gz Processed/ProstateX-0126/T2Sag.raw.nii.gz Processed/ProstateX-0126/ADC.raw.nii.gz Processed/ProstateX-0126/BVAL.raw.nii.gz Processed/ProstateX-0126/KTRANS.sform.nii.gz
+Processed/ProstateX-0127/config: Processed/ProstateX-0127/T2Axial.raw.nii.gz Processed/ProstateX-0127/T2Sag.raw.nii.gz Processed/ProstateX-0127/ADC.raw.nii.gz Processed/ProstateX-0127/BVAL.raw.nii.gz Processed/ProstateX-0127/KTRANS.sform.nii.gz
+Processed/ProstateX-0128/config: Processed/ProstateX-0128/T2Axial.raw.nii.gz Processed/ProstateX-0128/T2Sag.raw.nii.gz Processed/ProstateX-0128/ADC.raw.nii.gz Processed/ProstateX-0128/BVAL.raw.nii.gz Processed/ProstateX-0128/KTRANS.sform.nii.gz
+Processed/ProstateX-0129/config: Processed/ProstateX-0129/T2Axial.raw.nii.gz Processed/ProstateX-0129/T2Sag.raw.nii.gz Processed/ProstateX-0129/ADC.raw.nii.gz Processed/ProstateX-0129/BVAL.raw.nii.gz Processed/ProstateX-0129/KTRANS.sform.nii.gz
+Processed/ProstateX-0131/config: Processed/ProstateX-0131/T2Axial.raw.nii.gz Processed/ProstateX-0131/T2Sag.raw.nii.gz Processed/ProstateX-0131/ADC.raw.nii.gz Processed/ProstateX-0131/BVAL.raw.nii.gz Processed/ProstateX-0131/KTRANS.sform.nii.gz
+Processed/ProstateX-0133/config: Processed/ProstateX-0133/T2Axial.raw.nii.gz Processed/ProstateX-0133/T2Sag.raw.nii.gz Processed/ProstateX-0133/ADC.raw.nii.gz Processed/ProstateX-0133/BVAL.raw.nii.gz Processed/ProstateX-0133/KTRANS.sform.nii.gz
+Processed/ProstateX-0136/config: Processed/ProstateX-0136/T2Axial.raw.nii.gz Processed/ProstateX-0136/T2Sag.raw.nii.gz Processed/ProstateX-0136/ADC.raw.nii.gz Processed/ProstateX-0136/BVAL.raw.nii.gz Processed/ProstateX-0136/KTRANS.sform.nii.gz
+Processed/ProstateX-0139/config: Processed/ProstateX-0139/T2Axial.raw.nii.gz Processed/ProstateX-0139/T2Sag.raw.nii.gz Processed/ProstateX-0139/ADC.raw.nii.gz Processed/ProstateX-0139/BVAL.raw.nii.gz Processed/ProstateX-0139/KTRANS.sform.nii.gz
+Processed/ProstateX-0139/config: Processed/ProstateX-0139/T2Axial.raw.nii.gz Processed/ProstateX-0139/T2Sag.raw.nii.gz Processed/ProstateX-0139/ADC.raw.nii.gz Processed/ProstateX-0139/BVAL.raw.nii.gz Processed/ProstateX-0139/KTRANS.sform.nii.gz
+Processed/ProstateX-0141/config: Processed/ProstateX-0141/T2Axial.raw.nii.gz Processed/ProstateX-0141/T2Sag.raw.nii.gz Processed/ProstateX-0141/ADC.raw.nii.gz Processed/ProstateX-0141/BVAL.raw.nii.gz Processed/ProstateX-0141/KTRANS.sform.nii.gz
+Processed/ProstateX-0142/config: Processed/ProstateX-0142/T2Axial.raw.nii.gz Processed/ProstateX-0142/T2Sag.raw.nii.gz Processed/ProstateX-0142/ADC.raw.nii.gz Processed/ProstateX-0142/BVAL.raw.nii.gz Processed/ProstateX-0142/KTRANS.sform.nii.gz
+Processed/ProstateX-0143/config: Processed/ProstateX-0143/T2Axial.raw.nii.gz Processed/ProstateX-0143/T2Sag.raw.nii.gz Processed/ProstateX-0143/ADC.raw.nii.gz Processed/ProstateX-0143/BVAL.raw.nii.gz Processed/ProstateX-0143/KTRANS.sform.nii.gz
+Processed/ProstateX-0145/config: Processed/ProstateX-0145/T2Axial.raw.nii.gz Processed/ProstateX-0145/T2Sag.raw.nii.gz Processed/ProstateX-0145/ADC.raw.nii.gz Processed/ProstateX-0145/BVAL.raw.nii.gz Processed/ProstateX-0145/KTRANS.sform.nii.gz
+Processed/ProstateX-0148/config: Processed/ProstateX-0148/T2Axial.raw.nii.gz Processed/ProstateX-0148/T2Sag.raw.nii.gz Processed/ProstateX-0148/ADC.raw.nii.gz Processed/ProstateX-0148/BVAL.raw.nii.gz Processed/ProstateX-0148/KTRANS.sform.nii.gz
+Processed/ProstateX-0150/config: Processed/ProstateX-0150/T2Axial.raw.nii.gz Processed/ProstateX-0150/T2Sag.raw.nii.gz Processed/ProstateX-0150/ADC.raw.nii.gz Processed/ProstateX-0150/BVAL.raw.nii.gz Processed/ProstateX-0150/KTRANS.sform.nii.gz
+Processed/ProstateX-0150/config: Processed/ProstateX-0150/T2Axial.raw.nii.gz Processed/ProstateX-0150/T2Sag.raw.nii.gz Processed/ProstateX-0150/ADC.raw.nii.gz Processed/ProstateX-0150/BVAL.raw.nii.gz Processed/ProstateX-0150/KTRANS.sform.nii.gz
+Processed/ProstateX-0152/config: Processed/ProstateX-0152/T2Axial.raw.nii.gz Processed/ProstateX-0152/T2Sag.raw.nii.gz Processed/ProstateX-0152/ADC.raw.nii.gz Processed/ProstateX-0152/BVAL.raw.nii.gz Processed/ProstateX-0152/KTRANS.sform.nii.gz
+Processed/ProstateX-0153/config: Processed/ProstateX-0153/T2Axial.raw.nii.gz Processed/ProstateX-0153/T2Sag.raw.nii.gz Processed/ProstateX-0153/ADC.raw.nii.gz Processed/ProstateX-0153/BVAL.raw.nii.gz Processed/ProstateX-0153/KTRANS.sform.nii.gz
+Processed/ProstateX-0162/config: Processed/ProstateX-0162/T2Axial.raw.nii.gz Processed/ProstateX-0162/T2Sag.raw.nii.gz Processed/ProstateX-0162/ADC.raw.nii.gz Processed/ProstateX-0162/BVAL.raw.nii.gz Processed/ProstateX-0162/KTRANS.sform.nii.gz
+Processed/ProstateX-0164/config: Processed/ProstateX-0164/T2Axial.raw.nii.gz Processed/ProstateX-0164/T2Sag.raw.nii.gz Processed/ProstateX-0164/ADC.raw.nii.gz Processed/ProstateX-0164/BVAL.raw.nii.gz Processed/ProstateX-0164/KTRANS.sform.nii.gz
+Processed/ProstateX-0165/config: Processed/ProstateX-0165/T2Axial.raw.nii.gz Processed/ProstateX-0165/T2Sag.raw.nii.gz Processed/ProstateX-0165/ADC.raw.nii.gz Processed/ProstateX-0165/BVAL.raw.nii.gz Processed/ProstateX-0165/KTRANS.sform.nii.gz
+Processed/ProstateX-0168/config: Processed/ProstateX-0168/T2Axial.raw.nii.gz Processed/ProstateX-0168/T2Sag.raw.nii.gz Processed/ProstateX-0168/ADC.raw.nii.gz Processed/ProstateX-0168/BVAL.raw.nii.gz Processed/ProstateX-0168/KTRANS.sform.nii.gz
+Processed/ProstateX-0169/config: Processed/ProstateX-0169/T2Axial.raw.nii.gz Processed/ProstateX-0169/T2Sag.raw.nii.gz Processed/ProstateX-0169/ADC.raw.nii.gz Processed/ProstateX-0169/BVAL.raw.nii.gz Processed/ProstateX-0169/KTRANS.sform.nii.gz
+Processed/ProstateX-0172/config: Processed/ProstateX-0172/T2Axial.raw.nii.gz Processed/ProstateX-0172/T2Sag.raw.nii.gz Processed/ProstateX-0172/ADC.raw.nii.gz Processed/ProstateX-0172/BVAL.raw.nii.gz Processed/ProstateX-0172/KTRANS.sform.nii.gz
+Processed/ProstateX-0173/config: Processed/ProstateX-0173/T2Axial.raw.nii.gz Processed/ProstateX-0173/T2Sag.raw.nii.gz Processed/ProstateX-0173/ADC.raw.nii.gz Processed/ProstateX-0173/BVAL.raw.nii.gz Processed/ProstateX-0173/KTRANS.sform.nii.gz
+Processed/ProstateX-0173/config: Processed/ProstateX-0173/T2Axial.raw.nii.gz Processed/ProstateX-0173/T2Sag.raw.nii.gz Processed/ProstateX-0173/ADC.raw.nii.gz Processed/ProstateX-0173/BVAL.raw.nii.gz Processed/ProstateX-0173/KTRANS.sform.nii.gz
+Processed/ProstateX-0174/config: Processed/ProstateX-0174/T2Axial.raw.nii.gz Processed/ProstateX-0174/T2Sag.raw.nii.gz Processed/ProstateX-0174/ADC.raw.nii.gz Processed/ProstateX-0174/BVAL.raw.nii.gz Processed/ProstateX-0174/KTRANS.sform.nii.gz
+Processed/ProstateX-0179/config: Processed/ProstateX-0179/T2Axial.raw.nii.gz Processed/ProstateX-0179/T2Sag.raw.nii.gz Processed/ProstateX-0179/ADC.raw.nii.gz Processed/ProstateX-0179/BVAL.raw.nii.gz Processed/ProstateX-0179/KTRANS.sform.nii.gz
+Processed/ProstateX-0179/config: Processed/ProstateX-0179/T2Axial.raw.nii.gz Processed/ProstateX-0179/T2Sag.raw.nii.gz Processed/ProstateX-0179/ADC.raw.nii.gz Processed/ProstateX-0179/BVAL.raw.nii.gz Processed/ProstateX-0179/KTRANS.sform.nii.gz
+Processed/ProstateX-0181/config: Processed/ProstateX-0181/T2Axial.raw.nii.gz Processed/ProstateX-0181/T2Sag.raw.nii.gz Processed/ProstateX-0181/ADC.raw.nii.gz Processed/ProstateX-0181/BVAL.raw.nii.gz Processed/ProstateX-0181/KTRANS.sform.nii.gz
+Processed/ProstateX-0182/config: Processed/ProstateX-0182/T2Axial.raw.nii.gz Processed/ProstateX-0182/T2Sag.raw.nii.gz Processed/ProstateX-0182/ADC.raw.nii.gz Processed/ProstateX-0182/BVAL.raw.nii.gz Processed/ProstateX-0182/KTRANS.sform.nii.gz
+Processed/ProstateX-0183/config: Processed/ProstateX-0183/T2Axial.raw.nii.gz Processed/ProstateX-0183/T2Sag.raw.nii.gz Processed/ProstateX-0183/ADC.raw.nii.gz Processed/ProstateX-0183/BVAL.raw.nii.gz Processed/ProstateX-0183/KTRANS.sform.nii.gz
+Processed/ProstateX-0184/config: Processed/ProstateX-0184/T2Axial.raw.nii.gz Processed/ProstateX-0184/T2Sag.raw.nii.gz Processed/ProstateX-0184/ADC.raw.nii.gz Processed/ProstateX-0184/BVAL.raw.nii.gz Processed/ProstateX-0184/KTRANS.sform.nii.gz
+Processed/ProstateX-0186/config: Processed/ProstateX-0186/T2Axial.raw.nii.gz Processed/ProstateX-0186/T2Sag.raw.nii.gz Processed/ProstateX-0186/ADC.raw.nii.gz Processed/ProstateX-0186/BVAL.raw.nii.gz Processed/ProstateX-0186/KTRANS.sform.nii.gz
+Processed/ProstateX-0187/config: Processed/ProstateX-0187/T2Axial.raw.nii.gz Processed/ProstateX-0187/T2Sag.raw.nii.gz Processed/ProstateX-0187/ADC.raw.nii.gz Processed/ProstateX-0187/BVAL.raw.nii.gz Processed/ProstateX-0187/KTRANS.sform.nii.gz
+Processed/ProstateX-0188/config: Processed/ProstateX-0188/T2Axial.raw.nii.gz Processed/ProstateX-0188/T2Sag.raw.nii.gz Processed/ProstateX-0188/ADC.raw.nii.gz Processed/ProstateX-0188/BVAL.raw.nii.gz Processed/ProstateX-0188/KTRANS.sform.nii.gz
+Processed/ProstateX-0190/config: Processed/ProstateX-0190/T2Axial.raw.nii.gz Processed/ProstateX-0190/T2Sag.raw.nii.gz Processed/ProstateX-0190/ADC.raw.nii.gz Processed/ProstateX-0190/BVAL.raw.nii.gz Processed/ProstateX-0190/KTRANS.sform.nii.gz
+Processed/ProstateX-0191/config: Processed/ProstateX-0191/T2Axial.raw.nii.gz Processed/ProstateX-0191/T2Sag.raw.nii.gz Processed/ProstateX-0191/ADC.raw.nii.gz Processed/ProstateX-0191/BVAL.raw.nii.gz Processed/ProstateX-0191/KTRANS.sform.nii.gz
+Processed/ProstateX-0192/config: Processed/ProstateX-0192/T2Axial.raw.nii.gz Processed/ProstateX-0192/T2Sag.raw.nii.gz Processed/ProstateX-0192/ADC.raw.nii.gz Processed/ProstateX-0192/BVAL.raw.nii.gz Processed/ProstateX-0192/KTRANS.sform.nii.gz
+Processed/ProstateX-0193/config: Processed/ProstateX-0193/T2Axial.raw.nii.gz Processed/ProstateX-0193/T2Sag.raw.nii.gz Processed/ProstateX-0193/ADC.raw.nii.gz Processed/ProstateX-0193/BVAL.raw.nii.gz Processed/ProstateX-0193/KTRANS.sform.nii.gz
+Processed/ProstateX-0194/config: Processed/ProstateX-0194/T2Axial.raw.nii.gz Processed/ProstateX-0194/T2Sag.raw.nii.gz Processed/ProstateX-0194/ADC.raw.nii.gz Processed/ProstateX-0194/BVAL.raw.nii.gz Processed/ProstateX-0194/KTRANS.sform.nii.gz
+Processed/ProstateX-0195/config: Processed/ProstateX-0195/T2Axial.raw.nii.gz Processed/ProstateX-0195/T2Sag.raw.nii.gz Processed/ProstateX-0195/ADC.raw.nii.gz Processed/ProstateX-0195/BVAL.raw.nii.gz Processed/ProstateX-0195/KTRANS.sform.nii.gz
+Processed/ProstateX-0196/config: Processed/ProstateX-0196/T2Axial.raw.nii.gz Processed/ProstateX-0196/T2Sag.raw.nii.gz Processed/ProstateX-0196/ADC.raw.nii.gz Processed/ProstateX-0196/BVAL.raw.nii.gz Processed/ProstateX-0196/KTRANS.sform.nii.gz
+Processed/ProstateX-0196/config: Processed/ProstateX-0196/T2Axial.raw.nii.gz Processed/ProstateX-0196/T2Sag.raw.nii.gz Processed/ProstateX-0196/ADC.raw.nii.gz Processed/ProstateX-0196/BVAL.raw.nii.gz Processed/ProstateX-0196/KTRANS.sform.nii.gz
+Processed/ProstateX-0196/config: Processed/ProstateX-0196/T2Axial.raw.nii.gz Processed/ProstateX-0196/T2Sag.raw.nii.gz Processed/ProstateX-0196/ADC.raw.nii.gz Processed/ProstateX-0196/BVAL.raw.nii.gz Processed/ProstateX-0196/KTRANS.sform.nii.gz
+Processed/ProstateX-0197/config: Processed/ProstateX-0197/T2Axial.raw.nii.gz Processed/ProstateX-0197/T2Sag.raw.nii.gz Processed/ProstateX-0197/ADC.raw.nii.gz Processed/ProstateX-0197/BVAL.raw.nii.gz Processed/ProstateX-0197/KTRANS.sform.nii.gz
+Processed/ProstateX-0198/config: Processed/ProstateX-0198/T2Axial.raw.nii.gz Processed/ProstateX-0198/T2Sag.raw.nii.gz Processed/ProstateX-0198/ADC.raw.nii.gz Processed/ProstateX-0198/BVAL.raw.nii.gz Processed/ProstateX-0198/KTRANS.sform.nii.gz
+Processed/ProstateX-0199/config: Processed/ProstateX-0199/T2Axial.raw.nii.gz Processed/ProstateX-0199/T2Sag.raw.nii.gz Processed/ProstateX-0199/ADC.raw.nii.gz Processed/ProstateX-0199/BVAL.raw.nii.gz Processed/ProstateX-0199/KTRANS.sform.nii.gz
+Processed/ProstateX-0199/config: Processed/ProstateX-0199/T2Axial.raw.nii.gz Processed/ProstateX-0199/T2Sag.raw.nii.gz Processed/ProstateX-0199/ADC.raw.nii.gz Processed/ProstateX-0199/BVAL.raw.nii.gz Processed/ProstateX-0199/KTRANS.sform.nii.gz
+Processed/ProstateX-0200/config: Processed/ProstateX-0200/T2Axial.raw.nii.gz Processed/ProstateX-0200/T2Sag.raw.nii.gz Processed/ProstateX-0200/ADC.raw.nii.gz Processed/ProstateX-0200/BVAL.raw.nii.gz Processed/ProstateX-0200/KTRANS.sform.nii.gz
+Processed/ProstateX-0201/config: Processed/ProstateX-0201/T2Axial.raw.nii.gz Processed/ProstateX-0201/T2Sag.raw.nii.gz Processed/ProstateX-0201/ADC.raw.nii.gz Processed/ProstateX-0201/BVAL.raw.nii.gz Processed/ProstateX-0201/KTRANS.sform.nii.gz
+Processed/ProstateX-0202/config: Processed/ProstateX-0202/T2Axial.raw.nii.gz Processed/ProstateX-0202/T2Sag.raw.nii.gz Processed/ProstateX-0202/ADC.raw.nii.gz Processed/ProstateX-0202/BVAL.raw.nii.gz Processed/ProstateX-0202/KTRANS.sform.nii.gz
+Processed/ProstateX-0203/config: Processed/ProstateX-0203/T2Axial.raw.nii.gz Processed/ProstateX-0203/T2Sag.raw.nii.gz Processed/ProstateX-0203/ADC.raw.nii.gz Processed/ProstateX-0203/BVAL.raw.nii.gz Processed/ProstateX-0203/KTRANS.sform.nii.gz
+Processed/ProstateX-0203/config: Processed/ProstateX-0203/T2Axial.raw.nii.gz Processed/ProstateX-0203/T2Sag.raw.nii.gz Processed/ProstateX-0203/ADC.raw.nii.gz Processed/ProstateX-0203/BVAL.raw.nii.gz Processed/ProstateX-0203/KTRANS.sform.nii.gz
 Processed/ProstateX-0000/T2Axial.raw.nii.gz:
 	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0000/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.160028252338004527274326500702 $@
 Processed/ProstateX-0001/T2Axial.raw.nii.gz:
@@ -904,204 +904,204 @@ Processed/ProstateX-0202/BVAL.raw.nii.gz:
 	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0202/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.262896683566219833560275046713 $@
 Processed/ProstateX-0203/BVAL.raw.nii.gz:
 	mkdir -p $(@D); DicomSeriesReadImageWrite2  /rsrch1/ip/dtfuentes/PROSTATExChallenge2/ProstateTrain/DOI/ProstateX-0203/*/1.3.6.1.4.1.14519.5.2.1.7311.5101.150208320631386549969473581289 $@
-Processed/ProstateX-0000/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0000/ProstateX-0000-Ktrans.mhd -o $@
-Processed/ProstateX-0001/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0001/ProstateX-0001-Ktrans.mhd -o $@
-Processed/ProstateX-0002/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0002/ProstateX-0002-Ktrans.mhd -o $@
-Processed/ProstateX-0004/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0004/ProstateX-0004-Ktrans.mhd -o $@
-Processed/ProstateX-0005/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0005/ProstateX-0005-Ktrans.mhd -o $@
-Processed/ProstateX-0014/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0014/ProstateX-0014-Ktrans.mhd -o $@
-Processed/ProstateX-0015/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0015/ProstateX-0015-Ktrans.mhd -o $@
-Processed/ProstateX-0016/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0016/ProstateX-0016-Ktrans.mhd -o $@
-Processed/ProstateX-0018/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0018/ProstateX-0018-Ktrans.mhd -o $@
-Processed/ProstateX-0019/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0019/ProstateX-0019-Ktrans.mhd -o $@
-Processed/ProstateX-0026/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0026/ProstateX-0026-Ktrans.mhd -o $@
-Processed/ProstateX-0028/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0028/ProstateX-0028-Ktrans.mhd -o $@
-Processed/ProstateX-0031/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0031/ProstateX-0031-Ktrans.mhd -o $@
-Processed/ProstateX-0035/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0035/ProstateX-0035-Ktrans.mhd -o $@
-Processed/ProstateX-0037/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0037/ProstateX-0037-Ktrans.mhd -o $@
-Processed/ProstateX-0040/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0040/ProstateX-0040-Ktrans.mhd -o $@
-Processed/ProstateX-0041/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0041/ProstateX-0041-Ktrans.mhd -o $@
-Processed/ProstateX-0046/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0046/ProstateX-0046-Ktrans.mhd -o $@
-Processed/ProstateX-0053/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0053/ProstateX-0053-Ktrans.mhd -o $@
-Processed/ProstateX-0054/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0054/ProstateX-0054-Ktrans.mhd -o $@
-Processed/ProstateX-0055/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0055/ProstateX-0055-Ktrans.mhd -o $@
-Processed/ProstateX-0067/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0067/ProstateX-0067-Ktrans.mhd -o $@
-Processed/ProstateX-0069/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0069/ProstateX-0069-Ktrans.mhd -o $@
-Processed/ProstateX-0071/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0071/ProstateX-0071-Ktrans.mhd -o $@
-Processed/ProstateX-0076/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0076/ProstateX-0076-Ktrans.mhd -o $@
-Processed/ProstateX-0077/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0077/ProstateX-0077-Ktrans.mhd -o $@
-Processed/ProstateX-0078/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0078/ProstateX-0078-Ktrans.mhd -o $@
-Processed/ProstateX-0082/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0082/ProstateX-0082-Ktrans.mhd -o $@
-Processed/ProstateX-0084/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0084/ProstateX-0084-Ktrans.mhd -o $@
-Processed/ProstateX-0092/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0092/ProstateX-0092-Ktrans.mhd -o $@
-Processed/ProstateX-0094/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0094/ProstateX-0094-Ktrans.mhd -o $@
-Processed/ProstateX-0095/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0095/ProstateX-0095-Ktrans.mhd -o $@
-Processed/ProstateX-0097/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0097/ProstateX-0097-Ktrans.mhd -o $@
-Processed/ProstateX-0099/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0099/ProstateX-0099-Ktrans.mhd -o $@
-Processed/ProstateX-0101/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0101/ProstateX-0101-Ktrans.mhd -o $@
-Processed/ProstateX-0102/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0102/ProstateX-0102-Ktrans.mhd -o $@
-Processed/ProstateX-0103/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0103/ProstateX-0103-Ktrans.mhd -o $@
-Processed/ProstateX-0104/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0104/ProstateX-0104-Ktrans.mhd -o $@
-Processed/ProstateX-0105/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0105/ProstateX-0105-Ktrans.mhd -o $@
-Processed/ProstateX-0106/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0106/ProstateX-0106-Ktrans.mhd -o $@
-Processed/ProstateX-0110/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0110/ProstateX-0110-Ktrans.mhd -o $@
-Processed/ProstateX-0111/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0111/ProstateX-0111-Ktrans.mhd -o $@
-Processed/ProstateX-0114/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0114/ProstateX-0114-Ktrans.mhd -o $@
-Processed/ProstateX-0115/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0115/ProstateX-0115-Ktrans.mhd -o $@
-Processed/ProstateX-0116/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0116/ProstateX-0116-Ktrans.mhd -o $@
-Processed/ProstateX-0117/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0117/ProstateX-0117-Ktrans.mhd -o $@
-Processed/ProstateX-0118/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0118/ProstateX-0118-Ktrans.mhd -o $@
-Processed/ProstateX-0119/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0119/ProstateX-0119-Ktrans.mhd -o $@
-Processed/ProstateX-0121/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0121/ProstateX-0121-Ktrans.mhd -o $@
-Processed/ProstateX-0122/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0122/ProstateX-0122-Ktrans.mhd -o $@
-Processed/ProstateX-0123/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0123/ProstateX-0123-Ktrans.mhd -o $@
-Processed/ProstateX-0124/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0124/ProstateX-0124-Ktrans.mhd -o $@
-Processed/ProstateX-0125/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0125/ProstateX-0125-Ktrans.mhd -o $@
-Processed/ProstateX-0126/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0126/ProstateX-0126-Ktrans.mhd -o $@
-Processed/ProstateX-0127/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0127/ProstateX-0127-Ktrans.mhd -o $@
-Processed/ProstateX-0128/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0128/ProstateX-0128-Ktrans.mhd -o $@
-Processed/ProstateX-0129/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0129/ProstateX-0129-Ktrans.mhd -o $@
-Processed/ProstateX-0131/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0131/ProstateX-0131-Ktrans.mhd -o $@
-Processed/ProstateX-0133/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0133/ProstateX-0133-Ktrans.mhd -o $@
-Processed/ProstateX-0136/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0136/ProstateX-0136-Ktrans.mhd -o $@
-Processed/ProstateX-0139/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0139/ProstateX-0139-Ktrans.mhd -o $@
-Processed/ProstateX-0141/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0141/ProstateX-0141-Ktrans.mhd -o $@
-Processed/ProstateX-0142/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0142/ProstateX-0142-Ktrans.mhd -o $@
-Processed/ProstateX-0143/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0143/ProstateX-0143-Ktrans.mhd -o $@
-Processed/ProstateX-0145/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0145/ProstateX-0145-Ktrans.mhd -o $@
-Processed/ProstateX-0148/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0148/ProstateX-0148-Ktrans.mhd -o $@
-Processed/ProstateX-0150/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0150/ProstateX-0150-Ktrans.mhd -o $@
-Processed/ProstateX-0152/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0152/ProstateX-0152-Ktrans.mhd -o $@
-Processed/ProstateX-0153/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0153/ProstateX-0153-Ktrans.mhd -o $@
-Processed/ProstateX-0162/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0162/ProstateX-0162-Ktrans.mhd -o $@
-Processed/ProstateX-0164/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0164/ProstateX-0164-Ktrans.mhd -o $@
-Processed/ProstateX-0165/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0165/ProstateX-0165-Ktrans.mhd -o $@
-Processed/ProstateX-0168/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0168/ProstateX-0168-Ktrans.mhd -o $@
-Processed/ProstateX-0169/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0169/ProstateX-0169-Ktrans.mhd -o $@
-Processed/ProstateX-0172/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0172/ProstateX-0172-Ktrans.mhd -o $@
-Processed/ProstateX-0173/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0173/ProstateX-0173-Ktrans.mhd -o $@
-Processed/ProstateX-0174/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0174/ProstateX-0174-Ktrans.mhd -o $@
-Processed/ProstateX-0179/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0179/ProstateX-0179-Ktrans.mhd -o $@
-Processed/ProstateX-0181/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0181/ProstateX-0181-Ktrans.mhd -o $@
-Processed/ProstateX-0182/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0182/ProstateX-0182-Ktrans.mhd -o $@
-Processed/ProstateX-0183/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0183/ProstateX-0183-Ktrans.mhd -o $@
-Processed/ProstateX-0184/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0184/ProstateX-0184-Ktrans.mhd -o $@
-Processed/ProstateX-0186/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0186/ProstateX-0186-Ktrans.mhd -o $@
-Processed/ProstateX-0187/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0187/ProstateX-0187-Ktrans.mhd -o $@
-Processed/ProstateX-0188/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0188/ProstateX-0188-Ktrans.mhd -o $@
-Processed/ProstateX-0190/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0190/ProstateX-0190-Ktrans.mhd -o $@
-Processed/ProstateX-0191/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0191/ProstateX-0191-Ktrans.mhd -o $@
-Processed/ProstateX-0192/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0192/ProstateX-0192-Ktrans.mhd -o $@
-Processed/ProstateX-0193/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0193/ProstateX-0193-Ktrans.mhd -o $@
-Processed/ProstateX-0194/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0194/ProstateX-0194-Ktrans.mhd -o $@
-Processed/ProstateX-0195/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0195/ProstateX-0195-Ktrans.mhd -o $@
-Processed/ProstateX-0196/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0196/ProstateX-0196-Ktrans.mhd -o $@
-Processed/ProstateX-0197/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0197/ProstateX-0197-Ktrans.mhd -o $@
-Processed/ProstateX-0198/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0198/ProstateX-0198-Ktrans.mhd -o $@
-Processed/ProstateX-0199/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0199/ProstateX-0199-Ktrans.mhd -o $@
-Processed/ProstateX-0200/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0200/ProstateX-0200-Ktrans.mhd -o $@
-Processed/ProstateX-0201/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0201/ProstateX-0201-Ktrans.mhd -o $@
-Processed/ProstateX-0202/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0202/ProstateX-0202-Ktrans.mhd -o $@
-Processed/ProstateX-0203/KTRANS.raw.nii.gz:
-	mkdir -p $(@D); c3d /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0203/ProstateX-0203-Ktrans.mhd -o $@
+Processed/ProstateX-0000/KTRANS.sform.nii.gz:  Processed/ProstateX-0000/T2Axial.raw.nii.gz Processed/ProstateX-0000/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0000/ProstateX-0000-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0001/KTRANS.sform.nii.gz:  Processed/ProstateX-0001/T2Axial.raw.nii.gz Processed/ProstateX-0001/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0001/ProstateX-0001-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0002/KTRANS.sform.nii.gz:  Processed/ProstateX-0002/T2Axial.raw.nii.gz Processed/ProstateX-0002/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0002/ProstateX-0002-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0004/KTRANS.sform.nii.gz:  Processed/ProstateX-0004/T2Axial.raw.nii.gz Processed/ProstateX-0004/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0004/ProstateX-0004-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0005/KTRANS.sform.nii.gz:  Processed/ProstateX-0005/T2Axial.raw.nii.gz Processed/ProstateX-0005/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0005/ProstateX-0005-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0014/KTRANS.sform.nii.gz:  Processed/ProstateX-0014/T2Axial.raw.nii.gz Processed/ProstateX-0014/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0014/ProstateX-0014-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0015/KTRANS.sform.nii.gz:  Processed/ProstateX-0015/T2Axial.raw.nii.gz Processed/ProstateX-0015/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0015/ProstateX-0015-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0016/KTRANS.sform.nii.gz:  Processed/ProstateX-0016/T2Axial.raw.nii.gz Processed/ProstateX-0016/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0016/ProstateX-0016-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0018/KTRANS.sform.nii.gz:  Processed/ProstateX-0018/T2Axial.raw.nii.gz Processed/ProstateX-0018/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0018/ProstateX-0018-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0019/KTRANS.sform.nii.gz:  Processed/ProstateX-0019/T2Axial.raw.nii.gz Processed/ProstateX-0019/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0019/ProstateX-0019-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0026/KTRANS.sform.nii.gz:  Processed/ProstateX-0026/T2Axial.raw.nii.gz Processed/ProstateX-0026/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0026/ProstateX-0026-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0028/KTRANS.sform.nii.gz:  Processed/ProstateX-0028/T2Axial.raw.nii.gz Processed/ProstateX-0028/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0028/ProstateX-0028-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0031/KTRANS.sform.nii.gz:  Processed/ProstateX-0031/T2Axial.raw.nii.gz Processed/ProstateX-0031/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0031/ProstateX-0031-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0035/KTRANS.sform.nii.gz:  Processed/ProstateX-0035/T2Axial.raw.nii.gz Processed/ProstateX-0035/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0035/ProstateX-0035-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0037/KTRANS.sform.nii.gz:  Processed/ProstateX-0037/T2Axial.raw.nii.gz Processed/ProstateX-0037/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0037/ProstateX-0037-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0040/KTRANS.sform.nii.gz:  Processed/ProstateX-0040/T2Axial.raw.nii.gz Processed/ProstateX-0040/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0040/ProstateX-0040-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0041/KTRANS.sform.nii.gz:  Processed/ProstateX-0041/T2Axial.raw.nii.gz Processed/ProstateX-0041/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0041/ProstateX-0041-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0046/KTRANS.sform.nii.gz:  Processed/ProstateX-0046/T2Axial.raw.nii.gz Processed/ProstateX-0046/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0046/ProstateX-0046-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0053/KTRANS.sform.nii.gz:  Processed/ProstateX-0053/T2Axial.raw.nii.gz Processed/ProstateX-0053/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0053/ProstateX-0053-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0054/KTRANS.sform.nii.gz:  Processed/ProstateX-0054/T2Axial.raw.nii.gz Processed/ProstateX-0054/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0054/ProstateX-0054-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0055/KTRANS.sform.nii.gz:  Processed/ProstateX-0055/T2Axial.raw.nii.gz Processed/ProstateX-0055/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0055/ProstateX-0055-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0067/KTRANS.sform.nii.gz:  Processed/ProstateX-0067/T2Axial.raw.nii.gz Processed/ProstateX-0067/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0067/ProstateX-0067-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0069/KTRANS.sform.nii.gz:  Processed/ProstateX-0069/T2Axial.raw.nii.gz Processed/ProstateX-0069/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0069/ProstateX-0069-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0071/KTRANS.sform.nii.gz:  Processed/ProstateX-0071/T2Axial.raw.nii.gz Processed/ProstateX-0071/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0071/ProstateX-0071-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0076/KTRANS.sform.nii.gz:  Processed/ProstateX-0076/T2Axial.raw.nii.gz Processed/ProstateX-0076/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0076/ProstateX-0076-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0077/KTRANS.sform.nii.gz:  Processed/ProstateX-0077/T2Axial.raw.nii.gz Processed/ProstateX-0077/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0077/ProstateX-0077-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0078/KTRANS.sform.nii.gz:  Processed/ProstateX-0078/T2Axial.raw.nii.gz Processed/ProstateX-0078/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0078/ProstateX-0078-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0082/KTRANS.sform.nii.gz:  Processed/ProstateX-0082/T2Axial.raw.nii.gz Processed/ProstateX-0082/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0082/ProstateX-0082-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0084/KTRANS.sform.nii.gz:  Processed/ProstateX-0084/T2Axial.raw.nii.gz Processed/ProstateX-0084/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0084/ProstateX-0084-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0092/KTRANS.sform.nii.gz:  Processed/ProstateX-0092/T2Axial.raw.nii.gz Processed/ProstateX-0092/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0092/ProstateX-0092-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0094/KTRANS.sform.nii.gz:  Processed/ProstateX-0094/T2Axial.raw.nii.gz Processed/ProstateX-0094/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0094/ProstateX-0094-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0095/KTRANS.sform.nii.gz:  Processed/ProstateX-0095/T2Axial.raw.nii.gz Processed/ProstateX-0095/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0095/ProstateX-0095-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0097/KTRANS.sform.nii.gz:  Processed/ProstateX-0097/T2Axial.raw.nii.gz Processed/ProstateX-0097/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0097/ProstateX-0097-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0099/KTRANS.sform.nii.gz:  Processed/ProstateX-0099/T2Axial.raw.nii.gz Processed/ProstateX-0099/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0099/ProstateX-0099-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0101/KTRANS.sform.nii.gz:  Processed/ProstateX-0101/T2Axial.raw.nii.gz Processed/ProstateX-0101/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0101/ProstateX-0101-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0102/KTRANS.sform.nii.gz:  Processed/ProstateX-0102/T2Axial.raw.nii.gz Processed/ProstateX-0102/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0102/ProstateX-0102-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0103/KTRANS.sform.nii.gz:  Processed/ProstateX-0103/T2Axial.raw.nii.gz Processed/ProstateX-0103/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0103/ProstateX-0103-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0104/KTRANS.sform.nii.gz:  Processed/ProstateX-0104/T2Axial.raw.nii.gz Processed/ProstateX-0104/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0104/ProstateX-0104-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0105/KTRANS.sform.nii.gz:  Processed/ProstateX-0105/T2Axial.raw.nii.gz Processed/ProstateX-0105/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0105/ProstateX-0105-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0106/KTRANS.sform.nii.gz:  Processed/ProstateX-0106/T2Axial.raw.nii.gz Processed/ProstateX-0106/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0106/ProstateX-0106-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0110/KTRANS.sform.nii.gz:  Processed/ProstateX-0110/T2Axial.raw.nii.gz Processed/ProstateX-0110/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0110/ProstateX-0110-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0111/KTRANS.sform.nii.gz:  Processed/ProstateX-0111/T2Axial.raw.nii.gz Processed/ProstateX-0111/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0111/ProstateX-0111-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0114/KTRANS.sform.nii.gz:  Processed/ProstateX-0114/T2Axial.raw.nii.gz Processed/ProstateX-0114/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0114/ProstateX-0114-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0115/KTRANS.sform.nii.gz:  Processed/ProstateX-0115/T2Axial.raw.nii.gz Processed/ProstateX-0115/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0115/ProstateX-0115-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0116/KTRANS.sform.nii.gz:  Processed/ProstateX-0116/T2Axial.raw.nii.gz Processed/ProstateX-0116/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0116/ProstateX-0116-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0117/KTRANS.sform.nii.gz:  Processed/ProstateX-0117/T2Axial.raw.nii.gz Processed/ProstateX-0117/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0117/ProstateX-0117-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0118/KTRANS.sform.nii.gz:  Processed/ProstateX-0118/T2Axial.raw.nii.gz Processed/ProstateX-0118/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0118/ProstateX-0118-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0119/KTRANS.sform.nii.gz:  Processed/ProstateX-0119/T2Axial.raw.nii.gz Processed/ProstateX-0119/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0119/ProstateX-0119-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0121/KTRANS.sform.nii.gz:  Processed/ProstateX-0121/T2Axial.raw.nii.gz Processed/ProstateX-0121/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0121/ProstateX-0121-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0122/KTRANS.sform.nii.gz:  Processed/ProstateX-0122/T2Axial.raw.nii.gz Processed/ProstateX-0122/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0122/ProstateX-0122-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0123/KTRANS.sform.nii.gz:  Processed/ProstateX-0123/T2Axial.raw.nii.gz Processed/ProstateX-0123/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0123/ProstateX-0123-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0124/KTRANS.sform.nii.gz:  Processed/ProstateX-0124/T2Axial.raw.nii.gz Processed/ProstateX-0124/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0124/ProstateX-0124-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0125/KTRANS.sform.nii.gz:  Processed/ProstateX-0125/T2Axial.raw.nii.gz Processed/ProstateX-0125/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0125/ProstateX-0125-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0126/KTRANS.sform.nii.gz:  Processed/ProstateX-0126/T2Axial.raw.nii.gz Processed/ProstateX-0126/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0126/ProstateX-0126-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0127/KTRANS.sform.nii.gz:  Processed/ProstateX-0127/T2Axial.raw.nii.gz Processed/ProstateX-0127/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0127/ProstateX-0127-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0128/KTRANS.sform.nii.gz:  Processed/ProstateX-0128/T2Axial.raw.nii.gz Processed/ProstateX-0128/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0128/ProstateX-0128-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0129/KTRANS.sform.nii.gz:  Processed/ProstateX-0129/T2Axial.raw.nii.gz Processed/ProstateX-0129/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0129/ProstateX-0129-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0131/KTRANS.sform.nii.gz:  Processed/ProstateX-0131/T2Axial.raw.nii.gz Processed/ProstateX-0131/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0131/ProstateX-0131-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0133/KTRANS.sform.nii.gz:  Processed/ProstateX-0133/T2Axial.raw.nii.gz Processed/ProstateX-0133/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0133/ProstateX-0133-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0136/KTRANS.sform.nii.gz:  Processed/ProstateX-0136/T2Axial.raw.nii.gz Processed/ProstateX-0136/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0136/ProstateX-0136-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0139/KTRANS.sform.nii.gz:  Processed/ProstateX-0139/T2Axial.raw.nii.gz Processed/ProstateX-0139/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0139/ProstateX-0139-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0141/KTRANS.sform.nii.gz:  Processed/ProstateX-0141/T2Axial.raw.nii.gz Processed/ProstateX-0141/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0141/ProstateX-0141-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0142/KTRANS.sform.nii.gz:  Processed/ProstateX-0142/T2Axial.raw.nii.gz Processed/ProstateX-0142/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0142/ProstateX-0142-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0143/KTRANS.sform.nii.gz:  Processed/ProstateX-0143/T2Axial.raw.nii.gz Processed/ProstateX-0143/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0143/ProstateX-0143-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0145/KTRANS.sform.nii.gz:  Processed/ProstateX-0145/T2Axial.raw.nii.gz Processed/ProstateX-0145/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0145/ProstateX-0145-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0148/KTRANS.sform.nii.gz:  Processed/ProstateX-0148/T2Axial.raw.nii.gz Processed/ProstateX-0148/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0148/ProstateX-0148-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0150/KTRANS.sform.nii.gz:  Processed/ProstateX-0150/T2Axial.raw.nii.gz Processed/ProstateX-0150/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0150/ProstateX-0150-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0152/KTRANS.sform.nii.gz:  Processed/ProstateX-0152/T2Axial.raw.nii.gz Processed/ProstateX-0152/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0152/ProstateX-0152-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0153/KTRANS.sform.nii.gz:  Processed/ProstateX-0153/T2Axial.raw.nii.gz Processed/ProstateX-0153/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0153/ProstateX-0153-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0162/KTRANS.sform.nii.gz:  Processed/ProstateX-0162/T2Axial.raw.nii.gz Processed/ProstateX-0162/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0162/ProstateX-0162-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0164/KTRANS.sform.nii.gz:  Processed/ProstateX-0164/T2Axial.raw.nii.gz Processed/ProstateX-0164/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0164/ProstateX-0164-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0165/KTRANS.sform.nii.gz:  Processed/ProstateX-0165/T2Axial.raw.nii.gz Processed/ProstateX-0165/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0165/ProstateX-0165-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0168/KTRANS.sform.nii.gz:  Processed/ProstateX-0168/T2Axial.raw.nii.gz Processed/ProstateX-0168/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0168/ProstateX-0168-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0169/KTRANS.sform.nii.gz:  Processed/ProstateX-0169/T2Axial.raw.nii.gz Processed/ProstateX-0169/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0169/ProstateX-0169-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0172/KTRANS.sform.nii.gz:  Processed/ProstateX-0172/T2Axial.raw.nii.gz Processed/ProstateX-0172/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0172/ProstateX-0172-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0173/KTRANS.sform.nii.gz:  Processed/ProstateX-0173/T2Axial.raw.nii.gz Processed/ProstateX-0173/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0173/ProstateX-0173-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0174/KTRANS.sform.nii.gz:  Processed/ProstateX-0174/T2Axial.raw.nii.gz Processed/ProstateX-0174/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0174/ProstateX-0174-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0179/KTRANS.sform.nii.gz:  Processed/ProstateX-0179/T2Axial.raw.nii.gz Processed/ProstateX-0179/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0179/ProstateX-0179-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0181/KTRANS.sform.nii.gz:  Processed/ProstateX-0181/T2Axial.raw.nii.gz Processed/ProstateX-0181/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0181/ProstateX-0181-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0182/KTRANS.sform.nii.gz:  Processed/ProstateX-0182/T2Axial.raw.nii.gz Processed/ProstateX-0182/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0182/ProstateX-0182-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0183/KTRANS.sform.nii.gz:  Processed/ProstateX-0183/T2Axial.raw.nii.gz Processed/ProstateX-0183/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0183/ProstateX-0183-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0184/KTRANS.sform.nii.gz:  Processed/ProstateX-0184/T2Axial.raw.nii.gz Processed/ProstateX-0184/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0184/ProstateX-0184-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0186/KTRANS.sform.nii.gz:  Processed/ProstateX-0186/T2Axial.raw.nii.gz Processed/ProstateX-0186/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0186/ProstateX-0186-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0187/KTRANS.sform.nii.gz:  Processed/ProstateX-0187/T2Axial.raw.nii.gz Processed/ProstateX-0187/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0187/ProstateX-0187-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0188/KTRANS.sform.nii.gz:  Processed/ProstateX-0188/T2Axial.raw.nii.gz Processed/ProstateX-0188/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0188/ProstateX-0188-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0190/KTRANS.sform.nii.gz:  Processed/ProstateX-0190/T2Axial.raw.nii.gz Processed/ProstateX-0190/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0190/ProstateX-0190-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0191/KTRANS.sform.nii.gz:  Processed/ProstateX-0191/T2Axial.raw.nii.gz Processed/ProstateX-0191/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0191/ProstateX-0191-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0192/KTRANS.sform.nii.gz:  Processed/ProstateX-0192/T2Axial.raw.nii.gz Processed/ProstateX-0192/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0192/ProstateX-0192-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0193/KTRANS.sform.nii.gz:  Processed/ProstateX-0193/T2Axial.raw.nii.gz Processed/ProstateX-0193/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0193/ProstateX-0193-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0194/KTRANS.sform.nii.gz:  Processed/ProstateX-0194/T2Axial.raw.nii.gz Processed/ProstateX-0194/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0194/ProstateX-0194-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0195/KTRANS.sform.nii.gz:  Processed/ProstateX-0195/T2Axial.raw.nii.gz Processed/ProstateX-0195/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0195/ProstateX-0195-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0196/KTRANS.sform.nii.gz:  Processed/ProstateX-0196/T2Axial.raw.nii.gz Processed/ProstateX-0196/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0196/ProstateX-0196-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0197/KTRANS.sform.nii.gz:  Processed/ProstateX-0197/T2Axial.raw.nii.gz Processed/ProstateX-0197/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0197/ProstateX-0197-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0198/KTRANS.sform.nii.gz:  Processed/ProstateX-0198/T2Axial.raw.nii.gz Processed/ProstateX-0198/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0198/ProstateX-0198-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0199/KTRANS.sform.nii.gz:  Processed/ProstateX-0199/T2Axial.raw.nii.gz Processed/ProstateX-0199/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0199/ProstateX-0199-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0200/KTRANS.sform.nii.gz:  Processed/ProstateX-0200/T2Axial.raw.nii.gz Processed/ProstateX-0200/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0200/ProstateX-0200-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0201/KTRANS.sform.nii.gz:  Processed/ProstateX-0201/T2Axial.raw.nii.gz Processed/ProstateX-0201/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0201/ProstateX-0201-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0202/KTRANS.sform.nii.gz:  Processed/ProstateX-0202/T2Axial.raw.nii.gz Processed/ProstateX-0202/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0202/ProstateX-0202-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
+Processed/ProstateX-0203/KTRANS.sform.nii.gz:  Processed/ProstateX-0203/T2Axial.raw.nii.gz Processed/ProstateX-0203/T2Axial.mat
+	mkdir -p $(@D); c3d $< /rsrch1/ip/dtfuentes/PROSTATExChallenge2/KtransTrain/ProstateX-0203/ProstateX-0203-Ktrans.mhd -reslice-identity -set-sform $(word 2,$^) -o $@
 Processed/ProstateX-0000/landmarks.1.txt:
 	mkdir -p $(@D); echo 25.7457 31.8707 -38.511 3  > $@
 Processed/ProstateX-0001/landmarks.1.txt:

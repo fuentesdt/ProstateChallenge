@@ -62,8 +62,10 @@ $(WORKDIR)/%/viewdata:
 	$(C3DEXE) $(@D)/T2Sag.sform.nii.gz   -info 
 	$(C3DEXE) $(@D)/ADC.sform.nii.gz     -info
 	$(C3DEXE) $(@D)/BVAL.sform.nii.gz    -info
-	$(C3DEXE) $(@D)/KTRANS.raw.nii.gz  -info
-	$(ITKSNAP) -g $(@D)/T2Axial.sform.nii.gz -s $(@D)/TRUTH.nii.gz -o $(@D)/T2Sag.reslice.nii.gz   $(@D)/ADC.reslice.nii.gz     $(@D)/BVAL.reslice.nii.gz    $(@D)/KTRANS.reslice.nii.gz  $(@D)/T2Axial.Entropy_4.nii.gz $(@D)/ggg/ALL/RF_POSTERIORS.0001.1.nii.gz $(@D)/ggg/ALL/RF_POSTERIORS.0001.2.nii.gz $(@D)/ggg/ALL/RF_POSTERIORS.0001.3.nii.gz $(@D)/ggg/ALL/RF_POSTERIORS.0001.4.nii.gz $(@D)/ggg/ALL/RF_POSTERIORS.0001.5.nii.gz 
+	$(C3DEXE) $(@D)/KTRANS.sform.nii.gz  -info
+	$(ITKSNAP) -g $(@D)/T2Axial.norm.nii.gz -s $(@D)/TRUTH.nii.gz -o $(@D)/T2Sag.norm.nii.gz   $(@D)/ADC.reslice.nii.gz     $(@D)/KTRANS.reslice.nii.gz  $(@D)/T2Axial.Entropy_4.nii.gz $(@D)/T2Axial.HaralickCorrelation_4.nii.gz 
+	#$(ITKSNAP) -g $(@D)/T2Axial.norm.nii.gz -s $(@D)/TRUTH.nii.gz -o $(@D)/T2Sag.norm.nii.gz   $(@D)/ADC.reslice.nii.gz     $(@D)/BVAL.reslice.nii.gz    $(@D)/KTRANS.reslice.nii.gz  $(@D)/T2Axial.Entropy_4.nii.gz $(@D)/T2Axial.HaralickCorrelation_4.nii.gz $(@D)/ggg/ALL/RF_POSTERIORS.0001.1.nii.gz $(@D)/ggg/ALL/RF_POSTERIORS.0001.2.nii.gz $(@D)/ggg/ALL/RF_POSTERIORS.0001.3.nii.gz $(@D)/ggg/ALL/RF_POSTERIORS.0001.4.nii.gz $(@D)/ggg/ALL/RF_POSTERIORS.0001.5.nii.gz 
+
 
 #####################
 # Build data matrix #
@@ -104,7 +106,7 @@ $(WORKDIR)/%/RF_MOST.nii.gz: $(WORKDIR)/%/SignificantFeatureImage.RFModel
 #https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html
 
 # reslice
-$(WORKDIR)/%.reslice.nii.gz: $(WORKDIR)/%.raw.nii.gz $(WORKDIR)/$$(*D)/T2Axial.sform.nii.gz
+$(WORKDIR)/%.reslice.nii.gz: $(WORKDIR)/%.sform.nii.gz $(WORKDIR)/$$(*D)/T2Axial.sform.nii.gz
 	$(C3DEXE) $(word 2,$^) $< -reslice-identity -o $@
 
 # load lstat data for each label file
