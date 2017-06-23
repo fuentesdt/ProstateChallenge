@@ -8,6 +8,8 @@ OTBRADIUS  = 4
 OTBTEXTURE=/opt/apps/ANTsR/dev//ANTsR_src/ANTsR/src/ANTS/ANTS-build//bin//otbScalarImageToTexturesFilter
 NMODELS=1
 ANTSIMAGEMATHCMD=$(ANTSPATH)/ImageMath
+DIMENSION  = 3
+ATROPOSCMD=$(ANTSPATH)/Atropos -d $(DIMENSION)  -c [3,0.0] 
 #OTBTEXTURE=/rsrch2/ip/dtfuentes/github/ExLib/otbScalarImageTextures/otbScalarImageToTexturesFilter
 
 ################
@@ -32,6 +34,8 @@ sform: $(addprefix $(WORKDIR)/,$(addsuffix /T2Axial.sform.nii.gz,$(TRAINING))) $
 norm:    $(addprefix $(WORKDIR)/,$(addsuffix /T2Axial.norm.nii.gz,$(TRAINING))) $(addprefix $(WORKDIR)/,$(addsuffix /T2Sag.norm.nii.gz,$(TRAINING)))
 mask:    $(addprefix $(WORKDIR)/,$(addsuffix /MASK.nii.gz,$(TRAINING)))
 texture: $(addprefix $(WORKDIR)/,$(addsuffix /T2Axial.HaralickCorrelation_$(OTBRADIUS).nii.gz,$(TRAINING)))
+gmm: $(addprefix $(WORKDIR)/,$(addsuffix /ADC.gmm.nii.gz,$(TRAINING))) \
+     $(addprefix $(WORKDIR)/,$(addsuffix /KTRANS.gmm.nii.gz,$(TRAINING)))
 # compute all RF models
 rfggg:  $(addsuffix /ggg/ALL/RF_MOST.nii.gz,      $(addprefix $(WORKDIR)/,$(TRAINING)))  
 
@@ -43,6 +47,15 @@ $(WORKDIR)/%/landmarks.txt:
 	cat $(WORKDIR)/$*/landmarks.?.txt > $@ 
 $(WORKDIR)/%/TRUTH.nii.gz: $(WORKDIR)/%/landmarks.txt $(WORKDIR)/%/T2Axial.sform.nii.gz
 	$(C3DEXE) $(word 2,$^) -scale 0 -lts $< 5 -o $@
+
+$(WORKDIR)/%/TRUTHADC.nii.gz: $(WORKDIR)/%/TRUTH.nii.gz $(WORKDIR)/%/ADC.gmm.nii.gz
+	if [ -f $(word 2,$^)  ] ; then $(C3DEXE) $^ -replace 2 0  -multiply  -o $@ ;else $(C3DEXE) $<  -o $@ ; fi
+
+$(WORKDIR)/%/TRUTHKTRANS.nii.gz: $(WORKDIR)/%/TRUTH.nii.gz $(WORKDIR)/%/KTRANS.gmm.nii.gz
+	if [ -f $(word 2,$^)  ] ; then $(C3DEXE) $^ -replace 1 0  -multiply  -o $@ ;else $(C3DEXE) $<  -o $@ ; fi
+
+$(WORKDIR)/%/BIOPSYMASK.nii.gz: $(WORKDIR)/%/TRUTH.nii.gz
+	$(C3DEXE)  $< -binarize -o $@
 
 $(WORKDIR)/%.sform.nii.gz: $(WORKDIR)/%.raw.nii.gz $(WORKDIR)/%.world
 	sed 's/,/ /g' $(word 2,$^) > $(basename $(word 2,$^)).mat
@@ -63,7 +76,7 @@ $(WORKDIR)/%/viewdata:
 	$(C3DEXE) $(@D)/ADC.sform.nii.gz     -info
 	$(C3DEXE) $(@D)/BVAL.sform.nii.gz    -info
 	$(C3DEXE) $(@D)/KTRANS.sform.nii.gz  -info
-	$(ITKSNAP) -g $(@D)/T2Axial.norm.nii.gz -s $(@D)/TRUTH.nii.gz -o $(@D)/T2Sag.norm.nii.gz   $(@D)/ADC.reslice.nii.gz     $(@D)/KTRANS.reslice.nii.gz  $(@D)/T2Axial.Entropy_4.nii.gz $(@D)/T2Axial.HaralickCorrelation_4.nii.gz 
+	$(ITKSNAP) -g $(@D)/T2Axial.norm.nii.gz -s $(@D)/TRUTHADC.nii.gz -o $(@D)/T2Sag.norm.nii.gz   $(@D)/ADC.reslice.nii.gz     $(@D)/KTRANS.reslice.nii.gz  $(@D)/T2Axial.Entropy_4.nii.gz $(@D)/T2Axial.HaralickCorrelation_4.nii.gz 
 	#$(ITKSNAP) -g $(@D)/T2Axial.norm.nii.gz -s $(@D)/TRUTH.nii.gz -o $(@D)/T2Sag.norm.nii.gz   $(@D)/ADC.reslice.nii.gz     $(@D)/BVAL.reslice.nii.gz    $(@D)/KTRANS.reslice.nii.gz  $(@D)/T2Axial.Entropy_4.nii.gz $(@D)/T2Axial.HaralickCorrelation_4.nii.gz $(@D)/ggg/ALL/RF_POSTERIORS.0001.1.nii.gz $(@D)/ggg/ALL/RF_POSTERIORS.0001.2.nii.gz $(@D)/ggg/ALL/RF_POSTERIORS.0001.3.nii.gz $(@D)/ggg/ALL/RF_POSTERIORS.0001.4.nii.gz $(@D)/ggg/ALL/RF_POSTERIORS.0001.5.nii.gz 
 
 
@@ -71,8 +84,7 @@ $(WORKDIR)/%/viewdata:
 # Build data matrix #
 #####################
 FILELIST = KTRANS.reslice  T2Axial.norm ADC.reslice  T2Sag.norm T2Axial.Entropy_4 T2Axial.HaralickCorrelation_4 BVAL.reslice                                                                                                                  
-#LABELFILES = TRUTH LABELSRF
-LABELFILES = TRUTH
+LABELFILES = TRUTH TRUTHADC TRUTHKTRANS
 lstat:   $(foreach idlabel,$(LABELFILES),$(foreach idimage,$(FILELIST),$(addprefix $(WORKDIR)/,$(addsuffix /$(idimage)/$(idlabel)/lstat.csv,$(TRAINING))))) 
 sql:     $(foreach idlabel,$(LABELFILES),$(foreach idimage,$(FILELIST),$(addprefix $(WORKDIR)/,$(addsuffix /$(idimage)/$(idlabel).sql,$(TRAINING))))) 
 # load lstat data to sql
@@ -84,7 +96,9 @@ echo:
 
 truthdatamatrix.csv: prostatechallenge.sql
 	-$(MYSQL) --local-infile < $< 
-	$(MYSQL) -re "call DFProstateChallenge.DataMatrix ('TRUTH');"    | sed "s/\t/,/g;s/NULL//g" > truthdatamatrix.csv
+	$(MYSQL) -re "call DFProstateChallenge.DataMatrix ('TRUTH');"       | sed "s/\t/,/g;s/NULL//g" > truthdatamatrix.csv
+	$(MYSQL) -re "call DFProstateChallenge.DataMatrix ('TRUTHADC');"    | sed "s/\t/,/g;s/NULL//g" > truthadcdatamatrix.csv
+	$(MYSQL) -re "call DFProstateChallenge.DataMatrix ('TRUTHKTRANS');" | sed "s/\t/,/g;s/NULL//g" > truthktransdatamatrix.csv
 
 # build rf  model
 $(WORKDIR)/%/SignificantFeatureImage.RFModel: truthdatamatrix.csv
@@ -114,3 +128,7 @@ $(WORKDIR)/%/lstat.csv: $(WORKDIR)/$$(firstword $$(subst /, ,$$*))/$$(word 2,$$(
 	echo $(subst /, ,$*)
 	mkdir -p $(@D)
 	$(C3DEXE) $<  $(word 2,$^) -lstat > $(@D)/lstat.txt &&  sed "s/^\s\+/$(firstword $(subst /, ,$*)),$(word 3 ,$(subst /, ,$*)),$(word 2 ,$(subst /, ,$*)),/g;s/\s\+/,/g;s/LabelID/InstanceUID,SegmentationID,FeatureID,LabelID/g;s/Vol(mm^3)/Vol.mm.3/g;s/Extent(Vox)/ExtentX,ExtentY,ExtentZ/g" $(@D)/lstat.txt  > $@
+
+$(WORKDIR)/%.gmm.nii.gz: $(WORKDIR)/%.reslice.nii.gz $(WORKDIR)/$$(*D)/BIOPSYMASK.nii.gz
+	$(ATROPOSCMD) -m [0.1,1x1x1] -i kmeans[2] -x $(word 2,$^) -a $<  -o $@
+
