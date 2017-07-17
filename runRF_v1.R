@@ -1,6 +1,6 @@
 # Load data
 
-dataset <- read.csv("file:///home/gpauloski/Downloads/PC/truthadcdatamatrix.csv", na.strings=c(".", "NA", "", "?"))
+dataset <- read.csv("file:///home/gpauloski/git-repos/ProstateChallenge/truthadcdatamatrix.csv", na.strings=c(".", "NA", "", "?"))
 
 # Model Parameters
 
